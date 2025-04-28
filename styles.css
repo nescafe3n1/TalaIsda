@@ -26,6 +26,11 @@ ul {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .btn {
     display: inline-block;
     background-color: #0077b6;
@@ -46,6 +51,7 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
+    width: 100%;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -59,17 +65,10 @@ header {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
+    width: 80px;
+    height: 80px;
 }
 
-header h1 {
-    color: #0077b6;
-    font-size: 1.8rem;
-}
-
-/* Navigation Styles */
 nav {
     display: flex;
     align-items: center;
@@ -77,17 +76,18 @@ nav {
 
 .nav-menu {
     display: flex;
+    align-items: center;
     position: relative;
 }
 
-.nav-menu li {  
+.nav-menu li {
     margin-left: 20px;
 }
 
 .nav-menu a {
     color: #333;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
     display: block;
     transition: color 0.3s;
@@ -104,21 +104,23 @@ nav {
 }
 
 /* Dropdown Menu */
+.dropdown {
+    position: relative;
+}
+
 .dropdown-content {
-    display: none;
     position: absolute;
-    background-color: #fff;
-    min-width: 700px;
+    top: 100%;
+    right: 0;
+    background: #fff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    padding: 20px;
     border-radius: 4px;
-    right: -250px;
-    top: 40px;
     display: flex;
+    padding: 20px;
+    min-width: 700px;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 
 .dropdown:hover .dropdown-content {
@@ -134,14 +136,14 @@ nav {
 .dropdown-group h3 {
     color: #0077b6;
     margin-bottom: 10px;
-    padding-bottom: 5px;
     border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
 }
 
 .dropdown-content a {
-    color: #333;
-    padding: 8px 0;
     display: block;
+    padding: 8px 0;
+    color: #333;
     transition: color 0.3s;
 }
 
@@ -154,18 +156,19 @@ nav {
     font-size: 0.8rem;
 }
 
-/* Hero Section */
+/* Hero and Section Headings */
+.hero, .regions-section, .featured-section, .contribute-section {
+    text-align: center;
+    padding: 60px 5%;
+}
+
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/coral.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh ;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/coral.png') center/cover no-repeat;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 0 20px;
 }
 
 .hero-content {
@@ -182,13 +185,8 @@ nav {
     margin-bottom: 30px;
 }
 
-/* Featured Section */
-.featured-section {
-    padding: 60px 5%;
-    text-align: center;
-}
-
-.featured-section h2 {
+/* Featured Fish Section */
+.featured-section h2, .regions-section h2, .contribute-section h2 {
     font-size: 2rem;
     color: #0077b6;
     margin-bottom: 40px;
@@ -196,21 +194,20 @@ nav {
 
 .fish-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
-    margin-bottom: 40px;
 }
 
 .fish-card {
-    background-color: white;
+    background: #fff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    transition: transform 0.3s ease;
 }
 
 .fish-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.2);
 }
 
 .fish-card img {
@@ -219,37 +216,27 @@ nav {
     object-fit: cover;
 }
 
-.fish-card h3 {
-    padding: 15px 15px 5px;
-    color: #0077b6;
+.fish-card h3, .fish-card h4, .fish-card p, .fish-card .location {
+    padding: 0 15px;
 }
 
-.fish-card p {
-    padding: 0 15px 15px;
-    font-size: 0.9rem;
+.fish-card h3 {
+    margin: 10px 0;
+    color: #0077b6;
 }
 
 .fish-card .location {
-    display: block;
-    padding: 0 15px 15px;
     font-size: 0.8rem;
     color: #666;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
-/* Regions Section */
-.regions-section {
-    padding: 60px 5%;
-    background-color: #e6f2f5;
-    text-align: center;
+.view-more {
+    margin-top: 5%;
 }
 
-.regions-section h2 {
-    font-size: 2rem;
-    color: #0077b6;
-    margin-bottom: 40px;
-}
-
+/* Region Cards */
 .region-cards {
     display: flex;
     justify-content: center;
@@ -258,13 +245,13 @@ nav {
 }
 
 .region-card {
-    background-color: white;
+    background: #fff;
+    width: 300px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    cursor: pointer;
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 .region-card:hover {
@@ -272,49 +259,25 @@ nav {
 }
 
 .region-card img {
-    width: 100%;
     height: 180px;
     object-fit: cover;
 }
 
-.region-card h3 {
-    padding: 15px 15px 5px;
+.region-card h3, .region-card p {
+    padding: 0 15px;
+    margin: 10px 0;
     color: #0077b6;
-}
-
-.region-card p {
-    padding: 0 15px 15px;
-    font-size: 0.9rem;
 }
 
 /* Contribute Section */
 .contribute-section {
-    padding: 80px 5%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/contribute-bg.jpg');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/contribute-bg.jpg') center/cover no-repeat;
     color: white;
-    text-align: center;
-}
-
-.contribute-content {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.contribute-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.contribute-section p {
-    margin-bottom: 30px;
-    font-size: 1.1rem;
 }
 
 /* Footer */
 footer {
-    background-color: #023e8a;
+    background: #023e8a;
     color: white;
     padding: 50px 5% 20px;
 }
@@ -323,38 +286,38 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    gap: 30px;
 }
 
-.footer-logo {
-    margin-bottom: 20px;
+.footer-logo, .footer-links, .footer-contact {
+    flex: 1 1 300px;
 }
 
-.footer-logo h2 {
-    margin: 10px 0 5px;
+.footer-logo img {
+    width: 60px;
 }
 
 .footer-links h3, .footer-contact h3 {
-    margin-bottom: 15px;
     position: relative;
+    margin-bottom: 15px;
     padding-bottom: 10px;
 }
 
-.footer-links h3:after, .footer-contact h3:after {
+.footer-links h3::after, .footer-contact h3::after {
     content: '';
     position: absolute;
-    left: 0;
     bottom: 0;
+    left: 0;
     width: 50px;
     height: 2px;
-    background-color: #0077b6;
+    background: #0077b6;
 }
 
 .footer-links ul li {
     margin-bottom: 10px;
 }
 
-.footer-links a:hover {
+.footer-links a:hover, .social-icons a:hover {
     color: #90e0ef;
 }
 
@@ -362,44 +325,26 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-contact i {
-    margin-right: 10px;
-}
-
-.social-icons {
-    margin-top: 15px;
-}
-
 .social-icons a {
-    display: inline-block;
     margin-right: 15px;
     font-size: 1.2rem;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #90e0ef;
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255,255,255,0.2);
 }
 
-/* Responsive Styles */
+/* Responsive */
 @media (max-width: 992px) {
     .dropdown-content {
         min-width: 500px;
-        right: -150px;
+        right: -100px;
     }
 }
 
 @media (max-width: 768px) {
-    header {
-        padding: 15px 20px;
-    }
-    
     .menu-toggle {
         display: block;
     }
@@ -408,13 +353,12 @@ footer {
         position: fixed;
         top: 80px;
         left: -100%;
-        background-color: white;
+        background: white;
         width: 100%;
         height: calc(100vh - 80px);
         flex-direction: column;
-        transition: left 0.3s;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         padding: 20px;
+        transition: 0.3s;
         overflow-y: auto;
     }
     
@@ -437,20 +381,11 @@ footer {
     }
     
     .dropdown.active .dropdown-content {
-        display: block;
+        display: flex;
     }
     
-    .dropdown-group {
-        margin-bottom: 20px;
-    }
-    
-    .hero h2 {
-        font-size: 2rem;
-    }
-    
-    .footer-content > div {
-        flex-basis: 100%;
-        margin-bottom: 30px;
+    header {
+        padding: 10px 20px;
     }
 }
 
@@ -465,9 +400,5 @@ footer {
     
     .hero p {
         font-size: 1rem;
-    }
-    
-    .featured-section h2, .regions-section h2, .contribute-section h2 {
-        font-size: 1.8rem;
     }
 }
