@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalaIsda - Philippine Fish Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="talaisda.png" alt="TalaIsda Logo" class="logo">
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Major Islands <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-group">
+                            <h3>Luzon</h3>
+                            <a href="luzon.html#ilocos">Ilocos Region</a>
+                            <a href="luzon.html#cagayan">Cagayan Valley</a>
+                            <a href="luzon.html#central">Central Luzon</a>
+                            <a href="luzon.html#calabarzon">CALABARZON</a>
+                            <a href="luzon.html#mimaropa">MIMAROPA</a>
+                            <a href="luzon.html#bicol">Bicol Region</a>
+                            <a href="luzon.html#ncr">NCR</a>
+                            <a href="luzon.html#car">CAR</a>
+                        </div>
+                        <div class="dropdown-group">
+                            <h3>Visayas</h3>
+                            <a href="visayas.html#western">Western Visayas</a>
+                            <a href="visayas.html#central">Central Visayas</a>
+                            <a href="visayas.html#eastern">Eastern Visayas</a>
+                        </div>
+                        <div class="dropdown-group">
+                            <h3>Mindanao</h3>
+                            <a href="mindanao.html#zamboanga">Zamboanga Peninsula</a>
+                            <a href="mindanao.html#northern">Northern Mindanao</a>
+                            <a href="mindanao.html#davao">Davao Region</a>
+                            <a href="mindanao.html#soccsksargen">SOCCSKSARGEN</a>
+                            <a href="mindanao.html#caraga">Caraga</a>
+                            <a href="mindanao.html#barmm">BARMM</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="discovery.html">Own Discovery</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover the Rich Aquatic Biodiversity of the Philippines</h2>
+            <p>Explore the diverse fish species found in the waters surrounding the Philippine archipelago</p>
+            <a href="#featured" class="btn">Explore Fish Species</a>
+        </div>
+    </section>
+
+    <section id="featured" class="featured-section">
+        <h2>Featured Fish Species</h2>
+        <div class="fish-grid">
+            <div class="fish-card">
+                <img src="lapulapu.png" alt="Lapu-Lapu (Grouper)">
+                <h3>Lapu-Lapu (Grouper)</h3>
+                <h4><i>Epinephelus fuscoguttatus</i></h4>
+                <p>Found in coral reefs across the Philippines, this fish is known for its delicious meat and is a staple in Filipino cuisine.</p>
+                <span class="location">Location: All major islands</span>
+            </div>
+            <div class="fish-card">
+                <img src="bangus.png" alt="Bangus (Milkfish)">
+                <h3>Bangus (Milkfish)</h3>
+                <h4><i>Chanos chanos</i></h4>
+                <p>The national fish of the Philippines, bangus is widely farmed and is known for its silver scales and tender meat.</p>
+                <span class="location">Location: Pangasinan, Bulacan, Batangas</span>
+            </div>
+            <div class="fish-card">
+                <img src="mayamaya.png" alt="Maya-Maya (Red Snapper)">
+                <h3>Maya-Maya (Red Snapper)</h3>
+                <h4><i>Lutjanus argentimaculatus</i></h4>
+                <p>A premium fish with reddish skin and white flesh, commonly found in deeper waters around the archipelago.</p>
+                <span class="location">Location: Visayas, Mindanao</span>
+            </div>
+            <div class="fish-card">
+                <img src="tuna.png" alt="Tambakol (Tuna)">
+                <h3>Tambakol (Tuna)</h3>
+                <h4><i>Thunnus albacares</i></h4>
+                <p>A commercially important fish species, the Philippines is one of the world's major tuna producers.</p>
+                <span class="location">Location: General Santos, Mindanao</span>
+            </div>
+        </div>
+        <div class="view-more">
+            <a href="#" class="btn">View More Species</a>
+        </div>
+    </section>
+
+    <section class="regions-section">
+        <h2>Explore by Region</h2>
+        <div class="region-cards">
+            <div class="region-card" onclick="location.href='luzon.html'">
+                <img src="images/luzon.jpg" alt="Luzon">
+                <h3>Luzon</h3>
+                <p>Discover fish species from the northern island of Luzon</p>
+            </div>
+            <div class="region-card" onclick="location.href='visayas.html'">
+                <img src="images/visayas.jpg" alt="Visayas">
+                <h3>Visayas</h3>
+                <p>Explore the diverse marine life of the central islands</p>
+            </div>
+            <div class="region-card" onclick="location.href='mindanao.html'">
+                <img src="images/mindanao.jpg" alt="Mindanao">
+                <h3>Mindanao</h3>
+                <p>Learn about the unique fish species of the southern Philippines</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contribute-section">
+        <div class="contribute-content">
+            <h2>Contribute to Our Database</h2>
+            <p>Have you discovered a fish species not yet in our directory? Share your findings with the TalaIsda community!</p>
+            <a href="discovery.html" class="btn">Add Your Discovery</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="TalaIsda Logo" class="logo">
+                <h2>TalaIsda</h2>
+                <p>The Philippine Fish Directory</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="luzon.html">Luzon</a></li>
+                    <li><a href="visayas.html">Visayas</a></li>
+                    <li><a href="mindanao.html">Mindanao</a></li>
+                    <li><a href="discovery.html">Own Discovery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
+                <p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 TalaIsda. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
