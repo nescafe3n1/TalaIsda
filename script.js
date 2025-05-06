@@ -45,3 +45,22 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// Handle file upload display
+document.getElementById('photos').addEventListener('change', function(e) {
+					const fileName = e.target.files.length > 0 ? 
+									(e.target.files.length > 1 ? e.target.files.length + ' files selected' : e.target.files[0].name) : 
+									'No file chosen';
+					document.querySelector('.file-name').textContent = fileName;
+	});
+	
+	// Form submission
+	document.getElementById('discoveryForm').addEventListener('submit', function(e) {
+					e.preventDefault();
+					
+					// Here you would normally send the form data to a server
+					// For this example, we'll just show an alert
+					alert('Thank you for your submission! Our team will review your discovery and get back to you soon.');
+					this.reset();
+					document.querySelector('.file-name').textContent = 'No file chosen';
+	});
