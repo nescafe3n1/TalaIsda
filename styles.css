@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Poppins, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html, body {
@@ -36,6 +36,7 @@ img {
     display: inline-block;
     background-color: #0077b6;
     color: white;
+    margin-top: 2em;
     padding: 12px 24px;
     border-radius: 4px;
     transition: background-color 0.3s;
@@ -155,7 +156,7 @@ nav {
 
 .dropbtn i {
     margin-left: 5px;
-    font-size: 0.8rem;
+    font-size: 0.8rem; 
 }
 
 /* Hero and Section Headings */
@@ -188,9 +189,15 @@ nav {
 }
 
 /* Featured Fish Section */
-.featured-section h2, .regions-section h2, .contribute-section h2 {
+.featured-section h2, .regions-section h2 {
     font-size: 2rem;
     color: #0077b6;
+    margin-bottom: 40px;
+}
+
+.contribute-section h2 {
+    font-size: 2rem;
+    color: white;
     margin-bottom: 40px;
 }
 
@@ -209,7 +216,7 @@ nav {
 }
 
 .fish-card:hover {
-    transform: translateY(-10px) scale(1.2);
+    transform: translateY(-10px) scale(1.05);
 }
 
 .fish-card img {
@@ -273,7 +280,7 @@ nav {
 
 /* Contribute Section */
 .contribute-section {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/contribute-bg.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/discoverybg.png') center/cover no-repeat;
     color: white;
 }
 
@@ -423,10 +430,10 @@ nav {
 }
 /* Luzon Section */
 .region-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/luzon-banner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/luzonbanner.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -635,8 +642,10 @@ footer {
 }
 
 .footer-logo img {
-    width: 60px;
+    width: 250px;
+    height: auto;
 }
+
 
 .footer-links h3, .footer-contact h3 {
     position: relative;
@@ -765,6 +774,7 @@ footer {
   .carousel-track {
     display: flex;
     gap: 30px;
+    overflow-y: hidden;
     overflow-x: hidden;
     scroll-behavior: smooth;
     width: 100%;
@@ -789,5 +799,27 @@ footer {
   
   .carousel-btn:hover {
     color: #005f8d;
+  }
+  
+  #backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  #backToTop.show {
+    opacity: 1;
+    pointer-events: auto;
   }
   

@@ -56,9 +56,26 @@ function scrollFish(button, direction) {
   const container = button.closest('.carousel-container');
   const track = container.querySelector('.carousel-track');
   const card = track.querySelector('.fish-card');
-  const cardWidth = card.offsetWidth + 20; // card + gap
-  track.scrollLeft += direction * cardWidth * 3; // 3 cards at a time
+  const cardWidth = card.offsetWidth + 30; 
+  track.scrollLeft += direction * cardWidth * 3; 
 }
+
+// Show button on scroll
+const btn = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    btn.classList.add("show");
+  } else {
+    btn.classList.remove("show");
+  }
+});
+
+btn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+
 
 
    // Mobile menu toggle
