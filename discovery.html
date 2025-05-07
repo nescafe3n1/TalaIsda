@@ -1,368 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Your Discovery - TalaIsda</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        .discovery-banner {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/discovery-banner.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-        }
-        
-        .discovery-banner h2 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        
-        .discovery-content {
-            padding: 50px 5%;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-        
-        .discovery-content h2 {
-            color: #0077b6;
-            margin-bottom: 20px;
-        }
-        
-        .discovery-content p {
-            margin-bottom: 30px;
-            line-height: 1.7;
-        }
-        
-        .discovery-form {
-            background-color: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        
-        .form-group {
-            margin-bottom: 20px;
-        }
-        
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 500;
-        }
-        
-        .form-group input, 
-        .form-group select, 
-        .form-group textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-        }
-        
-        .form-group textarea {
-            height: 150px;
-            resize: vertical;
-        }
-        
-        .form-row {
-            display: flex;
-            gap: 20px;
-        }
-        
-        .form-row .form-group {
-            flex: 1;
-        }
-        
-        .file-upload {
-            position: relative;
-            overflow: hidden;
-            margin-top: 10px;
-        }
-        
-        .file-upload input[type="file"] {
-            position: absolute;
-            font-size: 100px;
-            opacity: 0;
-            right: 0;
-            top: 0;
-            cursor: pointer;
-        }
-        
-        .file-upload-btn {
-            display: inline-block;
-            background-color: #e9ecef;
-            color: #333;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        
-        .file-upload-btn:hover {
-            background-color: #dde2e6;
-        }
-        
-        .file-name {
-            margin-left: 10px;
-            font-size: 0.9rem;
-        }
-        
-        .submit-btn {
-            background-color: #0077b6;
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 4px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        
-        .submit-btn:hover {
-            background-color: #023e8a;
-        }
-        
-        .guidelines {
-            margin-top: 50px;
-            background-color: #e6f2f5;
-            padding: 30px;
-            border-radius: 8px;
-        }
-        
-        .guidelines h3 {
-            color: #0077b6;
-            margin-bottom: 15px;
-        }
-        
-        .guidelines ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        
-        .guidelines li {
-            margin-bottom: 10px;
-        }
-        
-        @media (max-width: 768px) {
-            .form-row {
-                flex-direction: column;
-                gap: 0;
-            }
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Add Your Discovery - TalaIsda</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Delius&family=Graduate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">    
+	<link rel="icon" type="image/x-icon" href="assets/talaisda.png">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="images/logo.png" alt="TalaIsda Logo" class="logo">
-            <h1>TalaIsda</h1>
-        </div>
-        <nav>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Major Islands <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content">
-                        <div class="dropdown-group">
-                            <h3>Luzon</h3>
-                            <a href="luzon.html#ilocos">Ilocos Region</a>
-                            <a href="luzon.html#cagayan">Cagayan Valley</a>
-                            <a href="luzon.html#central">Central Luzon</a>
-                            <a href="luzon.html#calabarzon">CALABARZON</a>
-                            <a href="luzon.html#mimaropa">MIMAROPA</a>
-                            <a href="luzon.html#bicol">Bicol Region</a>
-                            <a href="luzon.html#ncr">NCR</a>
-                            <a href="luzon.html#car">CAR</a>
-                        </div>
-                        <div class="dropdown-group">
-                            <h3>Visayas</h3>
-                            <a href="visayas.html#western">Western Visayas</a>
-                            <a href="visayas.html#central">Central Visayas</a>
-                            <a href="visayas.html#eastern">Eastern Visayas</a>
-                        </div>
-                        <div class="dropdown-group">
-                            <h3>Mindanao</h3>
-                            <a href="mindanao.html#zamboanga">Zamboanga Peninsula</a>
-                            <a href="mindanao.html#northern">Northern Mindanao</a>
-                            <a href="mindanao.html#davao">Davao Region</a>
-                            <a href="mindanao.html#soccsksargen">SOCCSKSARGEN</a>
-                            <a href="mindanao.html#caraga">Caraga</a>
-                            <a href="mindanao.html#barmm">BARMM</a>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="discovery.html" class="active">Own Discovery</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
+	<header>
+			<div class="logo-container">
+					<img src="assets/talaisda.png" alt="TalaIsda Logo" class="logo">
+					<h1>TalaIsda</h1>
+			</div>
+			<nav>
+					<div class="menu-toggle">
+							<i class="fas fa-bars"></i>
+					</div>
+					<ul class="nav-menu">
+							<li><a href="index.html">Home</a></li>
+							<li class="dropdown">
+									<a href="#" class="dropbtn">Major Islands <i class="fas fa-chevron-down"></i></a>
+									<div class="dropdown-content">
+											<div class="dropdown-group">
+													<h3>Luzon</h3>
+													<a href="luzon.html#ilocos">Ilocos Region</a>
+													<a href="luzon.html#cagayan">Cagayan Valley</a>
+													<a href="luzon.html#central">Central Luzon</a>
+													<a href="luzon.html#calabarzon">CALABARZON</a>
+													<a href="luzon.html#mimaropa">MIMAROPA</a>
+													<a href="luzon.html#bicol">Bicol Region</a>
+													<a href="luzon.html#ncr">NCR</a>
+													<a href="luzon.html#car">CAR</a>
+											</div>
+											<div class="dropdown-group">
+													<h3>Visayas</h3>
+													<a href="visayas.html#western">Western Visayas</a>
+													<a href="visayas.html#central">Central Visayas</a>
+													<a href="visayas.html#eastern">Eastern Visayas</a>
+											</div>
+											<div class="dropdown-group">
+													<h3>Mindanao</h3>
+													<a href="mindanao.html#zamboanga">Zamboanga Peninsula</a>
+													<a href="mindanao.html#northern">Northern Mindanao</a>
+													<a href="mindanao.html#davao">Davao Region</a>
+													<a href="mindanao.html#soccsksargen">SOCCSKSARGEN</a>
+													<a href="mindanao.html#caraga">Caraga</a>
+													<a href="mindanao.html#barmm">BARMM</a>
+											</div>
+									</div>
+							</li>
+							<li><a href="discovery.html" class="active">Own Discovery</a></li>
+							<li><a href="about.html">About</a></li>
+					</ul>
+			</nav>
+	</header>
 
-    <div class="discovery-banner">
-        <div>
-            <h2>Add Your Discovery</h2>
-            <p>Contribute to our growing database of Philippine fish species</p>
-        </div>
-    </div>
+	<div class="discovery-banner">
+			<div>
+					<h2>Add Your Discovery</h2>
+					<p>Contribute to our growing database of Philippine fish species</p>
+			</div>
+	</div>
 
-    <div class="discovery-content">
-        <h2>Share Your Fish Discovery</h2>
-        <p>Have you encountered a fish species that you don't see in our directory? Help us expand our database by sharing your discovery! Fill out the form below with as much detail as possible. Our team will review your submission and, if verified, add it to the TalaIsda directory with proper attribution to you as the contributor.</p>
-        
-        <div class="discovery-form">
-            <form id="discoveryForm">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="fishName">Fish Name (Local and Scientific if known)</label>
-                    <input type="text" id="fishName" name="fishName" required placeholder="Ex: Lapu-Lapu / Plectropomus leopardus">
-                </div>
-                
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="location">Location Discovered</label>
-                        <input type="text" id="location" name="location" required placeholder="Ex: Anilao, Batangas">
-                    </div>
-                    <div class="form-group">
-                        <label for="region">Region</label>
-                        <select id="region" name="region" required>
-                            <option value="">Select Region</option>
-                            <optgroup label="Luzon">
-                                <option value="ilocos">Ilocos Region</option>
-                                <option value="cagayan">Cagayan Valley</option>
-                                <option value="central-luzon">Central Luzon</option>
-                                <option value="calabarzon">CALABARZON</option>
-                                <option value="mimaropa">MIMAROPA</option>
-                                <option value="bicol">Bicol Region</option>
-                                <option value="ncr">NCR</option>
-                                <option value="car">CAR</option>
-                            </optgroup>
-                            <optgroup label="Visayas">
-                                <option value="western-visayas">Western Visayas</option>
-                                <option value="central-visayas">Central Visayas</option>
-                                <option value="eastern-visayas">Eastern Visayas</option>
-                            </optgroup>
-                            <optgroup label="Mindanao">
-                                <option value="zamboanga">Zamboanga Peninsula</option>
-                                <option value="northern-mindanao">Northern Mindanao</option>
-                                <option value="davao">Davao Region</option>
-                                <option value="soccsksargen">SOCCSKSARGEN</option>
-                                <option value="caraga">Caraga</option>
-                                <option value="barmm">BARMM</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="description">Description</label>
-                    <textarea id="description" name="description" required placeholder="Please describe the fish's appearance, size, behavior, habitat, etc."></textarea>
-                </div>
-                
-                <div class="form-group">
-                    <label for="photos">Upload Photos (Max 3)</label>
-                    <div class="file-upload">
-                        <span class="file-upload-btn">Choose Files</span>
-                        <input type="file" id="photos" name="photos" accept="image/*" multiple>
-                        <span class="file-name">No file chosen</span>
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="additionalInfo">Additional Information (Optional)</label>
-                    <textarea id="additionalInfo" name="additionalInfo" placeholder="Any other details you'd like to share about this fish species"></textarea>
-                </div>
-                
-                <button type="submit" class="submit-btn">Submit Discovery</button>
-            </form>
-        </div>
-        
-        <div class="guidelines">
-            <h3>Submission Guidelines</h3>
-            <ul>
-                <li>Please provide clear, high-quality photos that show the fish's distinctive features.</li>
-                <li>Be as specific as possible about the location where you discovered the fish.</li>
-                <li>If you know the scientific name, please include it, but it's not required.</li>
-                <li>Include information about the fish's habitat, behavior, and any other notable characteristics.</li>
-                <li>Our team will review your submission and may contact you for additional information.</li>
-                <li>Verified discoveries will be added to our database with credit to you as the contributor.</li>
-            </ul>
-        </div>
-    </div>
+	<div class="discovery-content">
+			<h2>Share Your Fish Discovery</h2>
+			<p>Have you encountered a fish species that you don't see in our directory? Help us expand our database by sharing your discovery! Fill out the form below with as much detail as possible. Our team will review your submission and, if verified, add it to the TalaIsda directory with proper attribution to you as the contributor.</p>
+			
+			<div class="discovery-form">
+					<form id="discoveryForm">
+							<div class="form-row">
+									<div class="form-group">
+											<label for="name">Your Name</label>
+											<input type="text" id="name" name="name" required>
+									</div>
+									<div class="form-group">
+											<label for="email">Email Address</label>
+											<input type="email" id="email" name="email" required>
+									</div>
+							</div>
+							
+							<div class="form-group">
+									<label for="fishName">Fish Name (Local and Scientific if known)</label>
+									<input type="text" id="fishName" name="fishName" required placeholder="Ex: Lapu-Lapu / Plectropomus leopardus">
+							</div>
+							
+							<div class="form-row">
+									<div class="form-group">
+											<label for="location">Location Discovered</label>
+											<input type="text" id="location" name="location" required placeholder="Ex: Anilao, Batangas">
+									</div>
+									<div class="form-group">
+											<label for="region">Region</label>
+											<select id="region" name="region" required>
+													<option value="">Select Region</option>
+													<optgroup label="Luzon">
+															<option value="ilocos">Ilocos Region</option>
+															<option value="cagayan">Cagayan Valley</option>
+															<option value="central-luzon">Central Luzon</option>
+															<option value="calabarzon">CALABARZON</option>
+															<option value="mimaropa">MIMAROPA</option>
+															<option value="bicol">Bicol Region</option>
+															<option value="ncr">NCR</option>
+															<option value="car">CAR</option>
+													</optgroup>
+													<optgroup label="Visayas">
+															<option value="western-visayas">Western Visayas</option>
+															<option value="central-visayas">Central Visayas</option>
+															<option value="eastern-visayas">Eastern Visayas</option>
+													</optgroup>
+													<optgroup label="Mindanao">
+															<option value="zamboanga">Zamboanga Peninsula</option>
+															<option value="northern-mindanao">Northern Mindanao</option>
+															<option value="davao">Davao Region</option>
+															<option value="soccsksargen">SOCCSKSARGEN</option>
+															<option value="caraga">Caraga</option>
+															<option value="barmm">BARMM</option>
+													</optgroup>
+											</select>
+									</div>
+							</div>
+							
+							<div class="form-group">
+									<label for="description">Description</label>
+									<textarea id="description" name="description" required placeholder="Please describe the fish's appearance, size, behavior, habitat, etc."></textarea>
+							</div>
+							
+							<div class="form-group">
+									<label for="photos">Upload Photos (Max 3)</label>
+									<div class="file-upload">
+											<span class="file-upload-btn">Choose Files</span>
+											<input type="file" id="photos" name="photos" accept="image/*" multiple>
+											<span class="file-name">No file chosen</span>
+									</div>
+							</div>
+							
+							<div class="form-group">
+									<label for="additionalInfo">Additional Information (Optional)</label>
+									<textarea id="additionalInfo" name="additionalInfo" placeholder="Any other details you'd like to share about this fish species"></textarea>
+							</div>
+							
+							<button type="submit" class="submit-btn">Submit Discovery</button>
+					</form>
+			</div>
+			
+			<div class="guidelines">
+					<h3>Submission Guidelines</h3>
+					<ul>
+							<li>Please provide clear, high-quality photos that show the fish's distinctive features.</li>
+							<li>Be as specific as possible about the location where you discovered the fish.</li>
+							<li>If you know the scientific name, please include it, but it's not required.</li>
+							<li>Include information about the fish's habitat, behavior, and any other notable characteristics.</li>
+							<li>Our team will review your submission and may contact you for additional information.</li>
+							<li>Verified discoveries will be added to our database with credit to you as the contributor.</li>
+					</ul>
+			</div>
+	</div>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="images/logo.png" alt="TalaIsda Logo" class="logo">
-                <h2>TalaIsda</h2>
-                <p>The Philippine Fish Directory</p>
-            </div>
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="luzon.html">Luzon</a></li>
-                    <li><a href="visayas.html">Visayas</a></li>
-                    <li><a href="mindanao.html">Mindanao</a></li>
-                    <li><a href="discovery.html">Own Discovery</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h3>Contact Us</h3>
-                <p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
-                <p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 TalaIsda. All Rights Reserved.</p>
-        </div>
-    </footer>
+	<footer>
+			<div class="footer-content">
+					<div class="footer-logo">
+							<img src="images/logo.png" alt="TalaIsda Logo" class="logo">
+							<h2>TalaIsda</h2>
+							<p>The Philippine Fish Directory</p>
+					</div>
+					<div class="footer-links">
+							<h3>Quick Links</h3>
+							<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="luzon.html">Luzon</a></li>
+									<li><a href="visayas.html">Visayas</a></li>
+									<li><a href="mindanao.html">Mindanao</a></li>
+									<li><a href="discovery.html">Own Discovery</a></li>
+									<li><a href="about.html">About</a></li>
+							</ul>
+					</div>
+					<div class="footer-contact">
+							<h3>Contact Us</h3>
+							<p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
+							<p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
+							<div class="social-icons">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+					</div>
+			</div>
+			<div class="footer-bottom">
+					<p>&copy; 2023 TalaIsda. All Rights Reserved.</p>
+			</div>
+	</footer>
 
-    <script src="script.js"></script>
-    <script>
-        // Handle file upload display
-        document.getElementById('photos').addEventListener('change', function(e) {
-            const fileName = e.target.files.length > 0 ? 
-                (e.target.files.length > 1 ? e.target.files.length + ' files selected' : e.target.files[0].name) : 
-                'No file chosen';
-            document.querySelector('.file-name').textContent = fileName;
-        });
-        
-        // Form submission
-        document.getElementById('discoveryForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Here you would normally send the form data to a server
-            // For this example, we'll just show an alert
-            alert('Thank you for your submission! Our team will review your discovery and get back to you soon.');
-            this.reset();
-            document.querySelector('.file-name').textContent = 'No file chosen';
-        });
-    </script>
+	<script src="script.js"></script>
 </body>
 </html>

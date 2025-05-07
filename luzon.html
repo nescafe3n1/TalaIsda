@@ -4,247 +4,438 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luzon Fish Species - TalaIsda</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Graduate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">    
+		<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="assets/talaisda.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        .region-banner {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/luzon-banner.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-        }
-        
-        .region-banner h2 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        
-        .region-info {
-            padding: 50px 5%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        .region-info h2 {
-            color: #0077b6;
-            margin-bottom: 20px;
-        }
-        
-        .region-info p {
-            margin-bottom: 20px;
-            line-height: 1.7;
-        }
-        
-        .region-section {
-            padding: 30px 0;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        .region-section:last-child {
-            border-bottom: none;
-        }
-        
-        .region-section h3 {
-            color: #0077b6;
-            margin-bottom: 15px;
-        }
-        
-        .fish-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 30px;
-        }
-        .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('luzon.png');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 100px 0;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="assets/talaisda.png" alt="TalaIsda Logo" class="logo">
-        </div>
-        <nav>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn active">Major Islands <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content">
-                        <div class="dropdown-group">
-                            <h3>Luzon</h3>
-                            <a href="#ilocos">Ilocos Region</a>
-                            <a href="#cagayan">Cagayan Valley</a>
-                            <a href="#central">Central Luzon</a>
-                            <a href="#calabarzon">CALABARZON</a>
-                            <a href="#mimaropa">MIMAROPA</a>
-                            <a href="#bicol">Bicol Region</a>
-                            <a href="#ncr">NCR</a>
-                            <a href="#car">CAR</a>
-                        </div>
-                        <div class="dropdown-group">
-                            <h3>Visayas</h3>
-                            <a href="visayas.html#western">Western Visayas</a>
-                            <a href="visayas.html#central">Central Visayas</a>
-                            <a href="visayas.html#eastern">Eastern Visayas</a>
-                        </div>
-                        <div class="dropdown-group">
-                            <h3>Mindanao</h3>
-                            <a href="mindanao.html#zamboanga">Zamboanga Peninsula</a>
-                            <a href="mindanao.html#northern">Northern Mindanao</a>
-                            <a href="mindanao.html#davao">Davao Region</a>
-                            <a href="mindanao.html#soccsksargen">SOCCSKSARGEN</a>
-                            <a href="mindanao.html#caraga">Caraga</a>
-                            <a href="mindanao.html#barmm">BARMM</a>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="discovery.html">Own Discovery</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
+	<header>
+			<div class="logo-container">
+					<img src="assets/talaisda.png" alt="TalaIsda Logo" class="logo">
+			</div>
+			<nav>
+					<div class="menu-toggle">
+							<i class="fas fa-bars"></i>
+					</div>
+					<ul class="nav-menu">
+							<li><a href="index.html">Home</a></li>
+							<li class="dropdown">
+									<a href="#" class="dropbtn active">Major Islands <i class="fas fa-chevron-down"></i></a>
+									<div class="dropdown-content">
+											<div class="dropdown-group">
+													<h3>Luzon</h3>
+													<a href="#ilocos">Ilocos Region</a>
+													<a href="#cagayan">Cagayan Valley</a>
+													<a href="#central">Central Luzon</a>
+													<a href="#calabarzon">CALABARZON</a>
+													<a href="#mimaropa">MIMAROPA</a>
+													<a href="#bicol">Bicol Region</a>
+													<a href="#ncr">NCR</a>
+													<a href="#car">CAR</a>
+											</div>
+											<div class="dropdown-group">
+													<h3>Visayas</h3>
+													<a href="visayas.html#western">Western Visayas</a>
+													<a href="visayas.html#central">Central Visayas</a>
+													<a href="visayas.html#eastern">Eastern Visayas</a>
+											</div>
+											<div class="dropdown-group">
+													<h3>Mindanao</h3>
+													<a href="mindanao.html#zamboanga">Zamboanga Peninsula</a>
+													<a href="mindanao.html#northern">Northern Mindanao</a>
+													<a href="mindanao.html#davao">Davao Region</a>
+													<a href="mindanao.html#soccsksargen">SOCCSKSARGEN</a>
+													<a href="mindanao.html#caraga">Caraga</a>
+													<a href="mindanao.html#barmm">BARMM</a>
+											</div>
+									</div>
+							</li>
+							<li><a href="discovery.html">Own Discovery</a></li>
+							<li><a href="about.html">About</a></li>
+					</ul>
+			</nav>
+	</header>
 
-    <div class="region-banner">
-        <div>
-            <h2>Luzon Fish Species</h2>
-            <p>Discover the diverse aquatic life of the northern Philippines</p>
-        </div>
-    </div>
+	<div class="region-banner">
+			<div>
+					<h2>Luzon Fish Species</h2>
+					<p>Discover the diverse aquatic life of the northern Philippines</p>
+			</div>
+	</div>
 
-    <div class="region-info">
-        <h2>About Luzon's Marine Biodiversity</h2>
-        <p>Luzon, the largest island in the Philippines, is surrounded by several bodies of water including the West Philippine Sea and Sibuyan Sea. This geographical advantage contributes to its rich marine biodiversity, hosting hundreds of fish species that are both economically and ecologically important.</p>
-        <p>The waters around Luzon are home to various habitats including coral reefs, mangroves, and seagrass beds, which support diverse fish populations. From the deep-sea fishes of Batanes to the freshwater species of Laguna de Bay, Luzon offers a fascinating glimpse into the Philippines' aquatic treasures.</p>
-        
-        <div id="ilocos" class="region-section">
-            <h3>Ilocos Region</h3>
-            <p>The Ilocos Region, located in the northwestern part of Luzon, is known for its rich coastal waters that support both artisanal and commercial fishing activities.</p>
-            
-            <div class="fish-list">
-                <div class="fish-card">
-                    <img src="images/malaga.jpg" alt="Malaga (Siganid)">
-                    <h3>Malaga (Siganid)</h3>
-                    <p>A popular fish in Ilocano cuisine, often prepared as kilawin (ceviche) or inabraw (fish soup).</p>
-                    <span class="location">Location: Ilocos Norte, Ilocos Sur</span>
-                </div>
-                <div class="fish-card">
-                    <img src="images/tilapia.jpg" alt="Tilapia">
-                    <h3>Tilapia</h3>
-                    <p>Widely farmed in the freshwater bodies of the region, tilapia is an important source of protein for local communities.</p>
-                    <span class="location">Location: Paoay Lake, La Union</span>
-                </div>
-                <div class="fish-card">
-                    <img src="images/dilis.jpg" alt="Dilis (Anchovy)">
-                    <h3>Dilis (Anchovy)</h3>
-                    <p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
-                    <span class="location">Location: Pangasinan coastline</span>
-                </div>
-            </div>
-        </div>
-        
-        <div id="cagayan" class="region-section">
-            <h3>Cagayan Valley</h3>
-            <p>Cagayan Valley is blessed with the Cagayan River, the longest river in the Philippines, as well as coastal areas facing the Pacific Ocean. This region is known for its diverse freshwater and marine fish species.</p>
-            
-            <div class="fish-list">
-                <div class="fish-card">
-                    <img src="images/ludong.jpg" alt="Ludong (President's Fish)">
-                    <h3>Ludong (President's Fish)</h3>
-                    <p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
-                    <span class="location">Location: Cagayan River</span>
-                </div>
-                <div class="fish-card">
-                    <img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
-                    <h3>Pacific Bluefin Tuna</h3>
-                    <p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
-                    <span class="location">Location: Babuyan Channel</span>
-                </div>
-                <div class="fish-card">
-                    <img src="images/dalag.jpg" alt="Dalag (Mudfish)">
-                    <h3>Dalag (Mudfish)</h3>
-                    <p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
-                    <span class="location">Location: Isabela wetlands</span>
-                </div>
-            </div>
-        </div>
-        
-        <div id="central" class="region-section">
-            <h3>Central Luzon</h3>
-            <p>Central Luzon is home to Manila Bay and several important aquaculture areas, including the fishponds of Pampanga and Bulacan.</p>
-            
-            <div class="fish-list">
-                <div class="fish-card">
-                    <img src="images/bangus.jpg" alt="Bangus (Milkfish)">
-                    <h3>Bangus (Milkfish)</h3>
-                    <p>The most important cultured fish in the Philippines, with Pampanga and Bulacan being major producers.</p>
-                    <span class="location">Location: Pampanga, Bulacan</span>
-                </div>
-                <div class="fish-card">
-                    <img src="images/talakitok.jpg" alt="Talakitok (Trevally)">
-                    <h3>Talakitok (Trevally)</h3>
-                    <p>A popular game fish that is also commercially important in the region.</p>
-                    <span class="location">Location: Manila Bay, Zambales coast</span>
-                </div>
-                <div class="fish-card">
-                    <img src="images/hito.jpg" alt="Hito (Catfish)">
-                    <h3>Hito (Catfish)</h3>
-                    <p>Commonly farmed in freshwater ponds and a staple in Filipino cuisine, especially in adobo dishes.</p>
-                    <span class="location">Location: Pampanga, Tarlac</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- More regions would continue here -->
-    </div>
+	<div class="region-info">
+			<h2>About Luzon's Marine Biodiversity</h2>
+			<p>Luzon, the largest island in the Philippines, is surrounded by several bodies of water including the West Philippine Sea and Sibuyan Sea. This geographical advantage contributes to its rich marine biodiversity, hosting hundreds of fish species that are both economically and ecologically important.</p>
+			<p>The waters around Luzon are home to various habitats including coral reefs, mangroves, and seagrass beds, which support diverse fish populations. From the deep-sea fishes of Batanes to the freshwater species of Laguna de Bay, Luzon offers a fascinating glimpse into the Philippines' aquatic treasures.</p>
+			<div class="search-container">
+					<input type="text" id="searchInput" placeholder="Search fish species..." />
+				</div>          
+			<div id="ilocos" class="region-section">
+					<h3>Ilocos Region</h3>
+					<p>The Ilocos Region, located in the northwestern part of Luzon, is known for its rich coastal waters that support both artisanal and commercial fishing activities.</p>
+					
+					<div class="carousel-container">
+							<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+							<div class="fish-list carousel-track">
+								<div class="fish-card">
+										<img src="assets/malaga.jpg" alt="Malaga (Siganid)">
+										<h3>Malaga (Siganid)</h3>
+										<p>A popular fish in Ilocano cuisine, often prepared as kilawin (ceviche) or inabraw (fish soup).</p>
+										<span class="location">Location: Ilocos Norte, Ilocos Sur</span>
+								</div>
+								<div class="fish-card">
+										<img src="assets/tilapia.jpg" alt="Tilapia">
+										<h3>Tilapia</h3>
+										<p>Widely farmed in the freshwater bodies of the region, tilapia is an important source of protein for local communities.</p>
+										<span class="location">Location: Paoay Lake, La Union</span>
+								</div>
+								<div class="fish-card">
+										<img src="assets/dilis.jpg" alt="Dilis (Anchovy)">
+										<h3>Dilis (Anchovy)</h3>
+										<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+										<span class="location">Location: Pangasinan coastline</span>
+								</div>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="assets/.png" alt="TalaIsda Logo" class="logo">
-                <h2>TalaIsda</h2>
-                <p>The Philippine Fish Directory</p>
-            </div>
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="luzon.html">Luzon</a></li>
-                    <li><a href="visayas.html">Visayas</a></li>
-                    <li><a href="mindanao.html">Mindanao</a></li>
-                    <li><a href="discovery.html">Own Discovery</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h3>Contact Us</h3>
-                <p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
-                <p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 TalaIsda. All Rights Reserved.</p>
-        </div>
-    </footer>
+								<div class="fish-card">
+										<img src="assets/dilis.jpg" alt="Dilis (Anchovy)">
+										<h3>Dilis (Anchovy)</h3>
+										<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+										<span class="location">Location: Pangasinan coastline</span>
+								</div>
+								<div class="fish-card">
+									<img src="assets/dilis.jpg" alt="Dilis (Anchovy)">
+									<h3>Dilis (Anchovy)</h3>
+									<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+									<span class="location">Location: Pangasinan coastline</span>
+								</div>
+								<div class="fish-card">
+									<img src="assets/malaga.jpg" alt="Malaga (Siganid)">
+									<h3>Malaga (Siganid)</h3>
+									<p>A popular fish in Ilocano cuisine, often prepared as kilawin (ceviche) or inabraw (fish soup).</p>
+									<span class="location">Location: Ilocos Norte, Ilocos Sur</span>
+								</div>
+								<div class="fish-card">
+									<img src="assets/malaga.jpg" alt="Malaga (Siganid)">
+									<h3>Malaga (Siganid)</h3>
+									<p>A popular fish in Ilocano cuisine, often prepared as kilawin (ceviche) or inabraw (fish soup).</p>
+									<span class="location">Location: Ilocos Norte, Ilocos Sur</span>
+								</div>
+								<div class="fish-card">
+									<img src="assets/malaga.jpg" alt="Malaga (Siganid)">
+									<h3>Malaga (Siganid)</h3>
+									<p>A popular fish in Ilocano cuisine, often prepared as kilawin (ceviche) or inabraw (fish soup).</p>
+									<span class="location">Location: Ilocos Norte, Ilocos Sur</span>
+								</div>
+								<div class="fish-card">
+									<img src="assets/malaga.jpg" alt="Malaga (Siganid)">
+									<h3>Malaga (Siganid)</h3>
+									<p>A popular fish in Ilocano cuisine, often prepared as kilawin (ceviche) or inabraw (fish soup).</p>
+									<span class="location">Location: Ilocos Norte, Ilocos Sur</span>
+								</div>
+							</div>
+							<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+					</div>
+						
+			</div>
+			
+			<div id="cagayan" class="region-section">
+					<h3>Cagayan Valley</h3>
+					<p>Cagayan Valley is blessed with the Cagayan River, the longest river in the Philippines, as well as coastal areas facing the Pacific Ocean. This region is known for its diverse freshwater and marine fish species.</p>
+					
+					<div class="carousel-container">
+						<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+						<div class="fish-list carousel-track">
+							<div class="fish-card">
+									<img src="images/malaga.jpg" alt="Ludong (President's Fish)">
+									<h3>Ludong (President's Fish)</h3>
+									<p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
+									<span class="location">Location: Cagayan River</span>
+							</div>
+							<div class="fish-card">
+									<img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
+									<h3>Pacific Bluefin Tuna</h3>
+									<p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
+									<span class="location">Location: Babuyan Channel</span>
+							</div>
+							<div class="fish-card">
+								<img src="images/dalag.jpg" alt="Dalag (Mudfish)">
+								<h3>Dalag (Mudfish)</h3>
+								<p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
+								<span class="location">Location: Isabela wetlands</span>	
+							</div>
+							<div class="fish-card">
+									<img src="images/dilis.jpg" alt="Dilis (Anchovy)">
+									<h3>Dilis (Anchovy)</h3>
+									<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+									<span class="location">Location: Pangasinan coastline</span>
+							</div>
+						</div>
+						<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+				</div>
+			</div>
+			
+			<div id="central" class="region-section">
+				<h3>Central Luzon</h3>
+				<p>Central Luzon is home to Manila Bay and several important aquaculture areas, including the fishponds of Pampanga and Bulacan.</p>
 
-    <script src="script.js"></script>
+				
+				<div class="carousel-container">
+					<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+					<div class="fish-list carousel-track">
+						<div class="fish-card">
+							<img src="images/bangus.jpg" alt="Bangus (Milkfish)">
+							<h3>Bangus (Milkfish)</h3>
+							<p>The most important cultured fish in the Philippines, with Pampanga and Bulacan being major producers.</p>
+							<span class="location">Location: Pampanga, Bulacan</span>
+						</div>
+						<div class="fish-card">
+							<img src="images/talakitok.jpg" alt="Talakitok (Trevally)">
+							<h3>Talakitok (Trevally)</h3>
+							<p>A popular game fish that is also commercially important in the region.</p>
+							<span class="location">Location: Manila Bay, Zambales coast</span>
+						</div>
+						<div class="fish-card">
+							<img src="images/hito.jpg" alt="Hito (Catfish)">
+							<h3>Hito (Catfish)</h3>
+							<p>Commonly farmed in freshwater ponds and a staple in Filipino cuisine, especially in adobo dishes.</p>
+							<span class="location">Location: Pampanga, Tarlac</span>	
+						</div>
+						<div class="fish-card">
+							<img src="images/hito.jpg" alt="Hito (Catfish)">
+							<h3>Hito (Catfish)</h3>
+							<p>Commonly farmed in freshwater ponds and a staple in Filipino cuisine, especially in adobo dishes.</p>
+							<span class="location">Location: Pampanga, Tarlac</span>
+						</div>
+					</div>
+					<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+			</div>
+		</div>
+
+		<div id="calabarzon" class="region-section">
+			<h3>CALABARZON</h3>
+			<p>Cagayan Valley is blessed with the Cagayan River, the longest river in the Philippines, as well as coastal areas facing the Pacific Ocean. This region is known for its diverse freshwater and marine fish species.</p>
+			
+			<div class="carousel-container">
+				<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+				<div class="fish-list carousel-track">
+					<div class="fish-card">
+							<img src="images/malaga.jpg" alt="Ludong (President's Fish)">
+							<h3>Ludong (President's Fish)</h3>
+							<p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
+							<span class="location">Location: Cagayan River</span>
+					</div>
+					<div class="fish-card">
+							<img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
+							<h3>Pacific Bluefin Tuna</h3>
+							<p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
+							<span class="location">Location: Babuyan Channel</span>
+					</div>
+					<div class="fish-card">
+						<img src="images/dalag.jpg" alt="Dalag (Mudfish)">
+						<h3>Dalag (Mudfish)</h3>
+						<p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
+						<span class="location">Location: Isabela wetlands</span>	
+					</div>
+					<div class="fish-card">
+							<img src="images/dilis.jpg" alt="Dilis (Anchovy)">
+							<h3>Dilis (Anchovy)</h3>
+							<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+							<span class="location">Location: Pangasinan coastline</span>
+					</div>
+				</div>
+				<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+		</div>
+	</div>
+
+	<div id="mimaropa" class="region-section">
+		<h3>MIMAROPA</h3>
+		<p>Cagayan Valley is blessed with the Cagayan River, the longest river in the Philippines, as well as coastal areas facing the Pacific Ocean. This region is known for its diverse freshwater and marine fish species.</p>
+		
+		<div class="carousel-container">
+			<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+			<div class="fish-list carousel-track">
+				<div class="fish-card">
+						<img src="images/malaga.jpg" alt="Ludong (President's Fish)">
+						<h3>Ludong (President's Fish)</h3>
+						<p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
+						<span class="location">Location: Cagayan River</span>
+				</div>
+				<div class="fish-card">
+						<img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
+						<h3>Pacific Bluefin Tuna</h3>
+						<p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
+						<span class="location">Location: Babuyan Channel</span>
+				</div>
+				<div class="fish-card">
+					<img src="images/dalag.jpg" alt="Dalag (Mudfish)">
+					<h3>Dalag (Mudfish)</h3>
+					<p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
+					<span class="location">Location: Isabela wetlands</span>	
+				</div>
+				<div class="fish-card">
+						<img src="images/dilis.jpg" alt="Dilis (Anchovy)">
+						<h3>Dilis (Anchovy)</h3>
+						<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+						<span class="location">Location: Pangasinan coastline</span>
+				</div>
+			</div>
+			<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+	</div>
+</div>
+
+<div id="bicol" class="region-section">
+	<h3>Bicol Region</h3>
+	<p>Cagayan Valley is blessed with the Cagayan River, the longest river in the Philippines, as well as coastal areas facing the Pacific Ocean. This region is known for its diverse freshwater and marine fish species.</p>
+	
+	<div class="carousel-container">
+		<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+		<div class="fish-list carousel-track">
+			<div class="fish-card">
+					<img src="images/malaga.jpg" alt="Ludong (President's Fish)">
+					<h3>Ludong (President's Fish)</h3>
+					<p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
+					<span class="location">Location: Cagayan River</span>
+			</div>
+			<div class="fish-card">
+					<img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
+					<h3>Pacific Bluefin Tuna</h3>
+					<p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
+					<span class="location">Location: Babuyan Channel</span>
+			</div>
+			<div class="fish-card">
+				<img src="images/dalag.jpg" alt="Dalag (Mudfish)">
+				<h3>Dalag (Mudfish)</h3>
+				<p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
+				<span class="location">Location: Isabela wetlands</span>	
+			</div>
+			<div class="fish-card">
+					<img src="images/dilis.jpg" alt="Dilis (Anchovy)">
+					<h3>Dilis (Anchovy)</h3>
+					<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+					<span class="location">Location: Pangasinan coastline</span>
+			</div>
+		</div>
+		<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+</div>
+</div>
+
+<div id="ncr" class="region-section">
+	<h3>NCR</h3>
+	<p>Cagayan Valley is blessed with the Cagayan River, the longest river in the Philippines, as well as coastal areas facing the Pacific Ocean. This region is known for its diverse freshwater and marine fish species.</p>
+	
+	<div class="carousel-container">
+		<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+		<div class="fish-list carousel-track">
+			<div class="fish-card">
+					<img src="images/malaga.jpg" alt="Ludong (President's Fish)">
+					<h3>Ludong (President's Fish)</h3>
+					<p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
+					<span class="location">Location: Cagayan River</span>
+			</div>
+			<div class="fish-card">
+					<img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
+					<h3>Pacific Bluefin Tuna</h3>
+					<p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
+					<span class="location">Location: Babuyan Channel</span>
+			</div>
+			<div class="fish-card">
+				<img src="images/dalag.jpg" alt="Dalag (Mudfish)">
+				<h3>Dalag (Mudfish)</h3>
+				<p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
+				<span class="location">Location: Isabela wetlands</span>	
+			</div>
+			<div class="fish-card">
+					<img src="images/dilis.jpg" alt="Dilis (Anchovy)">
+					<h3>Dilis (Anchovy)</h3>
+					<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+					<span class="location">Location: Pangasinan coastline</span>
+			</div>
+		</div>
+		<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+</div>
+</div>
+<div id="car" class="region-section">
+	<h3>CAR</h3>
+	<p>Cagayan Valley is blessed with the Cagayan River, the longest river in the Philippines, as well as coastal areas facing the Pacific Ocean. This region is known for its diverse freshwater and marine fish species.</p>
+	
+	<div class="carousel-container">
+		<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+		<div class="fish-list carousel-track">
+			<div class="fish-card">
+					<img src="images/malaga.jpg" alt="Ludong (President's Fish)">
+					<h3>Ludong (President's Fish)</h3>
+					<p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
+					<span class="location">Location: Cagayan River</span>
+			</div>
+			<div class="fish-card">
+					<img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
+					<h3>Pacific Bluefin Tuna</h3>
+					<p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
+					<span class="location">Location: Babuyan Channel</span>
+			</div>
+			<div class="fish-card">
+				<img src="images/dalag.jpg" alt="Dalag (Mudfish)">
+				<h3>Dalag (Mudfish)</h3>
+				<p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
+				<span class="location">Location: Isabela wetlands</span>	
+			</div>
+			<div class="fish-card">
+					<img src="images/dilis.jpg" alt="Dilis (Anchovy)">
+					<h3>Dilis (Anchovy)</h3>
+					<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+					<span class="location">Location: Pangasinan coastline</span>
+			</div>
+		</div>
+		<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+</div>
+</div>
+			<!-- More regions would continue here -->
+	</div>
+
+	<button id="backToTop" data-aos="fade-up" data-aos-duration="600" title="Go to top">↑</button>
+
+
+
+	<footer>
+		<div class="footer-content">
+				<div class="footer-logo">
+						<img src="assets/logo-removebg-preview.png" alt="TalaIsda Logo" class="logo">
+				</div>
+				<div class="footer-links">
+						<h3>Quick Links</h3>
+						<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="luzon.html">Luzon</a></li>
+								<li><a href="visayas.html">Visayas</a></li>
+								<li><a href="mindanao.html">Mindanao</a></li>
+								<li><a href="discovery.html">Own Discovery</a></li>
+								<li><a href="about.html">About</a></li>
+						</ul>
+				</div>
+				<div class="footer-contact">
+						<h3>Contact Us</h3>
+						<p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
+						<p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
+						<div class="social-icons">
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+						</div>
+				</div>
+		</div>
+		<div class="footer-bottom">
+				<p>&copy; <script>document.write(new Date().getFullYear())</script> TalaIsda. All Rights Reserved</p>
+		</div>
+</footer>
+
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>			
 </body>
 </html>

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Poppins, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html, body {
@@ -36,6 +36,7 @@ img {
     display: inline-block;
     background-color: #0077b6;
     color: white;
+    margin-top: 2em;
     padding: 12px 24px;
     border-radius: 4px;
     transition: background-color 0.3s;
@@ -155,7 +156,7 @@ nav {
 
 .dropbtn i {
     margin-left: 5px;
-    font-size: 0.8rem;
+    font-size: 0.8rem; 
 }
 
 /* Hero and Section Headings */
@@ -188,9 +189,15 @@ nav {
 }
 
 /* Featured Fish Section */
-.featured-section h2, .regions-section h2, .contribute-section h2 {
+.featured-section h2, .regions-section h2 {
     font-size: 2rem;
     color: #0077b6;
+    margin-bottom: 40px;
+}
+
+.contribute-section h2 {
+    font-size: 2rem;
+    color: white;
     margin-bottom: 40px;
 }
 
@@ -209,7 +216,7 @@ nav {
 }
 
 .fish-card:hover {
-    transform: translateY(-10px) scale(1.2);
+    transform: translateY(-10px) scale(1.05);
 }
 
 .fish-card img {
@@ -273,8 +280,347 @@ nav {
 
 /* Contribute Section */
 .contribute-section {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/contribute-bg.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/discoverybg.png') center/cover no-repeat;
     color: white;
+}
+
+/* For discovery page */
+.discovery-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/water.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.discovery-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.discovery-content {
+    padding: 50px 5%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.discovery-content h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.discovery-content p {
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.discovery-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.file-upload input[type="file"] {
+    position: absolute;
+    font-size: 100px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.file-upload-btn {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.file-upload-btn:hover {
+    background-color: #dde2e6;
+}
+
+.file-name {
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.submit-btn {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #023e8a;
+}
+
+.guidelines {
+    margin-top: 50px;
+    background-color: #e6f2f5;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.guidelines h3 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+.guidelines ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.guidelines li {
+    margin-bottom: 10px;
+}
+/* Luzon Section */
+.region-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/luzonbanner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.region-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.region-info {
+    padding: 50px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.region-info h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.region-info p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.region-section {
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.region-section:last-child {
+    border-bottom: none;
+}
+
+.region-section h3 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+.fish-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.search-container {
+    max-width: 500px;
+    margin: 40px auto 20px;
+    text-align: center;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* About Section */
+
+.about-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/about-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.about-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about-content {
+    padding: 50px 5%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.about-section {
+    margin-bottom: 50px;
+}
+
+.about-section h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.mission-vision {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.mission, .vision {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission h3, .vision h3 {
+    color: #0077b6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.team-section {
+    margin-top: 50px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.team-member {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin: 15px 0 5px;
+    color: #0077b6;
+}
+
+.team-member p {
+    color: #666;
+    font-size: 0.9rem;
+    padding: 0 15px 15px;
+    margin: 0;
+}
+
+.partners-section {
+    margin-top: 50px;
+}
+
+.partners-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.partner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner img {
+    max-width: 100%;
+    max-height: 60px;
 }
 
 /* Footer */
@@ -296,8 +642,10 @@ footer {
 }
 
 .footer-logo img {
-    width: 60px;
+    width: 250px;
+    height: auto;
 }
+
 
 .footer-links h3, .footer-contact h3 {
     position: relative;
@@ -388,6 +736,15 @@ footer {
     header {
         padding: 10px 20px;
     }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .mission-vision {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 576px) {
@@ -403,3 +760,66 @@ footer {
         font-size: 1rem;
     }
 }
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 30px auto;
+    max-width: 1300px;
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 1100px;
+  }
+  
+  .fish-card {
+    flex: 0 0 calc(33.33% - 20px); /* Show 3 cards */
+    box-sizing: border-box;
+  }
+  
+  .carousel-btn {
+    background: none;
+    border: none;
+    font-size: 2.2rem;
+    color: #0077b6;
+    cursor: pointer;
+    padding: 5px 15px;
+    z-index: 2;
+    transition: 0.3s;
+  }
+  
+  .carousel-btn:hover {
+    color: #005f8d;
+  }
+  
+  #backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  #backToTop.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
