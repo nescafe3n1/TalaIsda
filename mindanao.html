@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mindanao Fish Species - TalaIsda</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Graduate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">    
+		<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="assets/talaisda.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+    /* Region styling */
+    .region-banner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/mindanao-banner.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    .region-banner h2 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .region-info {
+        padding: 50px 5%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .region-info h2 {
+        color: #0077b6;
+        margin-bottom: 20px;
+    }
+
+    .region-info p {
+        margin-bottom: 20px;
+        line-height: 1.7;
+    }
+
+    .region-section {
+        padding: 30px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .region-section:last-child {
+        border-bottom: none;
+    }
+
+    .region-section h3 {
+        color: #0077b6;
+        margin-bottom: 15px;
+    }
+
+    .fish-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('mindanao.png');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="logo-container">
+        <img src="assets/talaisda.png" alt="TalaIsda Logo" class="logo">
+    </div>
+    <nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn active">Major Islands <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <div class="dropdown-group">
+                        <h3>Luzon</h3>
+                        <a href="luzon.html#ilocos">Ilocos Region</a>
+                        <a href="luzon.html#cagayan">Cagayan Valley</a>
+                        <a href="luzon.html#central">Central Luzon</a>
+                        <a href="luzon.html#calabarzon">CALABARZON</a>
+                        <a href="luzon.html#mimaropa">MIMAROPA</a>
+                        <a href="luzon.html#bicol">Bicol Region</a>
+                        <a href="luzon.html#ncr">NCR</a>
+                        <a href="luzon.html#car">CAR</a>
+                    </div>
+                    <div class="dropdown-group">
+                        <h3>Visayas</h3>
+                        <a href="visayas.html#western">Western Visayas</a>
+                        <a href="visayas.html#central">Central Visayas</a>
+                        <a href="visayas.html#eastern">Eastern Visayas</a>
+                    </div>
+                    <div class="dropdown-group">
+                        <h3>Mindanao</h3>
+                        <a href="#zamboanga">Zamboanga Peninsula</a>
+                        <a href="#northern">Northern Mindanao</a>
+                        <a href="#davao">Davao Region</a>
+                        <a href="#soccsksargen">SOCCSKSARGEN</a>
+                        <a href="#caraga">Caraga</a>
+                        <a href="#barmm">BARMM</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="discovery.html">Own Discovery</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="region-banner">
+    <div>
+        <h2>Mindanao Fish Species</h2>
+        <p>Discover the unique aquatic life of the southern Philippines</p>
+    </div>
+</div>
+
+<div class="region-info">
+    <h2>About Mindanao's Marine Biodiversity</h2>
+    <p>Mindanao, the second-largest island in the Philippines, is surrounded by several important bodies of water including the Sulu Sea, Celebes Sea, and Philippine Sea. This geographical advantage contributes to its rich marine biodiversity, hosting hundreds of fish species that are both economically and ecologically important.</p>
+    <p>The waters around Mindanao are particularly known for their tuna resources, with General Santos City being dubbed the "Tuna Capital of the Philippines." Beyond commercial fishing, the region also boasts diverse coral reef ecosystems, especially in the Sulu Archipelago and the Davao Gulf.</p>
+
+    <div id="zamboanga" class="region-section">
+        <h3>Zamboanga Peninsula</h3>
+        <p>The Zamboanga Peninsula is surrounded by the Sulu Sea to the west and the Moro Gulf to the east, making it a strategic location for fishing activities.</p>
+
+        <div class="fish-list">
+            <div class="fish-card">
+                <img src="images/curacha.jpg" alt="Curacha (Spanner Crab)">
+                <h3>Curacha (Spanner Crab)</h3>
+                <p>Though technically a crab, this seafood delicacy is a specialty of Zamboanga and is often included in local seafood directories.</p>
+                <span class="location">Location: Zamboanga City</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/bangsi.jpg" alt="Bangsi (Flying Fish)">
+                <h3>Bangsi (Flying Fish)</h3>
+                <p>Known for its ability to leap out of water and glide over the surface, this fish is common in the waters of the Zamboanga Peninsula.</p>
+                <span class="location">Location: Sulu Sea</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/lapu-lapu.jpg" alt="Lapu-Lapu (Grouper)">
+                <h3>Lapu-Lapu (Grouper)</h3>
+                <p>A high-value fish found in the coral reefs around the peninsula, particularly in the waters of Basilan Strait.</p>
+                <span class="location">Location: Basilan Strait</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="northern" class="region-section">
+        <h3>Northern Mindanao</h3>
+        <p>Northern Mindanao faces the Bohol Sea and is known for its diverse marine ecosystems, from the deep waters of Iligan Bay to the coastal areas of Misamis Oriental.</p>
+
+        <div class="fish-list">
+            <div class="fish-card">
+                <img src="images/bariles.jpg" alt="Bariles (Yellowfin Tuna)">
+                <h3>Bariles (Yellowfin Tuna)</h3>
+                <p>A large tuna species that's commercially important in the region, often caught in the waters of the Bohol Sea.</p>
+                <span class="location">Location: Bohol Sea</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/matambaka.jpg" alt="Matambaka (Mackerel Scad)">
+                <h3>Matambaka (Mackerel Scad)</h3>
+                <p>A small pelagic fish that's commonly caught in the waters around Misamis Oriental and Camiguin.</p>
+                <span class="location">Location: Misamis Oriental, Camiguin</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/bolinao.jpg" alt="Bolinao (Anchovy)">
+                <h3>Bolinao (Anchovy)</h3>
+                <p>Small but economically important, bolinao is often dried and used as a condiment or side dish.</p>
+                <span class="location">Location: Iligan Bay</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="davao" class="region-section">
+        <h3>Davao Region</h3>
+        <p>The Davao Region faces the Philippine Sea to the east and encompasses the Davao Gulf, which is known for its rich marine biodiversity.</p>
+
+        <div class="fish-list">
+            <div class="fish-card">
+                <img src="images/tangigue.jpg" alt="Tangigue (Spanish Mackerel)">
+                <h3>Tangigue (Spanish Mackerel)</h3>
+                <p>A popular fish for grilling and kinilaw (Filipino ceviche), found in the waters of Davao Gulf.</p>
+                <span class="location">Location: Davao Gulf</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/malasugi.jpg" alt="Malasugi (Marlin)">
+                <h3>Malasugi (Marlin)</h3>
+                <p>A large, predatory fish with a distinctive spear-like bill, found in the deeper waters of the Philippine Sea.</p>
+                <span class="location">Location: Philippine Sea</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/salay-salay.jpg" alt="Salay-Salay (Mackerel)">
+                <h3>Salay-Salay (Mackerel)</h3>
+                <p>A small mackerel species that's commonly caught in the waters of Davao Gulf.</p>
+                <span class="location">Location: Davao Gulf</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="soccsksargen" class="region-section">
+        <h3>SOCCSKSARGEN</h3>
+        <p>SOCCSKSARGEN is home to General Santos City, the "Tuna Capital of the Philippines," and is known for its significant contribution to the country's tuna industry.</p>
+
+        <div class="fish-list">
+            <div class="fish-card">
+                <img src="images/tambakol.jpg" alt="Tambakol (Skipjack Tuna)">
+                <h3>Tambakol (Skipjack Tuna)</h3>
+                <p>A commercially important tuna species in the region, often caught in the waters of Sarangani Bay.</p>
+                <span class="location">Location: Sarangani Bay</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/tulingan-mindanao.jpg" alt="Tulingan (Mackerel Tuna)">
+                <h3>Tulingan (Mackerel Tuna)</h3>
+                <p>A medium-sized tuna species that's commercially important in the region, often caught in the waters of the Celebes Sea.</p>
+                <span class="location">Location: Celebes Sea</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/gulyasan.jpg" alt="Gulyasan (Yellowfin Tuna Juvenile)">
+                <h3>Gulyasan (Yellowfin Tuna Juvenile)</h3>
+                <p>The juvenile form of yellowfin tuna, commonly caught in the waters around SOCCSKSARGEN.</p>
+                <span class="location">Location: Celebes Sea</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="caraga" class="region-section">
+        <h3>Caraga</h3>
+        <p>The Caraga Region faces the Philippine Sea and is known for its diverse coastal ecosystems, including mangroves, seagrass beds, and coral reefs.</p>
+
+        <div class="fish-list">
+            <div class="fish-card">
+                <img src="images/danggit-caraga.jpg" alt="Danggit (Rabbitfish)">
+                <h3>Danggit (Rabbitfish)</h3>
+                <p>A popular breakfast fish, often dried and served with vinegar. It's abundant in the shallow waters around Surigao del Norte.</p>
+                <span class="location">Location: Surigao del Norte</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/kitong.jpg" alt="Kitong (Spotted Scat)">
+                <h3>Kitong (Spotted Scat)</h3>
+                <p>A brackish water fish found in mangrove areas and estuaries, common in the coastal areas of Agusan del Norte.</p>
+                <span class="location">Location: Agusan del Norte</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/alimango.jpg" alt="Alimango (Mud Crab)">
+                <h3>Alimango (Mud Crab)</h3>
+                <p>While not a fish, mud crabs are an important part of the aquaculture and seafood industry in the Caraga region.</p>
+                <span class="location">Location: Surigao del Sur</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="barmm" class="region-section">
+        <h3>Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)</h3>
+        <p>BARMM encompasses several island provinces and mainland areas with rich coastal and marine resources, including the Sulu Archipelago and parts of Mindanao facing the Celebes Sea.</p>
+
+        <div class="fish-list">
+            <div class="fish-card">
+                <img src="images/sugpo.jpg" alt="Sugpo (Giant Tiger Prawn)">
+                <h3>Sugpo (Giant Tiger Prawn)</h3>
+                <p>Although a crustacean, prawns are a significant aquaculture product in BARMM, especially in areas like Maguindanao.</p>
+                <span class="location">Location: Maguindanao</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/kawakawa.jpg" alt="Kawakawa (Frigate Tuna)">
+                <h3>Kawakawa (Frigate Tuna)</h3>
+                <p>A smaller tuna species commonly found in the waters around the Sulu Archipelago.</p>
+                <span class="location">Location: Sulu Archipelago</span>
+            </div>
+            <div class="fish-card">
+                <img src="images/temaginting.jpg" alt="Tëmaginting (Silver Carp)">
+                <h3>Tëmaginting (Silver Carp)</h3>
+                <p>A carp species commonly found in the waters around Magindanao communities in Central Mindanao.</p>
+                <span class="location">Location: Maguindanao</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="assets/.png" alt="TalaIsda Logo" class="logo">
+            <h2>TalaIsda</h2>
+            <p>The Philippine Fish Directory</p>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="luzon.html">Luzon</a></li>
+                <li><a href="visayas.html">Visayas</a></li>
+                <li><a href="mindanao.html">Mindanao</a></li>
+                <li><a href="discovery.html">Own Discovery</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
+            <p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 TalaIsda. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
