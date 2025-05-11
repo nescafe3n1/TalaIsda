@@ -239,6 +239,11 @@ nav {
     color: #666;
     font-style: italic;
     margin-bottom: 10px;
+    white-space: normal;     
+    word-break: break-word;  
+    overflow: hidden;        
+    text-overflow: ellipsis;
+    display: block; 
 }
 
 .view-more {
