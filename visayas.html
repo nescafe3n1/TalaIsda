@@ -4,460 +4,479 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visayas Fish Species - TalaIsda</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Delius&family=Graduate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">    
-    <link rel="icon" type="image/x-icon" href="assets/talaisda.png">
+		<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="assets/talaisda.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* All previous styles remain unchanged */
-        .region-banner {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/visayas-banner.jpg');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 60px 0;
-            text-align: center;
-        }
-
-        .region-banner h2 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            font-family: 'Segoe UI', sans-serif;
-            letter-spacing: 1px;
-            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-
-        }
-
-        .region-info {
-            padding: 50px 0;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .region-info h2 {
-            color: #0077b6;
-            margin-bottom: 20px;
-        }
-
-        .region-info p {
-            margin-bottom: 20px;
-            line-height: 1.7;
-        }
-
-        .region-section {
-            padding: 30px 20px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .region-section:last-child {
-            border-bottom: none;
-        }
-
-        .region-section h3 {
-            color: #0077b6;
-            margin-bottom: 15px;
-        }
-        /* Container for each fish grid */
-        .fish-grid::-webkit-scrollbar {
-  display: none;
-}
-.fish-grid {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-        .fish-grid {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  padding: 1rem;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  scroll-snap-type: x mandatory;
-}
-
-
-/* Wrapper for fish cards */
-.fish-grid-wrapper {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on mobile */
-}
-
-/* Each fish card */
-.fish-card {
-    flex: 0 0 auto;
-    width: 200px; /* Adjust size of the cards */
-    height: 300px;
-    margin: 0 8px; /* Space between cards */
-    background-color: #f0f0f0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    scroll-snap-align: start;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-/* Highlight effect on selected card */
-.fish-card.highlight {
-    transform: scale(1.1);
-    opacity: 1;
-    z-index: 2;
-}
-
-/* Dim the unselected cards */
-.fish-card.dimmed {
-    opacity: 0.5;
-}
-
-/* Scroll buttons */
-.scroll-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.scroll-button.left {
-    left: 0;
-}
-
-.scroll-button.right {
-    right: 0;
-}
-
-/* Button hover effect */
-.scroll-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-
-        /* Highlight & Dim */
-        .highlight {
-            transform: scale(1.1);
-            border: 2px solid #0077b6;
-        }
-
-        .dimmed {
-            opacity: 0.5;
-        }
-
-        @media (max-width: 768px) {
-            .fish-card {
-                width: 90%;
-            }
-        }
-    
-
-    </style>
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="assets/talaisda.png" alt="TalaIsda Logo" class="logo">
-        </div>
-        <nav>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn active">Major Islands <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content">
-                        <div class="dropdown-group">
-                            <h3>Luzon</h3>
-                            <a href="#ilocos">Ilocos Region</a>
-                            <a href="#cagayan">Cagayan Valley</a>
-                            <a href="#central">Central Luzon</a>
-                            <a href="#calabarzon">CALABARZON</a>
-                            <a href="#mimaropa">MIMAROPA</a>
-                            <a href="#bicol">Bicol Region</a>
-                            <a href="#ncr">NCR</a>
-                            <a href="#car">CAR</a>
-                        </div>
-                        <div class="dropdown-group">
-                            <h3>Visayas</h3>
-                            <a href="visayas.html#western">Western Visayas</a>
-                            <a href="visayas.html#central">Central Visayas</a>
-                            <a href="visayas.html#eastern">Eastern Visayas</a>
-                        </div>
-                        <div class="dropdown-group">
-                            <h3>Mindanao</h3>
-                            <a href="mindanao.html#zamboanga">Zamboanga Peninsula</a>
-                            <a href="mindanao.html#northern">Northern Mindanao</a>
-                            <a href="mindanao.html#davao">Davao Region</a>
-                            <a href="mindanao.html#soccsksargen">SOCCSKSARGEN</a>
-                            <a href="mindanao.html#caraga">Caraga</a>
-                            <a href="mindanao.html#barmm">BARMM</a>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="discovery.html">Own Discovery</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
+	<header>
+			<div class="logo-container">
+					<img src="assets/talaisda.png" alt="TalaIsda Logo" class="logo">
+			</div>
+			<nav>
+					<div class="menu-toggle">
+							<i class="fas fa-bars"></i>
+					</div>
+					<ul class="nav-menu">
+							<li><a href="index.html">Home</a></li>
+							<li class="dropdown">
+									<a href="#" class="dropbtn active">Major Islands <i class="fas fa-chevron-down"></i></a>
+									<div class="dropdown-content">
+											<div class="dropdown-group">
+													<h3>Luzon</h3>
+													<a href="luzon.html#ilocos">Ilocos Region</a>
+                                                    <a href="luzon.html#cagayan">Cagayan Valley</a>
+                                                    <a href="luzon.html#central">Central Luzon</a>
+                                                    <a href="luzon.html#calabarzon">CALABARZON</a>
+                                                    <a href="luzon.html#mimaropa">MIMAROPA</a>
+                                                    <a href="luzon.html#bicol">Bicol Region</a>
+                                                    <a href="luzon.html#ncr">NCR</a>
+                                                    <a href="luzon.html#car">CAR</a>
+											</div>
+											<div class="dropdown-group">
+													<h3>Visayas</h3>
+													<a href="visayas.html#western">Western Visayas</a>
+													<a href="visayas.html#central">Central Visayas</a>
+													<a href="visayas.html#eastern">Eastern Visayas</a>
+											</div>
+											<div class="dropdown-group">
+													<h3>Mindanao</h3>
+													<a href="mindanao.html#zamboanga">Zamboanga Peninsula</a>
+													<a href="mindanao.html#northern">Northern Mindanao</a>
+													<a href="mindanao.html#davao">Davao Region</a>
+													<a href="mindanao.html#soccsksargen">SOCCSKSARGEN</a>
+													<a href="mindanao.html#caraga">Caraga</a>
+													<a href="mindanao.html#barmm">BARMM</a>
+											</div>
+									</div>
+							</li>
+							<li><a href="discovery.html">Own Discovery</a></li>
+							<li><a href="about.html">About</a></li>
+					</ul>
+			</nav>
+	</header>
 
-    <div class="region-banner">
-        <div>
-            <h2>Visayas Fish Species</h2>
-            <p>Explore the vibrant marine life of the central Philippines</p>
-        </div>
-    </div>
+	<div class="region-banner">
+			<div>
+					<h2>Visayas Fish Species</h2>
+					<p>Discover the diverse aquatic life of the northern Philippines</p>
+			</div>
+	</div>
 
-    <div class="region-info">
-        <div class="container">
-            <h2>About Visayas' Marine Biodiversity</h2>
-            <p>The waters around Luzon are home to various habitats including coral reefs, mangroves, and seagrass beds, which support diverse fish populations. From the deep-sea fishes of Batanes to the freshwater species of Laguna de Bay, Luzon offers a fascinating glimpse into the Philippines' aquatic treasures.</p>
+	<div class="region-info">
+			<h2>About Visayas' Marine Biodiversity</h2>
+			<p>The Visayas, a central group of islands in the Philippines, is surrounded by some of the most biodiverse marine ecosystems in the world, including the Visayan Sea, the Bohol Sea, and the Cebu Strait. These rich waters make the Visayas a key region for marine biodiversity, supporting a wide variety of fish species crucial for local fisheries and ecological balance.</p>
+			<p>From the vibrant coral reefs in the Tubbataha Reefs Natural Park to the diverse marine life in the waters of Bohol and Leyte, the Visayas' seas are home to a wealth of marine wonders. Its extensive mangrove forests, seagrass meadows, and shallow coastal waters provide essential habitats for reef fish, migratory species, and important breeding grounds for marine life.</p>
+			<div class="search-container">
+					<input type="text" id="searchInput" placeholder="Search fish species..." />
+				</div>          
+			<div id="western" class="region-section">
+					<h3>Western Visayas</h3>
+					<p>Western Visayas, located along the Sibuyan Sea and the Panay Gulf, is renowned for its rich marine biodiversity, supporting both small-scale fishing communities and large commercial fisheries, particularly in areas like Iloilo and Negros Occidental.</p>
+					
+					<div class="carousel-container">
+							<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+							<div class="fish-list carousel-track">
+								<div class="fish-card">
+										<img src="assets/tilapia.jpg" alt="Tilapia">
+										<h3>Tilapia</h3>
+										<p>Widely farmed in the freshwater bodies of the region, tilapia is an important source of protein for local communities.</p>
+										<span class="location">Location: Paoay Lake, La Union</span>
+								</div>
+								<div class="fish-card">
+									<img src="assets/dilis.jpg" alt="Dilis (Anchovy)">
+									<h3>Dilis (Anchovy)</h3>
+									<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+									<span class="location">Location: Pangasinan coastline</span>
+								</div>
+								<div class="fish-card">
+									<img src="assets/malaga.jpg" alt="Malaga (Siganid)">
+									<h3>Malaga (Siganid)</h3>
+									<p>A popular fish in Ilocano cuisine, often prepared as kilawin (ceviche) or inabraw (fish soup).</p>
+									<span class="location">Location: Ilocos Norte, Ilocos Sur</span>
+								</div>
+								<div class="fish-card">
+									<img src="assets/placeholder.png" alt="Bangus (Milkfish)"> 
+									<h3>Bangus (Milkfish)</h3>
+									<p>The most important cultured fish in the Philippines, widely farmed in brackish water ponds and coastal areas of Iloilo and Capiz.</p>
+									<span class="location">Location: Iloilo, Capiz</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Danggit (Rabbitfish)"> 
+									<h3>Danggit (Rabbitfish)</h3>
+									<p>A popular breakfast fish, often dried and served with vinegar. Common in the shallow waters around Guimaras and Negros Occidental.</p>
+									<span class="location">Location: Guimaras, Negros Occidental</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Lapu-Lapu (Grouper)"> 
+									<h3>Lapu-Lapu (Grouper)</h3>
+									<p>A prized reef fish found in marine protected areas and coral reefs, especially off the coasts of Iloilo and Negros.</p>
+									<span class="location">Location: Iloilo, Negros Occidental</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Maya-Maya (Red Snapper)"> 
+									<h3>Maya-Maya (Red Snapper)</h3>
+									<p>A high-value fish known for its white flesh. Found in deep waters and reef systems off Antique and Capiz.</p>
+									<span class="location">Location: Antique, Capiz</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Tulingan (Mackerel Tuna)"> 
+									<h3>Tulingan (Mackerel Tuna)</h3>
+									<p>A migratory pelagic fish commonly caught in local fisheries. Known for its speed and firm, flavorful meat.</p>
+									<span class="location">Location: Negros Occidental, Iloilo</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Alumahan (Indian Mackerel)"> 
+									<h3>Alumahan (Indian Mackerel)</h3>
+									<p>A common catch in the region’s coastal markets.</p>
+									<span class="location">Location: Iloilo, Antique</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Tamban (Sardine)"> 
+									<h3>Tamban (Sardine)</h3>
+									<p>Caught seasonally in large numbers along the coasts of Aklan and Antique. Frequently used in canning and drying.</p>
+									<span class="location">Location: Aklan, Antique</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Tanguigue (Spanish Mackerel)"> 
+									<h3>Tanguigue (Spanish Mackerel)</h3>
+									<p>A fast-swimming predator highly sought after for its flavorful meat. Found in the open waters of the Visayan Sea.</p>
+									<span class="location">Location: Capiz, Aklan</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Talakitok (Trevally)"> 
+									<h3>Talakitok (Trevally)</h3>
+									<p>Also called Jackfish, it is a strong game fish commonly caught off the coast of Iloilo and Antique.</p>
+									<span class="location">Location: Iloilo, Antique</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Barongoy (Flying Fish)"> 
+									<h3>Barongoy (Flying Fish)</h3>
+									<p>Known for its ability to glide above the water's surface, it's occasionally caught in Sulu Sea waters off southern Antique.</p>
+									<span class="location">Location: Antique</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Gindara (Cod)"> 
+									<h3>Gindara (Cod)</h3>
+									<p>Not traditionally native but now locally caught and served in select areas of Bohol and southern Panay, such as Iloilo.</p>
+									<span class="location">Location: Iloilo</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Banak (Mullet)"> 
+									<h3>Banak (Mullet)</h3>
+									<p>This mild-flavored fish thrives in river mouths and brackish waters in Western Visayas, especially in Iloilo River.</p>
+									<span class="location">Location: Iloilo</span>
+								  </div>
+								  
+								  <div class="fish-card">
+									<img src="assets/placeholder.png" alt="Pugot (Pufferfish)"> 
+									<h3>Pugot (Pufferfish)</h3>
+									<p>Though consumed with caution, locals in Antique are known to prepare specific non-toxic species.</p>
+									<span class="location">Location: Antique</span>
+								  </div>								  							  
+							</div>
+							<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+					</div>
+						
+			</div>
+			
+			<div id="central" class="region-section">
+					<h3>Central Visayas</h3>
+					<p>Central Visayas, with its extensive coastline along the Cebu Strait and the Bohol Sea, is home to diverse marine ecosystems, supporting fisheries and aquaculture industries that contribute significantly to the region's economy.</p>
+					
+					<div class="carousel-container">
+						<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+						<div class="fish-list carousel-track">
+							<div class="fish-card">
+									<img src="images/malaga.jpg" alt="Ludong (President's Fish)">
+									<h3>Ludong (President's Fish)</h3>
+									<p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
+									<span class="location">Location: Cagayan River</span>
+							</div>
+							<div class="fish-card">
+									<img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
+									<h3>Pacific Bluefin Tuna</h3>
+									<p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
+									<span class="location">Location: Babuyan Channel</span>
+							</div>
+							<div class="fish-card">
+								<img src="images/dalag.jpg" alt="Dalag (Mudfish)">
+								<h3>Dalag (Mudfish)</h3>
+								<p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
+								<span class="location">Location: Isabela wetlands</span>	
+							</div>
+							<div class="fish-card">
+									<img src="images/dilis.jpg" alt="Dilis (Anchovy)">
+									<h3>Dilis (Anchovy)</h3>
+									<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+									<span class="location">Location: Pangasinan coastline</span>
+							</div>
+							<div class="fish-card">
+								<img src="assets/placeholder.png" alt="Bangus (Milkfish)">
+								<h3>Bangus (Milkfish)</h3>
+								<p>The most important cultured fish in the Philippines, with Pampanga and Bulacan being major producers.</p>
+								<span class="location">Location: Pampanga, Bulacan, Cebu, Bohol, Leyte, Samar</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Tarsier Shrimp (Mantis Shrimp)">
+								<h3>Tarsier Shrimp (Mantis Shrimp)</h3>
+								<p>Known for their lightning-fast strikes, mantis shrimp are found in coral rubble and sandy seafloors. Bohol is one of the few places where they're traditionally caught.</p>
+								<span class="location">Location: Bohol</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Maliputo (Giant Trevally)">
+								<h3>Maliputo (Giant Trevally)</h3>
+								<p>Though more known in Batangas, juvenile GTs also enter brackish zones in Negros Oriental, making them a prized catch among local anglers.</p>
+								<span class="location">Location: Negros Oriental</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Pugapo (Goby)">
+								<h3>Pugapo (Goby)</h3>
+								<p>A small, often colorful reef and tide pool fish commonly found around Siquijor and Bohol. Many species have unique adhesive pelvic fins.</p>
+								<span class="location">Location: Siquijor, Bohol</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Pakol (Mullet)">
+								<h3>Pakol (Mullet)</h3>
+								<p>Found in the coastal shallows and estuaries of Cebu and Siquijor. These bottom feeders are adapted to brackish and even freshwater systems.</p>
+								<span class="location">Location: Siquijor, Cebu</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Sugpo (Giant Tiger Prawn)">
+								<h3>Sugpo (Giant Tiger Prawn)</h3>
+								<p>Farmed in the mangrove areas of Bohol and southern Cebu. Considered a top-tier seafood product from the region.</p>
+								<span class="location">Location: Cebu, Bohol</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Tuna (Yellowfin / Skipjack)">
+								<h3>Tuna (Yellowfin / Skipjack)</h3>
+								<p>Caught in the deep waters between Bohol and Cebu, especially near the Bohol Sea.</p>
+								<span class="location">Location: Cebu, Bohol, Bohol Sea</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Hasa-hasa (Short-bodied Mackerel)">
+								<h3>Hasa-hasa (Short-bodied Mackerel)</h3>
+								<p>Caught in the waters off Leyte and Samar but also traded widely in Central Visayas markets, especially Cebu.</p>
+								<span class="location">Location: Cebu, Bohol</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Danggit (Rabbitfish)">
+								<h3>Danggit (Rabbitfish)</h3>
+								<p>Iconic dried fish from Cebu, especially around Mactan. Central to local breakfasts and coastal livelihood.</p>
+								<span class="location">Location: Cebu</span>
+							  </div>
+							  
+							  <div class="fish-card">
+								<img src="assets/placeholder.png" alt="Bakasi (Reef Eel)">
+								<h3>Bakasi (Reef Eel)</h3>
+								<p>A Cebuano delicacy, especially from the town of Cordova. These eels are grilled or stewed and are part of traditional coastal diets.</p>
+								<span class="location">Location: Cebu (Cordova)</span>
+							  </div>							  
+						</div>
+						<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+				</div>
+			</div>
+			
 
-            <div id="western" class="region-section">
-                <h3>Western Visayas</h3>
-                <p>Western Visayas is known for its rich marine life. The region is home to a variety of fish species that thrive in its coastal waters.</p>
+		<div id="eastern" class="region-section">
+			<h3>Eastern Visayas</h3>
+			<p>Eastern Visayas, bordered by the Leyte Gulf and the Philippine Sea, is known for its productive fishing grounds, which are vital to the region's local fishing industry and food security, particularly in Leyte and Samar.</p>
+			
+			<div class="carousel-container">
+				<button class="carousel-btn left" onclick="scrollFish(this, -1)">&#10094;</button>
+				<div class="fish-list carousel-track">
+					<div class="fish-card">
+							<img src="images/malaga.jpg" alt="Ludong (President's Fish)">
+							<h3>Ludong (President's Fish)</h3>
+							<p>Known as the "President's Fish" due to its rarity and high value, this migratory fish is endemic to the Cagayan River.</p>
+							<span class="location">Location: Cagayan River</span>
+					</div>
+					<div class="fish-card">
+							<img src="images/tuna-pacific.jpg" alt="Pacific Bluefin Tuna">
+							<h3>Pacific Bluefin Tuna</h3>
+							<p>These large, powerful fish are found in the deep waters off the eastern coast of Cagayan.</p>
+							<span class="location">Location: Babuyan Channel</span>
+					</div>
+					<div class="fish-card">
+						<img src="images/dalag.jpg" alt="Dalag (Mudfish)">
+						<h3>Dalag (Mudfish)</h3>
+						<p>A freshwater fish that can survive in oxygen-poor environments, commonly found in rice fields and swamps.</p>
+						<span class="location">Location: Isabela wetlands</span>	
+					</div>
+					<div class="fish-card">
+							<img src="images/dilis.jpg" alt="Dilis (Anchovy)">
+							<h3>Dilis (Anchovy)</h3>
+							<p>Small but economically important, dilis is often dried and used as a condiment or side dish.</p>
+							<span class="location">Location: Pangasinan coastline</span>
+					</div>
+					<div class="fish-card">
+						<img src="assets/placeholder.png" alt="Bangus (Milkfish)">
+						<h3>Bangus (Milkfish)</h3>
+						<p>The most important cultured fish in the Philippines, with Pampanga and Bulacan being major producers.</p>
+						<span class="location">Location: Pampanga, Bulacan, Cebu, Bohol, Leyte, Samar</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Tulingan (Mackerel Tuna)">
+						<h3>Tulingan (Mackerel Tuna)</h3>
+						<p>A widely consumed fish, used in many local dishes such as paksiw na tulingan and linabog.</p>
+						<span class="location">Location: Leyte, Southern Leyte, Eastern Samar</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Pusit (Squid)">
+						<h3>Pusit (Squid)</h3>
+						<p>Caught mainly in Leyte Gulf and Eastern Samar waters, popular grilled or fried.</p>
+						<span class="location">Location: Leyte Gulf, Eastern Samar</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Tiki-tiki (Anchovy)">
+						<h3>Tiki-tiki (Anchovy)</h3>
+						<p>Used for making ginamos (fermented fish paste) or dried for snacks and side dishes.</p>
+						<span class="location">Location: Leyte, Samar, Iligan Bay</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Bakoko (Pufferfish)">
+						<h3>Bakoko (Pufferfish)</h3>
+						<p>Though potentially toxic, it's locally known and handled carefully in some coastal communities.</p>
+						<span class="location">Location: Leyte, Biliran</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Tamban (Sardine)">
+						<h3>Tamban (Sardine)</h3>
+						<p>Often caught in large schools, these fish are canned, dried, or cooked fresh.</p>
+						<span class="location">Location: Leyte, Samar, Northern Samar</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Hasa-hasa (Short-bodied Mackerel)">
+						<h3>Hasa-hasa (Short-bodied Mackerel)</h3>
+						<p>Abundant in coastal waters and frequently sold in wet markets throughout the region.</p>
+						<span class="location">Location: Leyte, Samar, Misamis Oriental, Camiguin</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Barongoy (Flying Fish)">
+						<h3>Barongoy (Flying Fish)</h3>
+						<p>Known locally as bangsi, these fish are dried and grilled in many coastal towns.</p>
+						<span class="location">Location: Eastern Samar, Southern Leyte, Sulu Sea</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Alumahan (Indian Mackerel)">
+						<h3>Alumahan (Indian Mackerel)</h3>
+						<p>A market favorite, usually fried or stewed in tomatoes and vinegar.</p>
+						<span class="location">Location: Northern Samar, Eastern Samar, Davao Gulf</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Curacha (Spanner Crab)">
+						<h3>Curacha (Spanner Crab)</h3>
+						<p>Occasionally caught in the deeper waters off Eastern Samar. Highly prized in seafood dishes.</p>
+						<span class="location">Location: Eastern Samar</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Lato (Sea Grapes)">
+						<h3>Lato (Sea Grapes)</h3>
+						<p>Edible seaweed served fresh with vinegar, onions, and tomatoes.</p>
+						<span class="location">Location: Leyte, Biliran</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Mangrove Mudskipper">
+						<h3>Mangrove Mudskipper (Periophthalmus)</h3>
+						<p>Amphibious fish that "walks" on land using pectoral fins.</p>
+						<span class="location">Location: Mangrove areas in Samar and Leyte</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Tropical Sea Cucumber">
+						<h3>Tropical Sea Cucumber (Holothuria)</h3>
+						<p>Harvested in Biliran and Leyte’s coastal areas; exported as a delicacy.</p>
+						<span class="location">Location: Leyte, Biliran</span>
+					  </div>
+					  
+					  <div class="fish-card">
+						<img src="assets/placeholder.png" alt="Ghost Crab">
+						<h3>Ghost Crab (Ocypodinae)</h3>
+						<p>Fast-moving, burrow-dwelling crabs seen at night on sandy beaches.</p>
+						<span class="location">Location: Leyte, Samar beaches</span>
+					  </div>
+					  
+				</div>
+				<button class="carousel-btn right" onclick="scrollFish(this, 1)">&#10095;</button>
+		</div>
+	</div>
+			<!-- More regions would continue here -->
+	</div>
 
-                <div class="fish-grid-wrapper">
-                    <button class="scroll-left" data-target="western">←</button>
-                    
-                    <div class="fish-grid">
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Danggit Image"></div>
-                            <h3>Danggit (Rabbitfish)</h3>
-                            <span class="location">Location: Negros Occidental, Guimaras</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Managat Image"></div>
-                            <h3>Managat (Red Snapper)</h3>
-                            <span class="location">Location: Antique, Capiz</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Kitong Image"></div>
-                            <h3>Kitong (Rabbitfish)</h3>
-                            <span class="location">Location: Negros Occidental, Guimaras</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Tamban Image"></div>
-                            <h3>Tamban (Sardine)</h3>
-                            <span class="location">Location: Aklan, Antique</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Isdang Lapu-Lapu Image"></div>
-                            <h3>Isdang Lapu-Lapu (Grouper)</h3>
-                            <span class="location">Location: Iloilo</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Tanguigue Image"></div>
-                            <h3>Tanguigue (Mackerel)</h3>
-                            <span class="location">Location: Capiz, Aklan</span>
-                        </div>
-                        <!-- More fish species added -->
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Lato Image"></div>
-                            <h3>Lato (Sea Grapes)</h3>
-                            <span class="location">Location: Bacolod, Iloilo</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Talakitok Image"></div>
-                            <h3>Talakitok (Jackfish)</h3>
-                            <span class="location">Location: Iloilo, Antique</span>
-                        </div>
-                    </div>
-                    <button class="scroll-right" data-target="western">→</button>
-                      </div>
-                </div>
-            </div>
+	<button id="backToTop" data-aos="fade-up" data-aos-duration="600" title="Go to top">↑</button>
 
-            <div id="central" class="region-section">
-                <h3>Central Visayas</h3>
-                <p>Central Visayas is home to an abundance of diverse marine species, including many types of fish that contribute to the local fishing economy.</p>
 
-                <div class="fish-grid-wrapper">
-                    <button class="scroll-left" data-target="central">←</button>
-                    <div class="fish-grid">
-                        <!-- More fish species for Central Visayas -->
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Bangus Image"></div>
-                            <h3>Bangus (Milkfish)</h3>
-                            <span class="location">Location: Cebu, Bohol</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Tuna Image"></div>
-                            <h3>Tuna (Thunnus)</h3>
-                            <span class="location">Location: Cebu, Bohol</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Lapu-Lapu Image"></div>
-                            <h3>Lapu-Lapu (Grouper)</h3>
-                            <span class="location">Location: Cebu, Negros Oriental</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Gindara Image"></div>
-                            <h3>Gindara (Cod)</h3>
-                            <span class="location">Location: Bohol</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Pugapo Image"></div>
-                            <h3>Pugapo (Goby)</h3>
-                            <span class="location">Location: Bohol, Siquijor</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Bariles Image"></div>
-                            <h3>Bariles (Thunnus)</h3>
-                            <span class="location">Location: Bohol, Negros Oriental</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Pakol Image"></div>
-                            <h3>Pakol (Mullet)</h3>
-                            <span class="location">Location: Siquijor, Cebu</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Tulingan Image"></div>
-                            <h3>Tulingan (Skipjack Tuna)</h3>
-                            <span class="location">Location: Negros Oriental, Bohol</span>
-                        </div>
-                    </div>
-                    <button class="scroll-right" data-target="central">→</button>
-                </div>
-            </div>
 
-            <div id="eastern" class="region-section">
-                <h3>Eastern Visayas</h3>
-                <p>Eastern Visayas features rich coral reefs and marine biodiversity that sustain various fish species.</p>
+	<footer>
+		<div class="footer-content">
+				<div class="footer-logo">
+						<img src="assets/logo-removebg-preview.png" alt="TalaIsda Logo" class="logo">
+				</div>
+				<div class="footer-links">
+						<h3>Quick Links</h3>
+						<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="luzon.html">Luzon</a></li>
+								<li><a href="visayas.html">Visayas</a></li>
+								<li><a href="mindanao.html">Mindanao</a></li>
+								<li><a href="discovery.html">Own Discovery</a></li>
+								<li><a href="about.html">About</a></li>
+						</ul>
+				</div>
+				<div class="footer-contact">
+						<h3>Contact Us</h3>
+						<p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
+						<p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
+						<div class="social-icons">
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+						</div>
+				</div>
+		</div>
+		<div class="footer-bottom">
+				<p>&copy; <script>document.write(new Date().getFullYear())</script> TalaIsda. All Rights Reserved</p>
+		</div>
+</footer>
 
-                <div class="fish-grid-wrapper">
-                    <button class="scroll-left" data-target="eastern">→</button>
-                    <div class="fish-grid">
-                        
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Tambakol Image"></div>
-                            <h3>Tambakol (Yellowfin Tuna)</h3>
-                            <span class="location">Location: Leyte</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Barilis Image"></div>
-                            <h3>Barilis (Snapper)</h3>
-                            <span class="location">Location: Samar, Leyte</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Bangus Image"></div>w
-                            <h3>Bangus (Milkfish)</h3>
-                            <span class="location">Location: Leyte, Samar</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Tamban Image"></div>
-                            <h3>Tamban (Sardines)</h3>
-                            <span class="location">Location: Leyte, Samar</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Tiki Image"></div>
-                            <h3>Tiki-tiki (Anchovy)</h3>
-                            <span class="location">Location: Leyte, Samar</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Kitong Image"></div>
-                            <h3>Kitong (Spinefoot)</h3>
-                            <span class="location">Location: Leyte, Biliran</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Pusit Image"></div>
-                            <h3>Pusit (Squid)</h3>
-                            <span class="location">Location: Leyte Gulf, Eastern Samar</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Bakoko Image"></div>
-                            <h3>Bakoko (Pufferfish)</h3>
-                            <span class="location">Location: Leyte, Biliran</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Alumahan Image"></div>
-                            <h3>Alumahan (Mackerel)</h3>
-                            <span class="location">Location: Northern Samar, Eastern Samar</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Hasa Image"></div>
-                            <h3>Hasa-hasa (Short-bodied Mackerel)</h3>
-                            <span class="location">Location: Leyte, Samar</span>
-                        </div>
-                        <div class="fish-card">
-                            <div class="fish-card-img"><img src="/assets/placeholder.png" alt="Barongoy Image"></div>
-                            <h3>Barongoy (Flying Fish)</h3>
-                            <span class="location">Location: Eastern Samar, Southern Leyte</span>
-                        </div>
-                    </div>
-                    <button class="scroll-right" data-target="eastern">→</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- END OF YOUR BODY CONTENT -->
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-    // Handle scroll buttons for all regions
-    const scrollButtons = document.querySelectorAll(".scroll-left, .scroll-right");
-
-    scrollButtons.forEach(button => {
-        button.addEventListener("click", () => {
-            const targetRegion = button.dataset.target;
-            const section = document.querySelector(`#${targetRegion}`);
-            if (!section) return;
-
-            const grid = section.querySelector(".fish-grid");
-            const scrollAmount = 250;
-
-            if (button.classList.contains("scroll-left")) {
-                grid.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-            } else {
-                grid.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-            }
-        });
-    });
-
-    // Highlighting logic for all .fish-grid sections
-    const grids = document.querySelectorAll(".fish-grid");
-
-    grids.forEach(grid => {
-        grid.addEventListener("scroll", () => {
-            const cards = grid.querySelectorAll(".fish-card");
-            const gridRect = grid.getBoundingClientRect();
-
-            cards.forEach(card => {
-                const cardRect = card.getBoundingClientRect();
-                const cardCenter = cardRect.left + cardRect.width / 2;
-                const gridCenter = gridRect.left + gridRect.width / 2;
-                const isCentered = Math.abs(cardCenter - gridCenter) < cardRect.width / 2;
-
-                if (isCentered) {
-                    card.classList.add("highlight");
-                    card.classList.remove("dimmed");
-                } else {
-                    card.classList.remove("highlight");
-                    card.classList.add("dimmed");
-                }
-            });
-        });
-
-        // Trigger highlighting on load
-        grid.dispatchEvent(new Event('scroll'));
-    });
-});
-
-        </script>
-        
-  </body>
-  
-      
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>			
 </body>
 </html>
-
