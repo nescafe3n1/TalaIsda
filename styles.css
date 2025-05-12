@@ -836,3 +836,194 @@ footer {
     pointer-events: auto;
   }
   
+  .discoveries-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/discoveryimage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    font-family: poppins, sans-serif;
+}
+
+.discoveries-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-family: poppins, sans-serif;
+}
+
+.discoveries-content {
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.discoveries-content h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.discoveries-content p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.discovery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.discovery-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.discovery-card:hover {
+    transform: translateY(-5px);
+}
+
+.discovery-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.discovery-info {
+    padding: 20px;
+}
+
+.discovery-info h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.discovery-info p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.discovery-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.discovery-location {
+    display: flex;
+    align-items: center;
+}
+
+.discovery-location i {
+    margin-right: 5px;
+    color: #0077b6;
+}
+
+.discovery-date {
+    display: flex;
+    align-items: center;
+}
+
+.discovery-date i {
+    margin-right: 5px;
+    color: #0077b6;
+}
+
+.discovery-user {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.discovery-user i {
+    margin-right: 5px;
+    color: #0077b6;
+}
+
+.submit-discovery {
+    text-align: center;
+    margin: 40px 0;
+    margin-left: 140%;
+}
+
+.submit-btn {
+    display: inline-flex;
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #005b8c;
+}
+
+.discovery-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+}
+
+.filter-group label {
+    margin-right: 10px;
+    font-weight: 600;
+    color: #0077b6;
+}
+
+.filter-group select {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.search-box {
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .discovery-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .discovery-filters {
+        flex-direction: column;
+    }
+    
+    .filter-group {
+        width: 100%;
+    }
+}
