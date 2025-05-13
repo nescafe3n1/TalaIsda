@@ -1,57 +1,33 @@
 const searchInput = document.getElementById('searchInput');
 
 searchInput.addEventListener('keyup', () => {
-  const query = searchInput.value.trim().toLowerCase();
-  const regionSections = document.querySelectorAll('.region-section');
-  const existingResults = document.getElementById('search-results');
+	const query = searchInput.value.trim().toLowerCase();
+	const regionSections = document.querySelectorAll('.region-section');
+	const allFishCards = document.querySelectorAll('.fish-card');
 
-  if (existingResults) existingResults.remove();
+	if (query === '') {
+		regionSections.forEach(section => section.style.display = 'block');
+		allFishCards.forEach(card => card.style.display = 'block');
+		return;
+	}
 
-  if (query === '') {
-    regionSections.forEach(section => section.style.display = 'block');
-    return;
-  }
+	regionSections.forEach(section => section.style.display = 'none');
 
-  regionSections.forEach(section => section.style.display = 'none');
+	allFishCards.forEach(card => {
+		const name = card.querySelector('h3')?.textContent.toLowerCase() || '';
+		const location = card.querySelector('.location')?.textContent.toLowerCase() || '';
+		const matchText = name + ' ' + location;
 
-  const allFishCards = document.querySelectorAll('.fish-card');
-  const matched = [];
+		if (matchText.includes(query)) {
+			card.style.display = 'block';
 
-  allFishCards.forEach(card => {
-    const name = card.querySelector('h3').textContent.toLowerCase();
-    const location = card.querySelector('.location')?.textContent.toLowerCase() || '';
-    if (name.includes(query) || location.includes(query)) {
-      matched.push(card.cloneNode(true));
-    }
-  });
-
-  const resultsSection = document.createElement('div');
-  resultsSection.id = 'search-results';
-  resultsSection.className = 'region-section';
-
-  const heading = document.createElement('h3');
-  heading.textContent = 'Search Results';
-  resultsSection.appendChild(heading);
-
-  const list = document.createElement('div');
-  list.className = 'fish-list';
-
-  if (matched.length > 0) {
-    matched.forEach(card => list.appendChild(card));
-  } else {
-    list.innerHTML = `
-      <div style="display: block;">
-        <p>No matching fish found.</p>
-        <p>
-          Want to add your discovery?
-          <a href="discovery.html" style="color: #0077b6; font-weight: bold;">Go to contribution page.</a>
-        </p>
-      </div>
-    `;
-  }
-
-  resultsSection.appendChild(list);
-  document.querySelector('.search-container').after(resultsSection);
+			// Also show the region this card belongs to
+			const region = card.closest('.region-section');
+			if (region) region.style.display = 'block';
+		} else {
+			card.style.display = 'none';
+		}
+	});
 });
 
 function scrollFish(button, direction) {
