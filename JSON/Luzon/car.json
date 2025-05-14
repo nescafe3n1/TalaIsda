@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Native Goby",
+    "commonName": "Bungto",
+    "scientificName": "Glossogobius spp.",
+    "description": "Small native gobies that inhabit mountain streams and rivers. They are part of the local food tradition in remote Cordilleran towns.",
+    "image": "assets/LUZON/CAR/bungo.jpg",
+    "location": "Abra, Ifugao, Benguet"
+  },
+  {
+    "name": "Common Carp",
+    "commonName": "Carpa",
+    "scientificName": "Cyprinus carpio",
+    "description": "Introduced to the Philippines, this freshwater fish is now common in the rivers and lakes of the Cordillera region. Also known as Tëmaginting (Silver Carp).",
+    "image": "assets/LUZON/CAR/carpa.jpg",
+    "location": "Chico River, Mountain Province, Maguindanao"
+  },
+  {
+    "name": "Mudfish",
+    "commonName": "Dalag",
+    "scientificName": "Chana striata",
+    "description": "A resilient freshwater species found in rice fields and swamps. Valued for its ability to survive in low-oxygen environments.",
+    "image": "assets/LUZON/CAR/dalag.jpg",
+    "location": "Abra River, Kalinga"
+  }, 
+  {
+    "name": "Freshwater Shrimp",
+    "commonName": "Palilang",
+    "scientificName": "Macrobrachium spp.",
+    "description": "These river prawns are common in clean, flowing waters. They are often caught by hand or with bamboo traps.",
+    "image": "assets/LUZON/CAR/hipon.jpg",
+    "location": "Abra, Apayao, Mountain Province"
+  }, 
+  {
+    "name": "Eel",
+    "commonName": "Igat",
+    "scientificName": "Anguilla spp.",
+    "description": "Freshwater eels that migrate between rivers and the sea. Considered a delicacy in some upland Cordillera towns.",
+    "image": "assets/LUZON/CAR/igat.jpg",
+    "location": "Kalinga, Abra River tributaries"
+  }, 
+  {
+    "name": "Sea Catfish",
+    "commonName": "Kanduli",
+    "scientificName": "Arius manillensis",
+    "description": "A native catfish species that thrives in river systems of the Cordillera. Often cooked in local sour stews.",
+    "image": "assets/LUZON/CAR/kanduli.jpg",
+    "location": "Chico River, Apayao"
+  }, 
+  {
+    "name": "Freshwater Snail",
+    "commonName": "Kuhol",
+    "scientificName": "Pomacea canaliculata",
+    "description": "While often considered a pest in rice fields, kuhol is also harvested as a food source in the region and cooked in coconut milk.",
+    "image": "assets/LUZON/CAR/kuhol.jpg",
+    "location": "Rice fields and waterways in Kalinga and Ifugao"
+  }, 
+  {
+    "name": "Climbing Perch",
+    "commonName": "Martiniko",
+    "scientificName": "Anabas testudineus",
+    "description": "A hardy freshwater fish that can breathe air and survive out of water temporarily. Often caught in paddies and creeks.",
+    "image": "assets/LUZON/CAR/martiniko.jpg",
+    "location": "Mountain Province, Ifugao"
+  },
+  {
+    "name": "Black Pacu",
+    "commonName": "Tambaki",
+    "scientificName": "Colossoma macropomum",
+    "description": "A South American species introduced to Philippine aquaculture. Known for its fast growth and adaptability to upland fishponds.",
+    "image": "assets/LUZON/CAR/tambaki.jpg",
+    "location": "Aquaculture sites in Benguet and Ifugao"
+  },
+  {
+    "name": "Tilapia",
+    "commonName": "Tilapia",
+    "scientificName": "Oreochromis niloticus",
+    "description": "Tilapia is a freshwater fish commonly raised in ponds. It has a mild taste, firm flesh, and is a staple in Filipino households due to its affordability and versatility.",
+    "image": "assets/LUZON/CAR/tilapia.jpg",
+    "location": "Ambuklao Dam, Baguio City"
+  }
+]

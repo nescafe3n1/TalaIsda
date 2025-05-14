@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Indian Mackerel",
+    "commonName": "Alumahan",
+    "scientificName": "Rastrelliger kanagurta",
+    "description": "A common catch in the region’s coastal markets.",
+    "image": "assets/VISAYAS/Western Visayas/alumahan.jpg",
+    "location": "Iloilo, Antique"
+  },
+  {
+    "name": "Milkfish",
+    "commonName": "Bangus",
+    "scientificName": "Chanos chanos",
+    "description": "The most important cultured fish in the Philippines, widely farmed in brackish water ponds and coastal areas of Iloilo and Capiz.",
+    "image": "assets/VISAYAS/Western Visayas/bangus.jpg",
+    "location": "Iloilo, Capiz"
+  },
+  {
+    "name": "Pufferfish",
+    "commonName": "Pugot",
+    "scientificName": "Tetraodontidae",
+    "description": "Though consumed with caution, locals in Antique are known to prepare specific non-toxic species.",
+    "image": "assets/VISAYAS/Western Visayas/bakako.jpg",
+    "location": "Antique"
+  },
+  {
+    "name": "Mullet",
+    "commonName": "Banak",
+    "scientificName": "Mugilidae",
+    "description": "This mild-flavored fish thrives in river mouths and brackish waters in Western Visayas, especially in Iloilo River.",
+    "image": "assets/VISAYAS/Western Visayas/banak.jpg",
+    "location": "Iloilo"
+  },
+  {
+    "name": "Flying Fish",
+    "commonName": "Barongoy",
+    "scientificName": "Exocoetidae",
+    "description": "Known for its ability to glide above the water's surface, it's occasionally caught in Sulu Sea waters off southern Antique.",
+    "image": "assets/VISAYAS/Western Visayas/barongoy.jpg",
+    "location": "Antique"
+  },
+  {
+    "name": "Rabbitfish",
+    "commonName": "Danggit",
+    "scientificName": "Siganus spp.",
+    "description": "A popular breakfast fish, often dried and served with vinegar. Common in the shallow waters around Guimaras and Negros Occidental.",
+    "image": "assets/VISAYAS/Western Visayas/danggit.jpg",
+    "location": "Guimaras, Negros Occidental"
+  },
+  {
+    "name": "Cod",
+    "commonName": "Gindara",
+    "scientificName": "Gadus morhua",
+    "description": "Not traditionally native but now locally caught and served in select areas of Bohol and southern Panay, such as Iloilo.",
+    "image": "assets/VISAYAS/Western Visayas/gindara.jpg",
+    "location": "Iloilo"
+  },
+  {
+    "name": "Grouper",
+    "commonName": "Lapu-Lapu",
+    "scientificName": "Epinephelidae",
+    "description": "A prized reef fish found in marine protected areas and coral reefs, especially off the coasts of Iloilo and Negros.",
+    "image": "assets/VISAYAS/Western Visayas/lapu-lapu.jpg",
+    "location": "Iloilo, Negros Occidental"
+  },
+  {
+    "name": "Red Snapper",
+    "commonName": "Maya-Maya",
+    "scientificName": "Lutjanus campechanus",
+    "description": "A high-value fish known for its white flesh. Found in deep waters and reef systems off Antique and Capiz.",
+    "image": "assets/VISAYAS/Western Visayas/maya-maya.jpg",
+    "location": "Antique, Capiz"
+  },
+  {
+    "name": "Trevally",
+    "commonName": "Talakitok",
+    "scientificName": "Caranx ignobilis",
+    "description": "Also called Jackfish, it is a strong game fish commonly caught off the coast of Iloilo and Antique.",
+    "image": "assets/VISAYAS/Western Visayas/talakitok.jpg",
+    "location": "Iloilo, Antique"
+  },
+  {
+    "name": "Sardine",
+    "commonName": "Tamban",
+    "scientificName": "Sardina pilchardus",
+    "description": "Caught seasonally in large numbers along the coasts of Aklan and Antique. Frequently used in canning and drying.",
+    "image": "assets/VISAYAS/Western Visayas/tamban.jpg",
+    "location": "Aklan, Antique"
+  },
+  {
+    "name": "Spanish Mackerel",
+    "commonName": "Tanguigue",
+    "scientificName": "Scomberomorus spp.",
+    "description": "A fast-swimming predator highly sought after for its flavorful meat. Found in the open waters of the Visayan Sea.",
+    "image": "assets/VISAYAS/Western Visayas/tanguigue.jpg",
+    "location": "Capiz, Aklan"
+  },
+  {
+    "name": "Mackerel Tuna",
+    "commonName": "Tulingan",
+    "scientificName": "Euthynnus affinis",
+    "description": "A migratory pelagic fish commonly caught in local fisheries. Known for its speed and firm, flavorful meat.",
+    "image": "assets/VISAYAS/Western Visayas/tulingan.jpg",
+    "location": "Negros Occidental, Iloilo"
+  }
+]

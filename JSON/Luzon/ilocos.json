@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Dilis",
+    "commonName": "Anchovy",
+    "scientificName": "Stolephorus spp. and other Engraulidae",
+    "description": "Small, schooling fish found near the coast, often used for fish paste and other local dishes. Also known as Bolinao or Tiki-Tiki.",
+    "image": "assets/dilis.jpg",
+    "location": "Pangasinan coastline"
+  },
+  {
+    "name": "Galunggong",
+    "commonName": "Roundscad",
+    "scientificName": "Decapterus macrosoma",
+    "description": "A staple fish in Filipino diets, known locally as 'Galunggong,' and a significant catch in many parts of the Philippines, including the Ilocos Region.",
+    "image": "assets/LUZON/ilocos region/galunggong.jpg",
+    "location": "Coastal waters of the Ilocos Region"
+  },
+  {
+    "name": "Skipjack Tuna",
+    "commonName": "Gulyasan",
+    "scientificName": "Katsuwonus pelamis",
+    "description": "An important pelagic tuna species commonly caught in the waters off Luzon, including the Ilocos coast.",
+    "image": "assets/LUZON/ilocos region/skipjack.jpg",
+    "location": "Offshore waters of the Ilocos Region"
+  },
+  {
+    "name": "Groupers",
+    "commonName": "Lapu-Lapu",
+    "scientificName": "Epinephelus spp. and other Epinephelidae",
+    "description": "A group of high-value reef fish prized for their firm, white flesh. Found in coral reefs and rocky areas along the Ilocos coast.",
+    "image": "assets/LUZON/ilocos region/lapu-lapu.jpg",
+    "location": "Coral reefs and rocky areas off the Ilocos coast"
+  },
+  {
+    "name": "Malaga",
+    "commonName": "Siganid",
+    "scientificName": "Siganus spp.",
+    "description": "A popular rabbitfish in Ilocano cuisine, often prepared as kilawin (ceviche) or inabraw (fish soup). Common in seagrass beds and reef areas.",
+    "image": "assets/malaga.jpg",
+    "location": "Ilocos Norte, Ilocos Sur"
+  },
+  {
+    "name": "Maya-Maya",
+    "commonName": "Snapper",
+    "scientificName": "Lutjanus spp.",
+    "description": "Commercially important reef fish with firm, flavorful flesh. Known locally as Maya-Maya and found in reefs off the Ilocos coast.",
+    "image": "assets/LUZON/ilocos region/maya-maya.jpg",
+    "location": "Coral reefs off the Ilocos coast"
+  },
+  {
+    "name": "Cavalla",
+    "commonName": "Talakitok",
+    "scientificName": "Various Caranx spp.",
+    "description": "Active predatory fish often associated with reefs and coastal areas. Also known as Talakitok.",
+    "image": "assets/LUZON/ilocos region/talakitok.jpg",
+    "location": "Coastal waters of the Ilocos Region"
+  },
+  {
+    "name": "Yellowfin Tuna",
+    "commonName": "Tambakol",
+    "scientificName": "Thunnus albacares",
+    "description": "A migratory pelagic tuna species highly valued for its meat. Also known as Bariles (juvenile).",
+    "image": "assets/LUZON/ilocos region/tambakol.jpg",
+    "location": "Offshore waters accessible from the Ilocos Region"
+  },
+  {
+    "name": "Tilapia",
+    "commonName": "Tilapia",
+    "scientificName": "Oreochromis spp.",
+    "description": "A widely farmed freshwater fish known for being a low-cost protein source in local communities.",
+    "image": "assets/tilapia.jpg",
+    "location": "Paoay Lake, La Union"
+  }
+]

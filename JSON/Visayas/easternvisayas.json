@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Indian Mackerel",
+    "commonName": "Alumahan",
+    "scientificName": "Rastrelliger kanagurta",
+    "description": "A staple in wet markets, commonly grilled or fried. Recognized for its affordability and rich flavor.",
+    "image": "assets/LUZON/Bicol/alumahan.jpg",
+    "location": "Northern Samar, Eastern Samar, Davao Gulf"
+  },
+  {
+    "name": "Pufferfish",
+    "commonName": "Bakoko",
+    "scientificName": "Tetraodontidae",
+    "description": "Though potentially toxic, it's locally known and handled carefully in some coastal communities.",
+    "image": "assets/VISAYAS/Eastern Visayas/bakako.jpg",
+    "location": "Leyte, Biliran"
+  },
+  {
+    "name": "Tropical Sea Cucumber",
+    "commonName": "Balatan",
+    "scientificName": "Holothuria spp.",
+    "description": "Harvested in Biliran and Leyte’s coastal areas; exported as a delicacy.",
+    "image": "assets/VISAYAS/Eastern Visayas/balatan.jpg",
+    "location": "Leyte, Biliran"
+  },
+  {
+    "name": "Bangus",
+    "commonName": "Milkfish",
+    "scientificName": "Chanos chanos",
+    "description": "The national fish of the Philippines and the most important cultured species in the country. Pampanga and Bulacan are major producers.",
+    "image": "assets/LUZON/central luzon/bangus.png",
+    "location": "Pampanga, Bulacan, Cebu, Bohol, Leyte, Samar"
+  },
+  {
+    "name": "Flying Fish",
+    "commonName": "Barongoy",
+    "scientificName": "Exocoetus volitans",
+    "description": "Fish with enlarged pectoral fins that allow them to glide above the water’s surface.",
+    "image": "assets/LUZON/cagayan valley/barongoy.jpg",
+    "location": "Eastern Samar, Southern Leyte, Sulu Sea"
+  },
+  {
+    "name": "Spanner Crab",
+    "commonName": "Curacha",
+    "scientificName": "Ranina ranina",
+    "description": "Occasionally caught in the deeper waters off Eastern Samar. Highly prized in seafood dishes.",
+    "image": "assets/VISAYAS/Eastern Visayas/curacho.jpg",
+    "location": "Eastern Samar"
+  },
+  {
+    "name": "Dilis",
+    "commonName": "Anchovy",
+    "scientificName": "Stolephorus spp. and other Engraulidae",
+    "description": "Small, schooling fish found near the coast, often used for fish paste and other local dishes. Also known as Bolinao or Tiki-Tiki.",
+    "image": "assets/dilis.jpg",
+    "location": "Leyte, Samar, Iligan Bay"
+  },
+  {
+    "name": "Short-bodied Mackerel",
+    "commonName": "Hasa-hasa",
+    "scientificName": "Euthynnus affinis",
+    "description": "A medium-sized tuna species that's commercially important in the region. Often caught in coastal waters and sold in wet markets. Also known as Skipjack Tuna.",
+    "image": "assets/LUZON/NCR/hasa-hasa.jpg",
+    "location": "Leyte, Samar, Misamis Oriental, Camiguin"
+  },
+  {
+    "name": "Ghost Crab",
+    "commonName": "Kalogg",
+    "scientificName": "Ocypodinae",
+    "description": "Fast-moving, burrow-dwelling crabs seen at night on sandy beaches.",
+    "image": "assets/VISAYAS/Eastern Visayas/kalog.jpg",
+    "location": "Leyte, Samar beaches"
+  },
+  {
+    "name": "Sea Grapes",
+    "commonName": "Lato",
+    "scientificName": "Caulerpa lentillifera",
+    "description": "Edible seaweed served fresh with vinegar, onions, and tomatoes.",
+    "image": "assets/VISAYAS/Eastern Visayas/lato.jpg",
+    "location": "Leyte, Biliran"
+  },
+  {
+    "name": "Squid",
+    "commonName": "Pusit",
+    "scientificName": "Sepioteuthis lessoniana",
+    "description": "Caught mainly in Leyte Gulf and Eastern Samar waters, popular grilled or fried.",
+    "image": "assets/VISAYAS/Eastern Visayas/pusit.jpg",
+    "location": "Leyte Gulf, Eastern Samar"
+  },
+  {
+    "name": "Mangrove Mudskipper",
+    "commonName": "Talangka-talangka",
+    "scientificName": "Periophthalmus spp.",
+    "description": "Amphibious fish that walks on land using pectoral fins.",
+    "image": "assets/VISAYAS/Eastern Visayas/talangka-talangka.jpg",
+    "location": "Mangrove areas in Samar and Leyte"
+  },
+  {
+    "name": "Tamban",
+    "commonName": "Sardine",
+    "scientificName": "Sardinella spp.",
+    "description": "Small, oily, schooling fish that are essential to marine food webs and heavily harvested for commercial use.",
+    "image": "assets/LUZON/central luzon/tamban.jpg",
+    "location": "Leyte, Samar, Northern Samar"
+  },
+  {
+    "name": "Mackerel Tuna",
+    "commonName": "Tulingan",
+    "scientificName": "Euthynnus affinis",
+    "description": "A medium-sized tuna species that’s important to regional fisheries. Known for its strong flavor and is often used in local dishes like sinaing or paksiw.",
+    "image": "assets/LUZON/Bicol/tulingan(skipjack tuna na gamit nyo).jpg",
+    "location": "Leyte, Southern Leyte, Eastern Samar"
+  }
+]

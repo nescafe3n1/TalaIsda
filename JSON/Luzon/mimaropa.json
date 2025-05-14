@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Anemone",
+    "commonName": "Butbutan or Bulaklak ng Dagat",
+    "scientificName": "Acanthaster planci",
+    "description": "While sometimes considered a threat to coral reefs in high densities, it is a native species and a significant part of the ecosystem. Its presence is notable in the extensive reefs of MIMAROPA.",
+    "image": "assets/LUZON/MIMAROPA/bulaklak ng dagat.jpg",
+    "location": "Coral reefs throughout MIMAROPA."
+  },
+  {
+    "name": "Whale Shark",
+    "commonName": "Butanding",
+    "scientificName": "Rhincodon typus",
+    "description": "The largest fish in the world, these gentle giants filter-feed on plankton. They are known to aggregate in certain areas of the Philippines, including waters accessible from MIMAROPA.",
+    "image": "assets/LUZON/MIMAROPA/butanding.jpg",
+    "location": "Open waters off Palawan and potentially other parts of MIMAROPA during migration periods.."
+  },
+  {
+    "name": "Rabbitfish",
+    "commonName": "Danggit",
+    "scientificName": "Siganus spp.",
+    "description": "A popular breakfast fish, often dried, abundant in the shallow waters around Marinduque and Mindoro, associated with seagrass beds and reefs. Multiple species within the genus <i>Siganus</i> are referred to as Danggit.",
+    "image": "assets/LUZON/MIMAROPA/danggit.jpg",
+    "location": "Shallow waters around Marinduque and Mindoro."
+  },
+  {
+    "name": "Dugong",
+    "commonName": "Dugong",
+    "scientificName": "Dugong dugon",
+    "description": "A gentle, herbivorous marine mammal that grazes on seagrass beds. Palawan is a significant habitat for this vulnerable species in the Philippines.",
+    "image": "assets/LUZON/MIMAROPA/dugong.jpg",
+    "location": "Seagrass beds around Palawan, as well as parts of Mindoro and Romblon."
+  },
+  {
+    "name": "Roundscad",
+    "commonName": "Galunggong",
+    "scientificName": "Decapterus macrosoma",
+    "description": "A staple fish in Filipino diets, caught in various parts of MIMAROPA.",
+    "image": "assets/LUZON/MIMAROPA/galunggong.jpg",
+    "location": "Coastal waters throughout MIMAROPA."
+  },
+  {
+    "name": "Green Sea Turtle",
+    "commonName": "Pawikan",
+    "scientificName": "Chelonia mydas",
+    "description": "A large sea turtle species that feeds on seagrass and algae. MIMAROPA hosts important nesting sites and foraging grounds for green sea turtles.",
+    "image": "assets/LUZON/MIMAROPA/Green pawikan.jpg",
+    "location": "Nesting beaches and coastal waters of Palawan, Mindoro (e.g., Sablayan), and other islands in the region."
+  },
+  {
+    "name": "Grouper",
+    "commonName": "Lapu-Lapu",
+    "scientificName": "Epinephelidae genera",
+    "description": "High-value reef fish prized for their firm, white flesh, abundant in the extensive coral reefs of Palawan and other islands in MIMAROPA.",
+    "image": "assets/LUZON/MIMAROPA/lapu-lapu.jpg",
+    "location": "Coral reefs throughout Palawan, Mindoro, Marinduque, and Romblon."
+  },
+  {
+    "name": "Irrawaddy Dolphin",
+    "commonName": "Lumod",
+    "scientificName": "Orcaella brevirostris",
+    "description": "A small, toothed whale found in coastal areas and estuaries. While not strictly marine, they inhabit brackish waters connected to the sea. A population is known to exist in Malampaya Sound, Palawan.",
+    "image": "assets/LUZON/MIMAROPA/lumod.jpg",
+    "location": "Malampaya Sound, Palawan."
+  },
+  {
+    "name": "Snapper",
+    "commonName": "Maya-Maya",
+    "scientificName": "Lutjanidae",
+    "description": "Premium fish with firm white flesh, commonly found in the waters around Palawan and Romblon, associated with reefs and deeper fishing grounds.",
+    "image": "assets/LUZON/MIMAROPA/maya-maya.jpg",
+    "location": "Coastal waters around Palawan and Romblon."
+  },
+  {
+    "name": "Stingray",
+    "commonName": "Pagi",
+    "scientificName": "Myliobatoidei",
+    "description": "Graceful filter-feeding rays often seen gliding through the water. They are known to frequent reef areas in Palawan.",
+    "image": "assets/LUZON/MIMAROPA/pagi.jpg",
+    "location": "Reefs and open waters around Palawan."
+  },
+  {
+    "name": "Hawksbill Sea Turtle",
+    "commonName": "Pawikan",
+    "scientificName": "Eretmochelys imbricata",
+    "description": "A critically endangered sea turtle with a distinctive hooked beak, often found in coral reef areas feeding on sponges and other invertebrates.",
+    "image": "assets/LUZON/MIMAROPA/pawikan.jpg",
+    "location": "Coral reefs throughout Palawan, Romblon, and other parts of MIMAROPA."
+  },
+  {
+    "name": "Giant Clams)",
+    "commonName": "Taklobo",
+    "scientificName": "Tridacna gigas",
+    "description": "The largest living bivalve mollusk, found in coral reefs. Palawan is known for its populations of giant clams, some of which are part of conservation efforts.",
+    "image": "assets/LUZON/MIMAROPA/taklobo.jpg",
+    "location": "Coral reefs of Palawan and other islands in MIMAROPA."
+  },
+  {
+    "name": "Mackerel",
+    "commonName": "Tambakol",
+    "scientificName": "Scomberomorus spp.",
+    "description": "Commercially important pelagic fish found in the waters of MIMAROPA.",
+    "image": "assets/LUZON/MIMAROPA/tambakol.jpg",
+    "location": "Coastal and offshore waters of MIMAROPA."
+  },
+  {
+    "name": "Spanish Mackerel",
+    "commonName": "Tanguigue",
+    "scientificName": "Scomberomorus commerson",
+    "description": "A larger mackerel species favored for its firm texture and rich flavor.",
+    "image": "assets/LUZON/MIMAROPA/tanguigue.jpg",
+    "location": "Waters around Palawan and Romblon."
+  }
+]

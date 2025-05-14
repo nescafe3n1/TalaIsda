@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Milkfish",
+    "commonName": "Bangus",
+    "scientificName": "Chanos chanos",
+    "description": "The most important cultured fish in the Philippines, with Pampanga and Bulacan being major producers.",
+    "image": "assets/VISAYAS/Central Visayas/bangus.jpg",
+    "location": "Pampanga, Bulacan, Cebu, Bohol, Leyte, Samar"
+  },
+  {
+    "name": "Rabbitfish",
+    "commonName": "Danggit",
+    "scientificName": "Siganus spp.",
+    "description": "Iconic dried fish from Cebu, especially around Mactan. Central to local breakfasts and coastal livelihood.",
+    "image": "assets/VISAYAS/Central Visayas/danggit.jpg",
+    "location": "Cebu"
+  },
+  {
+    "name": "Short-bodied Mackerel",
+    "commonName": "Hasa-hasa",
+    "scientificName": "Rastrelliger brachysoma",
+    "description": "Caught in the waters off Leyte and Samar but also traded widely in Central Visayas markets, especially Cebu.",
+    "image": "assets/VISAYAS/Central Visayas/hasa-hasa.jpg",
+    "location": "Cebu, Bohol"
+  },
+  {
+    "name": "Mantis Shrimp",
+    "commonName": "Hipong Dapa",
+    "scientificName": "Stomatopoda",
+    "description": "Known for their lightning-fast strikes, mantis shrimp are found in coral rubble and sandy seafloors. Bohol is one of the few places where they're traditionally caught.",
+    "image": "assets/VISAYAS/Central Visayas/hipong dapa.jpg",
+    "location": "Bohol"
+  },
+  {
+    "name": "Reef Eel",
+    "commonName": "Igu",
+    "scientificName": "Muraenidae",
+    "description": "A Cebuano delicacy, especially from the town of Cordova. These eels are grilled or stewed and are part of traditional coastal diets.",
+    "image": "assets/VISAYAS/Central Visayas/IGU.jpg",
+    "location": "Cebu (Cordova)"
+  },
+  {
+    "name": "Mullet",
+    "commonName": "Pakol",
+    "scientificName": "Mugilidae",
+    "description": "Found in the coastal shallows and estuaries of Cebu and Siquijor. These bottom feeders are adapted to brackish and even freshwater systems.",
+    "image": "assets/VISAYAS/Central Visayas/pakol.jpg",
+    "location": "Siquijor, Cebu"
+  },
+  {
+    "name": "Goby",
+    "commonName": "Pugapo",
+    "scientificName": "Gobiidae",
+    "description": "A small, often colorful reef and tide pool fish commonly found around Siquijor and Bohol. Many species have unique adhesive pelvic fins.",
+    "image": "assets/VISAYAS/Central Visayas/pugapo.jpg",
+    "location": "Siquijor, Bohol"
+  },
+  {
+    "name": "Giant Tiger Prawn",
+    "commonName": "Sugpo",
+    "scientificName": "Penaeus monodon",
+    "description": "Farmed in the mangrove areas of Bohol and southern Cebu. Considered a top-tier seafood product from the region.",
+    "image": "assets/VISAYAS/Central Visayas/sugpo.jpg",
+    "location": "Cebu, Bohol"
+  },
+  {
+    "name": "Giant Trevally",
+    "commonName": "Talakitok",
+    "scientificName": "Caranx ignobilis",
+    "description": "Though more known in Batangas, juvenile GTs also enter brackish zones in Negros Oriental, making them a prized catch among local anglers.",
+    "image": "assets/VISAYAS/Central Visayas/talakitok.jpg",
+    "location": "Negros Oriental"
+  },
+  {
+    "name": "Skipjack",
+    "commonName": "Tambakol",
+    "scientificName": "Thunnus spp.",
+    "description": "Caught in the deep waters between Bohol and Cebu, especially near the Bohol Sea.",
+    "image": "assets/VISAYAS/Central Visayas/tambakol.jpg",
+    "location": "Cebu, Bohol"
+  }
+]
