@@ -8,14 +8,6 @@
     "location": "Shelf areas of Batangas and Quezon coasts."
   },  
   {
-    "name": "Whale Shark",
-    "commonName": "Butanding",
-    "scientificName": "Rhincodon typus",
-    "description": "The world's largest fish, known for its gentle nature. While not a permanent resident, whale sharks visit Quezon and Batangas waters during migration, attracting researchers and tourists.",
-    "image": "assets/LUZON/CALABARZON/butanding.jpg",
-    "location": "Offshore waters of Quezon and Batangas (seasonal/migratory)."
-  },
-  {
     "name": "Spotted Rabbitfish",
     "commonName": "Siganid",
     "scientificName": "Siganus guttatus",
@@ -54,6 +46,14 @@
     "description": "Anilao, Batangas is globally recognized for its colorful nudibranchs. These sea slugs are popular among divers and marine photographers.",
     "image": "assets/LUZON/CALABARZON/nudibranch.jpg",
     "location": "Coral reefs of Anilao, Batangas."
+  },
+  {
+    "name": "Whale Shark",
+    "commonName": "Butanding",
+    "scientificName": "Rhincodon typus",
+    "description": "The world's largest fish, known for its gentle nature. While not a permanent resident, whale sharks visit Quezon and Batangas waters during migration, attracting researchers and tourists.",
+    "image": "assets/LUZON/CALABARZON/butanding.jpg",
+    "location": "Offshore waters of Quezon and Batangas (seasonal/migratory)."
   },
   {
     "name": "Green Sea Turtle",
