@@ -185,6 +185,111 @@ fetch('JSON/Visayas/easternvisayas.json')
 	});
 });
 
+fetch('JSON/Mindanao/zamboanga.json')
+.then(res => res.json())
+.then(fishList => {
+	const container = document.getElementById('zamboangaFishCards');
+	fishList.forEach(fish => {
+		container.innerHTML += `
+			<div class="fish-card">
+				<img src="${fish.image}" alt="${fish.name} (${fish.commonName})">
+				<h3>${fish.name} (${fish.commonName})</h3>
+				<h4><i>${fish.scientificName}</i></h4>
+				<p>${fish.description}</p>
+				<span class="location">Location: ${fish.location}</span>
+			</div>
+		`;
+	});
+});
+
+fetch('JSON/Mindanao/northernmindanao.json')
+.then(res => res.json())
+.then(fishList => {
+	const container = document.getElementById('northernFishCards');
+	fishList.forEach(fish => {
+		container.innerHTML += `
+			<div class="fish-card">
+				<img src="${fish.image}" alt="${fish.name} (${fish.commonName})">
+				<h3>${fish.name} (${fish.commonName})</h3>
+				<h4><i>${fish.scientificName}</i></h4>
+				<p>${fish.description}</p>
+				<span class="location">Location: ${fish.location}</span>
+			</div>
+		`;
+	});
+});
+
+fetch('JSON/Mindanao/davao.json')
+.then(res => res.json())
+.then(fishList => {
+	const container = document.getElementById('davaoFishCards');
+	fishList.forEach(fish => {
+		container.innerHTML += `
+			<div class="fish-card">
+				<img src="${fish.image}" alt="${fish.name} (${fish.commonName})">
+				<h3>${fish.name} (${fish.commonName})</h3>
+				<h4><i>${fish.scientificName}</i></h4>
+				<p>${fish.description}</p>
+				<span class="location">Location: ${fish.location}</span>
+			</div>
+		`;
+	});
+});
+
+fetch('JSON/Mindanao/soccsksargen.json')
+.then(res => res.json())
+.then(fishList => {
+	const container = document.getElementById('soccskargenFishCards');
+	fishList.forEach(fish => {
+		container.innerHTML += `
+			<div class="fish-card">
+				<img src="${fish.image}" alt="${fish.name} (${fish.commonName})">
+				<h3>${fish.name} (${fish.commonName})</h3>
+				<h4><i>${fish.scientificName}</i></h4>
+				<p>${fish.description}</p>
+				<span class="location">Location: ${fish.location}</span>
+			</div>
+		`;
+	});
+});
+
+fetch('JSON/Mindanao/caraga.json')
+.then(res => res.json())
+.then(fishList => {
+	const container = document.getElementById('caragaFishCards');
+	fishList.forEach(fish => {
+		container.innerHTML += `
+			<div class="fish-card">
+				<img src="${fish.image}" alt="${fish.name} (${fish.commonName})">
+				<h3>${fish.name} (${fish.commonName})</h3>
+				<h4><i>${fish.scientificName}</i></h4>
+				<p>${fish.description}</p>
+				<span class="location">Location: ${fish.location}</span>
+			</div>
+		`;
+	});
+});
+
+fetch('JSON/Mindanao/barmm.json')
+.then(res => res.json())
+.then(fishList => {
+	const container = document.getElementById('barmmFishCards');
+	fishList.forEach(fish => {
+		container.innerHTML += `
+			<div class="fish-card">
+				<img src="${fish.image}" alt="${fish.name} (${fish.commonName})">
+				<h3>${fish.name} (${fish.commonName})</h3>
+				<h4><i>${fish.scientificName}</i></h4>
+				<p>${fish.description}</p>
+				<span class="location">Location: ${fish.location}</span>
+			</div>
+		`;
+	});
+});
+
+
+
+
 const searchInput = document.getElementById('searchInput');
 
 searchInput.addEventListener('keyup', () => {
