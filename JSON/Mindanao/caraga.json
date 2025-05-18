@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Mud Crab",
+    "commonName": "Alimango",
+    "scientificName": "Scylla serrata",
+    "description": "A highly prized crab often found in mangrove areas and estuaries, particularly in the Caraga region.",
+    "image": "assets/MINDANAO/Caraga/alimango.jpg",
+    "location": "Surigao del Sur, Surigao del Norte"
+  },
+  {
+    "name": "Spotted Scat",
+    "commonName": "Kitong",
+    "scientificName": "Scylla serrata",
+    "description": "A brackish water fish often found in the mangrove-lined rivers of Agusan del Norte.",
+    "image": "assets/MINDANAO/Caraga/placeholder.jpg",
+    "location": "Agusan del Norte, Surigao del Sur"
+  },
+  {
+    "name": "Goby Fish",
+    "commonName": "Biyâ",
+    "scientificName": "Gobiidae",
+    "description": "Commonly found in shallow waters and estuaries, gobies are abundant in coastal areas.",
+    "image": "assets/MINDANAO/Caraga/Biyâ.jpg",
+    "location": "Surigao del Norte"
+  },
+  {
+    "name": "Anchovy",
+    "commonName": "Dilis",
+    "scientificName": "Engraulis spp.",
+    "description": "Small, schooling fish caught in large numbers during the right season.",
+    "image": "assets/MINDANAO/Caraga/dilis.jpg",
+    "location": "Surigao del Sur"
+  },
+  {
+    "name": "Mangrove Snail",
+    "commonName": "Langka",
+    "scientificName": "Cerithidea spp.",
+    "description": "A species of snail that lives in the mangrove forests of Caraga, often collected by local communities for food.",
+    "image": "assets/MINDANAO/Caraga/langka.jpg",
+    "location": "Surigao del Sur, Dinagat Islands"
+  },
+  {
+    "name": "Coconut Crab",
+    "commonName": "Lubi-lubi",
+    "scientificName": "Birgus latro",
+    "description": "Found along the islands of Dinagat and the coastal parts of Surigao del Norte, the coconut crab is one of the largest land crabs.",
+    "image": "assets/MINDANAO/Caraga/lubi-lubi.jpg",
+    "location": "Dinagat Islands, Surigao del Norte"
+  },
+  {
+    "name": "Giant Tiger Prawn",
+    "commonName": "Sugpo",
+    "scientificName": "Penaeus monodon",
+    "description": "Farmed extensively in the mangrove areas of the region, especially in Surigao del Norte.",
+    "image": "assets/MINDANAO/Caraga/sugpo.jpg",
+    "location": "Surigao del Norte, Agusan del Sur"
+  },
+  {
+    "name": "Giant Trevally",
+    "commonName": "Talakitok",
+    "scientificName": "Caranx ignobilis",
+    "description": "A prized game fish in the waters around the coastal regions of Surigao del Norte and Surigao del Sur.",
+    "image": "assets/MINDANAO/Caraga/talakitok.jpg",
+    "location": "Surigao del Norte, Surigao del Sur"
+  },
+  {
+    "name": "Sardine",
+    "commonName": "Tamban",
+    "scientificName": "Sardinella spp.",
+    "description": "Sardines that are often caught in coastal areas and river mouths, particularly around Surigao del Norte.",
+    "image": "assets/MINDANAO/Caraga/tamban.jpg",
+    "location": "Surigao del Norte"
+  },
+  {
+    "name": "Spanish Mackerel",
+    "commonName": "Tanguigue",
+    "scientificName": "Scomberomorus spp.",
+    "description": "A migratory species found in the deeper waters of Surigao del Norte and Surigao del Sur.",
+    "image": "assets/MINDANAO/Caraga/tanguigue.jpg",
+    "location": "Surigao del Norte, Surigao del Sur"
+  }
+]

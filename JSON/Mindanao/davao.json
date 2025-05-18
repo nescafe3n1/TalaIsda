@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Milkfish",
+    "commonName": "Bangus",
+    "scientificName": "Lutjanidae",
+    "description": "Farmed in large numbers across the region, especially in Davao del Sur and Davao del Norte.",
+    "image": "assets/MINDANAO/Davao Region/bangus.jpg",
+    "location": "Davao del Sur, Davao del Norte"
+  },
+  {
+    "name": "Sea Cow",
+    "commonName": "Dugong",
+    "scientificName": "Dugong dugon",
+    "description": "A large, herbivorous marine mammal found in seagrass meadows along Davao del Norte and Davao Oriental.",
+    "image": "assets/MINDANAO/Davao Region/dugong.jpg",
+    "location": "Davao Gulf"
+  },
+  {
+    "name": "Short-bodied Mackerel",
+    "commonName": "Hasa-hasa",
+    "scientificName": "Rastrelliger brachysoma",
+    "description": "A popular, fast-swimming species often found in local markets, it is commonly caught in shallow coastal waters.",
+    "image": "assets/MINDANAO/Davao Region/hasa-hasa.jpg",
+    "location": "Davao Gulf, Davao del Norte"
+  },
+  {
+    "name": "Sting Ray",
+    "commonName": "Pagi",
+    "scientificName": "Myliobatoidei",
+    "description": "These large rays are found in the open waters of Davao Gulf, often observed by divers in protected marine areas.",
+    "image": "assets/MINDANAO/Davao Region/pagi.jpg",
+    "location": "Davao Gulf"
+  },
+  {
+    "name": "Green Sea Turtle",
+    "commonName": "Pawikan",
+    "scientificName": "Chelonia mydas",
+    "description": "Nesting areas for this endangered species are found in the islands of Davao Occidental.",
+    "image": "assets/MINDANAO/Davao Region/pawikan.jpg",
+    "location": "Davao Occidental"
+  },
+  {
+    "name": "Goby",
+    "commonName": "Pugapo",
+    "scientificName": "Gobiidae",
+    "description": "Commonly found in tide pools and shallow reefs in coastal Davao.",
+    "image": "assets/MINDANAO/Davao Region/pugapo.jpg",
+    "location": "Davao del Norte, Davao Oriental"
+  },
+  {
+    "name": "Tabios",
+    "commonName": "Sinarapan",
+    "scientificName": "Mistichthys luzonensis",
+    "description": "The world’s smallest commercially harvested fish, often found in protected areas around Davao.",
+    "image": "assets/MINDANAO/Davao Region/shem sinarapan.jpg",
+    "location": "Lake Lanao, Davao del Sur"
+  },
+  {
+    "name": "Sardine",
+    "commonName": "Tamban",
+    "scientificName": "Sardina pilchardus",
+    "description": "Small, oily fish abundant in coastal waters, used in many regional dishes.",
+    "image": "assets/MINDANAO/Davao Region/tamban.jpg",
+    "location": "Davao del Sur, Davao Oriental"
+  },
+  {
+    "name": "Freshwater Sardine",
+    "commonName": "Tawilis",
+    "scientificName": "Sardinella tawilis",
+    "description": "Endemic to Taal Lake, but also found in specific, isolated freshwater regions of Davao's lakes.",
+    "image": "assets/MINDANAO/Davao Region/tawilis.jpg",
+    "location": "Lake Apo, Davao del Sur"
+  }
+]

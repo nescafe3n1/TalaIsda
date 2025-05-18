@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Snapper",
+    "commonName": "Barilis",
+    "scientificName": "Lutjanidae",
+    "description": "Various species of snappers are abundant in the coral reefs and deeper offshore waters.",
+    "image": "assets/MINDANAO/Northern Mindanao/barilis.jpg",
+    "location": "Misamis Occidental, Lanao del Norte"
+  },
+  {
+    "name": "Spanner Crab",
+    "commonName": "Curacha",
+    "scientificName": "Lutjanidae",
+    "description": "Known for its spiny shell and deep-sea habitat, curacha is highly prized for its sweet, tender meat.",
+    "image": "assets/MINDANAO/Northern Mindanao/curacha.jpg",
+    "location": "Camiguin, Misamis Occidental"
+  },
+  {
+    "name": "Mantis Shrimp",
+    "commonName": "Hipong Dapa",
+    "scientificName": "Stomatopoda",
+    "description": "A crustacean known for its powerful claws and vibrant colors, found in the coastal areas of Northern Mindanao.",
+    "image": "assets/MINDANAO/Northern Mindanao/hipong dapa.jpg",
+    "location": "Misamis Oriental, Camiguin"
+  },
+  {
+    "name": "Catfish",
+    "commonName": "Hito",
+    "scientificName": "Siluriformes",
+    "description": "Farmed in freshwater ponds and rivers, this fish is a staple in local cuisine, especially for making adobo dishes.",
+    "image": "assets/MINDANAO/Northern Mindanao/hito.jpg",
+    "location": "Misamis Oriental"
+  },
+  {
+    "name": "Sea Grapes",
+    "commonName": "Lato",
+    "scientificName": "Caulerpa lentillifera",
+    "description": "This edible green algae, often used in salads, grows in the shallow waters of coastal areas.",
+    "image": "assets/MINDANAO/Northern Mindanao/lato.jpg",
+    "location": "Misamis Oriental, Camiguin"
+  },
+  {
+    "name": "Red Snapper",
+    "commonName": "Maya-Maya",
+    "scientificName": "Lutjanus campechanus",
+    "description": "Found in deep coral reefs, red snapper is prized for its firm flesh and delicate flavor.",
+    "image": "assets/MINDANAO/Northern Mindanao/maya-maya.jpg",
+    "location": "Misamis Oriental, Lanao del Norte"
+  },
+  {
+    "name": "Goby",
+    "commonName": "Pugapo",
+    "scientificName": "Gobiidae",
+    "description": "Small, colorful fish often found in rocky tidal pools and reef areas.",
+    "image": "assets/MINDANAO/Northern Mindanao/pugapo.jpg",
+    "location": "Misamis Occidental"
+  },
+  {
+    "name": "Tabios",
+    "commonName": "Sinarapan",
+    "scientificName": "Mistichthys luzonensis",
+    "description": "The world’s smallest commercially harvested fish, endemic to small lakes and shallow water regions.",
+    "image": "assets/MINDANAO/Northern Mindanao/shem sinarapan.jpg",
+    "location": "Camiguin"
+  },
+  {
+    "name": "Sardine",
+    "commonName": "Tamban",
+    "scientificName": "Mistichthys luzonensis",
+    "description": "A small, oily fish found in schools, often used for canning or drying.",
+    "image": "assets/MINDANAO/Northern Mindanao/tamban.jpg",
+    "location": "Misamis Oriental, Lanao del Norte"
+  },
+  {
+    "name": "Mackerel Tuna",
+    "commonName": "Tulingan",
+    "scientificName": "Euthynnus affinis",
+    "description": "Commonly found in the deeper waters of the region, it is an important species for both commercial and subsistence fishing.",
+    "image": "assets/MINDANAO/Northern Mindanao/tulingan.jpg",
+    "location": "Misamis Occidental, Lanao del Norte"
+  }
+]

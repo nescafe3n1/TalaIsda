@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Silver Perch",
+    "commonName": "Ayungin",
+    "scientificName": "Bidyanus bidyanus",
+    "description": "A freshwater species found in the lakes and river systems of the region.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/ayugin.jpg",
+    "location": "Sarangani, Sultan Kudarat"
+  },
+  {
+    "name": "Flying Fish",
+    "commonName": "Barongoy",
+    "scientificName": "Exocoetidae",
+    "description": "Flying fish, known locally as bangsi, can glide for short distances above the water's surface.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/barongoy.jpg",
+    "location": "Sarangani Bay, General Santos City"
+  },
+  {
+    "name": "Spanner Crab",
+    "commonName": "Kuratsa",
+    "scientificName": "Ranina ranina",
+    "description": "A deep-sea crab with unique red spiny claws, harvested for its tender meat.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/curacha.jpg",
+    "location": "Sarangani Bay"
+  },
+  {
+    "name": "Catfish",
+    "commonName": "Hito",
+    "scientificName": "Siluriformes",
+    "description": "Farmed extensively in the region, particularly in freshwater ponds, and used in local dishes like adobong hito.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/hito.jpg",
+    "location": "South Cotabato, Sultan Kudarat"
+  },
+  {
+    "name": "Goby",
+    "commonName": "Pugapo",
+    "scientificName": "Gobiidae",
+    "description": "Small, colorful fish found in the mudflats and coastal estuaries of the region.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/pugapo.jpg",
+    "location": "Sarangani Bay, Sultan Kudarat"
+  },
+  {
+    "name": "Giant Tiger Prawn",
+    "commonName": "Sugpo",
+    "scientificName": "Penaeus monodon",
+    "description": "This large, commercial prawn species is farmed in the mangrove-rich areas of SOCCSKSARGEN.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/sugpo.jpg",
+    "location": "Sarangani Bay, General Santos"
+  },
+  {
+    "name": "Giant Trevally",
+    "commonName": "Maliputo",
+    "scientificName": "Caranx ignobilis",
+    "description": "This powerful game fish is highly prized in the region, particularly around Sarangani Bay.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/talakitok.jpg",
+    "location": "Sarangani Bay, General Santos"
+  },
+  {
+    "name": "Yellowfin Tuna",
+    "commonName": "Tambakol",
+    "scientificName": "Thunnus albacares",
+    "description": "A flagship species for General Santos, one of the world’s top tuna fishing hubs.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/tambakol.jpg",
+    "location": "General Santos City"
+  },
+  {
+    "name": "Sardine",
+    "commonName": "Tamban",
+    "scientificName": "Sardina pilchardus",
+    "description": "A small oily fish found in large schools, caught in the region’s coastal waters.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/tamban.jpg",
+    "location": "Sarangani Bay, General Santos"
+  },
+  {
+    "name": "Mackerel Tuna",
+    "commonName": "Tulingan",
+    "scientificName": "Euthynnus affinis",
+    "description": ">A small to medium-sized tuna species found in coastal waters.",
+    "image": "assets/MINDANAO/SOCCSKSARGEN/tulingan.jpg",
+    "location": "Sarangani Bay, General Santos"
+  }
+]
