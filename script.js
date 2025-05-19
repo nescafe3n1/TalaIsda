@@ -207,8 +207,6 @@ searchInput.addEventListener('keyup', () => {
 
 		if (matchText.includes(query)) {
 			card.style.display = 'block';
-
-			// Also show the region this card belongs to
 			const region = card.closest('.region-section');
 			if (region) region.style.display = 'block';
 		} else {

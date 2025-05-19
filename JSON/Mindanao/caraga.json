@@ -78,5 +78,245 @@
     "description": "A migratory species found in the deeper waters of Surigao del Norte and Surigao del Sur.",
     "image": "assets/MINDANAO/Caraga/tanguigue.jpg",
     "location": "Surigao del Norte, Surigao del Sur"
-  }
+  },
+  {
+        "name":"Caraga Goby",
+        "commonName":"Goby",
+        "scientificName":"Glossogobius celebius",
+        "description":"Estuarine goby supporting benthic ecosystems.",
+    "image": "assets/MINDANAO/Caraga/Glossogobius celebius.jpg",
+        "location":"Surigao and Butuan estuaries."
+	},
+        {
+        "name":"Surigao Spined Loach",
+        "commonName":"Palos-ilalim",
+        "scientificName":"Lepidocephalichthys spp.",
+        "description":"Freshwater fish in clear mountain streams feeding on detritus.",
+    "image": "assets/MINDANAO/Caraga/Lepidocephalichthys spp..jpg",
+        "location":"Highland streams flowing into Caraga coast."
+	},
+        {
+        "name":"Philippine Sole",
+        "commonName":"Pusit-dagat",
+        "scientificName":"Aseraggodes philippinus",
+        "description":"Flatfish camouflaging on sandy bottoms; carnivorous.",
+    "image": "assets/MINDANAO/Caraga/Aseraggodes philippinus.jpg",
+        "location":"Coastal flats of Dinagat Islands."
+	},
+        {
+        "name":"Caraga Damselfish",
+        "commonName":"Dalagang-bukid",
+        "scientificName":"Chrysiptera springeri",
+        "description":"Aggressive, colorful fish protecting algae patches.",
+    "image": "assets/MINDANAO/Caraga/Chrysiptera springeri.jpg",
+        "location":"Reef flats off Surigao del Norte."
+	},
+        {
+        "name":"Surigao Sea Mullet",
+        "commonName":"Bangus-dagat",
+        "scientificName":"Mugil spp.",
+        "description":"Detritus-feeding schooling fish of mangrove creeks.",
+    "image": "assets/MINDANAO/Caraga/Mugil spp..jpg",
+        "location":"Estuarine zones of Surigao and Agusan coasts."
+	},
+        {
+        "name":"Philippine Pygmy Seahorse",
+        "commonName":"Kabayo-dagat (small seahorse)",
+        "scientificName":"Hippocampus denise",
+        "description":"Soft-coral dwelling seahorse, less than 2 cm long.",
+    "image": "assets/MINDANAO/Caraga/Hippocampus denise.jpg",
+        "location":"Reefs in Dinagat Island and Surigao."
+	},
+        {
+        "name":"Agusan Pipehorse",
+        "commonName":"Palos-dagat",
+        "scientificName":"Solegnathus hardwickii",
+        "description":"Pipehorse blending in seagrass; part of Syngnathidae family.",
+    "image": "assets/MINDANAO/Caraga/Solegnathus hardwickii.jpg",
+        "location":"Seagrass beds of Agusan delta."
+	},
+        {
+        "name":"Mindanao Ghost Shrimp",
+        "commonName":"Hipong Multo",
+        "scientificName":"Palaemonetes paludosus",
+        "description":"Burrow-dwelling crustacean that aerates the seabed.",
+    "image": "assets/MINDANAO/Caraga/Palaemonetes paludosus.jpg",
+        "location":"Mudflats of Butuan Bay."
+	},
+        {
+        "name":"Philippine Sicklefish",
+        "commonName":"Siko-siko",
+        "scientificName":"Drepane punctata",
+        "description":"Estuarine fish with distinctive sickle-shaped fins.",
+    "image": "assets/MINDANAO/Caraga/Drepane punctata.jpg",
+        "location":"Caraga river mouths"
+	},
+        {
+        "name":"Surigao Hawkfish",
+        "commonName":"Hawkfish",
+        "scientificName":"Cirrhitichthys falco",
+        "description":"Small reef predator often seen perching on corals.",
+    "image": "assets/MINDANAO/Caraga/Cirrhitichthys falco.jpg",
+        "location":"Coral reefs of Surigao del Norte."
+	},
+        {
+        "name":"Caraga Cleaner Wrasse",
+        "commonName":"Cleaner wrasse",
+        "scientificName":"Labroides dimidiatus",
+        "description":"Wrasse removing parasites from other reef fish.",
+    "image": "assets/MINDANAO/Caraga/Labroides dimidiatus.jpg",
+        "location":"Coral heads throughout Caraga’s reefs."
+	},
+        {
+        "name":"Dinagat Blue Dot Grouper",
+        "commonName":"Lapu-lapu",
+        "scientificName":"Cephalopholis argus",
+        "description":"Solitary reef predator with distinct blue spots.",
+    "image": "assets/MINDANAO/Caraga/Cephalopholis argus.jpg",
+        "location":"Reefs of Dinagat and Bucas Grande."
+	},
+        {
+        "name":"Philippine Mandarinfish",
+        "commonName":"Mandarinfish",
+        "scientificName":"Synchiropus splendidus",
+        "description":"Bright reef fish performing dusk courtship displays.",
+    "image": "assets/MINDANAO/Caraga/Synchiropus splendidus.jpg",
+        "location":"Coral rubble near Siargao Island."
+	},
+        {
+        "name":"Spotted Cardinalfish",
+        "commonName":"Isdang Puso",
+        "scientificName":"Apogon spilotus",
+        "description":"Nocturnal planktivore found in caves and crevices.",
+    "image": "assets/MINDANAO/Caraga/Apogon spilotus.jpg",
+        "location":"Reef edges and overhangs of Surigao."
+	},
+        {
+        "name":"Mindanao Lizardfish",
+        "commonName":"Palos-palutang",
+        "scientificName":"Synodus binotatus",
+        "description":"Bottom-lurking ambush predator.",
+    "image": "assets/MINDANAO/Caraga/Synodus binotatus.jpg",
+        "location":"Sandy coastal bottoms of Caraga."
+	},
+        {
+        "name":"Surigao Nudibranch",
+        "commonName":"Lumot-dagat",
+        "scientificName":"Nembrotha spp.",
+        "description":"Soft-bodied, bright-colored mollusks feeding on tunicates.",
+    "image": "assets/MINDANAO/Caraga/Nembrotha spp..jpg",
+        "location":"Rocky reefs of Surigao Strait."
+	},
+        {
+        "name":"Philippine Pearl Oyster",
+        "commonName":"Talaba ng Perlas",
+        "scientificName":"Pinctada maxima",
+        "description":"Pearl-producing bivalve found in reef lagoons.",
+    "image": "assets/MINDANAO/Caraga/Pinctada maxima.jpg",
+        "location":"Calm lagoons near Dinagat Islands."
+	},
+        {
+        "name":"Mangrove Seahorse",
+        "commonName":"Kabayo-dagat",
+        "scientificName":"Hippocampus kuda",
+        "description":"Vulnerable species in mangrove and estuarine habitats.",
+    "image": "assets/MINDANAO/Caraga/Hippocampus kuda.jpg",
+        "location":"Mangrove estuaries of Agusan del Norte."
+	},
+        {
+        "name":"Dinagat Coconut Crab",
+        "commonName":"Alimango ng Niyog",
+        "scientificName":"Birgus latro",
+        "description":"Large terrestrial hermit crab climbing trees and feeding on coconuts.",
+    "image": "assets/MINDANAO/Caraga/Birgus latro.jpg",
+        "location":"Forested islands in Dinagat."
+	},
+        {
+        "name":"Agusan Mud Crab",
+        "commonName":"Alimango",
+        "scientificName":"Scylla tranquebarica",
+        "description":"Large estuarine crab important in aquaculture.",
+    "image": "assets/MINDANAO/Caraga/Scylla tranquebarica.jpg",
+        "location":"Agusan River delta and mangroves."
+	},
+        {
+        "name":"Surigao Scorpionfish",
+        "commonName":"Tagulabay",
+        "scientificName":"Scorpaenopsis oxycephala",
+        "description":"Camouflaged ambush predator with venomous spines.",
+    "image": "assets/MINDANAO/Caraga/Scorpaenopsis oxycephala.jpg",
+        "location":"Coral reefs and rubble zones near Siargao Island."
+	},
+        {
+        "name":"Eastern Cleaner Wrasse",
+        "commonName":"Cleaner wrasse",
+        "scientificName":"Labroides pectoralis",
+        "description":"Reef fish that picks parasites from larger fish at cleaning stations.",
+    "image": "assets/MINDANAO/Caraga/Labroides pectoralis.jpg",
+        "location":"Coral bommies of Surigao del Norte."
+	},
+        {
+        "name":"Blue Sea Star",
+        "commonName":"Bituin-dagat",
+        "scientificName":"Linckia laevigata",
+        "description":"Bright blue echinoderm common in shallow reefs.",
+    "image": "assets/MINDANAO/Caraga/Linckia laevigata.jpg",
+        "location":"Sandy lagoons and reef flats in Caraga region."
+	},
+        {
+        "name":"Whitespotted Filefish",
+        "commonName":"Filefish",
+        "scientificName":"Cantherhines dumerilii",
+        "description":"Elongated reef fish with a tough leathery skin.",
+    "image": "assets/MINDANAO/Caraga/Cantherhines dumerilii.jpg",
+        "location":"Coral slopes and drop-offs near Dinagat Islands."
+	},
+        {
+        "name":"Yellowstripe Goatfish",
+        "commonName":"Kambing-dagat",
+        "scientificName":"Mulloidichthys flavolineatus",
+        "description":"Bottom-feeding fish with yellow stripe; uses barbels to dig in sand.",
+    "image": "assets/MINDANAO/Caraga/Mulloidichthys flavolineatus.jpg",
+        "location":"Sandy reef bases of Caraga bays."
+	},
+        {
+        "name":"Caraga Crown-of-Thorns Starfish",
+        "commonName":"Tala-tala",
+        "scientificName":"Acanthaster planci",
+        "description":"Spiny coral predator; population outbreaks can damage reefs.",
+    "image": "assets/MINDANAO/Caraga/Acanthaster planci.jpg",
+        "location":"Coral-rich areas near Siargao and Dinagat."
+	},
+        {
+        "name":"Ornate Ghost Pipefish",
+        "commonName":"Palos-dagat",
+        "scientificName":"Solenostomus paradoxus",
+        "description":"Elaborate camouflage fish drifting near coral and feather stars.",
+    "image": "assets/MINDANAO/Caraga/Solenostomus paradoxus.jpg",
+        "location":"Reef crevices and protected coves in Caraga."
+	},
+        {
+        "name":"Fire Dartfish",
+        "commonName":"Dartfish",
+        "scientificName":"Nemateleotris magnifica",
+        "description":"Slender, colorful dartfish hovering near burrows.",
+    "image": "assets/MINDANAO/Caraga/Nemateleotris magnifica.jpg",
+        "location":"Reef slopes in Butuan Bay."
+	},
+        {
+        "name":"Bicolor Angelfish",
+        "commonName":"Isdang Anghel",
+        "scientificName":"Centropyge bicolor",
+        "description":"Small reef angelfish with yellow and blue body.",
+    "image": "assets/MINDANAO/Caraga/Centropyge bicolor.jpg",
+        "location":"Coral gardens of Surigao del Norte."
+	},
+        {
+        "name":"Zebra Moray",
+        "commonName":"Hulihid",
+        "scientificName":"Gymnomuraena zebra",
+        "description":"Nocturnal eel with zebra-like stripes, hiding in coral holes.",
+    "image": "assets/MINDANAO/Caraga/Gymnomuraena zebra.jpg",
+        "location":"Reef crevices across Caraga’s marine parks."
+        }
 ]

@@ -70,5 +70,246 @@
     "description": "Endemic to Taal Lake, but also found in specific, isolated freshwater regions of Davao's lakes.",
     "image": "assets/MINDANAO/Davao Region/tawilis.jpg",
     "location": "Lake Apo, Davao del Sur"
-  }
-]
+  },
+        {
+        "name":"Davao Clownfish ",
+        "commonName":"Pating-pating",
+        "scientificName":"Amphiprion ocellaris",
+        "description":"Symbiotic anemonefish common in reef lagoons.",
+    "image": "assets/MINDANAO/Davao Region/Amphiprion ocellaris.jpg",
+        "location":"Coral reefs and lagoons of Davao Gulf."
+	},
+        {
+        "name":"Davao Flasher Wrasse",
+        "commonName":"Labahita",
+        "scientificName":"Paracheilinus spp.",
+        "description":"Brightly colored wrasse with elaborate mating displays.",
+    "image": "assets/MINDANAO/Davao Region/Paracheilinus spp..jpg",
+        "location":"Outer reef slopes of Davao Oriental."
+	},
+        {
+        "name":"Dugong",
+        "commonName":"Dugong",
+        "scientificName":"Dugong dugon",
+        "description":"Vulnerable marine mammal feeding on seagrass.",
+    "image": "assets/MINDANAO/Davao Region/Dugong dugon.jpg",
+        "location":"Seagrass beds in Davao Gulf."
+	},
+        {
+        "name":"Yellowfin Tuna",
+        "commonName":"Tuna",
+        "scientificName":"Thunnus albacares",
+        "description":"Migratory pelagic species important to fisheries.",
+    "image": "assets/MINDANAO/Davao Region/Thunnus albacares.jpg",
+        "location":"Offshore waters near General Santos."
+	},
+        {
+        "name":"Goby",
+        "commonName":"Pugapo",
+        "scientificName":"Gobiidae spp.",
+        "description":"Small gobies inhabiting tide pools and shallow reefs.",
+    "image": "assets/MINDANAO/Davao Region/Gobiidae spp..jpg",
+        "location":"Estuaries of Davao del Norte."
+	},
+        {
+        "name":"Sea Grapes",
+        "commonName":"Lato",
+        "scientificName":"Caulerpa lentillifera",
+        "description":"Edible algae contributing to water quality.",
+    "image": "assets/MINDANAO/Davao Region/Caulerpa lentillifera.jpg",
+        "location":"Seagrass beds in Davao Gulf."
+	},
+        {
+        "name":"Reef Octopus",
+        "commonName":"Pugita",
+        "scientificName":"Octopus cyanea",
+        "description":"Intelligent reef cephalopod capable of camouflage.",
+    "image": "assets/MINDANAO/Davao Region/Octopus cyanea.jpg",
+        "location":"Reefs of Davao Oriental."
+	},
+        {
+        "name":"Fringelip Mullet",
+        "commonName":"Bisugo",
+        "scientificName":"Crenimugil crenilabis",
+        "description":"Algae-grazing coastal fish.",
+    "image": "assets/MINDANAO/Davao Region/Crenimugil crenilabis.jpg",
+        "location":"Estuarine waters of Davao Gulf."
+	},
+        {
+        "name":"Mottled Rabbitfish",
+        "commonName":"Dulong",
+        "scientificName":"Siganus fuscescens",
+        "description":"Herbivorous fish controlling algae on reefs.",
+    "image": "assets/MINDANAO/Davao Region/Siganus fuscescens.jpg",
+        "location":"Coral reefs of Davao Region."
+	},
+        {
+        "name":"Giant Trevally",
+        "commonName":"Malasugui",
+        "scientificName":"Caranx ignobilis",
+        "description":"Apex reef predator, sought in sport fishing.",
+    "image": "assets/MINDANAO/Davao Region/Caranx ignobilis.jpg",
+        "location":"Offshore reefs in Davao Gulf."
+	},
+        {
+        "name":"Milkfish",
+        "commonName":"Bangus",
+        "scientificName":"Chanos chanos",
+        "description":"Brackish water fish farmed extensively.",
+    "image": "assets/MINDANAO/Davao Region/Chanos chanos.jpg",
+        "location":"Fishponds in Davao del Sur."
+	},
+        {
+        "name":"Tulingan",
+        "commonName":"Tulingan",
+        "scientificName":"Euthynnus affinis",
+        "description":"Small tuna important to local fisheries.",
+    "image": "assets/MINDANAO/Davao Region/Euthynnus affinis.jpg",
+        "location":"Coastal waters of Davao Gulf."
+	},
+        {
+        "name":"Sailfin Snapper",
+        "commonName":"Maya-maya",
+        "scientificName":"Symphorichthys spilurus",
+        "description":"Reef predator valued commercially.",
+    "image": "assets/MINDANAO/Davao Region/Symphorichthys spilurus.jpg",
+        "location":"Coral reefs in Davao Oriental."
+	},
+        {
+        "name":"Mindanao Grouper",
+        "commonName":"Lapu-lapu",
+        "scientificName":"Epinephelus spp.",
+        "description":"Groupers inhabiting reefs and rocky areas.",
+    "image": "assets/MINDANAO/Davao Region/Epinephelus spp..jpg",
+        "location":"Reefs near Samal Island."
+	},
+        {
+        "name":"Spotted Parrotfish",
+        "commonName":"Parrotfish",
+        "scientificName":"Scarus ghobban",
+        "description":"Herbivorous fish grazing algae on reefs.",
+    "image": "assets/MINDANAO/Davao Region/Scarus ghobban.jpg",
+        "location":"Davao Gulf reefs."
+	},
+        {
+        "name":"Philippine Seahorse",
+        "commonName":"Kabayo-dagat",
+        "scientificName":"Hippocampus barbouri",
+        "description":"Seahorse species in mangroves and seagrass beds.",
+    "image": "assets/MINDANAO/Davao Region/Hippocampus barbouri.jpg",
+        "location":"Mangrove estuaries in Davao del Norte."
+	},
+        {
+        "name":"Davao Wrasse",
+        "commonName":"Labahita",
+        "scientificName":"Halichoeres melanochir",
+        "description":"Small wrasses controlling reef invertebrates.",
+    "image": "assets/MINDANAO/Davao Region/Halichoeres melanochir.jpg",
+        "location":"Reefs and tide pools in Davao Region."
+	},
+        {
+        "name":"Spanner Crab",
+        "commonName":"Alimasag",
+        "scientificName":"Ranina ranina",
+        "description":"Deep-water crab harvested for meat.",
+    "image": "assets/MINDANAO/Davao Region/Ranina ranina.jpg",
+        "location":"Offshore sandy bottoms of Davao del Sur."
+	},
+        {
+        "name":"Philippine Squid",
+        "commonName":"Pusit",
+        "scientificName":"Sepioteuthis lessoniana",
+        "description":"Cephalopod common in coastal fisheries.",
+    "image": "assets/MINDANAO/Davao Region/Sepioteuthis lessoniana.jpg",
+        "location":"Coastal waters of Davao Gulf."
+	},
+        {
+        "name":"Camouflage Grouper",
+        "commonName":"Lapu-lapu",
+        "scientificName":"Epinephelus polyphekadion",
+        "description":"Large grouper species, mottled coloration.",
+    "image": "assets/MINDANAO/Davao Region/Epinephelus polyphekadion.jpg",
+        "location":"Location: Coral reefs in Davao Oriental."
+	},
+        {
+        "name":"Laced Moray",
+        "commonName":"Bato-bato",
+        "scientificName":"Gymnothorax favagineus",
+        "description":"Spotted eel with strong bite; hides in reef holes.",
+    "image": "assets/MINDANAO/Davao Region/Gymnothorax favagineus.jpg",
+        "location":"Reef crevices of Davao Oriental."
+	},
+        {
+        "name":"Chevron Butterflyfish",
+        "commonName":"Paru-paro",
+        "scientificName":"Chaetodon trifascialis",
+        "description":"Coral-feeding fish with black-and-white chevron pattern.",
+    "image": "assets/MINDANAO/Davao Region/Chaetodon trifascialis.jpg",
+        "location":"Coral gardens around Samal Island."
+	},
+        {
+        "name":"Blue Tang",
+        "commonName":"Surgeonfish",
+        "scientificName":"Paracanthurus hepatus",
+        "description":"Iconic reef surgeonfish with vibrant blue body.",
+    "image": "assets/MINDANAO/Davao Region/Paracanthurus hepatus.jpg",
+        "location":"Davao Gulf reef slopes."
+	},
+        {
+        "name":"Redtoothed Triggerfish",
+        "commonName":"Triggerfish",
+        "scientificName":"Odonus niger",
+        "description":"Deep-bodied fish with red teeth and dark coloration.",
+    "image": "assets/MINDANAO/Davao Region/Odonus niger.jpg",
+        "location":"Reef drop-offs in Davao Gulf."
+	},
+        {
+        "name":"Bristle Worm",
+        "commonName":"Uwak-uwak",
+        "scientificName":"Eurythoe complanata",
+        "description":"Brightly colored marine worm that scavenges in coral rubble.",
+    "image": "assets/MINDANAO/Davao Region/Eurythoe complanata.jpg",
+        "location":"Under coral and rocks in Davao intertidal zones."
+	},
+        {
+        "name":"Lettuce Coral",
+        "commonName":"Korales",
+        "scientificName":"Agaricia spp.",
+        "description":"Leaf-like coral forming layered colonies.",
+    "image": "assets/MINDANAO/Davao Region/Agaricia spp..jpg",
+        "location":"Coral reefs around Davao Oriental."
+	},
+        {
+        "name":"Davao Lanternfish",
+        "commonName":"Lanternfish",
+        "scientificName":"Diaphus splendidus",
+        "description":"Bioluminescent midwater fish active at night.",
+    "image": "assets/MINDANAO/Davao Region/Diaphus splendidus.jpg",
+        "location":"Pelagic depths of Davao Gulf."
+	},
+        {
+        "name":"Davao Blenny",
+        "commonName":"Labahita",
+        "scientificName":"Salarias fasciatus",
+        "description":"Algae-eating fish often perched on rocks and corals.",
+    "image": "assets/MINDANAO/Davao Region/Salarias fasciatus.jpg",
+        "location":"Rocky coastal reefs of Davao del Sur."
+	},
+        {
+        "name":"Slender Sole",
+        "commonName":"Daplisan",
+        "scientificName":"Aseraggodes spp.",
+        "description":"Flatfish camouflaging with sand and reef rubble.",
+    "image": "assets/MINDANAO/Davao Region/Aseraggodes spp..jpg",
+        "location":"Sandy bottoms near Davao beaches."
+	},
+        {
+        "name":"Indian Scad",
+        "commonName":"Galunggong",
+        "scientificName":"Decapterus russelli",
+        "description":"Schooling fish supporting local markets; silver body with yellow tinge.",
+    "image": "assets/MINDANAO/Davao Region/Decapterus russelli.jpg",
+        "location":"Nearshore waters of Davao City."
+	}
+]      
+        

@@ -70,5 +70,246 @@
     "description": "Found in the coral reefs of the Sulu Archipelago, they are iconic symbols of the region’s rich marine biodiversity.",
     "image": "assets/MINDANAO/BARMM/taklobo.jpg",
     "location": "Sulu Sea"
-  }
+  },
+
+        {
+        "name":"Tawi-Tawi Flasher Wrasse",
+        "commonName":"Dalagang-bukid",
+        "scientificName":"Paracheilinus filamentosus",
+        "description":"Reef wrasse with colorful fins used in display rituals.",
+    "image": "assets/MINDANAO/BARMM/Paracheilinus filamentosus.jpg",
+        "location":"Coral reefs of Tawi-Tawi."
+	},
+        {
+        "name":"Sulu Goby",
+        "commonName":"Pugapo",
+        "scientificName":"Acentrogobius suluensis",
+        "description":"Small goby in silty reefs and mangrove lagoons.",
+    "image": "assets/MINDANAO/BARMM/Acentrogobius suluensis.jpg",
+        "location":"Coastal flats of Sulu Archipelago."
+	},
+        {
+        "name":"Sulu Rabbitfish",
+        "commonName":"Kabang-kabang",
+        "scientificName":"Siganus guttatus",
+        "description":"Herbivorous schooling fish in lagoons; algae regulator.",
+    "image": "assets/MINDANAO/BARMM/Siganus guttatus.jpg",
+        "location":"Seagrass beds of Tawi-Tawi."
+	},
+        {
+        "name":"Tawi-Tawi Sea Cucumber",
+        "commonName":"Tiyula",
+        "scientificName":"Holothuria fuscogilva",
+        "description":"mercially harvested sea cucumber in sandy areas.",
+    "image": "assets/MINDANAO/BARMM/Holothuria fuscogilva.jpg",
+        "location":"Benthic zones of Tawi-Tawi."
+	},
+        {
+        "name":"Mindanao Clownfish",
+        "commonName":"Clownfish",
+        "scientificName":"Amphiprion clarkii",
+        "description":"Hardy anemonefish species cohabiting with sea anemones.",
+    "image": "assets/MINDANAO/BARMM/Amphiprion clarkii.jpg",
+        "location":"Reefs across Basilan and Sulu."
+	},
+        {
+        "name":"Basilan Seahorse",
+        "commonName":"Kabayo-dagat",
+        "scientificName":"Hippocampus barbouri",
+        "description":"Mangrove-associated species vulnerable to habitat loss.",
+    "image": "assets/MINDANAO/BARMM/Hippocampus barbouri.jpg",
+        "location":"Mangroves in Basilan."
+	},
+        {
+        "name":"Philippine Filefish",
+        "commonName":"Isdang Palayok",
+        "scientificName":"Paraluteres prionurus",
+        "description":"Soft-bodied fish mimicking toxic pufferfish.",
+    "image": "assets/MINDANAO/BARMM/Paraluteres prionurus.jpg",
+        "location":"Reef flats in Sulu Sea."
+	},
+        {
+        "name":"Sulu Archipelago Wrasse",
+        "commonName":"Dalagang-bukid",
+        "scientificName":"Halichoeres spp.",
+        "description":"Colorful wrasses contributing to coral cleaning.",
+    "image": "assets/MINDANAO/BARMM/Halichoeres spp..jpg",
+        "location":"Reefs of Sulu Archipelago."
+	},
+        {
+        "name":"Tawi-Tawi Fangblenny",
+        "commonName":"Palos-dagat",
+        "scientificName":"Meiacanthus spp.",
+        "description":"Small venomous reef fish known for bold behavior.",
+    "image": "assets/MINDANAO/BARMM/Meiacanthus spp..jpg",
+        "location":"Tawi-Tawi reef flats."
+	},
+        {
+        "name":"Philippine Longhorn Cowfish",
+        "commonName":"Isdang Kahon",
+        "scientificName":"Lactoria cornuta",
+        "description":"Boxfish with horn-like projections; slow-moving reef dweller",
+    "image": "assets/MINDANAO/BARMM/Lactoria cornuta.jpg",
+        "location":"Reefs around Basilan."
+	},
+        {
+        "name":"Basilan Surgeonfish",
+        "commonName":"Surgeonfish",
+        "scientificName":"Acanthurus spp.",
+        "description":"Herbivorous reef fish grazing on algae.",
+    "image": "assets/MINDANAO/BARMM/Acanthurus spp..jpg",
+        "location":"Basilan reef systems."
+	},
+        {
+        "name":"Tawi-Tawi Anemonefish",
+        "commonName":"Isdang Anemone",
+        "scientificName":"Amphiprion perideraion",
+        "description":"Reef clownfish living among host anemones.",
+    "image": "assets/MINDANAO/BARMM/Amphiprion perideraion.jpg",
+        "location":"Coral gardens of Tawi-Tawi."
+	},
+        {
+        "name":"Sulu Cleaner Shrimp",
+        "commonName":"Hipong Panglinis",
+        "scientificName":"Lysmata amboinensis",
+        "description":"Symbiotic shrimp cleaning parasites off fish.",
+    "image": "assets/MINDANAO/BARMM/Lysmata amboinensis.jpg",
+        "location":"Coral reef cleaning stations."
+	},
+        {
+        "name":"Giant Clam",
+        "commonName":"Tahong-dagat",
+        "scientificName":"Tridacna gigas",
+        "description":"Massive clam contributing to reef structure and filtering.",
+    "image": "assets/MINDANAO/BARMM/Tridacna gigas.jpg",
+        "location":"Reef lagoons of Tawi-Tawi."
+	},
+        {
+        "name":"Philippine Sea Krait",
+        "commonName":"Halas-dagat",
+        "scientificName":"Laticauda colubrina",
+        "description":"Sea snake foraging on reef fish; mildly venomous.",
+    "image": "assets/MINDANAO/BARMM/Laticauda colubrina.jpg",
+        "location":"Coral reefs and coastal caves."
+	},
+        {
+        "name":"Sulu Sea Snapper",
+        "commonName":"Maya-maya",
+        "scientificName":"Lutjanus bohar",
+        "description":"Reef predator forming spawning aggregations.",
+    "image": "assets/MINDANAO/BARMM/Lutjanus bohar.jpg",
+        "location":"Drop-offs in Sulu Sea."
+	},
+        {
+        "name":"Tawi-Tawi Mantis Shrimp",
+        "commonName":"Hipong Palaso",
+        "scientificName":"Odontodactylus scyllarus",
+        "description":"Aggressive shrimp known for its powerful strike.",
+    "image": "assets/MINDANAO/BARMM/Odontodactylus scyllarus.jpg",
+        "location":"Reef flats and burrows of Tawi-Tawi."
+	},
+        {
+        "name":"Basilan Parrotfish",
+        "commonName":"Parrotfish",
+        "scientificName":"Scarus spp.",
+        "description":"Colorful herbivore grazing on algae and biofilm.",
+    "image": "assets/MINDANAO/BARMM/Scarus spp..jpg",
+        "location":"Fringing reefs of Basilan."
+	},
+        {
+        "name":"Sumatran Sailfin Tang",
+        "commonName":"Isdang Palamut",
+        "scientificName":"Zebrasoma desjardinii",
+        "description":"Ornate tang with sail-like fins grazing on algae.",
+    "image": "assets/MINDANAO/BARMM/Zebrasoma desjardinii.jpg",
+        "location":"Coral reefs of BARMM."
+	},
+        {
+        "name":"Sulu Wrinkled Frogfish",
+        "commonName":"Palaka-dagat",
+        "scientificName":"Antennarius spp.",
+        "description":"Well-camouflaged ambush predator hiding in coral rubble.",
+    "image": "assets/MINDANAO/BARMM/Antennarius spp..jpg",
+        "location":"Coral rubble of the Sulu Archipelago."
+	},
+        {
+        "name":"Tawi-Tawi Leaf Scorpionfish",
+        "commonName":"Scorpionfish",
+        "scientificName":"Taenianotus triacanthus",
+        "description":"Flat-bodied reef fish mimicking a leaf, waits to ambush prey.",
+    "image": "assets/MINDANAO/BARMM/Taenianotus triacanthus.jpg",
+        "location":"Coral rubble zones of Tawi-Tawi."
+	},
+        {
+        "name":"Sulu Fairy Basslet",
+        "commonName":"Isdang Maliwanag",
+        "scientificName":"Pseudanthias bartlettorum",
+        "description":"Small, colorful reef fish found in large schools.",
+    "image": "assets/MINDANAO/BARMM/Pseudanthias bartlettorum.jpg",
+        "location":"Outer reef slopes of Sulu Archipelago."
+	},
+        {
+        "name":"Tiger-tail Seahorse",
+        "commonName":"Kabayo-dagat",
+        "scientificName":"Hippocampus comes",
+        "description":"A black-and-yellow patterned seahorse; often found anchored to corals.",
+    "image": "assets/MINDANAO/BARMM/Hippocampus comes.jpg",
+        "location":"Seagrass beds and mangroves of Basilan."
+	},
+        {
+        "name":"Sulu Boxfish",
+        "commonName":"Isdang Kahon",
+        "scientificName":"Ostracion cubicus",
+        "description":"Yellow box-shaped reef fish with black spots.",
+    "image": "assets/MINDANAO/BARMM/Ostracion cubicus.jpg",
+        "location":"Coral reefs of Sulu Sea."
+	},
+        {
+        "name":"Tawi-Tawi Harlequin Sweetlips",
+        "commonName":"Isdang Matikas",
+        "scientificName":"Plectorhinchus chaetodonoides",
+        "description":"Juveniles swim with exaggerated motions; adults grow large.",
+    "image": "assets/MINDANAO/BARMM/Plectorhinchus chaetodonoides.jpg",
+        "location":"Coral slopes near Panglima Sugala, Tawi-Tawi."
+	},
+        {
+        "name":"Philippine Saddleback Anemonefish",
+        "commonName":"Isdang Anemone",
+        "scientificName":"Amphiprion polymnus",
+        "description":"Anemonefish with a saddle-like white mark.",
+    "image": "assets/MINDANAO/BARMM/Amphiprion polymnus.jpg",
+        "location":"Protected reef lagoons in Sulu and Basilan."
+	},
+        {
+        "name":"Blacklip Butterflyfish",
+        "commonName":"Paruparo-dagat ",
+        "scientificName":"Chaetodon kleinii",
+        "description":"Yellow-brown reef fish with vertical black bars.",
+    "image": "assets/MINDANAO/BARMM/Chaetodon kleinii.jpg",
+        "location":"Coral reefs across Tawi-Tawi."
+	},
+        {
+        "name":"Sulu Marble Shrimp",
+        "commonName":"Hipong Marmol",
+        "scientificName":"Saron marmoratus",
+        "description":"Decorated shrimp with flattened body and camo patterns.",
+    "image": "assets/MINDANAO/BARMM/Saron marmoratus.jpg",
+        "location":"Under coral heads and rubble flats."
+	},
+        {
+        "name":"BARMM Bigfin Reef Squid",
+        "commonName":"Pugita",
+        "scientificName":"Sepioteuthis lessoniana",
+        "description":"Fast-growing cephalopod, often caught nearshore at night.",
+    "image": "assets/MINDANAO/BARMM/Sepioteuthis lessoniana.jpg",
+        "location":"Coastal shallows around Sulu Archipelago."
+	},
+        {
+        "name":"Philippine Triton Trumpet",
+        "commonName":"Trumpeta-dagat",
+        "scientificName":"Charonia tritonis",
+        "description":"Large gastropod mollusk that preys on starfish.",
+    "image": "assets/MINDANAO/BARMM/Charonia tritonis.jpg",
+        "location":"Reef slopes and sandy bottoms near Tawi-Tawi."
+	}     
 ]
