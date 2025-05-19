@@ -4,7 +4,7 @@
     "commonName": "Indian Mackerel",
     "scientificName": "Rastrelliger kanagurta",
     "description": "A common, medium-sized mackerel that swims in schools and is important for both local consumption and commercial fisheries.",
-    "image": "assets/LUZON/central luzon/alumahan.jpg",
+    "image": "/assets/LUZON/central luzon/alumahan.jpg",
     "location": "Coastal waters of Ballesteros (Cagayan) and Ivana (Batanes)"
   },
   {
@@ -12,7 +12,7 @@
     "commonName": "Espada",
     "scientificName": "Centropyge loricula",
     "description": "Colorful marine angelfish known for their flattened bodies and graceful movements.",
-    "image": "assets/LUZON/cagayan valley/angelfish.jpg",
+    "image": "/assets/LUZON/cagayan valley/angelfish.jpg",
     "location": "Coral gardens near Piat (Cagayan) and Basco’s reef zones (Batanes)"
   },
   {
@@ -20,7 +20,7 @@
     "commonName": "Barongoy",
     "scientificName": "Exocoetus volitans",
     "description": "Fish with enlarged pectoral fins that allow them to glide above the water’s surface.",
-    "image": "assets/LUZON/cagayan valley/barongoy.jpg",
+    "image": "/assets/LUZON/cagayan valley/barongoy.jpg",
     "location": "Coastal waters off Pamplona (Cagayan) and offshore Basco (Batanes)"
   },
   {
@@ -28,7 +28,7 @@
     "commonName": "Dorado",
     "scientificName": "Coryphaena hippurus",
     "description": "A fast-growing and colorful pelagic fish found in tropical and subtropical surface waters.",
-    "image": "assets/LUZON/cagayan valley/dorado.jpg",
+    "image": "/assets/LUZON/cagayan valley/dorado.jpg",
     "location": "Offshore waters around Palaui Island (Cagayan) and Sabtang Channel (Batanes)"
   },
   {
@@ -36,7 +36,7 @@
     "commonName": "Lapu-Lapu",
     "scientificName": "Epinephelus coioides & Epinephelus malabaricus",
     "description": "Reef-associated fish, highly valued for their culinary qualities..",
-    "image": "assets/LUZON/cagayan valley/lapu-lapu.jpg",
+    "image": "/assets/LUZON/cagayan valley/lapu-lapu.jpg",
     "location": "Coral reefs around Sabtang Island (Batanes)"
   },
   {
@@ -44,7 +44,7 @@
     "commonName": "Malasugi",
     "scientificName": "Makaira nigricans",
     "description": "A large and majestic billfish, a prized game fish found in the open ocean.",
-    "image": "assets/LUZON/cagayan valley/malasugui.jpg",
+    "image": "/assets/LUZON/cagayan valley/malasugui.jpg",
     "location": "Deep oceanic waters east of Sta. Ana (Cagayan) and southeast of Basco (Batanes)"
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Snapper",
     "scientificName": "Lutjanus spp.",
     "description": "Commercially important reef fish with firm, flavorful flesh. Known locally as Maya-Maya and found in reefs off the coast.",
-    "image": "assets/LUZON/central luzon/maya-maya.jpg",
+    "image": "/assets/LUZON/central luzon/maya-maya.jpg",
     "location": "Coastal areas and reefs of Central Luzon (e.g., Zambales, Bataan)"
   },
   {
@@ -60,7 +60,7 @@
     "commonName": "Molmol",
     "scientificName": "Scarus ghobban & Chlorurus sordidus",
     "description": "Herbivorous fish with beak-like mouths, important for controlling algae on reefs.",
-    "image": "assets/LUZON/cagayan valley/molmol.jpg",
+    "image": "/assets/LUZON/cagayan valley/molmol.jpg",
     "location": "Coral reef flats off Abulug (Cagayan) and Diura Fishing Village (Batanes)"
   },
   {
@@ -68,7 +68,7 @@
     "commonName": "Palata",
     "scientificName": "Istiophorus platypterus",
     "description": "A billfish characterized by its prominent sail-like dorsal fin, inhabiting pelagic waters.",
-    "image": "assets/LUZON/cagayan valley/palata.jpg",
+    "image": "/assets/LUZON/cagayan valley/palata.jpg",
     "location": "Open sea off Gonzaga (Cagayan) and Mavulis Island (Batanes)"
   },
   {
@@ -76,7 +76,7 @@
     "commonName": "Palata",
     "scientificName": "Istiophorus platypterus",
     "description": "A billfish characterized by its prominent sail-like dorsal fin, inhabiting pelagic waters.",
-    "image": "assets/LUZON/cagayan valley/palata.jpg",
+    "image": "/assets/LUZON/cagayan valley/palata.jpg",
     "location": "Open sea off Gonzaga (Cagayan) and Mavulis Island (Batanes)"
   },
   {
@@ -84,7 +84,7 @@
     "commonName": "Paru-Paro",
     "scientificName": "Chaetodon auriga & Chaetodon kleinii",
     "description": "Small, often brightly colored reef fish with diverse patterns.",
-    "image": "assets/LUZON/cagayan valley/paru-paro.jpg",
+    "image": "/assets/LUZON/cagayan valley/paru-paro.jpg",
     "location": "Coral-rich zones of Buguey Lagoon (Cagayan) and Marlboro Hills reefs (Batanes)"
   },
   {
@@ -92,7 +92,7 @@
     "commonName": "Gulyasan",
     "scientificName": "Katsuwonus pelamis",
     "description": "An important pelagic tuna species commonly caught in the waters off Luzon, including the Ilocos coast.",
-    "image": "assets/LUZON/ilocos region/skipjack.jpg",
+    "image": "/assets/LUZON/ilocos region/skipjack.jpg",
     "location": "Offshore waters of the Ilocos Region"
   },
   {
@@ -100,7 +100,7 @@
     "commonName": "Talakitok",
     "scientificName": "Various Caranx spp.",
     "description": "Active predatory fish often associated with reefs and coastal areas. Also known as Talakitok.",
-    "image": "assets/LUZON/ilocos region/talakitok.jpg",
+    "image": "/assets/LUZON/ilocos region/talakitok.jpg",
     "location": "Coastal waters of the Ilocos Region"
   },
   {
@@ -108,7 +108,7 @@
     "commonName": "Tambakol",
     "scientificName": "Thunnus albacares",
     "description": "A migratory pelagic tuna species highly valued for its meat. Also known as Bariles (juvenile).",
-    "image": "assets/LUZON/ilocos region/tambakol.jpg",
+    "image": "/assets/LUZON/ilocos region/tambakol.jpg",
     "location": "Offshore waters accessible from the Ilocos Region"
   },
   {
@@ -116,7 +116,7 @@
     "commonName": "Sardine",
     "scientificName": "Sardinella spp.",
     "description": "Small, oily, schooling fish that are essential to marine food webs and heavily harvested for commercial use.",
-    "image": "assets/LUZON/central luzon/tamban.jpg",
+    "image": "/assets/LUZON/central luzon/tamban.jpg",
     "location": "West Philippine Sea (off the coast of Central Luzon), Manila Bay"
   },
   {
@@ -124,7 +124,7 @@
     "commonName": "Spanish Mackerel",
     "scientificName": "Scomberomorus commerson",
     "description": "A large mackerel species known for its firm texture and rich flavor, inhabiting pelagic waters.",
-    "image": "assets/LUZON/central luzon/tanguigue.jpg",
+    "image": "/assets/LUZON/central luzon/tanguigue.jpg",
     "location": "Offshore waters of Buguey Bay (Cagayan) and near Itbayat Island (Batanes)"
   },
   {
@@ -132,7 +132,7 @@
     "commonName": "Frigate Tuna",
     "scientificName": "Auxis thazard",
     "description": "A smaller tuna species commonly found in tropical and subtropical waters.",
-    "image": "assets/LUZON/central luzon/tulingan.jpg",
+    "image": "/assets/LUZON/central luzon/tulingan.jpg",
     "location": "Pelagic zones off Aparri (Cagayan) and around Basco (Batanes)"
   }
 ]

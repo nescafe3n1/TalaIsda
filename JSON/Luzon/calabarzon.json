@@ -4,7 +4,7 @@
     "commonName": "Bisugo",
     "scientificName": "Nemipterus spp.",
     "description": "Small, pinkish fish with sweet-tasting meat, commonly found in coastal fishing grounds",
-    "image": "assets/LUZON/CALABARZON/Bisugo.jpg",
+    "image": "/assets/LUZON/CALABARZON/Bisugo.jpg",
     "location": "Shelf areas of Batangas and Quezon coasts."
   },  
   {
@@ -12,7 +12,7 @@
     "commonName": "Siganid",
     "scientificName": "Siganus guttatus",
     "description": "A commercially important rabbitfish species found in seagrass beds and coral reef areas. A popular food fish in coastal communities.",
-    "image": "assets/LUZON/CALABARZON/danggit.jpg",
+    "image": "/assets/LUZON/CALABARZON/danggit.jpg",
     "location": "Coastal waters of Batangas, especially areas with seagrass and shallow reefs."
   },
   {
@@ -20,7 +20,7 @@
     "commonName": "Anchovy",
     "scientificName": "Stolephorus spp. and other Engraulidae",
     "description": "Small, schooling fish found near the coast, often used for fish paste and dried fish products.",
-    "image": "assets/LUZON/CALABARZON/dilis.jpg",
+    "image": "/assets/LUZON/CALABARZON/dilis.jpg",
     "location": "Coastal waters of Cavite, Batangas, and Quezon, including Manila Bay."
   },
   {
@@ -28,7 +28,7 @@
     "commonName": "Maliputo",
     "scientificName": "Caranx ignobilis",
     "description": "A prized game fish found in Taal Lake, known for its delicious meat. It's the freshwater-adapted form of the marine Giant Trevally and iconic to Batangas.",
-    "image": "assets/LUZON/CALABARZON/maliputo.jpg",
+    "image": "/assets/LUZON/CALABARZON/maliputo.png",
     "location": "Taal Lake, Batangas (freshwater variant)."
   },
   {
@@ -36,7 +36,7 @@
     "commonName": "Matangbaka",
     "scientificName": "Selar crumenophthalmus",
     "description": "A schooling pelagic fish found in coastal waters and near reefs. Common in small-scale fisheries.",
-    "image": "assets/LUZON/CALABARZON/matangbaka.jpg",
+    "image": "/assets/LUZON/CALABARZON/matangbaka.jpg",
     "location": "Coastal waters of Batangas and Quezon."
   },
   {
@@ -44,7 +44,7 @@
     "commonName": "Sea slugs",
     "scientificName": "Various species (Opisthobranchia)",
     "description": "Anilao, Batangas is globally recognized for its colorful nudibranchs. These sea slugs are popular among divers and marine photographers.",
-    "image": "assets/LUZON/CALABARZON/nudibranch.jpg",
+    "image": "/assets/LUZON/CALABARZON/nudibranch.jpg",
     "location": "Coral reefs of Anilao, Batangas."
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Butanding",
     "scientificName": "Rhincodon typus",
     "description": "The world's largest fish, known for its gentle nature. While not a permanent resident, whale sharks visit Quezon and Batangas waters during migration, attracting researchers and tourists.",
-    "image": "assets/LUZON/CALABARZON/butanding.jpg",
+    "image": "/assets/LUZON/CALABARZON/butanding.jpg",
     "location": "Offshore waters of Quezon and Batangas (seasonal/migratory)."
   },
   {
@@ -60,7 +60,7 @@
     "commonName": "Pawikan",
     "scientificName": "Chelonia mydas",
     "description": "Large marine turtles that nest on CALABARZON beaches, especially in Quezon and Batangas. Protected due to their ecological importance.",
-    "image": "assets/LUZON/CALABARZON/pawikan.jpg",
+    "image": "/assets/LUZON/CALABARZON/pawikan.jpg",
     "location": "Coastal nesting beaches of Quezon and Batangas."
   },
   {
@@ -68,7 +68,7 @@
     "commonName": "Sapsap",
     "scientificName": "Leiognathidae",
     "description": "Small, silvery fish with protrusible mouths. Common in shallow waters and estuaries, often caught for food and dried products.",
-    "image": "assets/LUZON/CALABARZON/sapsap.jpg",
+    "image": "/assets/LUZON/CALABARZON/sapsap.jpg",
     "location": "Manila Bay, and coastal waters of Cavite, Batangas, and Quezon."
   },
   {
@@ -76,7 +76,7 @@
     "commonName": "Taklobo",
     "scientificName": "Tridacna spp.",
     "description": "Large, colorful clams found in coral reefs. They help filter water and support reef health. Often protected in marine sanctuaries.",
-    "image": "assets/LUZON/CALABARZON/taklobo.jpg",
+    "image": "/assets/LUZON/CALABARZON/taklobo.jpg",
     "location": "Coral reefs of Batangas and Quezon."
   },
   {
@@ -84,7 +84,7 @@
     "commonName": "Sardine",
     "scientificName": "Sardinella tawilis",
     "description": "A small freshwater sardine found only in Taal Lake. It is culturally significant and unique as the world’s only freshwater sardine.",
-    "image": "assets/LUZON/CALABARZON/tawilis.jpg",
+    "image": "/assets/LUZON/CALABARZON/tawilis.jpg",
     "location": "Taal Lake, Batangas (endemic species)."
   }
 ]

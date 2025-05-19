@@ -4,7 +4,7 @@
     "commonName": "Alumahan",
     "scientificName": "Rastrelliger kanagurta",
     "description": "A staple in wet markets, commonly grilled or fried. Recognized for its affordability and rich flavor.",
-    "image": "assets/LUZON/Bicol/alumahan.jpg",
+    "image": "/assets/LUZON/Bicol/alumahan.jpg",
     "location": "Northern Samar, Eastern Samar, Davao Gulf"
   },
   {
@@ -12,7 +12,7 @@
     "commonName": "Bakoko",
     "scientificName": "Tetraodontidae",
     "description": "Though potentially toxic, it's locally known and handled carefully in some coastal communities.",
-    "image": "assets/VISAYAS/Eastern Visayas/bakako.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/bakako.jpg",
     "location": "Leyte, Biliran"
   },
   {
@@ -20,7 +20,7 @@
     "commonName": "Balatan",
     "scientificName": "Holothuria spp.",
     "description": "Harvested in Biliran and Leyte’s coastal areas; exported as a delicacy.",
-    "image": "assets/VISAYAS/Eastern Visayas/balatan.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/balatan.jpg",
     "location": "Leyte, Biliran"
   },
   {
@@ -28,7 +28,7 @@
     "commonName": "Milkfish",
     "scientificName": "Chanos chanos",
     "description": "The national fish of the Philippines and the most important cultured species in the country. Pampanga and Bulacan are major producers.",
-    "image": "assets/LUZON/central luzon/bangus.png",
+    "image": "/assets/LUZON/central luzon/bangus.png",
     "location": "Pampanga, Bulacan, Cebu, Bohol, Leyte, Samar"
   },
   {
@@ -36,7 +36,7 @@
     "commonName": "Barongoy",
     "scientificName": "Exocoetus volitans",
     "description": "Fish with enlarged pectoral fins that allow them to glide above the water’s surface.",
-    "image": "assets/LUZON/cagayan valley/barongoy.jpg",
+    "image": "/assets/LUZON/cagayan valley/barongoy.jpg",
     "location": "Eastern Samar, Southern Leyte, Sulu Sea"
   },
   {
@@ -44,7 +44,7 @@
     "commonName": "Curacha",
     "scientificName": "Ranina ranina",
     "description": "Occasionally caught in the deeper waters off Eastern Samar. Highly prized in seafood dishes.",
-    "image": "assets/VISAYAS/Eastern Visayas/curacho.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/curacho.jpg",
     "location": "Eastern Samar"
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Anchovy",
     "scientificName": "Stolephorus spp. and other Engraulidae",
     "description": "Small, schooling fish found near the coast, often used for fish paste and other local dishes. Also known as Bolinao or Tiki-Tiki.",
-    "image": "assets/dilis.jpg",
+    "image": "/assets/dilis.jpg",
     "location": "Leyte, Samar, Iligan Bay"
   },
   {
@@ -60,7 +60,7 @@
     "commonName": "Hasa-hasa",
     "scientificName": "Euthynnus affinis",
     "description": "A medium-sized tuna species that's commercially important in the region. Often caught in coastal waters and sold in wet markets. Also known as Skipjack Tuna.",
-    "image": "assets/LUZON/NCR/hasa-hasa.jpg",
+    "image": "/assets/LUZON/NCR/hasa-hasa.jpg",
     "location": "Leyte, Samar, Misamis Oriental, Camiguin"
   },
   {
@@ -68,7 +68,7 @@
     "commonName": "Kalogg",
     "scientificName": "Ocypodinae",
     "description": "Fast-moving, burrow-dwelling crabs seen at night on sandy beaches.",
-    "image": "assets/VISAYAS/Eastern Visayas/kalog.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/kalog.jpg",
     "location": "Leyte, Samar beaches"
   },
   {
@@ -76,7 +76,7 @@
     "commonName": "Lato",
     "scientificName": "Caulerpa lentillifera",
     "description": "Edible seaweed served fresh with vinegar, onions, and tomatoes.",
-    "image": "assets/VISAYAS/Eastern Visayas/lato.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/lato.jpg",
     "location": "Leyte, Biliran"
   },
   {
@@ -84,7 +84,7 @@
     "commonName": "Pusit",
     "scientificName": "Sepioteuthis lessoniana",
     "description": "Caught mainly in Leyte Gulf and Eastern Samar waters, popular grilled or fried.",
-    "image": "assets/VISAYAS/Eastern Visayas/pusit.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/pusit.jpg",
     "location": "Leyte Gulf, Eastern Samar"
   },
   {
@@ -92,7 +92,7 @@
     "commonName": "Talangka-talangka",
     "scientificName": "Periophthalmus spp.",
     "description": "Amphibious fish that walks on land using pectoral fins.",
-    "image": "assets/VISAYAS/Eastern Visayas/talangka-talangka.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/talangka-talangka.jpg",
     "location": "Mangrove areas in Samar and Leyte"
   },
   {
@@ -100,7 +100,7 @@
     "commonName": "Sardine",
     "scientificName": "Sardinella spp.",
     "description": "Small, oily, schooling fish that are essential to marine food webs and heavily harvested for commercial use.",
-    "image": "assets/LUZON/central luzon/tamban.jpg",
+    "image": "/assets/LUZON/central luzon/tamban.jpg",
     "location": "Leyte, Samar, Northern Samar"
   },
   {
@@ -108,7 +108,7 @@
     "commonName": "Tulingan",
     "scientificName": "Euthynnus affinis",
     "description": "A medium-sized tuna species that’s important to regional fisheries. Known for its strong flavor and is often used in local dishes like sinaing or paksiw.",
-    "image": "assets/LUZON/Bicol/tulingan(skipjack tuna na gamit nyo).jpg",
+    "image": "/assets/LUZON/Bicol/tulingan(skipjack tuna na gamit nyo).jpg",
     "location": "Leyte, Southern Leyte, Eastern Samar"
   },
   {
@@ -116,7 +116,7 @@
         "commonName":"Pagi",
         "scientificName":"Neotrygon kuhlii",
         "description":"Small stingray with vivid blue spots; often found on sandy bottoms.",
-    "image": "assets/VISAYAS/Eastern Visayas/Neotrygon kuhlii.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Neotrygon kuhlii.jpg",
         "location":"Leyte Gulf, Eastern Samar"
 	},
         {
@@ -124,7 +124,7 @@
         "commonName":"Igat-hardin",
         "scientificName":"Heteroconger hassi",
         "description":"Lives in colonies, swaying from burrows in sandy seabeds.",
-    "image": "assets/VISAYAS/Eastern Visayas/Heteroconger hassi.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Heteroconger hassi.jpg",
         "location":"Samar reef flats"
 	},
         {
@@ -132,7 +132,7 @@
         "commonName":"Mata-mula",
         "scientificName":"Laticauda colubrina",
         "description":"Venomous sea snake with black and white bands; non-aggressive.",
-    "image": "assets/VISAYAS/Eastern Visayas/Laticauda colubrina.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Laticauda colubrina.jpg",
         "location":"Coastal waters of Leyte"
 	},
         {
@@ -140,7 +140,7 @@
         "commonName":"Bulaklak-ng-dagat",
         "scientificName":"Acanthaster planci",
         "description":"Coral-eating starfish with venomous spines; considered destructive to reefs.",
-    "image": "assets/VISAYAS/Eastern Visayas/Acanthaster planci.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Acanthaster planci.jpg",
         "location":"Eastern Samar coral reefs"
 	},
         {
@@ -148,7 +148,7 @@
         "commonName":"Bituing-balibot",
         "scientificName":"Crinoidea spp.",
         "description":"Colorful echinoderm that clings to corals and fans out its arms at night.",
-    "image": "assets/VISAYAS/Eastern Visayas/Crinoidea spp..jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Crinoidea spp..jpg",
         "location":"Coral zones in Biliran"
 	},
         {
@@ -156,7 +156,7 @@
         "commonName":"Pating-itim",
         "scientificName":"Carcharhinus melanopterus",
         "description":"Small reef shark identified by black tips on fins.",
-    "image": "assets/VISAYAS/Eastern Visayas/Carcharhinus melanopterus.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Carcharhinus melanopterus.jpg",
         "location":"Coral reefs of Leyte and Samar"
 	},
         {
@@ -164,7 +164,7 @@
         "commonName":"Bituing-bughaw",
         "scientificName":"Linckia laevigata",
         "description":"Vibrant blue echinoderm that regenerates lost limbs.",
-    "image": "assets/VISAYAS/Eastern Visayas/Linckia laevigata.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Linckia laevigata.jpg",
         "location":"Shallow reef flats of Samar"
 	},
         {
@@ -172,7 +172,7 @@
         "commonName":"Klawnfis-puti",
         "scientificName":"Amphiprion akallopisos",
         "description":"Pale orange clownfish with a white stripe along the back.",
-    "image": "assets/VISAYAS/Eastern Visayas/Amphiprion akallopisos.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Amphiprion akallopisos.jpg",
         "location":"Anemone fields off Southern Leyte"
 	},
         {
@@ -180,7 +180,7 @@
         "commonName":"Kabayo-dagat",
         "scientificName":"Doryrhamphus dactyliophorus",
         "description":"Long, pipe-shaped body with white rings; swims vertically.",
-    "image": "assets/VISAYAS/Eastern Visayas/Doryrhamphus dactyliophorus.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Doryrhamphus dactyliophorus.jpg",
         "location":"Reef crevices in Biliran"
 	},
         {
@@ -188,7 +188,7 @@
         "commonName":"Alupihang-dagat",
         "scientificName":"Odontodactylus scyllarus",
         "description":"Powerful predator known for club-like claws and colorful armor.",
-    "image": "assets/VISAYAS/Eastern Visayas/Odontodactylus scyllarus.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Odontodactylus scyllarus.jpg",
         "location":"Coral rubble in Eastern Samar"
 	},
         {
@@ -196,7 +196,7 @@
         "commonName":"Dragonet",
         "scientificName":"Synchiropus splendidus",
         "description":"Small and highly colorful fish found near coral sand beds.",
-    "image": "assets/VISAYAS/Eastern Visayas/Synchiropus splendidus.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Synchiropus splendidus.jpg",
         "location":"Leyte reef lagoons"
 	},
         {
@@ -204,7 +204,7 @@
         "commonName":"lionfsh",
         "scientificName":"Dendrochirus zebra",
         "description":"Dwarf lionfish with ornate fins and venomous spines.",
-    "image": "assets/VISAYAS/Eastern Visayas/Dendrochirus zebra.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Dendrochirus zebra.jpg",
         "location":"Rocky coral outcrops of Northern Samar"
 	},
         {
@@ -212,7 +212,7 @@
         "commonName":"Trumpetfish",
         "scientificName":"Aulostomus chinensis",
         "description":"Long-bodied fish that hovers vertically near coral heads.",
-    "image": "assets/VISAYAS/Eastern Visayas/Aulostomus chinensis.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Aulostomus chinensis.jpg",
         "location":"Coral zones of Leyte"
 	},
         {
@@ -220,7 +220,7 @@
         "commonName":"Idolo",
         "scientificName":"Zanclus cornutus",
         "description":"Black, white, and yellow reef fish with trailing fin.",
-    "image": "assets/VISAYAS/Eastern Visayas/Zanclus cornutus.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Zanclus cornutus.jpg",
         "location":"Eastern Samar coral gardens"
 	},
         {
@@ -228,7 +228,7 @@
         "commonName":"Isdang-butas",
         "scientificName":"Oxymonacanthus longirostris",
         "description":"Coral feeder with orange spots and elongated snout.",
-    "image": "assets/VISAYAS/Eastern Visayas/Oxymonacanthus longirostris.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Oxymonacanthus longirostris.jpg",
         "location":"Coral-rich zones of Biliran"
 	},
         {
@@ -236,7 +236,7 @@
         "commonName":"Uring-apoy",
         "scientificName":"Asthenosoma varium",
         "description":"Brightly colored urchin with venomous spines.",
-    "image": "assets/VISAYAS/Eastern Visayas/Asthenosoma varium.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Asthenosoma varium.jpg",
         "location":"Leyte slope reefs"
 	},
         {
@@ -244,7 +244,7 @@
         "commonName":"firefish",
         "scientificName":"Pterois antennata",
         "description":"A venomous lionfish with wide fins and distinct stripes.",
-    "image": "assets/VISAYAS/Eastern Visayas/Pterois antennata.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Pterois antennata.jpg",
         "location":"Samar underwater cliffs"
 	},
         {
@@ -252,7 +252,7 @@
         "commonName":"Bituing-tsokolate",
         "scientificName":"Protoreaster nodosus",
         "description":"Thick-bodied starfish with dark nodules.",
-    "image": "assets/VISAYAS/Eastern Visayas/Protoreaster nodosus.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Protoreaster nodosus.jpg",
         "location":"Tidal flats of Eastern Samar"
 	},
         {
@@ -260,7 +260,7 @@
         "commonName":"Alimango-espongha",
         "scientificName":"Dromia personata",
         "description":"Carries living sponges on its back for camouflage.",
-    "image": "assets/VISAYAS/Eastern Visayas/Dromia personata.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Dromia personata.jpg",
         "location":"Rocky coastal zones of Biliran"
 	},
         {
@@ -268,7 +268,7 @@
         "commonName":"Balatan-rosas",
         "scientificName":"Cercodemas anceps",
         "description":"Soft-bodied echinoderm that processes organic matter.",
-    "image": "assets/VISAYAS/Eastern Visayas/Cercodemas anceps.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Cercodemas anceps.jpg",
         "location":"Sandy seabeds of Southern Leyte"
 	},
         {
@@ -276,7 +276,7 @@
         "commonName":"dagok-dagok",
         "scientificName":"Aplysia dactylomela",
         "description":"Large sea slug that releases purple ink when disturbed.",
-    "image": "assets/VISAYAS/Eastern Visayas/Aplysia dactylomela.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Aplysia dactylomela.jpg",
         "location":"Seagrass beds in Leyte"
 	},
         {
@@ -284,7 +284,7 @@
         "commonName":"dikyâ",
         "scientificName":"Beroe spp.",
         "description":"Transparent, gelatinous organism that glows with bioluminescence.",
-    "image": "assets/VISAYAS/Eastern Visayas/Beroe spp..jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Beroe spp..jpg",
         "location":"Open waters near Samar"
 	},
         {
@@ -292,7 +292,7 @@
         "commonName":"Bilogan",
         "scientificName":"Chromis viridis",
         "description":"Schooling fish with shimmering green color.",
-    "image": "assets/VISAYAS/Eastern Visayas/Chromis viridis.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Chromis viridis.jpg",
         "location":"Coral thickets of Biliran"
 	},
         {
@@ -300,7 +300,7 @@
         "commonName":"Butiti",
         "scientificName":"Ostracion cubicus",
         "description":"Boxy-shaped juvenile with bright yellow body and black spots.",
-    "image": "assets/VISAYAS/Eastern Visayas/Ostracion cubicus.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Ostracion cubicus.jpg",
         "location":"Reefs of Southern Leyte"
 	},
         {
@@ -308,7 +308,7 @@
         "commonName":"Talakitok",
         "scientificName":"Alectis indica",
         "description":"Silvery fish with long trailing dorsal and anal fin rays.",
-    "image": "assets/VISAYAS/Eastern Visayas/Alectis indica.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Alectis indica.jpg",
         "location":"Offshore areas of Eastern Visayas"
 	},
         {
@@ -316,7 +316,7 @@
         "commonName":"kagang",
         "scientificName":"Cryptodromia hilgendorfi",
         "description":"Small, reclusive crab with uneven shell shapes.",
-    "image": "assets/VISAYAS/Eastern Visayas/Cryptodromia hilgendorfi.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Cryptodromia hilgendorfi.jpg",
         "location":"Mangrove shallows of Leyte"
 	},
         {
@@ -324,7 +324,7 @@
         "commonName":"Patingang Sadyang Pinas",
         "scientificName":"Chaetodon ephippium",
         "description":"Reef fish with a distinctive black saddle marking.",
-    "image": "assets/VISAYAS/Eastern Visayas/Chaetodon ephippium.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Chaetodon ephippium.jpg",
         "location":"Coral areas in Samar"
 	},
         {
@@ -332,7 +332,7 @@
         "commonName":"Banog-banog",
         "scientificName":"Cirrhilabrus lunatus",
         "description":"Male displays brilliant pink, purple, and yellow; active during the day.",
-    "image": "assets/VISAYAS/Eastern Visayas/Cirrhilabrus lunatus.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Cirrhilabrus lunatus.jpg",
         "location":"Coral slopes of Biliran"
 	},
         {
@@ -340,7 +340,7 @@
         "commonName":"Bituing-bitak",
         "scientificName":"Ophiuroidea spp.",
         "description":"Fast-moving relative of starfish with flexible, slender arms.",
-    "image": "assets/VISAYAS/Eastern Visayas/Ophiuroidea spp..jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Ophiuroidea spp..jpg",
         "location":"Rocky tidepools of Leyte"
 	},
         {
@@ -348,7 +348,7 @@
         "commonName":"Hubad na susô",
         "scientificName":"Chromodoris lochi",
         "description":"Soft-bodied, colorful sea slug; varies widely in appearance.",
-    "image": "assets/VISAYAS/Eastern Visayas/Chromodoris lochi.jpg",
+    "image": "/assets/VISAYAS/Eastern Visayas/Chromodoris lochi.jpg",
         "location":"Coral reefs in Eastern Samar"
 	}
 ]      

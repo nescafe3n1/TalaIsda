@@ -4,7 +4,7 @@
     "commonName": "Alumahan",
     "scientificName": "Rastrelliger kanagurta",
     "description": "A staple in wet markets, commonly grilled or fried. Recognized for its affordability and rich flavor.",
-    "image": "assets/LUZON/Bicol/alumahan.jpg",
+    "image": "/assets/LUZON/Bicol/alumahan.jpg",
     "location": "Albay coast"
   },  
   {
@@ -12,7 +12,7 @@
     "commonName": "Barongoy",
     "scientificName": "Exocoetidae",
     "description": "Known for gliding above the water surface, this fish is unique to deeper open waters and caught near the Sulu Sea and parts of eastern Bicol.",
-    "image": "assets/LUZON/Bicol/barongoy.jpg",
+    "image": "/assets/LUZON/Bicol/barongoy.jpg",
     "location": "Eastern Bicol Coast (Sorsogon, Albay)"
   },  
   {
@@ -20,7 +20,7 @@
     "commonName": "Bisugo",
     "scientificName": "Nemipterus japonicus",
     "description": "A common market fish in Bicol with a pinkish hue and mild, sweet-tasting meat, frequently used in soups or grilled dishes.",
-    "image": "assets/LUZON/Bicol/Bisugo.jpg",
+    "image": "/assets/LUZON/Bicol/Bisugo.jpg",
     "location": "Sorsogon Bay, Albay Gulf"
   },
   {
@@ -28,7 +28,7 @@
     "commonName": "Danggit",
     "scientificName": "Siganus spp.",
     "description": "A popular breakfast fish, often dried and paired with vinegar or garlic rice. Found in shallow coastal waters and coral reefs.",
-    "image": "assets/LUZON/Bicol/danggit.jpg",
+    "image": "/assets/LUZON/Bicol/danggit.jpg",
     "location": "Sorsogon, Albay"
   },
   {
@@ -36,7 +36,7 @@
     "commonName": "Lumod",
     "scientificName": "Orcaella brevirostris",
     "description": "A critically endangered dolphin species that inhabits coastal waters and estuaries. While their presence might be less widely known than whale sharks, they have been reported in certain areas of the Philippines.",
-    "image": "assets/LUZON/Bicol/lumod.jpg",
+    "image": "/assets/LUZON/Bicol/lumod.jpg",
     "location": "Coastal estuaries and waters of the Bicol region"
   },
   {
@@ -44,7 +44,7 @@
     "commonName": "Pagi",
     "scientificName": "Myliobatoidei",
     "description": "Large, graceful filter-feeding rays known for their wing-like pectoral fins. They are often sighted in the waters around the Bicol region, including near Ticao Island.",
-    "image": "assets/LUZON/Bicol/pagi.jpg",
+    "image": "/assets/LUZON/Bicol/pagi.jpg",
     "location": "Waters off Ticao Island (Masbate), coastal areas of Albay and Sorsogon"
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Pawikan",
     "scientificName": "Chelonia mydas",
     "description": "Endangered marine reptiles that nest on the beaches and forage in the seagrass beds and coral reefs of the Bicol region.",
-    "image": "assets/LUZON/Bicol/pawikan.jpg",
+    "image": "/assets/LUZON/Bicol/pawikan.jpg",
     "location": "Nesting beaches and coastal waters of Albay and Sorsogon"
   },
   {
@@ -60,7 +60,7 @@
     "commonName": "Pusit",
     "scientificName": "Sepioteuthis lessoniana",
     "description": "A widely consumed cephalopod in the region, often grilled or used in adobo. Actively fished in the deeper parts of the Bicol seas.",
-    "image": "assets/LUZON/Bicol/pusit.jpg",
+    "image": "/assets/LUZON/Bicol/pusit.jpg",
     "location": "Albay Gulf, Sorsogon waters"
   },
   {
@@ -68,7 +68,7 @@
     "commonName": "Sinarapan",
     "scientificName": "Mistichthys luzonensis",
     "description": "Known as the world's smallest commercially harvested fish, this tiny species is endemic to Lake Buhi in Camarines Sur and is considered a delicacy.",
-    "image": "assets/LUZON/Bicol/shem sinarapan.jpg",
+    "image": "/assets/LUZON/Bicol/shem sinarapan.jpg",
     "location": "Lake Buhi, Camarines Sur"
   },
   {
@@ -76,7 +76,7 @@
     "commonName": "Taklobo",
     "scientificName": "Tridacna gigas",
     "description": "Large bivalve mollusks that inhabit coral reefs. Several species can be found in the reef ecosystems of the Bicol region, some of which are endangered.",
-    "image": "assets/LUZON/Bicol/taklobo.jpg",
+    "image": "/assets/LUZON/Bicol/taklobo.jpg",
     "location": "Coral reefs of Albay and Sorsogon"
   },
   {
@@ -84,7 +84,7 @@
     "commonName": "Tamban",
     "scientificName": "Sardinella fimbriata",
     "description": "Small, oily fish that often swim in large schools. They are a significant part of the marine food web and are widely consumed, often canned.",
-    "image": "assets/LUZON/Bicol/tamban.jpg",
+    "image": "/assets/LUZON/Bicol/tamban.jpg",
     "location": "Aklan, Antique, Leyte, Samar, Manila Bay"
   },
   {
@@ -92,7 +92,7 @@
     "commonName": "Anchovy",
     "scientificName": "Stolephorus spp.",
     "description": "Tiny schooling fish widely used in making bagoong or dried fish products. Common in coastal Bicol towns.",
-    "image": "assets/LUZON/Bicol/tiki-tiki.jpg",
+    "image": "/assets/LUZON/Bicol/tiki-tiki.jpg",
     "location": "Sorsogon, Camarines Sur"
   },
   {
@@ -100,7 +100,7 @@
     "commonName": "Tulingan",
     "scientificName": "Euthynnus affinis",
     "description": "A medium-sized tuna species that’s important to regional fisheries. Known for its strong flavor and is often used in local dishes like sinaing or paksiw.",
-    "image": "assets/LUZON/Bicol/tulingan(skipjack tuna na gamit nyo).jpg",
+    "image": "/assets/LUZON/Bicol/tulingan(skipjack tuna na gamit nyo).jpg",
     "location": "Lagonoy Gulf, Albay"
   }
 ]

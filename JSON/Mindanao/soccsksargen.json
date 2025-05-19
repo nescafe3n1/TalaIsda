@@ -4,7 +4,7 @@
     "commonName": "Ayungin",
     "scientificName": "Bidyanus bidyanus",
     "description": "A freshwater species found in the lakes and river systems of the region.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/ayugin.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/ayugin.jpg",
     "location": "Sarangani, Sultan Kudarat"
   },
   {
@@ -12,7 +12,7 @@
     "commonName": "Barongoy",
     "scientificName": "Exocoetidae",
     "description": "Flying fish, known locally as bangsi, can glide for short distances above the water's surface.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/barongoy.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/barongoy.jpg",
     "location": "Sarangani Bay, General Santos City"
   },
   {
@@ -20,7 +20,7 @@
     "commonName": "Kuratsa",
     "scientificName": "Ranina ranina",
     "description": "A deep-sea crab with unique red spiny claws, harvested for its tender meat.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/curacha.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/curacha.jpg",
     "location": "Sarangani Bay"
   },
   {
@@ -28,7 +28,7 @@
     "commonName": "Hito",
     "scientificName": "Siluriformes",
     "description": "Farmed extensively in the region, particularly in freshwater ponds, and used in local dishes like adobong hito.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/hito.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/hito.jpg",
     "location": "South Cotabato, Sultan Kudarat"
   },
   {
@@ -36,7 +36,7 @@
     "commonName": "Pugapo",
     "scientificName": "Gobiidae",
     "description": "Small, colorful fish found in the mudflats and coastal estuaries of the region.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/pugapo.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/pugapo.jpg",
     "location": "Sarangani Bay, Sultan Kudarat"
   },
   {
@@ -44,7 +44,7 @@
     "commonName": "Sugpo",
     "scientificName": "Penaeus monodon",
     "description": "This large, commercial prawn species is farmed in the mangrove-rich areas of SOCCSKSARGEN.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/sugpo.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/sugpo.jpg",
     "location": "Sarangani Bay, General Santos"
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Maliputo",
     "scientificName": "Caranx ignobilis",
     "description": "This powerful game fish is highly prized in the region, particularly around Sarangani Bay.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/talakitok.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/talakitok.jpg",
     "location": "Sarangani Bay, General Santos"
   },
   {
@@ -60,7 +60,7 @@
     "commonName": "Tambakol",
     "scientificName": "Thunnus albacares",
     "description": "A flagship species for General Santos, one of the world’s top tuna fishing hubs.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/tambakol.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/tambakol.jpg",
     "location": "General Santos City"
   },
   {
@@ -68,7 +68,7 @@
     "commonName": "Tamban",
     "scientificName": "Sardina pilchardus",
     "description": "A small oily fish found in large schools, caught in the region’s coastal waters.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/tamban.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/tamban.jpg",
     "location": "Sarangani Bay, General Santos"
   },
   {
@@ -76,7 +76,7 @@
     "commonName": "Tulingan",
     "scientificName": "Euthynnus affinis",
     "description": ">A small to medium-sized tuna species found in coastal waters.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/tulingan.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/tulingan.jpg",
     "location": "Sarangani Bay, General Santos"
   },
   {
@@ -84,7 +84,7 @@
         "commonName":"Pugapo",
         "scientificName":"Glossogobius celebius",
         "description":"Benthic fish found in brackish streams and estuaries, playing a role in sediment cycling and food chains",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Glossogobius celebius.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Glossogobius celebius.jpg",
         "location":"Estuaries of General Santos and Sarangani Bay."
 	},
         {
@@ -92,7 +92,7 @@
         "commonName":"Patunaw",
         "scientificName":"Zabidius philippinensis",
         "description":"Deep-bodied reef fish feeding on zooplankton; found in coral-rich areas.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Zabidius philippinensis.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Zabidius philippinensis.jpg",
         "location":"Reefs around Sarangani Bay."
 	},
         {
@@ -100,7 +100,7 @@
         "commonName":"barongoy",
         "scientificName":"Cypselurus sampsoni",
         "description":"Surface-dwelling fish with enlarged pectoral fins for gliding escapes.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Cypselurus sampsoni.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Cypselurus sampsoni.jpg",
         "location":"Surface pelagic zone of Sarangani Bay."
 	},
         {
@@ -108,7 +108,7 @@
         "commonName":"Maya-maya",
         "scientificName":"Lutjanus spp.",
         "description":"Carnivorous reef fish group important in regional food security.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Lutjanus spp..jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Lutjanus spp..jpg",
         "location":"Reef slopes and offshore banks of SOCCSKSARGEN."
 	},
         {
@@ -116,7 +116,7 @@
         "commonName":"Kabayo-dagat (dwarf species)",
         "scientificName":"Hippocampus pontohi",
         "description":"Tiny, camouflaged seahorse living on coral branches.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Hippocampus pontohi.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Hippocampus pontohi.jpg",
         "location":"Coral reefs of Sarangani Bay."
 	},
         {
@@ -124,7 +124,7 @@
         "commonName":"Lanternfish",
         "scientificName":"Diaphus philippinensis",
         "description":"Deep-sea fish emitting bioluminescence; forms part of midwater food web.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Diaphus philippinensis.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Diaphus philippinensis.jpg",
         "location":"Deeper offshore zones of the Celebes Sea."
 	},
         {
@@ -132,7 +132,7 @@
         "commonName":"Pugapo",
         "scientificName":"Bryaninops amplus",
         "description":"Slender goby often found on gorgonian corals.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Bryaninops amplus.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Bryaninops amplus.jpg",
         "location":"Coral reefs near General Santos."
 	},
         {
@@ -140,7 +140,7 @@
         "commonName":"Dalagang-bukid",
         "scientificName":"Pomacentrus smithi",
         "description":"Algae-farming damselfish protecting small territories on coral reefs.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Pomacentrus smithi.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Pomacentrus smithi.jpg",
         "location":"Fringing reefs of Sarangani."
 	},
         {
@@ -148,7 +148,7 @@
         "commonName":"Labahita",
         "scientificName":"Cirrhilabrus philippinus",
         "description":"Small reef fish with vibrant coloration and reef-cleaning behavior.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Cirrhilabrus philippinus.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Cirrhilabrus philippinus.jpg",
         "location":"Outer reef slopes in SOCCSKSARGEN."
 	},
         {
@@ -156,7 +156,7 @@
         "commonName":"Fusili",
         "scientificName":"Caesio cuning",
         "description":"Fast-swimming planktivore in large schools.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Caesio cuning.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Caesio cuning.jpg",
         "location":"Coral and pelagic waters off Sarangani Bay."
 	},
         {
@@ -164,7 +164,7 @@
         "commonName":"Labahita",
         "scientificName":"Paracheilinus alfiani",
         "description":"Display wrasse with bright fins used in mating rituals.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Paracheilinus alfiani.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Paracheilinus alfiani.jpg",
         "location":"Coral reefs of southern SOCCSKSARGEN."
 	},
         {
@@ -172,7 +172,7 @@
         "commonName":"Batso",
         "scientificName":"Thysanophrys celebica",
         "description":"Bottom-dwelling fish camouflaged on sandy reef floors.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Thysanophrys celebica.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Thysanophrys celebica.jpg",
         "location":"Sandy bottoms off Sarangani."
 	},
         {
@@ -180,7 +180,7 @@
         "commonName":"Palos-dagat",
         "scientificName":"Microphis insularis",
         "description":"Elongated pipefish living among seagrasses and mangrove roots.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Microphis insularis.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Microphis insularis.jpg",
         "location":"Seagrass beds and coastal shallows of SOCCSKSARGEN."
 	},
         {
@@ -188,7 +188,7 @@
         "commonName":"Tapok (Remora)",
         "scientificName":"Echeneis naucrates",
         "description":"Remora fish attaching to large marine fauna; aids in parasite control.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Echeneis naucrates.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Echeneis naucrates.jpg",
         "location":"Open waters and reef zones of General Santos."
 	},
         {
@@ -196,7 +196,7 @@
         "commonName":"Papagayo",
         "scientificName":"Platax batavianus",
         "description":"Flattened reef fish that feed on plankton and small invertebrates.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Platax batavianus.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Platax batavianus.jpg",
         "location":"Coral-rich lagoons of Sarangani."
 	},
         {
@@ -204,7 +204,7 @@
         "commonName":"Malasugui",
         "scientificName":"Caranx ignobilis",
         "description":"Large game fish and top predator in reef and offshore environments.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Caranx ignobilis.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Caranx ignobilis.jpg",
         "location":"Drop-offs near Sarangani Bay."
 	},
         {
@@ -212,7 +212,7 @@
         "commonName":"Isdang Anghel",
         "scientificName":"Pomacanthus xanthometopon",
         "description":"Ornate angelfish occupying reef slopes and drop-offs.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Pomacanthus xanthometopon.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Pomacanthus xanthometopon.jpg",
         "location":"Coral reefs near Maitum and Kiamba."
 	},
         {
@@ -220,7 +220,7 @@
         "commonName":"Palaka-isda",
         "scientificName":"Antennarius spp.",
         "description":"Ambush predator blending into coral or sponge habitats.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Antennarius spp..jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Antennarius spp..jpg",
         "location":"Coral rubble fields in SOCCSKSARGEN."
 	},
         {
@@ -228,7 +228,7 @@
         "commonName":"Daga-dagat",
         "scientificName":"Brevitrygon imbricata",
         "description":"Flat ray feeding on benthic invertebrates.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Brevitrygon imbricata.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Brevitrygon imbricata.jpg",
         "location":"Shallow sand flats in Sarangani Bay."
 	},
         {
@@ -236,7 +236,7 @@
         "commonName":"Tulingan",
         "scientificName":"Euthynnus affinis",
         "description":"Small tuna species caught extensively by municipal fishers.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Euthynnus affinis.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Euthynnus affinis.jpg",
         "location":"Offshore waters of SOCCSKSARGEN."
 	},
         {
@@ -244,7 +244,7 @@
         "commonName":"Papagayo",
         "scientificName":"Platax orbicularis",
         "description":"Disc-shaped reef fish often seen in schools, especially in juvenile stages.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Platax orbicularis.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Platax orbicularis.jpg",
         "location":"Coral-rich bays near Glan and Maasim, Sarangani."
 	},
         {
@@ -252,7 +252,7 @@
         "commonName":"Hipon",
         "scientificName":"Lysmata debelius",
         "description":"Bright red shrimp with white spots, often living in cleaning stations.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Lysmata debelius.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Lysmata debelius.jpg",
         "location":"Reefs off Sarangani Bay."
 	},
         {
@@ -260,7 +260,7 @@
         "commonName":"Mabie",
         "scientificName":"Gnathanodon speciosus",
         "description":"Striking yellow fish with black stripes, seen trailing larger fish.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Gnathanodon speciosus.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Gnathanodon speciosus.jpg",
         "location":"Shallow coastal waters and jetties of General Santos."
 	},
         {
@@ -268,7 +268,7 @@
         "commonName":"Lapu-lapu",
         "scientificName":"Epinephelus howlandi",
         "description":"Medium-sized grouper with saddle-like marks; prefers rocky and coral areas.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Epinephelus howlandi.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Epinephelus howlandi.jpg",
         "location":"Reef slopes around Maitum and Kiamba."
 	},
         {
@@ -276,7 +276,7 @@
         "commonName":"Turretfish",
         "scientificName":"Tetrosomus gibbosus",
         "description":"Armored fish with triangular body; moves slowly among corals.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Tetrosomus gibbosus.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Tetrosomus gibbosus.jpg",
         "location":"Coral flats near coastal reefs in Sarangani."
 	},
         {
@@ -284,7 +284,7 @@
         "commonName":"Barakuda",
         "scientificName":"Sphyraena qenie",
         "description":"Predatory pelagic fish with chevron markings; travels in schools.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Sphyraena qenie.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Sphyraena qenie.jpg",
         "location":"Deeper reef edges of SOCCSKSARGEN coast."
 	},
         {
@@ -292,7 +292,7 @@
         "commonName":"Palos-dagat",
         "scientificName":"Fistularia commersonii",
         "description":"Long slender fish resembling a stick; stealth predator of small reef fish.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Fistularia commersonii.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Fistularia commersonii.jpg",
         "location":"Coral reefs of Sarangani Bay."
 	},
         {
@@ -300,7 +300,7 @@
         "commonName":"Korales",
         "scientificName":"Junceella juncea",
         "description":"Flexible coral resembling a whip, often sheltering small crustaceans.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Junceella juncea.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Junceella juncea.jpg",
         "location":"Reef slopes of SOCCSKSARGEN."
 	},
         {
@@ -308,7 +308,7 @@
         "commonName":"Dulong",
         "scientificName":"Siganus argenteus",
         "description":"Silver-colored herbivore found in schools; feeds on algae.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Siganus argenteus.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Siganus argenteus.jpg",
         "location":"Seagrass beds and coral reefs near Glan."
 	},
         {
@@ -316,7 +316,7 @@
         "commonName":"Lapu-lapu",
         "scientificName":"Cephalopholis boenak",
         "description":"Small reef predator with brown body and light speckles.",
-    "image": "assets/MINDANAO/SOCCSKSARGEN/Cephalopholis boenak.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/Cephalopholis boenak.jpg",
         "location":"Reefs and lagoon systems of Sarangani."
 	}
 ]

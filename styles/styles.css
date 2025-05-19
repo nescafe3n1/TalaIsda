@@ -323,13 +323,13 @@ nav {
 
 /* Contribute Section */
 .contribute-section {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/discoverybg.png') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/discoverybg.png') center/cover no-repeat;
     color: white;
 }
 
 /* For discovery page */
 .discovery-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/submitdiscovery.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/submitdiscovery.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -473,7 +473,7 @@ nav {
 }
 /* Luzon Section */
 .region-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/luzonbanner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/luzonbanner.jpg');
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -543,10 +543,10 @@ nav {
 /* About Section */
 
 .about-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/about.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/about.jpg');
     background-repeat: cover;
     background-position: center;
-    height: 300px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -561,7 +561,7 @@ nav {
 
 .about-content {
     padding: 50px 5%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: justify;
 }
@@ -868,7 +868,7 @@ footer {
   }
   
   .discoveries-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/discoveryimage.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/discoveryimage.jpg');
     background-size: cover;
     background-position: center;
     color: white;

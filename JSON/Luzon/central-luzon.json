@@ -4,7 +4,7 @@
     "commonName": "Alumahan",
     "scientificName": "Rastrelliger kanagurta",
     "description": "A common, medium-sized mackerel that swims in schools and is important for both local consumption and commercial fisheries.",
-    "image": "assets/LUZON/central luzon/alumahan.jpg",
+    "image": "/assets/LUZON/central luzon/alumahan.jpg",
     "location": "Manila Bay, West Philippine Sea (off the coast of Central Luzon)"
   },
   {
@@ -12,7 +12,7 @@
     "commonName": "Milkfish",
     "scientificName": "Chanos chanos",
     "description": "The national fish of the Philippines and the most important cultured species in the country. Pampanga and Bulacan are major producers.",
-    "image": "assets/LUZON/central luzon/bangus.png",
+    "image": "/assets/LUZON/central luzon/bangus.png",
     "location": "Pampanga, Bulacan"
   },
   {
@@ -20,7 +20,7 @@
     "commonName": "Whale Shark",
     "scientificName": "Rhincodon typus",
     "description": "The world's largest fish, known for its gentle nature and filter-feeding habits. Occasionally sighted in offshore waters during migration.",
-    "image": "assets/LUZON/central luzon/butanding.jpg",
+    "image": "/assets/LUZON/central luzon/butanding.jpg",
     "location": "Offshore waters of Central Luzon (West Philippine Sea)"
   },
   {
@@ -28,7 +28,7 @@
     "commonName": "Anchovy",
     "scientificName": "Stolephorus spp. and other Engraulidae",
     "description": "Small, schooling fish found near the coast, often used for fish paste and other local dishes. Also known as Bolinao or Tiki-Tiki.",
-    "image": "assets/LUZON/central luzon/dilis.jpg",
+    "image": "/assets/LUZON/central luzon/dilis.jpg",
     "location": "Manila Bay, coastal waters of Central Luzon"
   },
   {
@@ -36,7 +36,7 @@
     "commonName": "Grouper",
     "scientificName": "Epinephelus spp. and other Epinephelidae",
     "description": "A group of high-value reef fish prized for their firm, white flesh. Found in coral reefs and rocky areas along the coast.",
-    "image": "assets/LUZON/central luzon/lapu-lapu.jpg",
+    "image": "/assets/LUZON/central luzon/lapu-lapu.jpg",
     "location": "Coastal areas and reefs of Central Luzon (e.g., Zambales, Bataan)"
   },
   {
@@ -44,7 +44,7 @@
     "commonName": "Snapper",
     "scientificName": "Lutjanus spp.",
     "description": "Commercially important reef fish with firm, flavorful flesh. Known locally as Maya-Maya and found in reefs off the coast.",
-    "image": "assets/LUZON/central luzon/maya-maya.jpg",
+    "image": "/assets/LUZON/central luzon/maya-maya.jpg",
     "location": "Coastal areas and reefs of Central Luzon (e.g., Zambales, Bataan)"
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Sea Turtle",
     "scientificName": "Chelonia mydas, Eretmochelys imbricata",
     "description": "These endangered sea turtles nest on beaches and forage in coastal waters. They play a vital role in maintaining marine ecosystem balance.",
-    "image": "assets/LUZON/central luzon/pawikan.jpg",
+    "image": "/assets/LUZON/central luzon/pawikan.jpg",
     "location": "Coastal waters and nesting beaches of Central Luzon (e.g., Zambales, Bataan)"
   },
   {
@@ -60,7 +60,7 @@
     "commonName": "Sardine",
     "scientificName": "Sardinella spp.",
     "description": "Small, oily, schooling fish that are essential to marine food webs and heavily harvested for commercial use.",
-    "image": "assets/LUZON/central luzon/tamban.jpg",
+    "image": "/assets/LUZON/central luzon/tamban.jpg",
     "location": "West Philippine Sea (off the coast of Central Luzon), Manila Bay"
   }
 ]

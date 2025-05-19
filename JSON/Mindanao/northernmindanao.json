@@ -4,7 +4,7 @@
     "commonName": "Hito",
     "scientificName": "Siluriformes",
     "description": "Farmed in freshwater ponds and rivers, this fish is a staple in local cuisine, especially for making adobo dishes.",
-    "image": "assets/MINDANAO/Northern Mindanao/hito.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/hito.jpg",
     "location": "Misamis Oriental"
   },
   {
@@ -12,7 +12,7 @@
     "commonName": "Maya-Maya",
     "scientificName": "Lutjanus campechanus",
     "description": "Found in deep coral reefs, red snapper is prized for its firm flesh and delicate flavor.",
-    "image": "assets/MINDANAO/Northern Mindanao/maya-maya.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/maya-maya.jpg",
     "location": "Misamis Oriental, Lanao del Norte"
   },
     {
@@ -20,7 +20,7 @@
     "commonName": "Barilis",
     "scientificName": "Lutjanidae",
     "description": "Various species of snappers are abundant in the coral reefs and deeper offshore waters.",
-    "image": "assets/MINDANAO/Northern Mindanao/barilis.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/barilis.jpg",
     "location": "Misamis Occidental, Lanao del Norte"
   },
   {
@@ -28,7 +28,7 @@
     "commonName": "Curacha",
     "scientificName": "Lutjanidae",
     "description": "Known for its spiny shell and deep-sea habitat, curacha is highly prized for its sweet, tender meat.",
-    "image": "assets/MINDANAO/Northern Mindanao/curacha.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/curacha.jpg",
     "location": "Camiguin, Misamis Occidental"
   },
   {
@@ -36,7 +36,7 @@
     "commonName": "Hipong Dapa",
     "scientificName": "Stomatopoda",
     "description": "A crustacean known for its powerful claws and vibrant colors, found in the coastal areas of Northern Mindanao.",
-    "image": "assets/MINDANAO/Northern Mindanao/hipong dapa.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/hipong dapa.jpg",
     "location": "Misamis Oriental, Camiguin"
   },
   {
@@ -44,7 +44,7 @@
     "commonName": "Pugapo",
     "scientificName": "Gobiidae",
     "description": "Small, colorful fish often found in rocky tidal pools and reef areas.",
-    "image": "assets/MINDANAO/Northern Mindanao/pugapo.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/pugapo.jpg",
     "location": "Misamis Occidental"
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Sinarapan",
     "scientificName": "Mistichthys luzonensis",
     "description": "The world’s smallest commercially harvested fish, endemic to small lakes and shallow water regions.",
-    "image": "assets/MINDANAO/Northern Mindanao/shem sinarapan.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/shem sinarapan.jpg",
     "location": "Camiguin"
   },
   {
@@ -60,7 +60,7 @@
     "commonName": "Tamban",
     "scientificName": "Mistichthys luzonensis",
     "description": "A small, oily fish found in schools, often used for canning or drying.",
-    "image": "assets/MINDANAO/Northern Mindanao/tamban.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/tamban.jpg",
     "location": "Misamis Oriental, Lanao del Norte"
   },
   {
@@ -68,7 +68,7 @@
     "commonName": "Tulingan",
     "scientificName": "Euthynnus affinis",
     "description": "Commonly found in the deeper waters of the region, it is an important species for both commercial and subsistence fishing.",
-    "image": "assets/LUZON/cagayan valley/skipjack.jpg",
+    "image": "/assets/LUZON/cagayan valley/skipjack.jpg",
     "location": "Misamis Occidental, Lanao del Norte"
   },
         {
@@ -76,7 +76,7 @@
         "commonName":"Goby",
         "scientificName":"Glossogobius celebius",
         "description":"Small benthic fish of estuaries and streams.",
-    "image": "assets/MINDANAO/Northern Mindanao/Glossogobius celebius.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Glossogobius celebius.jpg",
         "location":"Misamis Oriental and Camiguin estuaries."
 	},
         {
@@ -84,7 +84,7 @@
         "commonName":"Pipefish",
         "scientificName":"Microphis insularis",
         "description":"Camouflaged pipefish in mangroves and seagrass.",
-    "image": "assets/MINDANAO/Northern Mindanao/Microphis insularis.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Microphis insularis.jpg",
         "location":"Camiguin coastal seagrass beds."
 	},
         {
@@ -92,7 +92,7 @@
         "commonName":"Alumahan",
         "scientificName":"Rastrelliger brachysoma",
         "description":"Pelagic schooling fish caught commercially.",
-    "image": "assets/MINDANAO/Northern Mindanao/Rastrelliger brachysoma.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Rastrelliger brachysoma.jpg",
         "location":"Misamis Oriental coastal waters."
 	},
         {
@@ -100,7 +100,7 @@
         "commonName":"Pating-pating",
         "scientificName":"Amphiprion perideraion",
         "description":"Clownfish living with anemones.",
-    "image": "assets/MINDANAO/Northern Mindanao/Amphiprion perideraion.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Amphiprion perideraion.jpg",
         "location":"Coral reefs of Camiguin."
 	},
         {
@@ -108,7 +108,7 @@
         "commonName":"Bangus",
         "scientificName":"Chanos chanos",
         "description":"Brackish aquaculture species tolerant of salinity changes.",
-    "image": "assets/MINDANAO/Northern Mindanao/Chanos chanos.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Chanos chanos.jpg",
         "location":"Fishponds in Misamis Oriental."
 	},
         {
@@ -116,7 +116,7 @@
         "commonName":"Bato-bato",
         "scientificName":"Gymnothorax spp.",
         "description":"Nocturnal reef predator eels.",
-    "image": "assets/MINDANAO/Northern Mindanao/Gymnothorax spp..jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Gymnothorax spp..jpg",
         "location":"Reefs in Northern Mindanao."
 	},
         {
@@ -124,7 +124,7 @@
         "commonName":"Lapu-lapu",
         "scientificName":"Cephalopholis argus",
         "description":"Blue-spotted predatory grouper.",
-    "image": "assets/MINDANAO/Northern Mindanao/Cephalopholis argus.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Cephalopholis argus.jpg",
         "location":"Reefs around Surigao del Norte."
 	},
         {
@@ -132,7 +132,7 @@
         "commonName":"Galunggong",
         "scientificName":"Decapterus macrosoma",
         "description":"Silvery schooling fish.",
-    "image": "assets/MINDANAO/Northern Mindanao/Decapterus macrosoma.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Decapterus macrosoma.jpg",
         "location":"Coastal waters near Camiguin."
 	},
         {
@@ -140,7 +140,7 @@
         "commonName":"Pugita",
         "scientificName":"Octopus cyanea",
         "description":"Color-changing cephalopod in reefs.",
-    "image": "assets/MINDANAO/Northern Mindanao/Octopus cyanea.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Octopus cyanea.jpg",
         "location":"Reef flats in Northern Mindanao."
 	},
         {
@@ -148,7 +148,7 @@
         "commonName":"Labahita",
         "scientificName":"Halichoeres melanochir",
         "description":"Colorful reef algae grazer.",
-    "image": "assets/MINDANAO/Northern Mindanao/Halichoeres melanochir.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Halichoeres melanochir.jpg",
         "location":"Reefs in Misamis Oriental."
 	},
         {
@@ -156,7 +156,7 @@
         "commonName":"Nudibranch",
         "scientificName":"Nembrotha chamberlaini",
         "description":"Bright sea slug feeding on sponges.",
-    "image": "assets/MINDANAO/Northern Mindanao/Nembrotha chamberlaini.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Nembrotha chamberlaini.jpg",
         "location":"Coral reefs near Camiguin."
 	},
         {
@@ -164,7 +164,7 @@
         "commonName":"Alimango",
         "scientificName":"Scylla serrata",
         "description":"Large crab of mangroves and estuaries.",
-    "image": "assets/MINDANAO/Northern Mindanao/Scylla serrata.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Scylla serrata.jpg",
         "location":"Mangroves of Misamis Oriental."
 	},
         {
@@ -172,7 +172,7 @@
         "commonName":"Lato",
         "scientificName":"Caulerpa lentillifera",
         "description":"Edible green algae harvested locally.",
-    "image": "assets/MINDANAO/Northern Mindanao/Caulerpa lentillifera.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Caulerpa lentillifera.jpg",
         "location":"Shallow coastal areas in Northern Mindanao."
 	},
         {
@@ -180,7 +180,7 @@
         "commonName":"Korales",
         "scientificName":"Porites lobata",
         "description":"Massive reef-building coral.",
-    "image": "assets/MINDANAO/Northern Mindanao/Porites lobata.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Porites lobata.jpg",
         "location":"Reef slopes near Camiguin."
 	},
         {
@@ -188,7 +188,7 @@
         "commonName":"Durugo-durugo ",
         "scientificName":"Eucidaris spp.",
         "description":"Algae-feeding sea urchin.",
-    "image": "assets/MINDANAO/Northern Mindanao/Eucidaris spp..jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Eucidaris spp..jpg",
         "location":"Reefs in Misamis Oriental."
 	},
         {
@@ -196,7 +196,7 @@
         "commonName":"Pipefish",
         "scientificName":"Solegnathus spp.",
         "description":"Pipefish-like reef dweller.",
-    "image": "assets/MINDANAO/Northern Mindanao/Solegnathus spp..jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Solegnathus spp..jpg",
         "location":"Seagrass beds of Northern Mindanao."
 	},
         {
@@ -204,7 +204,7 @@
         "commonName":"Tuna",
         "scientificName":"Thunnus albacares",
         "description":"Commercially important yellowfin tuna.",
-    "image": "assets/MINDANAO/Northern Mindanao/Thunnus albacares.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Thunnus albacares.jpg",
         "location":"Offshore deep waters near Northern Mindanao."
 	},
         {
@@ -212,7 +212,7 @@
         "commonName":"Barilis",
         "scientificName":"Hemiramphus far",
         "description":"Surface-dwelling elongated fish.",
-    "image": "assets/MINDANAO/Northern Mindanao/Hemiramphus far.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Hemiramphus far.jpg",
         "location":"Pelagic zones in Northern Mindanao."
 	},
         {
@@ -220,7 +220,7 @@
         "commonName":"Isdang tabak",
         "scientificName":"Aeoliscus strigatus",
         "description":"Upright swimming small reef fish.",
-    "image": "assets/MINDANAO/Northern Mindanao/Aeoliscus strigatus.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Aeoliscus strigatus.jpg",
         "location":"Reefs near Camiguin."
 	},
         {
@@ -228,7 +228,7 @@
         "commonName":"Balatan",
         "scientificName":"Holothuria scabra",
         "description":"Detritivore important for reef health.",
-    "image": "assets/MINDANAO/Northern Mindanao/Holothuria scabra.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Holothuria scabra.jpg",
         "location":"Sandy bottoms near Northern Mindanao."
 	},
         {
@@ -236,7 +236,7 @@
         "commonName":"Lapu-lapu",
         "scientificName":"Plectropomus leopardus",
         "description":"Vibrantly spotted reef predator, often solitary.",
-    "image": "assets/MINDANAO/Northern Mindanao/Plectropomus leopardus.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Plectropomus leopardus.jpg",
         "location":"Reefs off Camiguin Island."
 	},
         {
@@ -244,7 +244,7 @@
         "commonName":"Sapsap",
         "scientificName":"Nemipterus japonicus",
         "description":"Demersal fish with pink and yellow stripes, bottom feeder.",
-    "image": "assets/MINDANAO/Northern Mindanao/Nemipterus japonicus.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Nemipterus japonicus.jpg",
         "location":"Coastal seafloor near Misamis Oriental."
 	},
         {
@@ -252,7 +252,7 @@
         "commonName":"Karne",
         "scientificName":"Lactoria cornuta",
         "description":"Boxfish with horn-like projections; slow swimmer.",
-    "image": "assets/MINDANAO/Northern Mindanao/Lactoria cornuta.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Lactoria cornuta.jpg",
         "location":"Coral patches of Gingoog Bay."
 	},
         {
@@ -260,7 +260,7 @@
         "commonName":"Pipefish",
         "scientificName":"Doryrhamphus dactyliophorus",
         "description":"Slender reef fish with alternating black and white bands.",
-    "image": "assets/MINDANAO/Northern Mindanao/Doryrhamphus dactyliophorus.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Doryrhamphus dactyliophorus.jpg",
         "location":"Coral crevices and seagrass beds of Camiguin."
 	},
         {
@@ -268,7 +268,7 @@
         "commonName":"Hipon panlinis",
         "scientificName":"Stenopus hispidus",
         "description":"Cleaner shrimp with banded claws; lives in reef caves.",
-    "image": "assets/MINDANAO/Northern Mindanao/Stenopus hispidus.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Stenopus hispidus.jpg",
         "location":"Coral shelters of Misamis Oriental."
 	},
         {
@@ -276,7 +276,7 @@
         "commonName":"Isdang sipol",
         "scientificName":"Macroramphosus gracilis",
         "description":"Small reef fish with long snout and compressed body.",
-    "image": "assets/MINDANAO/Northern Mindanao/Macroramphosus gracilis.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Macroramphosus gracilis.jpg",
         "location":"Drop-offs near Camiguin reefs."
 	},
         {
@@ -284,7 +284,7 @@
         "commonName":"Kito",
         "scientificName":"Siganus javus",
         "description":"Algae-eating reef fish with fine streaks on sides.",
-    "image": "assets/MINDANAO/Northern Mindanao/tuiganus javuslingan.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/tuiganus javuslingan.jpg",
         "location":"Shallow reef flats in Northern Mindanao."
 	},
         {
@@ -292,7 +292,7 @@
         "commonName":"Nudibranch",
         "scientificName":"Chromodoris annae",
         "description":"Bright blue nudibranch feeding on sponges.",
-    "image": "assets/MINDANAO/Northern Mindanao/Chromodoris annae.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Chromodoris annae.jpg",
         "location":"Coral slopes near Camiguin."
 	},
         {
@@ -300,7 +300,7 @@
         "commonName":"Paru-paro",
         "scientificName":"Chaetodon rafflesii",
         "description":"Diagonal striped reef fish that feeds on coral polyps.",
-    "image": "assets/MINDANAO/Northern Mindanao/Chaetodon rafflesii.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Chaetodon rafflesii.jpg",
         "location":"Coral reefs of Bohol Sea side of Misamis Oriental."
 	},
         {
@@ -308,7 +308,7 @@
         "commonName":"Kalabos",
         "scientificName":"Naso vlamingii",
         "description":"Large reef fish with extended snout and bold color change.",
-    "image": "assets/MINDANAO/Northern Mindanao/Naso vlamingii.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Naso vlamingii.jpg",
         "location":"Outer reefs in Northern Mindanao."
 	}
 ]      

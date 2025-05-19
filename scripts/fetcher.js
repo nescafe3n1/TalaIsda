@@ -1,4 +1,4 @@
-fetch('JSON/Luzon/ilocos.json')
+fetch('/JSON/Luzon/ilocos.json')
 	.then(res => res.json())
 	.then(fishList => {
 		const container = document.getElementById('ilocosFishCards');
@@ -15,7 +15,7 @@ fetch('JSON/Luzon/ilocos.json')
 		});
 	});
 
-fetch('JSON/Luzon/central-luzon.json')
+fetch('/JSON/Luzon/central-luzon.json')
 	.then(res => res.json())
 	.then(fishList => {
 		const container = document.getElementById('centralFishCards');
@@ -32,7 +32,7 @@ fetch('JSON/Luzon/central-luzon.json')
 		});
 	});
 
-fetch('JSON/Luzon/cagayan.json')
+fetch('/JSON/Luzon/cagayan.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('cagayanFishCards');
@@ -49,7 +49,7 @@ fetch('JSON/Luzon/cagayan.json')
 	});
 });
 
-fetch('JSON/Luzon/calabarzon.json')
+fetch('/JSON/Luzon/calabarzon.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('calabarzonFishCards');
@@ -66,7 +66,7 @@ fetch('JSON/Luzon/calabarzon.json')
 	});
 });
 
-fetch('JSON/Luzon/mimaropa.json')
+fetch('/JSON/Luzon/mimaropa.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('mimaropaFishCards');
@@ -83,7 +83,7 @@ fetch('JSON/Luzon/mimaropa.json')
 	});
 });
 
-fetch('JSON/Luzon/bicol.json')
+fetch('/JSON/Luzon/bicol.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('bicolFishCards');
@@ -100,7 +100,7 @@ fetch('JSON/Luzon/bicol.json')
 	});
 });
 
-fetch('JSON/Luzon/ncr.json')
+fetch('/JSON/Luzon/ncr.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('ncrFishCards');
@@ -117,7 +117,7 @@ fetch('JSON/Luzon/ncr.json')
 	});
 });
 
-fetch('JSON/Luzon/car.json')
+fetch('/JSON/Luzon/car.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('carFishCards');
@@ -134,7 +134,7 @@ fetch('JSON/Luzon/car.json')
 	});
 });
 
-fetch('JSON/Visayas/westernvisayas.json')
+fetch('/JSON/Visayas/westernvisayas.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('westernFishCards');
@@ -151,7 +151,7 @@ fetch('JSON/Visayas/westernvisayas.json')
 	});
 });
 
-fetch('JSON/Visayas/centralvisayas.json')
+fetch('/JSON/Visayas/centralvisayas.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('centralVisayasFishCards');
@@ -168,7 +168,7 @@ fetch('JSON/Visayas/centralvisayas.json')
 	});
 });
 
-fetch('JSON/Visayas/easternvisayas.json')
+fetch('/JSON/Visayas/easternvisayas.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('easternFishCards');
@@ -185,7 +185,7 @@ fetch('JSON/Visayas/easternvisayas.json')
 	});
 });
 
-fetch('JSON/Mindanao/zamboanga.json')
+fetch('/JSON/Mindanao/zamboanga.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('zamboangaFishCards');
@@ -202,7 +202,7 @@ fetch('JSON/Mindanao/zamboanga.json')
 	});
 });
 
-fetch('JSON/Mindanao/northernmindanao.json')
+fetch('/JSON/Mindanao/northernmindanao.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('northernFishCards');
@@ -219,7 +219,7 @@ fetch('JSON/Mindanao/northernmindanao.json')
 	});
 });
 
-fetch('JSON/Mindanao/davao.json')
+fetch('/JSON/Mindanao/davao.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('davaoFishCards');
@@ -236,10 +236,10 @@ fetch('JSON/Mindanao/davao.json')
 	});
 });
 
-fetch('JSON/Mindanao/soccsksargen.json')
+fetch('/JSON/Mindanao/soccsksargen.json')
 .then(res => res.json())
 .then(fishList => {
-	const container = document.getElementById('soccskargenFishCards');
+	const container = document.getElementById('soccsksargenFishCards');
 	fishList.forEach(fish => {
 		container.innerHTML += `
 			<div class="fish-card">
@@ -253,7 +253,7 @@ fetch('JSON/Mindanao/soccsksargen.json')
 	});
 });
 
-fetch('JSON/Mindanao/caraga.json')
+fetch('/JSON/Mindanao/caraga.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('caragaFishCards');
@@ -270,7 +270,7 @@ fetch('JSON/Mindanao/caraga.json')
 	});
 });
 
-fetch('JSON/Mindanao/barmm.json')
+fetch('/JSON/Mindanao/barmm.json')
 .then(res => res.json())
 .then(fishList => {
 	const container = document.getElementById('barmmFishCards');
