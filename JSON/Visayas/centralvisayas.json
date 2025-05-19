@@ -78,5 +78,247 @@
     "description": "Caught in the deep waters between Bohol and Cebu, especially near the Bohol Sea.",
     "image": "assets/VISAYAS/Central Visayas/tambakol.jpg",
     "location": "Cebu, Bohol"
-  }
-]
+  },
+  {
+        "name":"Harlequin Shrimp",
+        "commonName":"Hipong Arlekin",
+        "scientificName":"Hymenocera picta",
+        "description":"Beautiful shrimp that feeds exclusively on starfish; noted for its vibrant colors.",
+"image": "assets/VISAYAS/Central Visayas/Hymenocera picta.jpg",
+        "location":"Bohol, Cebu coral rubble"
+	},
+        {
+        "name":"Longhorn Cowfish",
+        "commonName":"Isdang Kahon",
+        "scientificName":"Lactoria cornuta",
+        "description":"Box-shaped fish with horn-like projections; emits toxins when threatened.",
+"image": "assets/VISAYAS/Central Visayas/Lactoria cornuta.jpg",
+        "location":"Reef flats of Siquijor"
+	},
+        {
+        "name":"Batfish",
+        "commonName":"Isdang Paniki",
+        "scientificName":"Platax orbicularis",
+        "description":"Laterally flattened fish found near mangroves and reefs.",
+"image": "assets/VISAYAS/Central Visayas/Platax orbicularis.jpg",
+        "location":"Coastal waters of Cebu"
+	},
+        {
+        "name":"Spiny Seahorse",
+        "commonName":"Kabayo-dagat",
+        "scientificName":"Hippocampus histrix",
+        "description":"A small seahorse with prickly spines; clings to seagrass.",
+    "image": "assets/VISAYAS/Central Visayas/Hippocampus histrix.jpg",
+        "location":"Seagrass beds of Bohol"
+	},
+        {
+        "name":"Cleaner Wrasse",
+        "commonName":"Taga-linis",
+        "scientificName":"Labroides dimidiatus",
+        "description":"Known for picking parasites off larger fish.",
+    "image": "assets/VISAYAS/Central Visayas/Labroides dimidiatus.jpg",
+        "location":"Coral reefs around Negros Oriental"
+	},
+        {
+        "name":"Pipehorse",
+        "commonName":"Buhok-dagat",
+        "scientificName":"Solegnathus hardwickii",
+        "description":"A relative of seahorses and pipefish; long and thin.",
+    "image": "assets/VISAYAS/Central Visayas/Solegnathus hardwickii.jpg",
+        "location":"Coastal reefs of Cebu"
+	},
+        {
+        "name":"Porcupinefish",
+        "commonName":"Butete",
+        "scientificName":"Diodon holocanthus",
+        "description":"Inflates and exposes sharp spines when threatened.",
+    "image": "assets/VISAYAS/Central Visayas/Diodon holocanthus.jpg",
+        "location":"Reef flats of Bohol"
+	},
+        {
+        "name":"Blue Tang",
+        "commonName":"Doktora",
+        "scientificName":"Paracanthurus hepatus",
+        "description":"Recognizable as “Dory” from movies; grazes on algae.",
+    "image": "assets/VISAYAS/Central Visayas/Paracanthurus hepatus.jpg",
+        "location":"Reefs of Siquijor"
+	},
+        {
+        "name":"Snowflake Moray Eel",
+        "commonName":"Igat",
+        "scientificName":"Echidna nebulosa",
+        "description":"Colorful eel with a spotted pattern; hides in reef crevices.",
+    "image": "assets/VISAYAS/Central Visayas/Echidna nebulosa.jpg",
+        "location":"Coastal areas of Cebu"
+	},
+        {
+        "name":"Banded Coral Shrimp",
+        "commonName":"Sugpo-bandera",
+        "scientificName":"Stenopus hispidus",
+        "description":"Red-and-white banded shrimp that cleans parasites from fish.",
+    "image": "assets/VISAYAS/Central Visayas/Stenopus hispidus.jpg",
+        "location":"Coral slopes of Bohol"
+	},
+        {
+        "name":"Saddleback Anemonefish",
+        "commonName":"Klawnfis",
+        "scientificName":"Amphiprion polymnus",
+        "description":"Lives in symbiosis with sea anemones; has a saddle-like white patch.",
+    "image": "assets/VISAYAS/Central Visayas/Amphiprion polymnus.jpg",
+        "location":"Coral-rich waters of Negros Oriental"
+	},
+        {
+        "name":"Golden Rabbitfish",
+        "commonName":"Danggit",
+        "scientificName":"Siganus guttatus",
+        "description":"Herbivorous fish often seen in pairs; important in reef health.",
+    "image": "assets/VISAYAS/Central Visayas/Siganus guttatus.jpg",
+        "location":"Cebu reef flats"
+	},
+        {
+        "name":"Coral Catshark",
+        "commonName":"Pating-bato",
+        "scientificName":"Atelomycterus marmoratus",
+        "description":"Small shark with spotted body; found near coral reefs.",
+    "image": "assets/VISAYAS/Central Visayas/tambAtelomycterus marmoratusakol.jpg",
+        "location":"Shallow reefs of Bohol"
+	},
+        {
+        "name":"Redtoothed Triggerfish",
+        "commonName":"Pakang",
+        "scientificName":"Odonus niger",
+        "description":"Displays striking blue color and red teeth; often seen in schools.",
+    "image": "assets/VISAYAS/Central Visayas/Odonus niger.jpg",
+        "location":"Marine areas of Siquijor"
+	},
+        {
+        "name":"Lizardfish",
+        "commonName":"Hibe",
+        "scientificName":"Synodus variegatus",
+        "description":"Bottom-dweller that ambushes prey; sand-colored for camouflage.",
+    "image": "assets/VISAYAS/Central Visayas/Synodus variegatus.jpg",
+        "location":"Sandy slopes of Cebu"
+	},
+        {
+        "name":"Yellowtail Fusilier",
+        "commonName":": Dalagang Bukid",
+        "scientificName":"Caesio cuning",
+        "description":"Small, yellow-tailed schooling fish; important in local markets.",
+    "image": "assets/VISAYAS/Central Visayas/Caesio cuning.jpg",
+        "location":"Bohol, Siquijor"
+	},
+        {
+        "name":"Threadfin Bream",
+        "commonName":"Bisugo",
+        "scientificName":"Nemipterus japonicus",
+        "description":"Delicate pinkish fish caught by demersal trawling.",
+    "image": "assets/VISAYAS/Central Visayas/Nemipterus japonicus.jpg",
+        "location":"Coastal fisheries of Negros"
+	},
+        {
+        "name":"Black Triggerfish",
+        "commonName":"Pakang-itim",
+        "scientificName":"Melichthys niger",
+        "description":"Aggressive reef fish with tough body and trigger spine.",
+    "image": "assets/VISAYAS/Central Visayas/Melichthys niger.jpg",
+        "location":"Coral slopes of Cebu"
+	},
+        {
+        "name":"Bubble Coral Shrimp",
+        "commonName":"Hipong Bula",
+        "scientificName":"Vir philippinensis",
+        "description":"Transparent shrimp that lives among bubble coral tentacles.",
+    "image": "assets/VISAYAS/Central Visayas/Vir philippinensis.jpg",
+        "location":"Bohol marine sanctuaries"
+	},
+        {
+        "name":"Yellowhead Jawfish",
+        "commonName":"Isdang Lungga",
+        "scientificName":"Opistognathus aurifrons",
+        "description":"Lives in sandy burrows; holds eggs in its mouth.",
+    "image": "assets/VISAYAS/Central Visayas/Opistognathus aurifrons.jpg",
+        "location":"Sandy reef edges of Cebu"
+	},
+        {
+        "name":"Purple Sea Urchin",
+        "commonName":"Uring-dagat",
+        "scientificName":"Strongylocentrotus purpuratus",
+        "description":"Spiny echinoderm that grazes algae and provides reef aeration.",
+    "image": "assets/VISAYAS/Central Visayas/Strongylocentrotus purpuratus.jpg",
+        "location":"Tidepools of Bohol"
+	},
+        {
+        "name":"Christmas Tree Worm",
+        "commonName":"Uod-Pasko",
+        "scientificName":"Spirobranchus giganteus",
+        "description":"Colorful, spiral-shaped worm that retracts into coral when disturbed.",
+    "image": "assets/VISAYAS/Central Visayas/Spirobranchus giganteus.jpg",
+        "location":"Hard corals around Negros Oriental"
+	},
+        {
+        "name":"Saddleback Toby",
+        "commonName":"Buteteng-sedla",
+        "scientificName":"Canthigaster valentini",
+        "description":"Small pufferfish with a black saddle marking.",
+    "image": "assets/VISAYAS/Central Visayas/Canthigaster valentini.jpg",
+        "location":"Coral gardens of Cebu"
+	},
+        {
+        "name":"Coral Grouper",
+        "commonName":"Lapu-lapu",
+        "scientificName":"Plectropomus leopardus",
+        "description":"Spotted reef predator targeted by spearfishing",
+    "image": "assets/VISAYAS/Central Visayas/Plectropomus leopardus.jpg",
+        "location":"Marine protected zones of Siquijor"
+	},
+        {
+        "name":"Spotfin Lionfish",
+        "commonName":"lionfih",
+        "scientificName":"Pterois antennata",
+        "description":"Venomous fish with flamboyant pectoral fins.",
+    "image": "assets/VISAYAS/Central Visayas/Pterois antennata.jpg",
+        "location":"Cebu coral slopes"
+	},
+        {
+        "name":"Threadfin Butterflyfish ",
+        "commonName":"Isdang Paru-paro",
+        "scientificName":"Chaetodon auriga",
+        "description":"Delicate reef fish with trailing dorsal filament.",
+    "image": "assets/VISAYAS/Central Visayas/Chaetodon auriga.jpg",
+        "location":"Coral zones of Bohol"
+	},
+        {
+        "name":"Pink Anemonefish",
+        "commonName":"Klawnfis-rosas",
+        "scientificName":"Amphiprion perideraion",
+        "description":"Pale pink clownfish with white head stripe.",
+    "image": "assets/VISAYAS/Central Visayas/Amphiprion perideraion.jpg",
+        "location":"Anemone gardens of Siquijor"
+	},
+        {
+        "name":"Basket Star",
+        "commonName":"Bituing-basket",
+        "scientificName":"Astroboa nuda",
+        "description":"Nocturnal brittle star with coiling arms; filter feeder.",
+    "image": "assets/VISAYAS/Central Visayas/Astroboa nuda.jpg",
+        "location":"Deep reefs off Bohol"
+	},
+        {
+        "name":"Flame Angelfish",
+        "commonName":"Apoy",
+        "scientificName":"Centropyge loricula",
+        "description":"Bright red-orange dwarf angelfish with vertical stripes.",
+    "image": "assets/VISAYAS/Central Visayas/Centropyge loricula.jpg",
+        "location":"Coral heads in Cebu"
+	},
+        {
+        "name":"Broadclub Cuttlefish",
+        "commonName":"Pusit-dahon",
+        "scientificName":"Sepia latimanus",
+        "description":"Large cuttlefish known for dramatic color changes.",
+    "image": "assets/VISAYAS/Central Visayas/Sepia latimanus.jpg",
+        "location":"Seagrass and reef flats of Negros Oriental"
+	}
+]      
+        
+
