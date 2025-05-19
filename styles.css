@@ -329,7 +329,7 @@ nav {
 
 /* For discovery page */
 .discovery-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/water.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/submitdiscovery.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
