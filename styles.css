@@ -242,7 +242,7 @@ nav {
 .fish-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    gap: 20px;
 }
 
 .fish-card {
@@ -254,7 +254,7 @@ nav {
 }
 
 .fish-card:hover {
-    transform: translateY(-10px) scale(1.05);
+    transform: scale(1.01);
 }
 
 .fish-card img {
@@ -491,7 +491,7 @@ nav {
 
 .region-info {
     padding: 50px 5%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -811,7 +811,8 @@ footer {
     justify-content: center;
     overflow: hidden;
     margin: 30px auto;
-    max-width: 1300px;
+    max-width: 1700px;
+    height: auto;
   }
   
   .carousel-track {
@@ -821,11 +822,11 @@ footer {
     overflow-x: hidden;
     scroll-behavior: smooth;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1700px;
   }
   
   .fish-card {
-    flex: 0 0 calc(33.33% - 20px); /* Show 3 cards */
+    flex: 0 0 calc(25% - 20px); /* Show 3 cards */
     box-sizing: border-box;
   }
   
@@ -852,7 +853,7 @@ footer {
     background-color: #0077b6;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 9px 20px;
     border-radius: 50%;
     font-size: 1.5rem;
     cursor: pointer;
@@ -1055,5 +1056,100 @@ footer {
     
     .filter-group {
         width: 100%;
+    }
+}
+
+/* From Uiverse.io by kennyotsu-monochromia */ 
+.container {
+  width: 100%;
+  height: 100%;
+  --color: #E1E1E1;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+
+@media (max-width: 992px) {
+    .dropdown-content {
+        min-width: 500px;
+        right: -150px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: white;
+        width: 100%;
+        height: calc(100vh - 80px);
+        flex-direction: column;
+        transition: left 0.3s;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        overflow-y: auto;
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-menu li {
+        margin: 15px 0;
+    }
+    
+    .dropdown-content {
+        position: static;
+        min-width: 100%;
+        box-shadow: none;
+        flex-direction: column;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+    }
+    
+    .dropdown.active .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown-group {
+        margin-bottom: 20px;
+    }
+    
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .footer-content > div {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        height: 400px;
+    }
+    
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .featured-section h2, .regions-section h2, .contribute-section h2 {
+        font-size: 1.8rem;
     }
 }
