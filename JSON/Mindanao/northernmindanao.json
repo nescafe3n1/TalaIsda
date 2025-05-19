@@ -1,29 +1,5 @@
 [
   {
-    "name": "Snapper",
-    "commonName": "Barilis",
-    "scientificName": "Lutjanidae",
-    "description": "Various species of snappers are abundant in the coral reefs and deeper offshore waters.",
-    "image": "assets/MINDANAO/Northern Mindanao/barilis.jpg",
-    "location": "Misamis Occidental, Lanao del Norte"
-  },
-  {
-    "name": "Spanner Crab",
-    "commonName": "Curacha",
-    "scientificName": "Lutjanidae",
-    "description": "Known for its spiny shell and deep-sea habitat, curacha is highly prized for its sweet, tender meat.",
-    "image": "assets/MINDANAO/Northern Mindanao/curacha.jpg",
-    "location": "Camiguin, Misamis Occidental"
-  },
-  {
-    "name": "Mantis Shrimp",
-    "commonName": "Hipong Dapa",
-    "scientificName": "Stomatopoda",
-    "description": "A crustacean known for its powerful claws and vibrant colors, found in the coastal areas of Northern Mindanao.",
-    "image": "assets/MINDANAO/Northern Mindanao/hipong dapa.jpg",
-    "location": "Misamis Oriental, Camiguin"
-  },
-  {
     "name": "Catfish",
     "commonName": "Hito",
     "scientificName": "Siluriformes",
@@ -46,6 +22,30 @@
     "description": "Found in deep coral reefs, red snapper is prized for its firm flesh and delicate flavor.",
     "image": "assets/MINDANAO/Northern Mindanao/maya-maya.jpg",
     "location": "Misamis Oriental, Lanao del Norte"
+  },
+    {
+    "name": "Snapper",
+    "commonName": "Barilis",
+    "scientificName": "Lutjanidae",
+    "description": "Various species of snappers are abundant in the coral reefs and deeper offshore waters.",
+    "image": "assets/MINDANAO/Northern Mindanao/barilis.jpg",
+    "location": "Misamis Occidental, Lanao del Norte"
+  },
+  {
+    "name": "Spanner Crab",
+    "commonName": "Curacha",
+    "scientificName": "Lutjanidae",
+    "description": "Known for its spiny shell and deep-sea habitat, curacha is highly prized for its sweet, tender meat.",
+    "image": "assets/MINDANAO/Northern Mindanao/curacha.jpg",
+    "location": "Camiguin, Misamis Occidental"
+  },
+  {
+    "name": "Mantis Shrimp",
+    "commonName": "Hipong Dapa",
+    "scientificName": "Stomatopoda",
+    "description": "A crustacean known for its powerful claws and vibrant colors, found in the coastal areas of Northern Mindanao.",
+    "image": "assets/MINDANAO/Northern Mindanao/hipong dapa.jpg",
+    "location": "Misamis Oriental, Camiguin"
   },
   {
     "name": "Goby",
@@ -76,7 +76,7 @@
     "commonName": "Tulingan",
     "scientificName": "Euthynnus affinis",
     "description": "Commonly found in the deeper waters of the region, it is an important species for both commercial and subsistence fishing.",
-    "image": "assets/MINDANAO/Northern Mindanao/tulingan.jpg",
+    "image": "assets/LUZON/cagayan valley/skipjack.jpg",
     "location": "Misamis Occidental, Lanao del Norte"
   },
         {
