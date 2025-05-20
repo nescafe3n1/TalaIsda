@@ -241,7 +241,7 @@
 	},
         {
         "name":"Long-Spined Urchin",
-        "commonName":"Uring-itim",
+        "commonName":"tuyom",
         "scientificName":"Diadema setosum",
         "description":"Black sea urchin with venomous spines; grazes on algae.",
     "image": "/assets/VISAYAS/Western Visayas/Diadema setosum.jpg",
@@ -321,7 +321,7 @@
 	},
         {
         "name":"Batfish",
-        "commonName":"Hiwas",
+        "commonName":"Dahong-Gabi",
         "scientificName":"Platax orbicularis",
         "description":"Disc-shaped reef fish; swims near coral drop-offs.",
     "image": "/assets/VISAYAS/Western Visayas/Platax orbicularis.jpg",
@@ -329,7 +329,7 @@
 	},
         {
         "name":"Sailfin Snapper",
-        "commonName":"Anduhaw",
+        "commonName":"Matumbok",
         "scientificName":"Symphorichthys spilurus",
         "description":"Deep-bodied reef fish with a distinctive dorsal fin.",
     "image": "/assets/VISAYAS/Western Visayas/Symphorichthys spilurus.jpg",
@@ -337,7 +337,7 @@
 	},
         {
         "name":"Triton Trumpet",
-        "commonName":"vudyadong",
+        "commonName":"Tambuyuk",
         "scientificName":"Charonia tritonis",
         "description":"Large predatory snail that feeds on crown-of-thorns starfish.",
     "image": "/assets/VISAYAS/Western Visayas/Charonia tritonis.jpg",
