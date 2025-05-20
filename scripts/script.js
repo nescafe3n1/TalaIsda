@@ -46,6 +46,55 @@ window.addEventListener('resize', function() {
 	});
 });
 
+// Navbar functionality
+function updateActiveNav() {
+  const currentPath = window.location.pathname;
+  const currentHash = window.location.hash;
+  const navLinks = document.querySelectorAll('.nav-menu a');
+
+  // Reset all active classes
+  navLinks.forEach(link => link.classList.remove('active'));
+  document.querySelectorAll('.dropbtn').forEach(btn => btn.classList.remove('active'));
+
+  navLinks.forEach(link => {
+    const linkUrl = new URL(link.href);
+    const linkPath = linkUrl.pathname;
+    const linkHash = linkUrl.hash;
+
+    const isExactPage = currentPath === linkPath && (!linkHash || currentHash === linkHash);
+
+    if (isExactPage) {
+      link.classList.add('active');
+
+      const isRegionLink = !!link.hash;
+      const dropdown = link.closest('.dropdown');
+      if (dropdown && !isRegionLink) {
+        const dropbtn = dropdown.querySelector('.dropbtn');
+        if (dropbtn) dropbtn.classList.add('active');
+      }
+    }
+  });
+
+  const isAtRoot = currentPath === '/' || currentPath.endsWith('index.html');
+  if (isAtRoot) {
+    const homeLink = document.querySelector('.nav-menu a[href*="index.html"]');
+    if (homeLink) homeLink.classList.add('active');
+    document.querySelectorAll('.dropbtn').forEach(btn => btn.classList.remove('active'));
+  }
+}
+
+updateActiveNav();
+
+window.addEventListener('hashchange', updateActiveNav);
+
+
+if (!activeSet && (currentPath === '/' || currentPath === '/pages/index.html')) {
+  const homeLink = document.querySelector('.nav-menu a[href="/pages/index.html"]');
+  if (homeLink) {
+    homeLink.classList.add('active');
+  }
+}
+
 const searchInput = document.getElementById('searchInput');
 
 searchInput.addEventListener('keyup', () => {
@@ -78,6 +127,7 @@ searchInput.addEventListener('keyup', () => {
 	});
 });
 
+// Side scroll function
 function scrollFish(button, direction) {
   const container = button.closest('.carousel-container');
   const track = container.querySelector('.carousel-track');
@@ -86,6 +136,7 @@ function scrollFish(button, direction) {
   track.scrollLeft += direction * cardWidth * 4;
 }
 
+// Back to Top button function
 const btn = document.getElementById("backToTop");
 
 window.addEventListener("scroll", () => {
