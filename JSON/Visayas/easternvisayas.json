@@ -129,7 +129,7 @@
 	},
         {
         "name":"Banded Sea Krait",
-        "commonName":"Mata-mula",
+        "commonName":"Erabu",
         "scientificName":"Laticauda colubrina",
         "description":"Venomous sea snake with black and white bands; non-aggressive.",
     "image": "/assets/VISAYAS/Eastern Visayas/Laticauda colubrina.jpg",
@@ -153,7 +153,7 @@
 	},
         {
         "name":"Blacktip Reef Shark",
-        "commonName":"Pating-itim",
+        "commonName":"pating guliman",
         "scientificName":"Carcharhinus melanopterus",
         "description":"Small reef shark identified by black tips on fins.",
     "image": "/assets/VISAYAS/Eastern Visayas/Carcharhinus melanopterus.jpg",
@@ -161,7 +161,7 @@
 	},
         {
         "name":"Blue Sea Star",
-        "commonName":"Bituing-bughaw",
+        "commonName":"isdambituin",
         "scientificName":"Linckia laevigata",
         "description":"Vibrant blue echinoderm that regenerates lost limbs.",
     "image": "/assets/VISAYAS/Eastern Visayas/Linckia laevigata.jpg",
@@ -169,7 +169,7 @@
 	},
         {
         "name":"Skunk Clownfish",
-        "commonName":"Klawnfis-puti",
+        "commonName":"Bantay bot-bot",
         "scientificName":"Amphiprion akallopisos",
         "description":"Pale orange clownfish with a white stripe along the back.",
     "image": "/assets/VISAYAS/Eastern Visayas/Amphiprion akallopisos.jpg",
@@ -177,7 +177,7 @@
 	},
         {
         "name":"Ringed Pipefish",
-        "commonName":"Kabayo-dagat",
+        "commonName":"isdang tubo",
         "scientificName":"Doryrhamphus dactyliophorus",
         "description":"Long, pipe-shaped body with white rings; swims vertically.",
     "image": "/assets/VISAYAS/Eastern Visayas/Doryrhamphus dactyliophorus.jpg",
@@ -201,7 +201,7 @@
 	},
         {
         "name":"Zebra Lionfish",
-        "commonName":"lionfsh",
+        "commonName":"Tandang",
         "scientificName":"Dendrochirus zebra",
         "description":"Dwarf lionfish with ornate fins and venomous spines.",
     "image": "/assets/VISAYAS/Eastern Visayas/Dendrochirus zebra.jpg",
@@ -209,7 +209,7 @@
 	},
         {
         "name":"Trumpetfish",
-        "commonName":"Trumpetfish",
+        "commonName":"Kabal",
         "scientificName":"Aulostomus chinensis",
         "description":"Long-bodied fish that hovers vertically near coral heads.",
     "image": "/assets/VISAYAS/Eastern Visayas/Aulostomus chinensis.jpg",
@@ -217,7 +217,7 @@
 	},
         {
         "name":"Moorish Idol",
-        "commonName":"Idolo",
+        "commonName":"Kalmin-kalmin",
         "scientificName":"Zanclus cornutus",
         "description":"Black, white, and yellow reef fish with trailing fin.",
     "image": "/assets/VISAYAS/Eastern Visayas/Zanclus cornutus.jpg",
@@ -225,7 +225,7 @@
 	},
         {
         "name":"Orange Spotted Filefish",
-        "commonName":"Isdang-butas",
+        "commonName":"saguksok",
         "scientificName":"Oxymonacanthus longirostris",
         "description":"Coral feeder with orange spots and elongated snout.",
     "image": "/assets/VISAYAS/Eastern Visayas/Oxymonacanthus longirostris.jpg",
@@ -233,7 +233,7 @@
 	},
         {
         "name":"Fire Urchin",
-        "commonName":"Uring-apoy",
+        "commonName":"salungo",
         "scientificName":"Asthenosoma varium",
         "description":"Brightly colored urchin with venomous spines.",
     "image": "/assets/VISAYAS/Eastern Visayas/Asthenosoma varium.jpg",
@@ -241,7 +241,7 @@
 	},
         {
         "name":"Broadbarred Firefish",
-        "commonName":"firefish",
+        "commonName":"bagal-bagal",
         "scientificName":"Pterois antennata",
         "description":"A venomous lionfish with wide fins and distinct stripes.",
     "image": "/assets/VISAYAS/Eastern Visayas/Pterois antennata.jpg",
@@ -257,7 +257,7 @@
 	},
         {
         "name":"Sponge Crab",
-        "commonName":"Alimango-espongha",
+        "commonName":"ipis-dagat",
         "scientificName":"Dromia personata",
         "description":"Carries living sponges on its back for camouflage.",
     "image": "/assets/VISAYAS/Eastern Visayas/Dromia personata.jpg",
@@ -273,7 +273,7 @@
 	},
         {
         "name":"Mottled Sea Hare",
-        "commonName":"dagok-dagok",
+        "commonName":"Pangangisang Dagat na may Puntos",
         "scientificName":"Aplysia dactylomela",
         "description":"Large sea slug that releases purple ink when disturbed.",
     "image": "/assets/VISAYAS/Eastern Visayas/Aplysia dactylomela.jpg",
@@ -281,7 +281,7 @@
 	},
         {
         "name":"Comb Jelly",
-        "commonName":"dikyâ",
+        "commonName":"pasyo",
         "scientificName":"Beroe spp.",
         "description":"Transparent, gelatinous organism that glows with bioluminescence.",
     "image": "/assets/VISAYAS/Eastern Visayas/Beroe spp..jpg",
@@ -289,7 +289,7 @@
 	},
         {
         "name":"Green Chromis",
-        "commonName":"Bilogan",
+        "commonName":"Lilang",
         "scientificName":"Chromis viridis",
         "description":"Schooling fish with shimmering green color.",
     "image": "/assets/VISAYAS/Eastern Visayas/Chromis viridis.jpg",
@@ -313,7 +313,7 @@
 	},
         {
         "name":"Goblin Crab",
-        "commonName":"kagang",
+        "commonName":"katang",
         "scientificName":"Cryptodromia hilgendorfi",
         "description":"Small, reclusive crab with uneven shell shapes.",
     "image": "/assets/VISAYAS/Eastern Visayas/Cryptodromia hilgendorfi.jpg",
@@ -329,7 +329,7 @@
 	},
         {
         "name":"Lunate Fairy Wrasse",
-        "commonName":"Banog-banog",
+        "commonName":"Mameng",
         "scientificName":"Cirrhilabrus lunatus",
         "description":"Male displays brilliant pink, purple, and yellow; active during the day.",
     "image": "/assets/VISAYAS/Eastern Visayas/Cirrhilabrus lunatus.jpg",
@@ -337,7 +337,7 @@
 	},
         {
         "name":"Brittle Star",
-        "commonName":"Bituing-bitak",
+        "commonName":"Bituin na Nananatili",
         "scientificName":"Ophiuroidea spp.",
         "description":"Fast-moving relative of starfish with flexible, slender arms.",
     "image": "/assets/VISAYAS/Eastern Visayas/Ophiuroidea spp..jpg",
