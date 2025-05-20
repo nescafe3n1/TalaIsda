@@ -72,16 +72,16 @@
     "location": "Lake Apo, Davao del Sur"
   },
         {
-        "name":"Davao Clownfish ",
+        "name":"Davao Clownfish",
         "commonName":"Pating-pating",
-        "scientificName":"Amphiprion ocellaris",
+        "scientificName":"Nemo Fish",
         "description":"Symbiotic anemonefish common in reef lagoons.",
     "image": "/assets/MINDANAO/Davao Region/Amphiprion ocellaris.jpg",
         "location":"Coral reefs and lagoons of Davao Gulf."
 	},
         {
         "name":"Davao Flasher Wrasse",
-        "commonName":"Labahita",
+        "commonName":"Labrang May Kulay",
         "scientificName":"Paracheilinus spp.",
         "description":"Brightly colored wrasse with elaborate mating displays.",
     "image": "/assets/MINDANAO/Davao Region/Paracheilinus spp..jpg",
@@ -89,7 +89,7 @@
 	},
         {
         "name":"Dugong",
-        "commonName":"Dugong",
+        "commonName":"baboy-dagat",
         "scientificName":"Dugong dugon",
         "description":"Vulnerable marine mammal feeding on seagrass.",
     "image": "/assets/MINDANAO/Davao Region/Dugong dugon.jpg",
@@ -129,7 +129,7 @@
 	},
         {
         "name":"Fringelip Mullet",
-        "commonName":"Bisugo",
+        "commonName":"Bamak",
         "scientificName":"Crenimugil crenilabis",
         "description":"Algae-grazing coastal fish.",
     "image": "/assets/MINDANAO/Davao Region/Crenimugil crenilabis.jpg",
@@ -137,7 +137,7 @@
 	},
         {
         "name":"Mottled Rabbitfish",
-        "commonName":"Dulong",
+        "commonName":"danggit",
         "scientificName":"Siganus fuscescens",
         "description":"Herbivorous fish controlling algae on reefs.",
     "image": "/assets/MINDANAO/Davao Region/Siganus fuscescens.jpg",
@@ -185,7 +185,7 @@
 	},
         {
         "name":"Spotted Parrotfish",
-        "commonName":"Parrotfish",
+        "commonName":"Loro na may mga mantsa",
         "scientificName":"Scarus ghobban",
         "description":"Herbivorous fish grazing algae on reefs.",
     "image": "/assets/MINDANAO/Davao Region/Scarus ghobban.jpg",
@@ -201,7 +201,7 @@
 	},
         {
         "name":"Davao Wrasse",
-        "commonName":"Labahita",
+        "commonName":"mameng",
         "scientificName":"Halichoeres melanochir",
         "description":"Small wrasses controlling reef invertebrates.",
     "image": "/assets/MINDANAO/Davao Region/Halichoeres melanochir.jpg",
@@ -233,7 +233,7 @@
 	},
         {
         "name":"Laced Moray",
-        "commonName":"Bato-bato",
+        "commonName":"Barason",
         "scientificName":"Gymnothorax favagineus",
         "description":"Spotted eel with strong bite; hides in reef holes.",
     "image": "/assets/MINDANAO/Davao Region/Gymnothorax favagineus.jpg",
@@ -249,7 +249,7 @@
 	},
         {
         "name":"Blue Tang",
-        "commonName":"Surgeonfish",
+        "commonName":"Sigan",
         "scientificName":"Paracanthurus hepatus",
         "description":"Iconic reef surgeonfish with vibrant blue body.",
     "image": "/assets/MINDANAO/Davao Region/Paracanthurus hepatus.jpg",
@@ -257,7 +257,7 @@
 	},
         {
         "name":"Redtoothed Triggerfish",
-        "commonName":"Triggerfish",
+        "commonName":"papakol",
         "scientificName":"Odonus niger",
         "description":"Deep-bodied fish with red teeth and dark coloration.",
     "image": "/assets/MINDANAO/Davao Region/Odonus niger.jpg",
@@ -265,7 +265,7 @@
 	},
         {
         "name":"Bristle Worm",
-        "commonName":"Uwak-uwak",
+        "commonName":"pintas balahibo",
         "scientificName":"Eurythoe complanata",
         "description":"Brightly colored marine worm that scavenges in coral rubble.",
     "image": "/assets/MINDANAO/Davao Region/Eurythoe complanata.jpg",
@@ -281,7 +281,7 @@
 	},
         {
         "name":"Davao Lanternfish",
-        "commonName":"Lanternfish",
+        "commonName":"Daga-daga",
         "scientificName":"Diaphus splendidus",
         "description":"Bioluminescent midwater fish active at night.",
     "image": "/assets/MINDANAO/Davao Region/Diaphus splendidus.jpg",
@@ -289,7 +289,7 @@
 	},
         {
         "name":"Davao Blenny",
-        "commonName":"Labahita",
+        "commonName":"Blenny",
         "scientificName":"Salarias fasciatus",
         "description":"Algae-eating fish often perched on rocks and corals.",
     "image": "/assets/MINDANAO/Davao Region/Salarias fasciatus.jpg",

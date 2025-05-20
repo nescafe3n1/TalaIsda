@@ -72,7 +72,7 @@
     "location": "Zamboanga del Norte, Sulu Sea"
   },
   {
-    "name":"Zamboanga Goby ",
+    "name":"Zamboanga Goby",
     "commonName":"Goby",
     "scientificName":"Glossogobius celebius",
     "description":"A native goby species inhabiting estuaries, brackish mangroves, and river mouths. Plays an important role in coastal food webs.",
@@ -80,15 +80,15 @@
     "location":"Estuaries and river mouths of Zamboanga del Norte and Zamboanga del Sur."
 	},
   {
-    "name":"Sulu Spiny Lobster ",
-    "commonName":"Alimasag",
+    "name":"Sulu Spiny Lobster",
+    "commonName":"Banagan",
 	"scientificName":"Panulirus versicolor",
 	"description":"A native goby species inhabiting estuaries, brackish mangroves, and river mouths. Plays an important role in coastal food webs.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Panulirus versicolor.jpg",
 	"location":"Coral reefs of the Sulu Sea near Zamboanga City."
   },
   {
-    "name":"Mindanao Seahorse ",
+    "name":"Mindanao Seahorse",
     "commonName":"Kabayo-dagat",
     "scientificName":"Hippocampus barbouri",
     "description":"Endemic seahorse living in seagrass beds and mangroves; vulnerable due to habitat loss.",
@@ -128,7 +128,7 @@
     "location":"Open waters of the Sulu Sea near Zamboanga."
     },
     {
-    "name":"Endemic Blue Dot Grouper ",
+    "name":"Endemic Blue Dot Grouper",
     "commonName":"Lapu-lapu",
     "scientificName":"Cephalopholis cyanostigma",
     "description":"Colorful reef predator abundant in coral thickets; fishery target.",
@@ -137,7 +137,7 @@
     },
     {
     "name":"Zamboanga Wrasse",
-    "commonName":"Labahita",
+    "commonName":"labayan",
     "scientificName":"Halichoeres spp.",
     "description":"Reef wrasses functioning as cleaners and algae grazers.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Halichoeres spp..jpg",
@@ -161,7 +161,7 @@
 	  },
     {
     "name":"Sulu Sea Anemonefish",
-    "commonName":"Pating-pating",
+    "commonName":"Bantay-bothot",
 	"scientificName":"Amphiprion clarkii",
 	"description":"Hardy clownfish living symbiotically with anemones.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Amphiprion clarkii.jpg",
@@ -169,7 +169,7 @@
     },
     {
     "name":"Spotted Cardinalfish",
-    "commonName":"Kardinal",
+    "commonName":"Dangat",
     "scientificName":"Apogon spilotus",
     "description":"Nocturnal reef fish feeding on zooplankton.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Apogon spilotus.jpg",
@@ -177,7 +177,7 @@
     },
     {
     "name":"Zamboanga Flasher Wrasse",
-    "commonName":"Labahita",
+    "commonName":"Laban",
     "scientificName":"Paracheilinus spp",
     "description":"Display fish with vibrant mating colors.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Paracheilinus spp.jpg",
@@ -193,7 +193,7 @@
     },
     {
     "name":"Needlefish",
-    "commonName":"Barilis",
+    "commonName":"Balo",
     "scientificName":"Tylosurus crocodilus",
     "description":"Surface predator preying on small fish.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Tylosurus crocodilu.jpg",
@@ -209,7 +209,7 @@
     },
     {
     "name":"Spotted Pufferfish",
-    "commonName":"Daga-dagat",
+    "commonName":"Butete",
     "scientificName":"Arothron hispidus",
     "description":"Inflates defensively; common in lagoons.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Arothron hispidus.jpg",
@@ -217,7 +217,7 @@
     },
     {
     "name":"Mottled Sea Cucumber",
-    "commonName":"Dulong",
+    "commonName":"Balat",
     "scientificName":"Bohadschia marmorata",
     "description":"Detritivore important for sand turnover.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Bohadschia marmorata.jpg",
@@ -233,7 +233,7 @@
     },
     {
     "name":"Sulu Lionfish",
-    "commonName":"Leon(isda)",
+    "commonName":"pating na leon",
     "scientificName":"Pterois volitans",
     "description":"Venomous spiny fish with striking fins, found in coral reefs.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Pterois volitans.jpg",
@@ -265,15 +265,15 @@
     },
     {
     "name":"Philippine Porcupinefish",
-    "commonName":"Daga-dagat",
+    "commonName":"Tagotongan",
     "scientificName":"Diodon hystrix",
     "description":"Inflates and erects spines when threatened.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Diodon hystrix.jpg",
     "location":"Reef flats and rubble near Olutanga"
     },
     {
-    "name":"Orange-spotted Spinefoot ",
-    "commonName":"Dulong",
+    "name":"Orange-spotted Spinefoot",
+    "commonName":"Samaral",
     "scientificName":"Siganus guttatus",
     "description":"Herbivore often found in pairs, common in reef lagoons.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Siganus guttatus.jpg",
@@ -289,7 +289,7 @@
     },
     {
     "name":"Midas Blenny",
-    "commonName":"Labahita",
+    "commonName":"Blenio na ginto",
     "scientificName":"Ecsenius midas",
     "description":"Reef blenny known for its yellow body and mimic behavior.",
     "image": "/assets/MINDANAO/Zamboanga Peninsula/Ecsenius midas.jpg",

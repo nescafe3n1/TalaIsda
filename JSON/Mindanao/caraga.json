@@ -89,7 +89,7 @@
 	},
         {
         "name":"Surigao Spined Loach",
-        "commonName":"Palos-ilalim",
+        "commonName":"Pang-lalo",
         "scientificName":"Lepidocephalichthys spp.",
         "description":"Freshwater fish in clear mountain streams feeding on detritus.",
     "image": "/assets/MINDANAO/Caraga/Lepidocephalichthys spp..jpg",
@@ -97,7 +97,7 @@
 	},
         {
         "name":"Philippine Sole",
-        "commonName":"Pusit-dagat",
+        "commonName":"Dapa",
         "scientificName":"Aseraggodes philippinus",
         "description":"Flatfish camouflaging on sandy bottoms; carnivorous.",
     "image": "/assets/MINDANAO/Caraga/Aseraggodes philippinus.jpg",
@@ -113,7 +113,7 @@
 	},
         {
         "name":"Surigao Sea Mullet",
-        "commonName":"Bangus-dagat",
+        "commonName":"Banak",
         "scientificName":"Mugil spp.",
         "description":"Detritus-feeding schooling fish of mangrove creeks.",
     "image": "/assets/MINDANAO/Caraga/Mugil spp..jpg",
@@ -129,7 +129,7 @@
 	},
         {
         "name":"Agusan Pipehorse",
-        "commonName":"Palos-dagat",
+        "commonName":"kabayo ng dagat",
         "scientificName":"Solegnathus hardwickii",
         "description":"Pipehorse blending in seagrass; part of Syngnathidae family.",
     "image": "/assets/MINDANAO/Caraga/Solegnathus hardwickii.jpg",
@@ -137,7 +137,7 @@
 	},
         {
         "name":"Mindanao Ghost Shrimp",
-        "commonName":"Hipong Multo",
+        "commonName":"Manla",
         "scientificName":"Palaemonetes paludosus",
         "description":"Burrow-dwelling crustacean that aerates the seabed.",
     "image": "/assets/MINDANAO/Caraga/Palaemonetes paludosus.jpg",
@@ -145,7 +145,7 @@
 	},
         {
         "name":"Philippine Sicklefish",
-        "commonName":"Siko-siko",
+        "commonName":"Talakitok",
         "scientificName":"Drepane punctata",
         "description":"Estuarine fish with distinctive sickle-shaped fins.",
     "image": "/assets/MINDANAO/Caraga/Drepane punctata.jpg",
@@ -153,7 +153,7 @@
 	},
         {
         "name":"Surigao Hawkfish",
-        "commonName":"Hawkfish",
+        "commonName":"talakitok itiman",
         "scientificName":"Cirrhitichthys falco",
         "description":"Small reef predator often seen perching on corals.",
     "image": "/assets/MINDANAO/Caraga/Cirrhitichthys falco.jpg",
@@ -161,7 +161,7 @@
 	},
         {
         "name":"Caraga Cleaner Wrasse",
-        "commonName":"Cleaner wrasse",
+        "commonName":"Mameng",
         "scientificName":"Labroides dimidiatus",
         "description":"Wrasse removing parasites from other reef fish.",
     "image": "/assets/MINDANAO/Caraga/Labroides dimidiatus.jpg",
@@ -177,7 +177,7 @@
 	},
         {
         "name":"Philippine Mandarinfish",
-        "commonName":"Mandarinfish",
+        "commonName":"Labahaba",
         "scientificName":"Synchiropus splendidus",
         "description":"Bright reef fish performing dusk courtship displays.",
     "image": "/assets/MINDANAO/Caraga/Synchiropus splendidus.jpg",
@@ -185,7 +185,7 @@
 	},
         {
         "name":"Spotted Cardinalfish",
-        "commonName":"Isdang Puso",
+        "commonName":"Bungka",
         "scientificName":"Apogon spilotus",
         "description":"Nocturnal planktivore found in caves and crevices.",
     "image": "/assets/MINDANAO/Caraga/Apogon spilotus.jpg",
@@ -193,7 +193,7 @@
 	},
         {
         "name":"Mindanao Lizardfish",
-        "commonName":"Palos-palutang",
+        "commonName":"Talho",
         "scientificName":"Synodus binotatus",
         "description":"Bottom-lurking ambush predator.",
     "image": "/assets/MINDANAO/Caraga/Synodus binotatus.jpg",
@@ -201,7 +201,7 @@
 	},
         {
         "name":"Surigao Nudibranch",
-        "commonName":"Lumot-dagat",
+        "commonName":"balatik dagat",
         "scientificName":"Nembrotha spp.",
         "description":"Soft-bodied, bright-colored mollusks feeding on tunicates.",
     "image": "/assets/MINDANAO/Caraga/Nembrotha spp..jpg",
@@ -209,7 +209,7 @@
 	},
         {
         "name":"Philippine Pearl Oyster",
-        "commonName":"Talaba ng Perlas",
+        "commonName":"Talaba",
         "scientificName":"Pinctada maxima",
         "description":"Pearl-producing bivalve found in reef lagoons.",
     "image": "/assets/MINDANAO/Caraga/Pinctada maxima.jpg",
@@ -225,7 +225,7 @@
 	},
         {
         "name":"Dinagat Coconut Crab",
-        "commonName":"Alimango ng Niyog",
+        "commonName":"Tatus",
         "scientificName":"Birgus latro",
         "description":"Large terrestrial hermit crab climbing trees and feeding on coconuts.",
     "image": "/assets/MINDANAO/Caraga/Birgus latro.jpg",
@@ -241,7 +241,7 @@
 	},
         {
         "name":"Surigao Scorpionfish",
-        "commonName":"Tagulabay",
+        "commonName":"rockfish",
         "scientificName":"Scorpaenopsis oxycephala",
         "description":"Camouflaged ambush predator with venomous spines.",
     "image": "/assets/MINDANAO/Caraga/Scorpaenopsis oxycephala.jpg",
@@ -249,7 +249,7 @@
 	},
         {
         "name":"Eastern Cleaner Wrasse",
-        "commonName":"Cleaner wrasse",
+        "commonName":"Mameng",
         "scientificName":"Labroides pectoralis",
         "description":"Reef fish that picks parasites from larger fish at cleaning stations.",
     "image": "/assets/MINDANAO/Caraga/Labroides pectoralis.jpg",
@@ -265,7 +265,7 @@
 	},
         {
         "name":"Whitespotted Filefish",
-        "commonName":"Filefish",
+        "commonName":"Danggit",
         "scientificName":"Cantherhines dumerilii",
         "description":"Elongated reef fish with a tough leathery skin.",
     "image": "/assets/MINDANAO/Caraga/Cantherhines dumerilii.jpg",
@@ -273,7 +273,7 @@
 	},
         {
         "name":"Yellowstripe Goatfish",
-        "commonName":"Kambing-dagat",
+        "commonName":"Saramulyeteng hulik",
         "scientificName":"Mulloidichthys flavolineatus",
         "description":"Bottom-feeding fish with yellow stripe; uses barbels to dig in sand.",
     "image": "/assets/MINDANAO/Caraga/Mulloidichthys flavolineatus.jpg",
@@ -281,7 +281,7 @@
 	},
         {
         "name":"Caraga Crown-of-Thorns Starfish",
-        "commonName":"Tala-tala",
+        "commonName":"Lapa-lapa",
         "scientificName":"Acanthaster planci",
         "description":"Spiny coral predator; population outbreaks can damage reefs.",
     "image": "/assets/MINDANAO/Caraga/Acanthaster planci.jpg",
@@ -289,7 +289,7 @@
 	},
         {
         "name":"Ornate Ghost Pipefish",
-        "commonName":"Palos-dagat",
+        "commonName":"Panatagong Halimaw ng Tubig",
         "scientificName":"Solenostomus paradoxus",
         "description":"Elaborate camouflage fish drifting near coral and feather stars.",
     "image": "/assets/MINDANAO/Caraga/Solenostomus paradoxus.jpg",
@@ -297,7 +297,7 @@
 	},
         {
         "name":"Fire Dartfish",
-        "commonName":"Dartfish",
+        "commonName":"Goby ng Apoy",
         "scientificName":"Nemateleotris magnifica",
         "description":"Slender, colorful dartfish hovering near burrows.",
     "image": "/assets/MINDANAO/Caraga/Nemateleotris magnifica.jpg",
@@ -305,7 +305,7 @@
 	},
         {
         "name":"Bicolor Angelfish",
-        "commonName":"Isdang Anghel",
+        "commonName":"Pikaw",
         "scientificName":"Centropyge bicolor",
         "description":"Small reef angelfish with yellow and blue body.",
     "image": "/assets/MINDANAO/Caraga/Centropyge bicolor.jpg",
@@ -313,7 +313,7 @@
 	},
         {
         "name":"Zebra Moray",
-        "commonName":"Hulihid",
+        "commonName":"Parog",
         "scientificName":"Gymnomuraena zebra",
         "description":"Nocturnal eel with zebra-like stripes, hiding in coral holes.",
     "image": "/assets/MINDANAO/Caraga/Gymnomuraena zebra.jpg",
