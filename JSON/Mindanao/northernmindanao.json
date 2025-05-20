@@ -52,7 +52,7 @@
     "commonName": "Sinarapan",
     "scientificName": "Mistichthys luzonensis",
     "description": "The world’s smallest commercially harvested fish, endemic to small lakes and shallow water regions.",
-    "image": "/assets/MINDANAO/Northern Mindanao/shem sinarapan.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/tabios.jpg",
     "location": "Camiguin"
   },
   {
@@ -244,7 +244,7 @@
         "commonName":"bisugo",
         "scientificName":"Nemipterus japonicus",
         "description":"Demersal fish with pink and yellow stripes, bottom feeder.",
-    "image": "/assets/MINDANAO/Northern Mindanao/Nemipterus japonicus.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Nemipterus japonicus.png",
         "location":"Coastal seafloor near Misamis Oriental."
 	},
         {
@@ -284,7 +284,7 @@
         "commonName":"Alama",
         "scientificName":"Siganus javus",
         "description":"Algae-eating reef fish with fine streaks on sides.",
-    "image": "/assets/MINDANAO/Northern Mindanao/tuiganus javuslingan.jpg",
+    "image": "/assets/MINDANAO/Northern Mindanao/Siganus javus.jpeg",
         "location":"Shallow reef flats in Northern Mindanao."
 	},
         {

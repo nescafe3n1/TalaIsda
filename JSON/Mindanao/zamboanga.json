@@ -44,7 +44,7 @@
     "commonName": "Sinarapan",
     "scientificName": "Mistichthys luzonensis",
     "description": "The world’s smallest commercially harvested fish, endemic to the Philippines.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/shem sinarapan.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/tabios.jpg",
     "location": "Zamboanga Peninsula"
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Sugpo",
     "scientificName": "Penaeus monodon",
     "description": "A key aquaculture species grown in the mangrove areas of Zamboanga.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/sugpo.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/gtp.jpg",
     "location": "Zamboanga City, Zamboanga del Norte"
   },
   {
@@ -76,7 +76,7 @@
     "commonName":"Goby",
     "scientificName":"Glossogobius celebius",
     "description":"A native goby species inhabiting estuaries, brackish mangroves, and river mouths. Plays an important role in coastal food webs.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/Glossogobiu celebius.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/Glossogobius celebius.jpg",
     "location":"Estuaries and river mouths of Zamboanga del Norte and Zamboanga del Sur."
 	},
   {
@@ -108,7 +108,7 @@
     "commonName":"Barongoy",
     "scientificName":"Exocoetus volitans",
     "description":"Flying fish capable of gliding above water surface, commonly seen in pelagic zones.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/curacha.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/barongoy.jpg",
     "location":"Pelagic surface waters of Zamboanga del Norte and Basilan Strait."
     },
     {
@@ -180,7 +180,7 @@
     "commonName":"Laban",
     "scientificName":"Paracheilinus spp",
     "description":"Display fish with vibrant mating colors.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/Paracheilinus spp.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/Paracheilinus spp..jpg",
     "location":"Outer reef slopes near Olutanga."
     },
     {
@@ -188,7 +188,7 @@
     "commonName":"Pugita",
     "scientificName":"Octopus cyanea",
     "description":"Intelligent cephalopod, frequent in reef flats.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/Octopus cyanea.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/Octopus cyanea.jpeg",
     "location":"Coral rubble flats near Zamboanga City."
     },
     {
@@ -196,7 +196,7 @@
     "commonName":"Balo",
     "scientificName":"Tylosurus crocodilus",
     "description":"Surface predator preying on small fish.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/Tylosurus crocodilu.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/Tylosurus crocodilus.jpg",
     "location":"Coastal waters near Isabela City."
     },
     {
@@ -204,7 +204,7 @@
     "commonName":"Talakitok",
     "scientificName":"Caranx ignobilis",
     "description":"Powerful reef predator, prized in sport fishing.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/Caranx ignobili.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/Caranx ignobilis.jpg",
     "location":"Basilan Strait reefs."
     },
     {
@@ -308,7 +308,7 @@
     "commonName":"Alumahan",
     "scientificName":"Rastrelliger kanagurta",
     "description":"Schooling pelagic fish caught in coastal fisheries.",
-    "image": "/assets/MINDANAO/Zamboanga Peninsula/Rastrelliger kanagurta.jpg",
+    "image": "/assets/MINDANAO/Zamboanga Peninsula/alumahan.jpg",
     "location":"Open waters near Zamboanga City."
     }
 ]

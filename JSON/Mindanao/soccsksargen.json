@@ -44,7 +44,7 @@
     "commonName": "Sugpo",
     "scientificName": "Penaeus monodon",
     "description": "This large, commercial prawn species is farmed in the mangrove-rich areas of SOCCSKSARGEN.",
-    "image": "/assets/MINDANAO/SOCCSKSARGEN/sugpo.jpg",
+    "image": "/assets/MINDANAO/SOCCSKSARGEN/gtp.jpg",
     "location": "Sarangani Bay, General Santos"
   },
   {
@@ -94,14 +94,6 @@
         "description":"Deep-bodied reef fish feeding on zooplankton; found in coral-rich areas.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Zabidius philippinensis.jpg",
         "location":"Reefs around Sarangani Bay."
-	},
-        {
-        "name":"Sarangani Flying Fish",
-        "commonName":"barongoy",
-        "scientificName":"Cypselurus sampsoni",
-        "description":"Surface-dwelling fish with enlarged pectoral fins for gliding escapes.",
-    "image": "/assets/MINDANAO/SOCCSKSARGEN/Cypselurus sampsoni.jpg",
-        "location":"Surface pelagic zone of Sarangani Bay."
 	},
         {
         "name":"Snapper",

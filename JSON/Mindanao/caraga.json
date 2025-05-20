@@ -12,7 +12,7 @@
     "commonName": "Kitong",
     "scientificName": "Scylla serrata",
     "description": "A brackish water fish often found in the mangrove-lined rivers of Agusan del Norte.",
-    "image": "/assets/MINDANAO/Caraga/placeholder.jpg",
+    "image": "/assets/MINDANAO/Caraga/kitong.jpg",
     "location": "Agusan del Norte, Surigao del Sur"
   },
   {
@@ -52,7 +52,7 @@
     "commonName": "Sugpo",
     "scientificName": "Penaeus monodon",
     "description": "Farmed extensively in the mangrove areas of the region, especially in Surigao del Norte.",
-    "image": "/assets/MINDANAO/Caraga/sugpo.jpg",
+    "image": "/assets/MINDANAO/Caraga/gtp.jpg",
     "location": "Surigao del Norte, Agusan del Sur"
   },
   {
@@ -92,7 +92,7 @@
         "commonName":"Pang-lalo",
         "scientificName":"Lepidocephalichthys spp.",
         "description":"Freshwater fish in clear mountain streams feeding on detritus.",
-    "image": "/assets/MINDANAO/Caraga/Lepidocephalichthys spp..jpg",
+    "image": "/assets/MINDANAO/Caraga/Lepidocephalichthys spp.jpg",
         "location":"Highland streams flowing into Caraga coast."
 	},
         {
@@ -232,14 +232,6 @@
         "location":"Forested islands in Dinagat."
 	},
         {
-        "name":"Agusan Mud Crab",
-        "commonName":"Alimango",
-        "scientificName":"Scylla tranquebarica",
-        "description":"Large estuarine crab important in aquaculture.",
-    "image": "/assets/MINDANAO/Caraga/Scylla tranquebarica.jpg",
-        "location":"Agusan River delta and mangroves."
-	},
-        {
         "name":"Surigao Scorpionfish",
         "commonName":"rockfish",
         "scientificName":"Scorpaenopsis oxycephala",
@@ -284,7 +276,7 @@
         "commonName":"Lapa-lapa",
         "scientificName":"Acanthaster planci",
         "description":"Spiny coral predator; population outbreaks can damage reefs.",
-    "image": "/assets/MINDANAO/Caraga/Acanthaster planci.jpg",
+    "image": "/assets/MINDANAO/Caraga/Acanthaster planci.jpeg",
         "location":"Coral-rich areas near Siargao and Dinagat."
 	},
         {

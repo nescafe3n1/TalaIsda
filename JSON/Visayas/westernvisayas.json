@@ -72,14 +72,6 @@
     "location": "Antique, Capiz"
   },
   {
-    "name": "Trevally",
-    "commonName": "Talakitok",
-    "scientificName": "Caranx ignobilis",
-    "description": "Also called Jackfish, it is a strong game fish commonly caught off the coast of Iloilo and Antique.",
-    "image": "/assets/VISAYAS/Western Visayas/talakitok.jpg",
-    "location": "Iloilo, Antique"
-  },
-  {
     "name": "Sardine",
     "commonName": "Tamban",
     "scientificName": "Sardina pilchardus",
@@ -164,7 +156,7 @@
         "commonName":"Tanguigue",
         "scientificName":"Scomberomorus spp.",
         "description":"Fast-swimming game fish sought for its rich meat.",
-    "image": "/assets/VISAYAS/Western Visayas/Scomberomorus spp..jpg",
+    "image": "/assets/VISAYAS/Western Visayas/Scomberomorus spp.jpg",
         "location":"Capiz, Aklan"
 	},
         {
@@ -204,7 +196,7 @@
         "commonName":"Butete",
         "scientificName":"Tetraodontidae",
         "description":"Inflates when threatened; some species are toxic.",
-    "image": "/assets/VISAYAS/Western Visayas/Tetraodontidae.jpg",
+    "image": "/assets/VISAYAS/Western Visayas/Tetraodontidae.jpeg",
         "location":"Antique"
 	},
         {
@@ -292,7 +284,7 @@
         "commonName":"Pusit",
         "scientificName":"Loligo spp.",
         "description":"Cephalopod with tentacles and ink defense; grilled or dried.",
-    "image": "/assets/VISAYAS/Western Visayas/Loligo spp..jpg",
+    "image": "/assets/VISAYAS/Western Visayas/Loligo spp.jpg",
         "location":"Iloilo"
 	},
         {
@@ -316,7 +308,7 @@
         "commonName":"Molmol",
         "scientificName":"Scarus spp.",
         "description":"Coral-eating fish with beak-like teeth; often brightly colored.",
-    "image": "/assets/VISAYAS/Western Visayas/Scarus spp..jpg",
+    "image": "/assets/VISAYAS/Western Visayas/Scarus spp.jpg",
         "location":"Guimaras"
 	},
         {

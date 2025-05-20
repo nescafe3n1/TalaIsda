@@ -1,13 +1,5 @@
 [
   {
-    "name": "Milkfish",
-    "commonName": "Bangus",
-    "scientificName": "Lutjanidae",
-    "description": "Farmed in large numbers across the region, especially in Davao del Sur and Davao del Norte.",
-    "image": "/assets/MINDANAO/Davao Region/bangus.jpg",
-    "location": "Davao del Sur, Davao del Norte"
-  },
-  {
     "name": "Sea Cow",
     "commonName": "Dugong",
     "scientificName": "Dugong dugon",
@@ -52,7 +44,7 @@
     "commonName": "Sinarapan",
     "scientificName": "Mistichthys luzonensis",
     "description": "The world’s smallest commercially harvested fish, often found in protected areas around Davao.",
-    "image": "/assets/MINDANAO/Davao Region/shem sinarapan.jpg",
+    "image": "/assets/MINDANAO/Davao Region/tabios.jpg",
     "location": "Lake Lanao, Davao del Sur"
   },
   {
@@ -108,7 +100,7 @@
         "commonName":"Pugapo",
         "scientificName":"Gobiidae spp.",
         "description":"Small gobies inhabiting tide pools and shallow reefs.",
-    "image": "/assets/MINDANAO/Davao Region/Gobiidae spp..jpg",
+    "image": "/assets/MINDANAO/Davao Region/pugapo.jpg",
         "location":"Estuaries of Davao del Norte."
 	},
         {
@@ -132,7 +124,7 @@
         "commonName":"Bamak",
         "scientificName":"Crenimugil crenilabis",
         "description":"Algae-grazing coastal fish.",
-    "image": "/assets/MINDANAO/Davao Region/Crenimugil crenilabis.jpg",
+    "image": "/assets/MINDANAO/Davao Region/Crenimugil crenilabis.jpeg",
         "location":"Estuarine waters of Davao Gulf."
 	},
         {
@@ -140,7 +132,7 @@
         "commonName":"danggit",
         "scientificName":"Siganus fuscescens",
         "description":"Herbivorous fish controlling algae on reefs.",
-    "image": "/assets/MINDANAO/Davao Region/Siganus fuscescens.jpg",
+    "image": "/assets/MINDANAO/Davao Region/Danggit.jpg",
         "location":"Coral reefs of Davao Region."
 	},
         {
