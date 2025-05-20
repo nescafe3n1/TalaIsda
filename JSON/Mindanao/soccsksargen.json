@@ -89,7 +89,7 @@
 	},
         {
         "name":"Philippine Spadefish",
-        "commonName":"Patunaw",
+        "commonName":"Talakitok",
         "scientificName":"Zabidius philippinensis",
         "description":"Deep-bodied reef fish feeding on zooplankton; found in coral-rich areas.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Zabidius philippinensis.jpg",
@@ -121,7 +121,7 @@
 	},
         {
         "name":"Lanternfish",
-        "commonName":"Lanternfish",
+        "commonName":"Bala-bala",
         "scientificName":"Diaphus philippinensis",
         "description":"Deep-sea fish emitting bioluminescence; forms part of midwater food web.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Diaphus philippinensis.jpg",
@@ -129,7 +129,7 @@
 	},
         {
         "name":"Gensan Whip Goby",
-        "commonName":"Pugapo",
+        "commonName":"Goby",
         "scientificName":"Bryaninops amplus",
         "description":"Slender goby often found on gorgonian corals.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Bryaninops amplus.jpg",
@@ -145,7 +145,7 @@
 	},
         {
         "name":"Philippine Fairy Wrasse",
-        "commonName":"Labahita",
+        "commonName":"Latigo",
         "scientificName":"Cirrhilabrus philippinus",
         "description":"Small reef fish with vibrant coloration and reef-cleaning behavior.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Cirrhilabrus philippinus.jpg",
@@ -153,7 +153,7 @@
 	},
         {
         "name":"Yellowtail Fusilier",
-        "commonName":"Fusili",
+        "commonName":"Dalagang-bukid",
         "scientificName":"Caesio cuning",
         "description":"Fast-swimming planktivore in large schools.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Caesio cuning.jpg",
@@ -161,7 +161,7 @@
 	},
         {
         "name":"Sulu Sea Flasher Wrasse",
-        "commonName":"Labahita",
+        "commonName":"Mameng",
         "scientificName":"Paracheilinus alfiani",
         "description":"Display wrasse with bright fins used in mating rituals.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Paracheilinus alfiani.jpg",
@@ -169,7 +169,7 @@
 	},
         {
         "name":"Philippine Flathead",
-        "commonName":"Batso",
+        "commonName":"Kakabit",
         "scientificName":"Thysanophrys celebica",
         "description":"Bottom-dwelling fish camouflaged on sandy reef floors.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Thysanophrys celebica.jpg",
@@ -177,7 +177,7 @@
 	},
         {
         "name":"Mindanao Pipefish",
-        "commonName":"Palos-dagat",
+        "commonName":"Lison",
         "scientificName":"Microphis insularis",
         "description":"Elongated pipefish living among seagrasses and mangrove roots.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Microphis insularis.jpg",
@@ -185,7 +185,7 @@
 	},
         {
         "name":"Philippine Slender Suckerfish",
-        "commonName":"Tapok (Remora)",
+        "commonName":"Suckerfish",
         "scientificName":"Echeneis naucrates",
         "description":"Remora fish attaching to large marine fauna; aids in parasite control.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Echeneis naucrates.jpg",
@@ -193,7 +193,7 @@
 	},
         {
         "name":"Endemic Batfish",
-        "commonName":"Papagayo",
+        "commonName":"Dahong-Gabi",
         "scientificName":"Platax batavianus",
         "description":"Flattened reef fish that feed on plankton and small invertebrates.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Platax batavianus.jpg",
@@ -201,7 +201,7 @@
 	},
         {
         "name":"Giant Trevally",
-        "commonName":"Malasugui",
+        "commonName":"Talakitok",
         "scientificName":"Caranx ignobilis",
         "description":"Large game fish and top predator in reef and offshore environments.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Caranx ignobilis.jpg",
@@ -209,7 +209,7 @@
 	},
         {
         "name":"Southern Blueface Angelfish",
-        "commonName":"Isdang Anghel",
+        "commonName":"Pangilayang Asul",
         "scientificName":"Pomacanthus xanthometopon",
         "description":"Ornate angelfish occupying reef slopes and drop-offs.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Pomacanthus xanthometopon.jpg",
@@ -217,7 +217,7 @@
 	},
         {
         "name":"Mindanao Frogfish",
-        "commonName":"Palaka-isda",
+        "commonName":" Pangisdaan",
         "scientificName":"Antennarius spp.",
         "description":"Ambush predator blending into coral or sponge habitats.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Antennarius spp..jpg",
@@ -225,7 +225,7 @@
 	},
         {
         "name":"Philippine Whipray",
-        "commonName":"Daga-dagat",
+        "commonName":"Paging sulatan",
         "scientificName":"Brevitrygon imbricata",
         "description":"Flat ray feeding on benthic invertebrates.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Brevitrygon imbricata.jpg",
@@ -241,7 +241,7 @@
 	},
         {
         "name":"Round Batfish",
-        "commonName":"Papagayo",
+        "commonName":"Dahong-Gabi",
         "scientificName":"Platax orbicularis",
         "description":"Disc-shaped reef fish often seen in schools, especially in juvenile stages.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Platax orbicularis.jpg",
@@ -257,7 +257,7 @@
 	},
         {
         "name":"Golden Trevally",
-        "commonName":"Mabie",
+        "commonName":"Malapandong Dilaw",
         "scientificName":"Gnathanodon speciosus",
         "description":"Striking yellow fish with black stripes, seen trailing larger fish.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Gnathanodon speciosus.jpg",
@@ -273,7 +273,7 @@
 	},
         {
         "name":"Humpback Turretfish",
-        "commonName":"Turretfish",
+        "commonName":"Baka baka",
         "scientificName":"Tetrosomus gibbosus",
         "description":"Armored fish with triangular body; moves slowly among corals.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Tetrosomus gibbosus.jpg",
@@ -281,7 +281,7 @@
 	},
         {
         "name":"Chevron Barracuda",
-        "commonName":"Barakuda",
+        "commonName":"Batig",
         "scientificName":"Sphyraena qenie",
         "description":"Predatory pelagic fish with chevron markings; travels in schools.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Sphyraena qenie.jpg",
@@ -289,7 +289,7 @@
 	},
         {
         "name":"Sarangani Flutemouth",
-        "commonName":"Palos-dagat",
+        "commonName":"Flauta",
         "scientificName":"Fistularia commersonii",
         "description":"Long slender fish resembling a stick; stealth predator of small reef fish.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Fistularia commersonii.jpg",
@@ -305,7 +305,7 @@
 	},
         {
         "name":"Forktail Rabbitfish",
-        "commonName":"Dulong",
+        "commonName":"Samaral",
         "scientificName":"Siganus argenteus",
         "description":"Silver-colored herbivore found in schools; feeds on algae.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Siganus argenteus.jpg",
@@ -313,7 +313,7 @@
 	},
         {
         "name":"Chocolate Hind",
-        "commonName":"Lapu-lapu",
+        "commonName":"Kurapa",
         "scientificName":"Cephalopholis boenak",
         "description":"Small reef predator with brown body and light speckles.",
     "image": "/assets/MINDANAO/SOCCSKSARGEN/Cephalopholis boenak.jpg",

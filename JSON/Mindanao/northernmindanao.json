@@ -81,7 +81,7 @@
 	},
         {
         "name":"Camiguin Pipefish",
-        "commonName":"Pipefish",
+        "commonName":"Isadang tubo",
         "scientificName":"Microphis insularis",
         "description":"Camouflaged pipefish in mangroves and seagrass.",
     "image": "/assets/MINDANAO/Northern Mindanao/Microphis insularis.jpg",
@@ -97,7 +97,7 @@
 	},
         {
         "name":"Camiguin Anemonefish",
-        "commonName":"Pating-pating",
+        "commonName":"Pata",
         "scientificName":"Amphiprion perideraion",
         "description":"Clownfish living with anemones.",
     "image": "/assets/MINDANAO/Northern Mindanao/Amphiprion perideraion.jpg",
@@ -113,7 +113,7 @@
 	},
         {
         "name":"Endemic Moray Eel",
-        "commonName":"Bato-bato",
+        "commonName":"Palos",
         "scientificName":"Gymnothorax spp.",
         "description":"Nocturnal reef predator eels.",
     "image": "/assets/MINDANAO/Northern Mindanao/Gymnothorax spp..jpg",
@@ -145,7 +145,7 @@
 	},
         {
         "name":"Spotted Wrasse",
-        "commonName":"Labahita",
+        "commonName":"Maming",
         "scientificName":"Halichoeres melanochir",
         "description":"Colorful reef algae grazer.",
     "image": "/assets/MINDANAO/Northern Mindanao/Halichoeres melanochir.jpg",
@@ -153,7 +153,7 @@
 	},
         {
         "name":"Camiguin Nudibranch",
-        "commonName":"Nudibranch",
+        "commonName":"lintang-kati dagat",
         "scientificName":"Nembrotha chamberlaini",
         "description":"Bright sea slug feeding on sponges.",
     "image": "/assets/MINDANAO/Northern Mindanao/Nembrotha chamberlaini.jpg",
@@ -185,7 +185,7 @@
 	},
         {
         "name":"Pencil Sea Urchin",
-        "commonName":"Durugo-durugo ",
+        "commonName":"Salungo",
         "scientificName":"Eucidaris spp.",
         "description":"Algae-feeding sea urchin.",
     "image": "/assets/MINDANAO/Northern Mindanao/Eucidaris spp..jpg",
@@ -193,7 +193,7 @@
 	},
         {
         "name":"Philippine Pipehorse",
-        "commonName":"Pipefish",
+        "commonName":"Sanggat",
         "scientificName":"Solegnathus spp.",
         "description":"Pipefish-like reef dweller.",
     "image": "/assets/MINDANAO/Northern Mindanao/Solegnathus spp..jpg",
@@ -209,7 +209,7 @@
 	},
         {
         "name":"Barred Garfish",
-        "commonName":"Barilis",
+        "commonName":"Baguing babae",
         "scientificName":"Hemiramphus far",
         "description":"Surface-dwelling elongated fish.",
     "image": "/assets/MINDANAO/Northern Mindanao/Hemiramphus far.jpg",
@@ -217,7 +217,7 @@
 	},
         {
         "name":"Swordtail Shrimpfish",
-        "commonName":"Isdang tabak",
+        "commonName":"Lagaw",
         "scientificName":"Aeoliscus strigatus",
         "description":"Upright swimming small reef fish.",
     "image": "/assets/MINDANAO/Northern Mindanao/Aeoliscus strigatus.jpg",
@@ -241,7 +241,7 @@
 	},
         {
         "name":"Threadfin Bream",
-        "commonName":"Sapsap",
+        "commonName":"bisugo",
         "scientificName":"Nemipterus japonicus",
         "description":"Demersal fish with pink and yellow stripes, bottom feeder.",
     "image": "/assets/MINDANAO/Northern Mindanao/Nemipterus japonicus.jpg",
@@ -249,7 +249,7 @@
 	},
         {
         "name":"Longhorn Cowfish",
-        "commonName":"Karne",
+        "commonName":"Kuwang-Kuwang",
         "scientificName":"Lactoria cornuta",
         "description":"Boxfish with horn-like projections; slow swimmer.",
     "image": "/assets/MINDANAO/Northern Mindanao/Lactoria cornuta.jpg",
@@ -257,7 +257,7 @@
 	},
         {
         "name":"Camiguin Banded Pipefish",
-        "commonName":"Pipefish",
+        "commonName":"Paskulo",
         "scientificName":"Doryrhamphus dactyliophorus",
         "description":"Slender reef fish with alternating black and white bands.",
     "image": "/assets/MINDANAO/Northern Mindanao/Doryrhamphus dactyliophorus.jpg",
@@ -265,7 +265,7 @@
 	},
         {
         "name":"Banded Coral Shrimp",
-        "commonName":"Hipon panlinis",
+        "commonName":"Sina-Sinang",
         "scientificName":"Stenopus hispidus",
         "description":"Cleaner shrimp with banded claws; lives in reef caves.",
     "image": "/assets/MINDANAO/Northern Mindanao/Stenopus hispidus.jpg",
@@ -273,7 +273,7 @@
 	},
         {
         "name":"Slender Snipefish",
-        "commonName":"Isdang sipol",
+        "commonName":"Balo",
         "scientificName":"Macroramphosus gracilis",
         "description":"Small reef fish with long snout and compressed body.",
     "image": "/assets/MINDANAO/Northern Mindanao/Macroramphosus gracilis.jpg",
@@ -281,7 +281,7 @@
 	},
         {
         "name":"Streaked Rabbitfish",
-        "commonName":"Kito",
+        "commonName":"Alama",
         "scientificName":"Siganus javus",
         "description":"Algae-eating reef fish with fine streaks on sides.",
     "image": "/assets/MINDANAO/Northern Mindanao/tuiganus javuslingan.jpg",
@@ -289,15 +289,15 @@
 	},
         {
         "name":"Camiguin Sea Slug",
-        "commonName":"Nudibranch",
+        "commonName":"lintang-kati dagat",
         "scientificName":"Chromodoris annae",
         "description":"Bright blue nudibranch feeding on sponges.",
     "image": "/assets/MINDANAO/Northern Mindanao/Chromodoris annae.jpg",
         "location":"Coral slopes near Camiguin."
 	},
         {
-        "name":"Lattice Butterflyfish ",
-        "commonName":"Paru-paro",
+        "name":"Lattice Butterflyfish",
+        "commonName":"Alibangbang",
         "scientificName":"Chaetodon rafflesii",
         "description":"Diagonal striped reef fish that feeds on coral polyps.",
     "image": "/assets/MINDANAO/Northern Mindanao/Chaetodon rafflesii.jpg",
@@ -305,7 +305,7 @@
 	},
         {
         "name":"Bignose Unicornfish",
-        "commonName":"Kalabos",
+        "commonName":"Tudluan",
         "scientificName":"Naso vlamingii",
         "description":"Large reef fish with extended snout and bold color change.",
     "image": "/assets/MINDANAO/Northern Mindanao/Naso vlamingii.jpg",

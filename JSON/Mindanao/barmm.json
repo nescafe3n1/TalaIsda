@@ -74,7 +74,7 @@
 
         {
         "name":"Tawi-Tawi Flasher Wrasse",
-        "commonName":"Dalagang-bukid",
+        "commonName":"Labaha",
         "scientificName":"Paracheilinus filamentosus",
         "description":"Reef wrasse with colorful fins used in display rituals.",
     "image": "/assets/MINDANAO/BARMM/Paracheilinus filamentosus.jpg",
@@ -90,7 +90,7 @@
 	},
         {
         "name":"Sulu Rabbitfish",
-        "commonName":"Kabang-kabang",
+        "commonName":"Danggit",
         "scientificName":"Siganus guttatus",
         "description":"Herbivorous schooling fish in lagoons; algae regulator.",
     "image": "/assets/MINDANAO/BARMM/Siganus guttatus.jpg",
@@ -98,7 +98,7 @@
 	},
         {
         "name":"Tawi-Tawi Sea Cucumber",
-        "commonName":"Tiyula",
+        "commonName":"Balatan",
         "scientificName":"Holothuria fuscogilva",
         "description":"mercially harvested sea cucumber in sandy areas.",
     "image": "/assets/MINDANAO/BARMM/Holothuria fuscogilva.jpg",
@@ -106,7 +106,7 @@
 	},
         {
         "name":"Mindanao Clownfish",
-        "commonName":"Clownfish",
+        "commonName":"bantay bot-bot",
         "scientificName":"Amphiprion clarkii",
         "description":"Hardy anemonefish species cohabiting with sea anemones.",
     "image": "/assets/MINDANAO/BARMM/Amphiprion clarkii.jpg",
@@ -122,7 +122,7 @@
 	},
         {
         "name":"Philippine Filefish",
-        "commonName":"Isdang Palayok",
+        "commonName":"saguksok",
         "scientificName":"Paraluteres prionurus",
         "description":"Soft-bodied fish mimicking toxic pufferfish.",
     "image": "/assets/MINDANAO/BARMM/Paraluteres prionurus.jpg",
@@ -130,7 +130,7 @@
 	},
         {
         "name":"Sulu Archipelago Wrasse",
-        "commonName":"Dalagang-bukid",
+        "commonName":"Mameng",
         "scientificName":"Halichoeres spp.",
         "description":"Colorful wrasses contributing to coral cleaning.",
     "image": "/assets/MINDANAO/BARMM/Halichoeres spp..jpg",
@@ -138,7 +138,7 @@
 	},
         {
         "name":"Tawi-Tawi Fangblenny",
-        "commonName":"Palos-dagat",
+        "commonName":"Fangblenny",
         "scientificName":"Meiacanthus spp.",
         "description":"Small venomous reef fish known for bold behavior.",
     "image": "/assets/MINDANAO/BARMM/Meiacanthus spp..jpg",
@@ -146,7 +146,7 @@
 	},
         {
         "name":"Philippine Longhorn Cowfish",
-        "commonName":"Isdang Kahon",
+        "commonName":"Talahib",
         "scientificName":"Lactoria cornuta",
         "description":"Boxfish with horn-like projections; slow-moving reef dweller",
     "image": "/assets/MINDANAO/BARMM/Lactoria cornuta.jpg",
@@ -154,7 +154,7 @@
 	},
         {
         "name":"Basilan Surgeonfish",
-        "commonName":"Surgeonfish",
+        "commonName":"ndangan",
         "scientificName":"Acanthurus spp.",
         "description":"Herbivorous reef fish grazing on algae.",
     "image": "/assets/MINDANAO/BARMM/Acanthurus spp..jpg",
@@ -162,7 +162,7 @@
 	},
         {
         "name":"Tawi-Tawi Anemonefish",
-        "commonName":"Isdang Anemone",
+        "commonName":"Pata",
         "scientificName":"Amphiprion perideraion",
         "description":"Reef clownfish living among host anemones.",
     "image": "/assets/MINDANAO/BARMM/Amphiprion perideraion.jpg",
@@ -170,7 +170,7 @@
 	},
         {
         "name":"Sulu Cleaner Shrimp",
-        "commonName":"Hipong Panglinis",
+        "commonName":"Siri-siri ng dagat",
         "scientificName":"Lysmata amboinensis",
         "description":"Symbiotic shrimp cleaning parasites off fish.",
     "image": "/assets/MINDANAO/BARMM/Lysmata amboinensis.jpg",
@@ -178,7 +178,7 @@
 	},
         {
         "name":"Giant Clam",
-        "commonName":"Tahong-dagat",
+        "commonName":"Taklobo",
         "scientificName":"Tridacna gigas",
         "description":"Massive clam contributing to reef structure and filtering.",
     "image": "/assets/MINDANAO/BARMM/Tridacna gigas.jpg",
@@ -186,7 +186,7 @@
 	},
         {
         "name":"Philippine Sea Krait",
-        "commonName":"Halas-dagat",
+        "commonName":"ahas-dagat",
         "scientificName":"Laticauda colubrina",
         "description":"Sea snake foraging on reef fish; mildly venomous.",
     "image": "/assets/MINDANAO/BARMM/Laticauda colubrina.jpg",
@@ -202,7 +202,7 @@
 	},
         {
         "name":"Tawi-Tawi Mantis Shrimp",
-        "commonName":"Hipong Palaso",
+        "commonName":"tatampal",
         "scientificName":"Odontodactylus scyllarus",
         "description":"Aggressive shrimp known for its powerful strike.",
     "image": "/assets/MINDANAO/BARMM/Odontodactylus scyllarus.jpg",
@@ -210,7 +210,7 @@
 	},
         {
         "name":"Basilan Parrotfish",
-        "commonName":"Parrotfish",
+        "commonName":"loro",
         "scientificName":"Scarus spp.",
         "description":"Colorful herbivore grazing on algae and biofilm.",
     "image": "/assets/MINDANAO/BARMM/Scarus spp..jpg",
@@ -218,7 +218,7 @@
 	},
         {
         "name":"Sumatran Sailfin Tang",
-        "commonName":"Isdang Palamut",
+        "commonName":"Labahita",
         "scientificName":"Zebrasoma desjardinii",
         "description":"Ornate tang with sail-like fins grazing on algae.",
     "image": "/assets/MINDANAO/BARMM/Zebrasoma desjardinii.jpg",
@@ -226,7 +226,7 @@
 	},
         {
         "name":"Sulu Wrinkled Frogfish",
-        "commonName":"Palaka-dagat",
+        "commonName":"Frogfish",
         "scientificName":"Antennarius spp.",
         "description":"Well-camouflaged ambush predator hiding in coral rubble.",
     "image": "/assets/MINDANAO/BARMM/Antennarius spp..jpg",
@@ -234,7 +234,7 @@
 	},
         {
         "name":"Tawi-Tawi Leaf Scorpionfish",
-        "commonName":"Scorpionfish",
+        "commonName":"stonefish",
         "scientificName":"Taenianotus triacanthus",
         "description":"Flat-bodied reef fish mimicking a leaf, waits to ambush prey.",
     "image": "/assets/MINDANAO/BARMM/Taenianotus triacanthus.jpg",
@@ -242,7 +242,7 @@
 	},
         {
         "name":"Sulu Fairy Basslet",
-        "commonName":"Isdang Maliwanag",
+        "commonName":"Bahagay na Basa",
         "scientificName":"Pseudanthias bartlettorum",
         "description":"Small, colorful reef fish found in large schools.",
     "image": "/assets/MINDANAO/BARMM/Pseudanthias bartlettorum.jpg",
@@ -250,7 +250,7 @@
 	},
         {
         "name":"Tiger-tail Seahorse",
-        "commonName":"Kabayo-dagat",
+        "commonName":"Kabayo-kabayohan na May Puno ng Tigre",
         "scientificName":"Hippocampus comes",
         "description":"A black-and-yellow patterned seahorse; often found anchored to corals.",
     "image": "/assets/MINDANAO/BARMM/Hippocampus comes.jpg",
@@ -258,7 +258,7 @@
 	},
         {
         "name":"Sulu Boxfish",
-        "commonName":"Isdang Kahon",
+        "commonName":"puy-yan",
         "scientificName":"Ostracion cubicus",
         "description":"Yellow box-shaped reef fish with black spots.",
     "image": "/assets/MINDANAO/BARMM/Ostracion cubicus.jpg",
@@ -266,7 +266,7 @@
 	},
         {
         "name":"Tawi-Tawi Harlequin Sweetlips",
-        "commonName":"Isdang Matikas",
+        "commonName":"Lepti",
         "scientificName":"Plectorhinchus chaetodonoides",
         "description":"Juveniles swim with exaggerated motions; adults grow large.",
     "image": "/assets/MINDANAO/BARMM/Plectorhinchus chaetodonoides.jpg",
@@ -274,7 +274,7 @@
 	},
         {
         "name":"Philippine Saddleback Anemonefish",
-        "commonName":"Isdang Anemone",
+        "commonName":"Pata",
         "scientificName":"Amphiprion polymnus",
         "description":"Anemonefish with a saddle-like white mark.",
     "image": "/assets/MINDANAO/BARMM/Amphiprion polymnus.jpg",
@@ -290,7 +290,7 @@
 	},
         {
         "name":"Sulu Marble Shrimp",
-        "commonName":"Hipong Marmol",
+        "commonName":"Ilang-ilang Saron",
         "scientificName":"Saron marmoratus",
         "description":"Decorated shrimp with flattened body and camo patterns.",
     "image": "/assets/MINDANAO/BARMM/Saron marmoratus.jpg",
@@ -298,7 +298,7 @@
 	},
         {
         "name":"BARMM Bigfin Reef Squid",
-        "commonName":"Pugita",
+        "commonName":"Pusit Lumot",
         "scientificName":"Sepioteuthis lessoniana",
         "description":"Fast-growing cephalopod, often caught nearshore at night.",
     "image": "/assets/MINDANAO/BARMM/Sepioteuthis lessoniana.jpg",
@@ -306,7 +306,7 @@
 	},
         {
         "name":"Philippine Triton Trumpet",
-        "commonName":"Trumpeta-dagat",
+        "commonName":"Tambuyuk",
         "scientificName":"Charonia tritonis",
         "description":"Large gastropod mollusk that preys on starfish.",
     "image": "/assets/MINDANAO/BARMM/Charonia tritonis.jpg",
