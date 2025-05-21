@@ -8,14 +8,6 @@
     "location": "Iloilo, Antique"
   },
   {
-    "name": "Milkfish",
-    "commonName": "Bangus",
-    "scientificName": "Chanos chanos",
-    "description": "The most important cultured fish in the Philippines, widely farmed in brackish water ponds and coastal areas of Iloilo and Capiz.",
-    "image": "/assets/VISAYAS/Western Visayas/bangus.jpg",
-    "location": "Iloilo, Capiz"
-  },
-  {
     "name": "Pufferfish",
     "commonName": "Pugot",
     "scientificName": "Tetraodontidae",
@@ -30,14 +22,6 @@
     "description": "This mild-flavored fish thrives in river mouths and brackish waters in Western Visayas, especially in Iloilo River.",
     "image": "/assets/VISAYAS/Western Visayas/banak.jpg",
     "location": "Iloilo"
-  },
-  {
-    "name": "Flying Fish",
-    "commonName": "Barongoy",
-    "scientificName": "Exocoetidae",
-    "description": "Known for its ability to glide above the water's surface, it's occasionally caught in Sulu Sea waters off southern Antique.",
-    "image": "/assets/VISAYAS/Western Visayas/barongoy.jpg",
-    "location": "Antique"
   },
   {
     "name": "Rabbitfish",
@@ -88,14 +72,6 @@
     "location": "Capiz, Aklan"
   },
   {
-    "name": "Mackerel Tuna",
-    "commonName": "Tulingan",
-    "scientificName": "Euthynnus affinis",
-    "description": "A migratory pelagic fish commonly caught in local fisheries. Known for its speed and firm, flavorful meat.",
-    "image": "/assets/VISAYAS/Western Visayas/tulingan.jpg",
-    "location": "Negros Occidental, Iloilo"
-  },
-  {
         "name":"Milkfish",
         "commonName":"Bangus",
         "scientificName":"Chanos chanos",
@@ -118,14 +94,6 @@
         "description":"Large reef predators popular in markets and restaurants.",
     "image": "/assets/VISAYAS/Western Visayas/Epinephelus spp..jpg",
         "location":"Iloilo, Negros Occidental"
-	},
-        {
-        "name":"Red Snapper",
-        "commonName":"Maya-maya",
-        "scientificName":"Lutjanus campechanus",
-        "description":"A prized catch with white flesh; often grilled or steamed.",
-    "image": "/assets/VISAYAS/Western Visayas/Lutjanus campechanus.jpg",
-        "location":"Antique, Capiz"
 	},
         {
         "name":"Mackerel Tuna",
