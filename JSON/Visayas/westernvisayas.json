@@ -1,21 +1,5 @@
 [
   {
-    "name": "Indian Mackerel",
-    "commonName": "Alumahan",
-    "scientificName": "Rastrelliger kanagurta",
-    "description": "A common catch in the region’s coastal markets.",
-    "image": "/assets/VISAYAS/Western Visayas/alumahan.jpg",
-    "location": "Iloilo, Antique"
-  },
-  {
-    "name": "Pufferfish",
-    "commonName": "Pugot",
-    "scientificName": "Tetraodontidae",
-    "description": "Though consumed with caution, locals in Antique are known to prepare specific non-toxic species.",
-    "image": "/assets/VISAYAS/Western Visayas/bakako.jpg",
-    "location": "Antique"
-  },
-  {
     "name": "Mullet",
     "commonName": "Banak",
     "scientificName": "Mugilidae",
@@ -80,14 +64,6 @@
         "location":"Iloilo, Capiz"
 	},
         {
-        "name":"Rabbitfish",
-        "commonName":"Danggit",
-        "scientificName":"Siganus spp.",
-        "description":"Herbivorous reef fish often dried and fried; a breakfast staple.",
-    "image": "/assets/VISAYAS/Western Visayas/Siganus spp..jpg",
-        "location":"Guimaras, Negros Occidental"
-	},
-        {
         "name":"Grouper",
         "commonName":"Lapu-lapu",
         "scientificName":"Epinephelus spp.",
@@ -110,14 +86,6 @@
         "description":"Fast pelagic fish known for firm, flavorful meat.",
     "image": "/assets/VISAYAS/Western Visayas/Rastrelliger kanagurta.jpg",
         "location":"Iloilo, Negros Occidental"
-	},
-        {
-        "name":"Sardine",
-        "commonName":"Tamban",
-        "scientificName":"Sardinella spp.",
-        "description":"Small schooling fish dried, canned, or fermented.",
-    "image": "/assets/VISAYAS/Western Visayas/Sardinella spp..jpg",
-        "location":"Aklan, Antique"
 	},
         {
         "name":"Spanish Mackerel",
@@ -151,15 +119,7 @@
     "image": "/assets/VISAYAS/Western Visayas/Gadus morhua.jpg",
         "location":"Iloilo"
 	},
-        {
-        "name":"Mullet",
-        "commonName":"Banak",
-        "scientificName":"Mugilidae",
-        "description":"Bottom-feeding fish found in estuaries and river mouths.",
-    "image": "/assets/VISAYAS/Western Visayas/Mugilidae.jpg",
-        "location":"Iloilo"
-	},
-        {
+    {
         "name":"Pufferfish",
         "commonName":"Butete",
         "scientificName":"Tetraodontidae",

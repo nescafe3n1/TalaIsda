@@ -32,14 +32,6 @@
     "location": "Davao Occidental"
   },
   {
-    "name": "Goby",
-    "commonName": "Pugapo",
-    "scientificName": "Gobiidae",
-    "description": "Commonly found in tide pools and shallow reefs in coastal Davao.",
-    "image": "/assets/MINDANAO/Davao Region/pugapo.jpg",
-    "location": "Davao del Norte, Davao Oriental"
-  },
-  {
     "name": "Tabios",
     "commonName": "Sinarapan",
     "scientificName": "Mistichthys luzonensis",
@@ -78,14 +70,6 @@
         "description":"Brightly colored wrasse with elaborate mating displays.",
     "image": "/assets/MINDANAO/Davao Region/Paracheilinus spp..jpg",
         "location":"Outer reef slopes of Davao Oriental."
-	},
-        {
-        "name":"Dugong",
-        "commonName":"baboy-dagat",
-        "scientificName":"Dugong dugon",
-        "description":"Vulnerable marine mammal feeding on seagrass.",
-    "image": "/assets/MINDANAO/Davao Region/Dugong dugon.jpg",
-        "location":"Seagrass beds in Davao Gulf."
 	},
         {
         "name":"Yellowfin Tuna",
