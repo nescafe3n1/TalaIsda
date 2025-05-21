@@ -110,5 +110,245 @@
     "description": "A larger mackerel species favored for its firm texture and rich flavor.",
     "image": "/assets/LUZON/MIMAROPA/tanguigue.jpg",
     "location": "Waters around Palawan and Romblon."
+  },
+  {
+    "name": "Milkfish",
+    "commonName": "Bangus",
+    "scientificName": "Chanos chanos",
+    "description": "The milkfish is widely farmed in brackish waters and is a staple in Filipino cuisine.",
+    "image": "/assets/LUZON/MIMAROPA/bangus.jpg",
+    "location": "Brackish ponds and coastal waters across Palawan and Mindoro."
+  },
+  {
+    "name": "Tilapia",
+    "commonName": "Tilapia",
+    "scientificName": "Oreochromis niloticus",
+    "description": "An introduced freshwater fish favored for its adaptability and fast growth.",
+    "image": "/assets/LUZON/MIMAROPA/tilapia.jpg",
+    "location": "Freshwater lakes and rivers throughout MIMAROPA."
+  },
+  {
+    "name": "Mudfish",
+    "commonName": "Dalag",
+    "scientificName": "Channa striata",
+    "description": "Mudfish commonly found in freshwater habitats, appreciated for its firm flesh.",
+    "image": "/assets/LUZON/MIMAROPA/dalag.jpg",
+    "location": "Swamps, rice paddies, and rivers in Mindoro and Palawan."
+  },
+  {
+    "name": "Catfish",
+    "commonName": "Hito",
+    "scientificName": "Clarias spp.",
+    "description": "Resilient catfish species important in local aquaculture and fishing.",
+    "image": "/assets/LUZON/MIMAROPA/hito.jpg",
+    "location": "Freshwater bodies and fish farms."
+  },
+  {
+    "name": "Common Carp",
+    "commonName": "Karpa",
+    "scientificName": "Cyprinus carpio",
+    "description": "Common carp introduced for aquaculture, thriving in ponds and lakes.",
+    "image": "/assets/LUZON/MIMAROPA/karpa.jpg",
+    "location": "Freshwater ponds in MIMAROPA provinces."
+  },
+  {
+    "name": "Snakeskin Gourami",
+    "commonName": "Gurami",
+    "scientificName": "Trichopodus pectoralis",
+    "description": "Snakeskin gourami frequently farmed and found wild in freshwater systems.",
+    "image": "/assets/LUZON/MIMAROPA/gurami.jpg",
+    "location": "Rivers, lakes, and ponds."
+  },
+  {
+    "name": "Silver Perch",
+    "commonName": "Ayungin",
+    "scientificName": "Leiopotherapon plumbeus",
+    "description": "Endemic silver perch valued for its delicious taste and texture.",
+    "image": "/assets/LUZON/MIMAROPA/ayungin.jpg",
+    "location": "Freshwater rivers and lakes, especially in Palawan."
+  },
+  {
+    "name": "Small Goby",
+    "commonName": "Biya",
+    "scientificName": "Glossogobius giuris",
+    "description": "Small goby species common in brackish and freshwater habitats.",
+    "image": "/assets/LUZON/MIMAROPA/biya.jpg",
+    "location": "Estuaries and river mouths."
+  },
+  {
+    "name": "Giant Freshwater Prawn",
+    "commonName": "Ulang",
+    "scientificName": "Macrobrachium rosenbergii",
+    "description": "Giant freshwater prawn prized for size and sweet flavor.",
+    "image": "/assets/LUZON/MIMAROPA/ulang.jpg",
+    "location": "Rivers and aquaculture farms."
+  },
+  {
+    "name": "Indian Mackerel",
+    "commonName": "Alumahan",
+    "scientificName": "Rastrelliger kanagurta",
+    "description": "A type of mackerel rich in oils and flavor.",
+    "image": "/assets/LUZON/MIMAROPA/alumahan.jpg",
+    "location": "Coastal waters of Palawan and Mindoro."
+  },
+  {
+    "name": "Round Scad",
+    "commonName": "Galunggong",
+    "scientificName": "Decapterus spp.",
+    "description": "Round scad, an affordable and widely consumed fish.",
+    "image": "/assets/LUZON/MIMAROPA/galunggong.jpg",
+    "location": "Nearshore waters."
+  },
+  {
+    "name": "Frigate Tuna",
+    "commonName": "Tulingan",
+    "scientificName": "Auxis thazard",
+    "description": "A small tuna species popular in Filipino dishes.",
+    "image": "/assets/LUZON/MIMAROPA/tulingan.jpg",
+    "location": "Offshore waters."
+  },
+  {
+    "name": "Spanish Mackerel",
+    "commonName": "Tanigue",
+    "scientificName": "Scomberomorus commerson",
+    "description": "Spanish mackerel known for tender, flavorful meat.",
+    "image": "/assets/LUZON/MIMAROPA/tanigue.jpg",
+    "location": "Coastal waters near reefs."
+  },
+  {
+    "name": "Grouper",
+    "commonName": "Lapu-lapu",
+    "scientificName": "Epinephelus spp.",
+    "description": "Groupers prized for firm flesh and rich taste.",
+    "image": "/assets/LUZON/MIMAROPA/lapu-lapu.jpg",
+    "location": "Coral reefs and rocky shores."
+  },
+  {
+    "name": "Pompano",
+    "commonName": "Pampano",
+    "scientificName": "Trachinotus spp.",
+    "description": "Known for its tender meat and mild flavor.",
+    "image": "/assets/LUZON/MIMAROPA/pampano.jpg",
+    "location": "Coastal and estuarine waters."
+  },
+  {
+    "name": "Yellowfin Tuna",
+    "commonName": "Bariles",
+    "scientificName": "Thunnus albacares",
+    "description": "Yellowfin tuna prized by commercial fisheries.",
+    "image": "/assets/LUZON/MIMAROPA/bariles.jpg",
+    "location": "Deep offshore waters."
+  },
+  {
+    "name": "Squid",
+    "commonName": "Pusit",
+    "scientificName": "Loligo spp.",
+    "description": "Squid commonly used in various Filipino recipes.",
+    "image": "/assets/LUZON/MIMAROPA/pusit.jpg",
+    "location": "Coastal waters."
+  },
+  {
+    "name": "Shrimp",
+    "commonName": "Hipon",
+    "scientificName": "Penaeus spp.",
+    "description": "Shrimp species valued for sweet meat.",
+    "image": "/assets/LUZON/MIMAROPA/hipon.jpg",
+    "location": "Estuaries and farms."
+  },
+  {
+    "name": "Mud Crab",
+    "commonName": "Alimango",
+    "scientificName": "Scylla spp.",
+    "description": "Mud crabs famous for sweet meat and often steamed.",
+    "image": "/assets/LUZON/MIMAROPA/alimango.jpg",
+    "location": "Mangroves and estuaries."
+  },
+  {
+    "name": "Blue Swimmer Crab",
+    "commonName": "Alimasag",
+    "scientificName": "Portunus pelagicus",
+    "description": "Blue swimmer crabs common in coastal waters.",
+    "image": "/assets/LUZON/MIMAROPA/alimasag.jpg",
+    "location": "Estuaries and shallow seas."
+  },
+  {
+    "name": "Manila Sea Catfish",
+    "commonName": "Manila Sea Catfish",
+    "scientificName": "Arius manillensis",
+    "description": "Endemic marine catfish found in brackish environments.",
+    "image": "/assets/LUZON/MIMAROPA/manila_sea_catfish.jpg",
+    "location": "Estuarine waters."
+  },
+  {
+    "name": "Speckled Goby",
+    "commonName": "Speckled Goby",
+    "scientificName": "Redigobius bikolanus",
+    "description": "Small goby found in freshwater and brackish habitats.",
+    "image": "/assets/LUZON/MIMAROPA/speckled_goby.jpg",
+    "location": "Rivers and estuaries."
+  },
+  {
+    "name": "White Sardine",
+    "commonName": "White Sardine",
+    "scientificName": "Escualosa thoracata",
+    "description": "Small pelagic fish often dried or canned.",
+    "image": "/assets/LUZON/MIMAROPA/white_sardine.jpg",
+    "location": "Coastal waters."
+  },
+  {
+    "name": "Bloch's Gizzard Shad",
+    "commonName": "Bloch's Gizzard Shad",
+    "scientificName": "Nematalosa nasus",
+    "description": "Common schooling fish near river mouths.",
+    "image": "/assets/LUZON/MIMAROPA/blochs_gizzard_shad.jpg",
+    "location": "Brackish and coastal waters."
+  },
+  {
+    "name": "Longspine Ponyfish",
+    "commonName": "Sapsap",
+    "scientificName": "Leiognathus longispinis",
+    "description": "Bioluminescent fish inhabiting shallow waters.",
+    "image": "/assets/LUZON/MIMAROPA/sapsap.jpg",
+    "location": "Nearshore coastal areas."
+  },
+  {
+    "name": "Freshwater Sardine",
+    "commonName": "Tawilis",
+    "scientificName": "Sardinella tawilis",
+    "description": "The only freshwater sardine endemic to the Philippines.",
+    "image": "/assets/LUZON/MIMAROPA/tawilis.jpg",
+    "location": "Introduced to some freshwater bodies."
+  },
+  {
+    "name": "Freshwater Trevally",
+    "commonName": "Maliputo",
+    "scientificName": "Caranx ignobilis",
+    "description": "Freshwater trevally known for firm flesh.",
+    "image": "/assets/LUZON/MIMAROPA/maliputo.jpg",
+    "location": "Freshwater lakes."
+  },
+  {
+    "name": "Tikos Rough Triggerfish",
+    "commonName": "Tikos Rough Triggerfish",
+    "scientificName": "Canthidermis maculata",
+    "description": "Triggerfish with rough skin living near reefs.",
+    "image": "/assets/LUZON/MIMAROPA/tikos_rough_triggerfish.jpg",
+    "location": "Coastal reefs."
+  },
+  {
+    "name": "Picturesque Dragonet",
+    "commonName": "Picturesque Dragonet",
+    "scientificName": "Synchiropus picturatus",
+    "description": "Brightly colored reef fish famous for vivid patterns.",
+    "image": "/assets/LUZON/MIMAROPA/picturesque_dragonet.jpg",
+    "location": "Coral reefs."
+  },
+  {
+    "name": "Arahan Roughback Sea Catfish",
+    "commonName": "Arahan Roughback Sea Catfish",
+    "scientificName": "Arius latiscutatus",
+    "description": "Sea catfish common in coastal waters and estuaries.",
+    "image": "/assets/LUZON/MIMAROPA/arahan_roughback_sea_catfish.jpg",
+    "location": "Brackish coastal waters."
   }
 ]

@@ -86,5 +86,150 @@
     "description": "A small freshwater sardine found only in Taal Lake. It is culturally significant and unique as the world’s only freshwater sardine.",
     "image": "/assets/LUZON/CALABARZON/tawilis.jpg",
     "location": "Taal Lake, Batangas (endemic species)."
+  },
+  {
+    "name": "Yellowtail Snapper",
+    "commonName": "Yellowtail",
+    "scientificName": "Ocyurus chrysurus",
+    "description": "A brightly colored snapper prized for its mild, flaky meat.",
+    "image": "/assets/Region/Location/yellowtail_snapper.jpg",
+    "location": "Coral reefs and rocky bottoms along Batangas coast."
+  },
+  {
+    "name": "Silver Perch",
+    "commonName": "Ayungin",
+    "scientificName": "Leiopotherapon plumbeus",
+    "description": "Also known as Ayungin, a native freshwater fish valued for its taste.",
+    "image": "/assets/Region/Location/silver_perch.jpg",
+    "location": "Freshwater lakes and rivers."
+  },
+  {
+    "name": "Striped Sea Perch",
+    "commonName": "Pagi-pagi",
+    "scientificName": "Lutjanus gibbus",
+    "description": "Common reef fish with distinct stripes, popular in local markets.",
+    "image": "/assets/Region/Location/striped_sea_perch.jpg",
+    "location": "Coral reefs near coastal areas."
+  },
+  {
+    "name": "Spotted Scat",
+    "commonName": "Isdang Bara",
+    "scientificName": "Scatophagus argus",
+    "description": "Known for its adaptability to both fresh and brackish waters.",
+    "image": "/assets/Region/Location/spotted_scat.jpg",
+    "location": "Mangrove areas and estuaries."
+  },
+  {
+    "name": "Barred Knifejaw",
+    "commonName": "Sipin",
+    "scientificName": "Oplegnathus fasciatus",
+    "description": "A reef fish with a strong beak used for crushing shells.",
+    "image": "/assets/Region/Location/barred_knifejaw.jpg",
+    "location": "Rocky coastal areas."
+  },
+  {
+    "name": "Giant Trevally",
+    "commonName": "Talakitok",
+    "scientificName": "Caranx ignobilis",
+    "description": "Large predator fish valued by anglers and in cuisine.",
+    "image": "/assets/Region/Location/giant_trevally.jpg",
+    "location": "Open coastal waters and reefs."
+  },
+  {
+    "name": "Blue Tang",
+    "commonName": "Paruparo",
+    "scientificName": "Paracanthurus hepatus",
+    "description": "Popular reef fish known for its bright blue coloration.",
+    "image": "/assets/Region/Location/blue_tang.jpg",
+    "location": "Coral reefs."
+  },
+  {
+    "name": "Blacktip Grouper",
+    "commonName": "Lapu-lapu",
+    "scientificName": "Epinephelus fasciatus",
+    "description": "Small grouper species with distinctive black-tipped fins.",
+    "image": "/assets/Region/Location/blacktip_grouper.jpg",
+    "location": "Coral reefs and rocky substrates."
+  },
+  {
+    "name": "Butterflyfish",
+    "commonName": "Paruparo Isda",
+    "scientificName": "Chaetodon spp.",
+    "description": "Colorful reef fish often seen in pairs, feeding on coral polyps.",
+    "image": "/assets/Region/Location/butterflyfish.jpg",
+    "location": "Coral reefs."
+  },
+  {
+    "name": "Red Snapper",
+    "commonName": "Pampano",
+    "scientificName": "Lutjanus campechanus",
+    "description": "Highly prized for firm, white flesh and mild flavor.",
+    "image": "/assets/Region/Location/red_snapper.jpg",
+    "location": "Coral reefs and rocky areas."
+  },
+  {
+    "name": "Asian Swamp Eel",
+    "commonName": "Hito",
+    "scientificName": "Monopterus albus",
+    "description": "Elongated eel-like fish commonly found in freshwater swamps.",
+    "image": "/assets/Region/Location/asian_swamp_eel.jpg",
+    "location": "Rice paddies and freshwater swamps."
+  },
+  {
+    "name": "Mudskipper",
+    "commonName": "Palakpak",
+    "scientificName": "Periophthalmus spp.",
+    "description": "Unique fish capable of walking on land and breathing air.",
+    "image": "/assets/Region/Location/mudskipper.jpg",
+    "location": "Mangrove mudflats and estuaries."
+  },
+  {
+    "name": "Scad",
+    "commonName": "Galunggong",
+    "scientificName": "Decapterus spp.",
+    "description": "Small schooling fish important in commercial fisheries.",
+    "image": "/assets/Region/Location/scad.jpg",
+    "location": "Coastal and offshore waters."
+  },
+  {
+    "name": "Freshwater Climbing Perch",
+    "commonName": "Martiniko",
+    "scientificName": "Anabas testudineus",
+    "description": "Fish known for its ability to breathe air and move on land.",
+    "image": "/assets/Region/Location/freshwater_climbing_perch.jpg",
+    "location": "Freshwater ponds and swamps."
+  },
+  {
+    "name": "Roughskin Catfish",
+    "commonName": "Hito",
+    "scientificName": "Arius spp.",
+    "description": "Common catfish with rough skin found in brackish waters.",
+    "image": "/assets/Region/Location/roughskin_catfish.jpg",
+    "location": "Estuaries and coastal areas."
+  },
+  {
+    "name": "Needlefish",
+    "commonName": "Dapa",
+    "scientificName": "Tylosurus spp.",
+    "description": "Slender fish with long jaws, often seen near the surface.",
+    "image": "/assets/Region/Location/needlefish.jpg",
+    "location": "Coastal waters and estuaries."
+  },
+  {
+    "name": "Threadfin Bream",
+    "commonName": "Bisugo",
+    "scientificName": "Nemipterus spp.",
+    "description": "Colorful fish popular in markets and for cooking.",
+    "image": "/assets/Region/Location/threadfin_bream.jpg",
+    "location": "Sandy bottoms near coral reefs."
+  },
+  {
+    "name": "Siganid",
+    "commonName": "Rabbitfish",
+    "scientificName": "Siganus spp.",
+    "description": "Also called rabbitfish, often seen grazing on algae.",
+    "image": "/assets/Region/Location/siganid.jpg",
+    "location": "Seagrass beds and coral reefs."
   }
 ]
+

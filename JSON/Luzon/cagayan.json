@@ -134,5 +134,245 @@
     "description": "A smaller tuna species commonly found in tropical and subtropical waters.",
     "image": "/assets/LUZON/central luzon/tulingan.jpg",
     "location": "Pelagic zones off Aparri (Cagayan) and around Basco (Batanes)"
+  },
+    {
+    "name": "Ludong",
+    "commonName": "President’s Fish",
+    "scientificName": "Cestraeus plicatilis",
+    "description": "Known for its high value and rarity, ludong is a catadromous species that migrates from freshwater to marine environments to spawn.",
+    "image": "/assets/LUZON/Cagayan Valley/PresidentsFish.jpg",
+    "location": "Found in the Cagayan River and its tributaries, particularly in Aparri, Cagayan, and the Addalem River in Quirino."
+  },
+  {
+    "name": "Magat Catfish",
+    "commonName": "Magat Sea Catfish",
+    "scientificName": "Plicofollis magatensis",
+    "description": "Endemic sea catfish species abundant in the Cagayan River and its larger tributaries.",
+    "image": "/assets/LUZON/Cagayan Valley/MagatSeaCatfish.jpg",
+    "location": "Commonly found in the Magat River at Bagabag, Nueva Vizcaya."
+  },
+  {
+    "name": "Tilapia",
+    "commonName": "Nile Tilapia",
+    "scientificName": "Oreochromis niloticus",
+    "description": "Introduced species favored in aquaculture for its fast growth and adaptability.",
+    "image": "/assets/LUZON/Cagayan Valley/NileTilapia.jpg",
+    "location": "Farmed throughout Cagayan Valley, especially in Isabela and Nueva Vizcaya."
+  },
+  {
+    "name": "Ayungin",
+    "commonName": "Silver Perch",
+    "scientificName": "Leiopotherapon plumbeus",
+    "description": "Endemic to the Philippines, prized for its delicate taste.",
+    "image": "/assets/LUZON/Cagayan Valley/SilverPerch.jpg",
+    "location": "Inhabits lakes and rivers across the region."
+  },
+  {
+    "name": "Dalag",
+    "commonName": "Striped Snakehead",
+    "scientificName": "Channa striata",
+    "description": "Popular for its firm meat; often grilled or used in native dishes.",
+    "image": "/assets/LUZON/Cagayan Valley/StripedSnakehead.jpg",
+    "location": "Found in rice fields, swamps, and rivers around Cagayan Valley."
+  },
+  {
+    "name": "Hito",
+    "commonName": "Catfish",
+    "scientificName": "Clarias spp.",
+    "description": "Known for its resilience and is commonly used in adobo dishes.",
+    "image": "/assets/LUZON/Cagayan Valley/Catfish.jpg",
+    "location": "Cultivated in fish farms and found in freshwater bodies in the region."
+  },
+  {
+    "name": "Igat",
+    "commonName": "Freshwater Eel",
+    "scientificName": "Anguilla spp.",
+    "description": "Elongated, snake-like fish caught for its rich, flavorful meat.",
+    "image": "/assets/LUZON/Cagayan Valley/FreshwaterEel.jpg",
+    "location": "Found in rivers and streams throughout the Cagayan Valley."
+  },
+  {
+    "name": "Gurami",
+    "commonName": "Snakeskin Gourami",
+    "scientificName": "Trichopodus pectoralis",
+    "description": "Hardy fish found both in aquaculture and in the wild.",
+    "image": "/assets/LUZON/Cagayan Valley/SnakeskinGourami.jpg",
+    "location": "Inhabits freshwater bodies in the region."
+  },
+  {
+    "name": "Mori",
+    "commonName": "Tank Goby",
+    "scientificName": "Glossogobius giuris",
+    "description": "A goby species commonly found in freshwater and brackish environments.",
+    "image": "/assets/LUZON/Cagayan Valley/TankGoby.jpg",
+    "location": "Inhabits rivers and estuaries within the Cagayan Valley."
+  },
+  {
+    "name": "Agurong",
+    "commonName": "Trumpet Snail",
+    "scientificName": "Cerithidea obtusa",
+    "description": "Often collected for food, commonly found in estuarine and coastal areas.",
+    "image": "/assets/LUZON/Cagayan Valley/TrumpetSnail.jpg",
+    "location": "Found in the estuarine and coastal areas of the region."
+  },
+  {
+    "name": "Bisukul",
+    "commonName": "Freshwater Snail",
+    "scientificName": "Viviparidae spp.",
+    "description": "Native freshwater snails that are part of the local diet.",
+    "image": "/assets/LUZON/Cagayan Valley/FreshwaterSnail.jpg",
+    "location": "Common in rivers and streams throughout the Cagayan Valley."
+  },
+  {
+    "name": "Cabibi",
+    "commonName": "Freshwater Clam",
+    "scientificName": "Corbicula fluminea",
+    "description": "Freshwater clams that are harvested for their edible meat.",
+    "image": "/assets/LUZON/Cagayan Valley/FreshwaterClam.jpg",
+    "location": "Found in sandy and muddy bottoms of rivers in the region."
+  },
+  {
+    "name": "Ulang",
+    "commonName": "Giant Freshwater Prawn",
+    "scientificName": "Macrobrachium rosenbergii",
+    "description": "Known for their large size and sweet meat.",
+    "image": "/assets/LUZON/Cagayan Valley/GiantFreshwaterPrawn.jpg",
+    "location": "Cultivated and caught in freshwater bodies across the Cagayan Valley."
+  },
+  {
+    "name": "Karpa",
+    "commonName": "Common Carp",
+    "scientificName": "Cyprinus carpio",
+    "description": "Introduced for aquaculture purposes and known for adaptability.",
+    "image": "/assets/LUZON/Cagayan Valley/CommonCarp.jpg",
+    "location": "Farmed in ponds and found in rivers throughout the region."
+  },
+  {
+    "name": "Martiniko",
+    "commonName": "Climbing Perch",
+    "scientificName": "Anabas testudineus",
+    "description": "Hardy fish that can survive in low-oxygen waters.",
+    "image": "/assets/LUZON/Cagayan Valley/ClimbingPerch.jpg",
+    "location": "Found in ponds, swamps, and slow-moving waters in the Cagayan Valley."
+  },
+  {
+    "name": "Pait",
+    "commonName": "Silver Barb",
+    "scientificName": "Barbonymus gonionotus",
+    "description": "Fast-growing species used in aquaculture.",
+    "image": "/assets/LUZON/Cagayan Valley/SilverBarb.jpg",
+    "location": "Cultivated in fish farms and found in freshwater bodies in the region."
+  },
+  {
+    "name": "Kanduli",
+    "commonName": "Sea Catfish",
+    "scientificName": "Arius spp.",
+    "description": "Often used in sour soups like sinigang.",
+    "image": "/assets/LUZON/Cagayan Valley/SeaCatfish.jpg",
+    "location": "Caught in brackish and coastal waters, including those near the Cagayan Valley."
+  },
+  {
+    "name": "Bugaong",
+    "commonName": "Silver Perch",
+    "scientificName": "Leiopotherapon plumbeus",
+    "description": "Another name for ayungin, prized for its delicate flavor.",
+    "image": "/assets/LUZON/Cagayan Valley/Bugaong.jpg",
+    "location": "Inhabits lakes and rivers, including those in the Cagayan Valley."
+  },
+  {
+    "name": "Biya",
+    "commonName": "Tank Goby",
+    "scientificName": "Glossogobius giuris",
+    "description": "A goby species found in freshwater and brackish environments.",
+    "image": "/assets/LUZON/Cagayan Valley/Biya.jpg",
+    "location": "Inhabits rivers and estuaries within the Cagayan Valley."
+  },
+  {
+    "name": "Dilis",
+    "commonName": "Anchovy",
+    "scientificName": "Stolephorus spp.",
+    "description": "Often sun-dried and used as toppings or side dishes.",
+    "image": "/assets/LUZON/Cagayan Valley/Anchovy.jpg",
+    "location": "Caught in large numbers in the coastal areas of the region."
+  },
+  {
+    "name": "Tamban",
+    "commonName": "Sardine",
+    "scientificName": "Sardinella spp.",
+    "description": "Small schooling fish, commonly caught and preserved as dried fish.",
+    "image": "/assets/LUZON/Cagayan Valley/Sardine.jpg",
+    "location": "Abundant in the marine waters off the coast of Cagayan."
+  },
+  {
+    "name": "Alamang",
+    "commonName": "Shrimp Fry",
+    "scientificName": "Acetes spp.",
+    "description": "Used in the production of fermented shrimp paste or 'bagoong'.",
+    "image": "/assets/LUZON/Cagayan Valley/ShrimpFry.jpg",
+    "location": "Collected from coastal waters and estuaries in the region."
+  },
+  {
+    "name": "Bangkulis",
+    "commonName": "Skipjack Tuna",
+    "scientificName": "Katsuwonus pelamis",
+    "description": "Valuable tuna species used in canned and fresh products.",
+    "image": "/assets/LUZON/Cagayan Valley/SkipjackTuna.jpg",
+    "location": "Commonly caught in offshore waters of Northern Luzon."
+  },
+  {
+    "name": "Tulingan",
+    "commonName": "Mackerel Tuna",
+    "scientificName": "Euthynnus affinis",
+    "description": "Common tuna species known for its strong flavor and dark meat.",
+    "image": "/assets/LUZON/Cagayan Valley/MackerelTuna.jpg",
+    "location": "Caught in deep sea fishing areas around Cagayan."
+  },
+  {
+    "name": "Galunggong",
+    "commonName": "Round Scad",
+    "scientificName": "Decapterus spp.",
+    "description": "A staple in Filipino diets; often fried or dried.",
+    "image": "/assets/LUZON/Cagayan Valley/RoundScad.jpg",
+    "location": "Plentiful in coastal waters near Aparri and other ports."
+  },
+  {
+    "name": "Matambaka",
+    "commonName": "Bigeye Scad",
+    "scientificName": "Selar crumenophthalmus",
+    "description": "Medium-sized schooling fish used in various dishes.",
+    "image": "/assets/LUZON/Cagayan Valley/BigeyeScad.jpg",
+    "location": "Common in coastal fish landings around Northern Luzon."
+  },
+  {
+    "name": "Sap-sap",
+    "commonName": "Slipmouth",
+    "scientificName": "Leiognathus spp.",
+    "description": "Flat-bodied fish often dried or used in local soups.",
+    "image": "/assets/LUZON/Cagayan Valley/Slipmouth.jpg",
+    "location": "Caught in shallow coastal waters throughout the region."
+  },
+  {
+    "name": "Bisugo",
+    "commonName": "Threadfin Bream",
+    "scientificName": "Nemipterus spp.",
+    "description": "Recognized for its light pink flesh, often grilled or used in stews.",
+    "image": "/assets/LUZON/Cagayan Valley/ThreadfinBream.jpg",
+    "location": "Common catch in Cagayan’s marine fishing grounds."
+  },
+  {
+    "name": "Lapu-lapu",
+    "commonName": "Grouper",
+    "scientificName": "Epinephelus spp.",
+    "description": "Highly valued reef fish known for its tasty meat.",
+    "image": "/assets/LUZON/Cagayan Valley/Grouper.jpg",
+    "location": "Caught near coral reefs and rocky substrates along the coastline."
+  },
+  {
+    "name": "Mamale",
+    "commonName": "Giant Trevally",
+    "scientificName": "Caranx ignobilis",
+    "description": "Large predatory fish prized by both commercial and sport fishers.",
+    "image": "/assets/LUZON/Cagayan Valley/GiantTrevally.jpg",
+    "location": "Found in deeper marine waters off the coast of Cagayan."
   }
 ]

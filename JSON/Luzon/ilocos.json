@@ -70,5 +70,253 @@
     "description": "A widely farmed freshwater fish known for being a low-cost protein source in local communities.",
     "image": "/assets/tilapia.jpg",
     "location": "Paoay Lake, La Union"
-  }
+  },
+  {
+    "name": "Milkfish",
+    "commonName": "Bangus",
+    "scientificName": "Chanos chanos",
+    "description": "The national fish of the Philippines, bangus is extensively farmed in brackish water fishponds and is known for its tender, flavorful meat.",
+    "image": "/assets/LUZON/ilocos region/Bangus.jpg",
+    "location": ""
+},
+{
+    "name": "Tilapia",
+    "commonName": "Tilapia",
+    "scientificName": "Oreochromis niloticus",
+    "description": "An introduced species that has become a staple in freshwater aquaculture due to its rapid growth and adaptability.",
+    "image": "/assets/LUZON/Bicol/Tilapia.jpg",
+    "location": "Found in freshwater ponds and rivers throughout the Ilocos Region."  
+},
+{
+    "name": "Round Scad",
+    "commonName": "Galunggong",
+    "scientificName": "Decapterus spp.",
+    "description": "A popular and affordable fish, galunggong is often fried and served in Filipino households.",
+    "image": "/assets/LUZON/Bicol/Galunggong.jpg",
+    "location": "coastal waters off Ilocos Norte and Ilocos Sur"
+},
+{
+    "name": "Frigate Tuna",
+    "commonName": "Tulingan",
+    "scientificName": "Auxis thazard",
+    "description": "Known for its rich taste and is commonly used in various local dishes.",
+    "image": "/assets/LUZON/Bicol/tulingan.jpg",
+    "location": "Caught in offshore waters near La Union and Pangasinan."
+},
+{
+    "name": "Sardines",
+    "commonName": "Tamban",
+    "scientificName": "Sardinella spp.",
+    "description": "Essential in local diets and often used in making dried fish or tuyo.",
+    "image": "/assets/LUZON/Bicol/Tamban.jpg",
+    "location": "Frequently found in the waters off the coast of Ilocos Sur"
+},
+{
+    "name": "Short Mackerel",
+    "commonName": "Hasa-hasa",
+    "scientificName": "Selar crumenophthalmus",
+    "description": "Favored for its firm flesh and commonly grilled or fried.",
+    "image": "/assets/LUZON/Bicol/Hasa-hasa.jpg",
+    "location": "Present in coastal regions, including the shores of Pangasinan"
+},
+{
+    "name": "Snapper",
+    "commonName": "Maya-maya",
+    "scientificName": "Lutjanus spp.",
+    "description": "Known for its sweet, white flesh, making it a favorite for steaming and grilling.",
+    "image": "/assets/LUZON/Bicol/tulingan.jpg",
+    "location": "Found in deeper parts of the West Philippine Sea adjacent to Ilocos Norte."
+},
+{
+    "name": "Spanish Mackerel",
+    "commonName": "Tanigue",
+    "scientificName": "Scomberomorus commerson",
+    "description": "A sought-after fish for its flavorful meat, often used in kilawin.",
+    "image": "/assets/LUZON/Bicol/Tanigue.jpg",
+    "location": "Inhabits open seas but also caught near the coasts of La Union."
+},
+{
+    "name": "Redbelly Fusilier",
+    "commonName": "Dalagang Bukid",
+    "scientificName": "Caesio cuning",
+    "description": "Recognizable by its vibrant red color, this fusilier is commonly used in sweet and sour dishes.",
+    "image": "/assets/LUZON/Bicol/Dalagang Bukid.jpg",
+    "location": "Found in reef-associated areas, occasionally sold in Ilocos Sur markets."
+},
+{
+    "name": "Yellowstripe Scad",
+    "commonName": "Salay-salay",
+    "scientificName": "Selaroides leptolepis",
+    "description": "A small scad species that's affordable and commonly fried whole in local households.",
+    "image": "/assets/LUZON/Bicol/Salay-salay.jpg",
+    "location": "Abundant in the coastal waters of Pangasinan."
+},
+{
+    "name": "Japanese Threadfin Bream",
+    "commonName": "Bisugo",
+    "scientificName": "Nemipterus japonicus",
+    "description": "Known for its delicate flavor, often steamed or cooked in sour broth.",
+    "image": "/assets/LUZON/Bicol/Bisugo.jpg",
+    "location": "Caught in sandy bottoms off the coast of Ilocos Norte."
+},
+{
+    "name": "Bigeye Scad",
+    "commonName": "Matangbaka",
+    "scientificName": "Selar crumenophthalmus",
+    "description": "Valued for its tasty flesh, a common catch among small-scale fishers.",
+    "image": "/assets/LUZON/Bicol/Matangbaka.jpg",
+    "location": "Found in schools in coastal areas, including those near La Union."
+},
+{
+    "name": "Trevally",
+    "commonName": "Talakitok",
+    "scientificName": "Caranx spp.",
+    "description": "A strong swimmer and a favorite among sport fishers.",
+    "image": "/assets/LUZON/Bicol/Talakitok.jpg",
+    "location": "Inhabits both inshore and offshore waters near Ilocos Sur."
+},
+{
+    "name": "Anchovy",
+    "commonName": "Dilis",
+    "scientificName": "Stolephorus spp.",
+    "description": "Often sun-dried and used as toppings or side dishes.",
+    "image": "/assets/LUZON/Bicol/Dilis.jpg",
+    "location": "Caught in large numbers in the coastal areas of Pangasinan."
+},
+{
+    "name": "Ponyfish",
+    "commonName": "Sapsap",
+    "scientificName": "Leiognathus spp.",
+    "description": "A small, flat-bodied fish that's typically fried until crispy.",
+    "image": "/assets/LUZON/Bicol/Sapsap.jpg",
+    "location": "Common in shallow coastal waters around Ilocos Norte."
+},
+{
+    "name": "Grouper",
+    "commonName": "Lapu-lapu",
+    "scientificName": "Epinephelus spp.",
+    "description": "Favored for its tender meat, commonly used in special occasions.",
+    "image": "/assets/LUZON/Bicol/Lapu-lapu.jpg",
+    "location": "Found in rocky and coral reef areas, sometimes sold in Ilocos Region markets."
+},
+{
+    "name": "Pompano",
+    "commonName": "Pampano",
+    "scientificName": "Trachinotus spp.",
+    "description": "Prized for its buttery texture, often grilled or baked whole.",
+    "image": "/assets/LUZON/Bicol/Pampano.jpg",
+    "location": "Inhabits coastal and estuarine waters near Pangasinan."
+},
+{
+    "name": "Yellowfin Tuna",
+    "commonName": "Bariles",
+    "scientificName": "Thunnus albacares",
+    "description": "Known for its rich taste, often used in sashimi and grilled dishes.",
+    "image": "/assets/LUZON/Bicol/Bariles.jpg",
+    "location": "Caught in open seas, sometimes landed in ports serving the Ilocos Region."
+},
+{
+    "name": "Starry Triggerfish",
+    "commonName": "Pakol",
+    "scientificName": "Abalistes stellatus",
+    "description": "A type of triggerfish with tough skin, often used in stews.",
+    "image": "/assets/LUZON/Bicol/Pakol.jpg",
+    "location": "Found in reef areas, occasionally available in Ilocos markets."
+},
+{
+    "name": "Bar-eyed Goby",
+    "commonName": "Biya",
+    "scientificName": "Glossogobius spp.",
+    "description": "Commonly found in freshwater and brackish environments.",
+    "image": "/assets/LUZON/Bicol/Biya.jpg",
+    "location": "Inhabits rivers and estuaries within the Ilocos Region."
+},
+{
+    "name": "Catfish",
+    "commonName": "Hito",
+    "scientificName": "Clarias spp.",
+    "description": "Known for its resilience and a common ingredient in adobo dishes.",
+    "image": "/assets/LUZON/Bicol/Hito.jpg",
+    "location": "Cultivated in fish farms and found in freshwater bodies in Ilocos."
+},
+{
+    "name": "Striped Snakehead",
+    "commonName": "Dalag",
+    "scientificName": "Also called mudfish, it's valued for its firm meat and often grilled.",
+    "description": "Found in rice fields, swamps, and rivers around the Ilocos Region.",
+    "image": "/assets/LUZON/Bicol/Dalag.jpg",
+    "location": "Found in rice fields, swamps, and rivers around the Ilocos Region."
+},
+{
+    "name": "Silver Perch",
+    "commonName": "Ayungin",
+    "scientificName": "Leiopotherapon plumbeus",
+    "description": "A native freshwater fish prized for its delicate flavor.",
+    "image": "/assets/LUZON/Bicol/Ayungin.jpg",
+    "location": "Inhabits lakes and rivers, including those in and near Ilocos Norte."
+},
+{
+    "name": "Climbing Perch",
+    "commonName": "Martiniko",
+    "scientificName": "Anabas testudineus",
+    "description": "Hardy and can survive in low-oxygen waters.",
+    "image": "/assets/LUZON/Bicol/Martiniko.jpg",
+    "location": "Found in ponds, swamps, and slow-moving waters in the Ilocos Region."
+},
+{
+    "name": "Sea Catfish",
+    "commonName": "Kanduli",
+    "scientificName": "Arius spp.",
+    "description": "Often used in sour soups like sinigang.",
+    "image": "/assets/LUZON/Bicol/Kanduli.jpg",
+    "location": "Caught in brackish and coastal waters, including those near Pangasinan."
+},
+{
+    "name": "Ludong",
+    "commonName": "Ludong",
+    "scientificName": "Cestraeus plicatilis",
+    "description": "A rare and expensive fish known for its unique taste.",
+    "image": "/assets/LUZON/Bicol/Ludong.jpg",
+    "location": "Migrates through river systems, sometimes available in Ilocos markets."
+},
+{
+    "name": "Freshwater Sardine",
+    "commonName": "Tawilis",
+    "scientificName": "Sardinella tawilis",
+    "description": "The only freshwater sardine, endemic to the Philippines.",
+    "image": "/assets/LUZON/Bicol/Tawilis.jpg",
+    "location": "Primarily found in Taal Lake but occasionally sold in Ilocos Region markets."
+},
+{
+    "name": "Squid",
+    "commonName": "Pusit",
+    "scientificName": "Loligo spp.",
+    "description": "Commonly used in various Filipino dishes.",
+    "image": "/assets/LUZON/Bicol/Pusit.jpg",
+    "location": "Caught in coastal waters, including areas near the Ilocos Region."
+},
+{
+    "name": "Shrimp",
+    "commonName": "Hipon",
+    "scientificName": "Penaeus spp.",
+    "description": "Staple in many local recipes.",
+    "image": "/assets/LUZON/Bicol/Hipon.jpg",
+    "location": "Farmed and wild-caught in and around the Ilocos Region."
+},
+{
+    "name": "Mud Crab",
+    "commonName": "Alimango",
+    "scientificName": "Scylla spp.",
+    "description": "Known for their sweet meat, often steamed or cooked in coconut milk.",
+    "image": "/assets/LUZON/Bicol/Alimango.jpg",
+    "location": "Found in mangroves and estuaries near the Ilocos Region."
+},
+{
+    "name": "Blue Swimmer Crab",
+    "commonName": "Alimasag",
+    "scientificName": "Portunus pelagicus",
+    "description": "Popular for their tender meat.",
+    "image": "/assets/LUZON/Bicol/Alimasag.jpg",
+    "location": "Caught in coastal areas, including those near Pangasinan."
+}
 ]
