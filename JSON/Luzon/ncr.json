@@ -68,7 +68,271 @@
     "commonName": "Anchovy",
     "scientificName": "Stolephorus spp. and other Engraulidae",
     "description": "Small, schooling fish found near the coast, often used for fish paste and dried fish products.",
-    "image": "/assets/LUZON/CALABARZON/dilis.jpg",
+    "image": "/assets/LUZON/NCR/dilis.jpg",
     "location": "Coastal waters of Cavite, Batangas, and Quezon, including Manila Bay."
+  },
+  {
+    "name": "Indian Mackerel",
+    "commonName": "Alumahan",
+    "scientificName": "Rastrelliger kanagurta",
+    "description": "A popular mackerel species in the Philippines, known for its oily flesh and commonly used in various local dishes.",
+    "image": "/assets/LUZON/NCR/alumahan.jpg",
+    "location": "Widely found in coastal waters, including Manila Bay."
+  },
+  {
+    "name": "Round Scad",
+    "commonName": "Galunggong",
+    "scientificName": "Decapterus spp.",
+    "description": "A staple in Filipino households, this round scad is favored for its affordability and versatility in cooking.",
+    "image": "/assets/LUZON/NCR/galunggong1.jpg",
+    "location": "Abundant in Manila Bay and sold in markets throughout Metro Manila."
+  },
+  {
+    "name": "Milkfish",
+    "commonName": "Bangus",
+    "scientificName": "Chanos chanos",
+    "description": "Known as the national fish of the Philippines, bangus is prized for its tender meat and is a key aquaculture product.",
+    "image": "/assets/LUZON/NCR/bangus.png",
+    "location": "Commonly farmed in brackish waters and found in markets across NCR."
+  },
+  {
+    "name": "Tilapia",
+    "commonName": "Tilapia",
+    "scientificName": "Oreochromis niloticus",
+    "description": "An introduced freshwater species that has become a primary source of protein due to its rapid growth and adaptability.",
+    "image": "/assets/LUZON/NCR/tilapia.jpg",
+    "location": "Cultivated in freshwater ponds and rivers within and around NCR."
+  },
+  {
+    "name": "Frigate Tuna",
+    "commonName": "Tulingan",
+    "scientificName": "Auxis thazard",
+    "description": "A small tuna species appreciated for its rich flavor, often prepared as paksiw or ginataan in Filipino cuisine.",
+    "image": "/assets/LUZON/NCR/tulingan.jpg",
+    "location": "Caught in offshore waters, including areas near Manila Bay."
+  },
+  {
+    "name": "Sardine",
+    "commonName": "Tamban",
+    "scientificName": "Sardinella spp.",
+    "description": "These sardines are essential in local diets and are often used in making dried fish or tuyo.",
+    "image": "/assets/LUZON/NCR/tamban.jpg",
+    "location": "Frequently found in the waters of Manila Bay."
+  },
+  {
+    "name": "Short Mackerel",
+    "commonName": "Hasa-hasa",
+    "scientificName": "Selar crumenophthalmus",
+    "description": "Also known as short mackerel, it's favored for its firm flesh and is commonly grilled or fried.",
+    "image": "/assets/LUZON/NCR/hasa-hasa.jpg",
+    "location": "Present in coastal regions, including Manila Bay."
+  },
+  {
+    "name": "Spanish Mackerel",
+    "commonName": "Tanigue",
+    "scientificName": "Scomberomorus commerson",
+    "description": "Also called Spanish mackerel, it's a sought-after fish for its flavorful meat, often used in kilawin.",
+    "image": "/assets/LUZON/NCR/tanigue.jpg",
+    "location": "Inhabits open seas but also caught near the coasts of NCR."
+  },
+  {
+    "name": "Fusilier",
+    "commonName": "Dalagang Bukid",
+    "scientificName": "Caesio cuning",
+    "description": "Recognizable by its vibrant red color, this fusilier is commonly used in sweet and sour dishes.",
+    "image": "/assets/LUZON/NCR/dalagang bukid.jpg",
+    "location": "Found in reef-associated areas, occasionally sold in NCR markets."
+  },
+  {
+    "name": "Yellowstripe Scad",
+    "commonName": "Salay-salay",
+    "scientificName": "Selaroides leptolepis",
+    "description": "A small scad species that's affordable and commonly fried whole in local households.",
+    "image": "/assets/LUZON/NCR/salaysalay.jpg",
+    "location": "Abundant in Manila Bay and surrounding coastal waters."
+  },
+  {
+    "name": "Japanese Threadfin Bream",
+    "commonName": "Bisugo",
+    "scientificName": "Nemipterus japonicus",
+    "description": "Known for its delicate flavor, it's often steamed or cooked in sour broth.",
+    "image": "/assets/LUZON/NCR/bisugo.jpg",
+    "location": "Caught in sandy bottoms of Manila Bay."
+  },
+  {
+    "name": "Bigeye Scad",
+    "commonName": "Matangbaka",
+    "scientificName": "Selar crumenophthalmus",
+    "description": "Valued for its tasty flesh, it's a common catch among small-scale fishers.",
+    "image": "/assets/LUZON/NCR/matangbaka.jpg",
+    "location": "Found in schools in coastal areas, including Manila Bay."
+  },
+  {
+    "name": "Trevally",
+    "commonName": "Talakitok",
+    "scientificName": "Caranx spp.",
+    "description": "Also known as trevally, it's a strong swimmer and a favorite among sport fishers.",
+    "image": "/assets/LUZON/NCR/talakitok].jpg",
+    "location": "Inhabits both inshore and offshore waters near NCR."
+  },
+  {
+    "name": "Anchovy",
+    "commonName": "Dilis",
+    "scientificName": "Stolephorus spp.",
+    "description": "These anchovies are often sun-dried and used as toppings or side dishes.",
+    "image": "/assets/LUZON/NCR/dilis.jpg",
+    "location": "Caught in large numbers in Manila Bay."
+  },
+  {
+    "name": "Ponyfish",
+    "commonName": "Sapsap",
+    "scientificName": "Leiognathus spp.",
+    "description": "A small, flat-bodied fish that's typically fried until crispy.",
+    "image": "/assets/LUZON/NCR/sapsap.jpg",
+    "location": "Common in shallow coastal waters around Metro Manila."
+  },
+  {
+    "name": "Barracuda",
+    "commonName": "Torsilyo",
+    "scientificName": "Sphyraena spp.",
+    "description": "Known as barracuda, it's a predatory fish with firm flesh, suitable for various cooking methods.",
+    "image": "/assets/LUZON/NCR/Torsilyo.jpg",
+    "location": "Found in deeper waters, occasionally caught near Manila Bay."
+  },
+  {
+    "name": "Pomfret",
+    "commonName": "Pampano",
+    "scientificName": "Trachinotus spp.",
+    "description": "Trachinotus spp.",
+    "image": "/assets/LUZON/NCR/pampano.jpeg",
+    "location": "Inhabits coastal and estuarine waters near NCR."
+  },
+  {
+    "name": "Grouper",
+    "commonName": "Lapu-lapu",
+    "scientificName": "Epinephelus spp.",
+    "description": "A grouper species favored for its tender meat, commonly used in special occasions.",
+    "image": "/assets/LUZON/NCR/lapulapu.jpg",
+    "location": "Found in rocky and coral reef areas, sometimes sold in NCR markets."
+  },
+  {
+    "name": "Fourfinger Threadfin",
+    "commonName": "Mamali",
+    "scientificName": "Eleutheronema tetradactylum",
+    "description": "Also known as fourfinger threadfin, it's appreciated for its delicate flavor.",
+    "image": "/assets/LUZON/NCR/mamali.jpg",
+    "location": "Caught in estuarine and coastal waters, including Manila Bay."
+  },
+  {
+    "name": "Yellowfin Tuna",
+    "commonName": "Bariles",
+    "scientificName": "Thunnus albacares",
+    "description": "Yellowfin tuna known for its rich taste, often used in sashimi and grilled dishes.",
+    "image": "/assets/LUZON/NCR/bariles.jpg",
+    "location": "Caught in open seas, sometimes landed in ports serving NCR."
+  },
+  {
+    "name": "Starry Triggerfish",
+    "commonName": "Pakol",
+    "scientificName": "Abalistes stellatus",
+    "description": "A type of triggerfish with tough skin, often used in stews.",
+    "image": "/assets/LUZON/NCR/pakol.jpeg",
+    "location": "Found in reef areas, occasionally available in NCR markets."
+  },
+  {
+    "name": "Goby",
+    "commonName": "Biya",
+    "scientificName": "Glossogobius spp.",
+    "description": "A goby species commonly found in freshwater and brackish environments.",
+    "image": "/assets/LUZON/NCR/biya.jpg",
+    "location": "Inhabits rivers and estuaries within Metro Manila."
+  },
+  {
+    "name": "Catfish",
+    "commonName": "Hito",
+    "scientificName": "Clarias spp.",
+    "description": "Catfish known for its resilience and is a common ingredient in adobo dishes.",
+    "image": "/assets/LUZON/NCR/hito.jpg",
+    "location": "Cultivated in fish farms and found in freshwater bodies in NCR."
+  },
+  {
+    "name": "Mudfish",
+    "commonName": "Dalag",
+    "scientificName": "Channa striata",
+    "description": "Also called mudfish, it's valued for its firm meat and is often grilled.",
+    "image": "/assets/LUZON/NCR/dalag.jpg",
+    "location": "Found in rice fields, swamps, and rivers around Metro Manila."
+  },
+  {
+    "name": "Silver Perch",
+    "commonName": "Ayungin",
+    "scientificName": "Leiopotherapon plumbeus",
+    "description": "A native freshwater fish prized for its delicate flavor.",
+    "image": "/assets/LUZON/NCR/ayungin.jpg",
+    "location": "Inhabits lakes and rivers, including those in and near NCR."
+  },
+  {
+    "name": "Climbing Perch",
+    "commonName": "Martiniko",
+    "scientificName": "Anabas testudineus",
+    "description": "Known as climbing perch, it's hardy and can survive in low-oxygen waters.",
+    "image": "/assets/LUZON/NCR/martiniko.jpg",
+    "location": "Found in ponds, swamps, and slow-moving waters in Metro Manila."
+  },
+  {
+    "name": "Sea Catfish",
+    "commonName": "Kanduli",
+    "scientificName": "Arius spp.",
+    "description": "A sea catfish species often used in sour soups like sinigang.",
+    "image": "/assets/LUZON/NCR/Kanduli.jpg",
+    "location": "Caught in brackish and coastal waters, including Manila Bay."
+  },
+  {
+    "name": "Freshwater Sardine",
+    "commonName": "Tawilis",
+    "scientificName": "Sardinella tawilis",
+    "description": "The only freshwater sardine, endemic to the Philippines.",
+    "image": "/assets/LUZON/NCR/tawilis.jpg",
+    "location": "Primarily found in Taal Lake but occasionally sold in NCR markets."
+  },
+  {
+    "name": "Cestraeus Mullet",
+    "commonName": "Ludong",
+    "scientificName": "Cestraeus goldiei",
+    "description": "A rare and expensive fish known for its unique taste.",
+    "image": "/assets/LUZON/NCR/Ludong.jpg",
+    "location": "Migrates through river systems, sometimes available in Metro Manila."
+  },
+  {
+    "name": "Squid",
+    "commonName": "Pusit",
+    "scientificName": "Loligo spp.",
+    "description": "Squid commonly used in various Filipino dishes.",
+    "image": "/assets/LUZON/NCR/pusit.jpg",
+    "location": "Caught in coastal waters, including areas near NCR."
+  },
+  {
+    "name": "Shrimp",
+    "commonName": "Hipon",
+    "scientificName": "Penaeus spp.",
+    "description": "Shrimp species that are staples in many local recipes.",
+    "image": "/assets/LUZON/NCR/hipon.jpg",
+    "location": "Farmed and wild-caught in and around Metro Manila."
+  },
+  {
+    "name": "Mud Crab",
+    "commonName": "Alimango",
+    "scientificName": "Scylla spp.",
+    "description": "Mud crabs known for their sweet meat, often steamed or cooked in coconut milk.",
+    "image": "/assets/LUZON/NCR/alimango.jpg",
+    "location": "Found in mangroves and estuaries near NCR."
+  },
+  {
+    "name": "Blue Swimmer Crab",
+    "commonName": "Alimasag",
+    "scientificName": "Portunus pelagicus",
+    "description": "Blue swimmer crabs popular for their tender meat.",
+    "image": "/assets/LUZON/NCR/alimisag.jpg",
+    "location": "Caught in coastal areas, including Manila Bay."
   }
 ]

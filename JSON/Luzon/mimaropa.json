@@ -116,7 +116,7 @@
     "commonName": "Bangus",
     "scientificName": "Chanos chanos",
     "description": "The milkfish is widely farmed in brackish waters and is a staple in Filipino cuisine.",
-    "image": "/assets/LUZON/MIMAROPA/bangus.jpg",
+    "image": "/assets/LUZON/MIMAROPA/bangus.png",
     "location": "Brackish ponds and coastal waters across Palawan and Mindoro."
   },
   {
@@ -140,7 +140,7 @@
     "commonName": "Hito",
     "scientificName": "Clarias spp.",
     "description": "Resilient catfish species important in local aquaculture and fishing.",
-    "image": "/assets/LUZON/MIMAROPA/hito.jpg",
+    "image": "/assets/LUZON/MIMAROPA/hito1.jpg",
     "location": "Freshwater bodies and fish farms."
   },
   {
@@ -228,7 +228,7 @@
     "commonName": "Pampano",
     "scientificName": "Trachinotus spp.",
     "description": "Known for its tender meat and mild flavor.",
-    "image": "/assets/LUZON/MIMAROPA/pampano.jpg",
+    "image": "/assets/LUZON/MIMAROPA/pampano.jpeg",
     "location": "Coastal and estuarine waters."
   },
   {
@@ -268,7 +268,7 @@
     "commonName": "Alimasag",
     "scientificName": "Portunus pelagicus",
     "description": "Blue swimmer crabs common in coastal waters.",
-    "image": "/assets/LUZON/MIMAROPA/alimasag.jpg",
+    "image": "/assets/LUZON/MIMAROPA/alimisag.jpg",
     "location": "Estuaries and shallow seas."
   },
   {
@@ -276,7 +276,7 @@
     "commonName": "Manila Sea Catfish",
     "scientificName": "Arius manillensis",
     "description": "Endemic marine catfish found in brackish environments.",
-    "image": "/assets/LUZON/MIMAROPA/manila_sea_catfish.jpg",
+    "image": "/assets/LUZON/MIMAROPA/manilaseacatfish.jpg",
     "location": "Estuarine waters."
   },
   {
@@ -284,7 +284,7 @@
     "commonName": "Speckled Goby",
     "scientificName": "Redigobius bikolanus",
     "description": "Small goby found in freshwater and brackish habitats.",
-    "image": "/assets/LUZON/MIMAROPA/speckled_goby.jpg",
+    "image": "/assets/LUZON/MIMAROPA/speckledgoby.jpg",
     "location": "Rivers and estuaries."
   },
   {
@@ -292,7 +292,7 @@
     "commonName": "White Sardine",
     "scientificName": "Escualosa thoracata",
     "description": "Small pelagic fish often dried or canned.",
-    "image": "/assets/LUZON/MIMAROPA/white_sardine.jpg",
+    "image": "/assets/LUZON/MIMAROPA/whitesardine.jpg",
     "location": "Coastal waters."
   },
   {
@@ -300,7 +300,7 @@
     "commonName": "Bloch's Gizzard Shad",
     "scientificName": "Nematalosa nasus",
     "description": "Common schooling fish near river mouths.",
-    "image": "/assets/LUZON/MIMAROPA/blochs_gizzard_shad.jpg",
+    "image": "/assets/LUZON/MIMAROPA/bloch.jpg",
     "location": "Brackish and coastal waters."
   },
   {
@@ -308,7 +308,7 @@
     "commonName": "Sapsap",
     "scientificName": "Leiognathus longispinis",
     "description": "Bioluminescent fish inhabiting shallow waters.",
-    "image": "/assets/LUZON/MIMAROPA/sapsap.jpg",
+    "image": "/assets/LUZON/MIMAROPA/sapsaplongspine.jpg",
     "location": "Nearshore coastal areas."
   },
   {
@@ -328,19 +328,11 @@
     "location": "Freshwater lakes."
   },
   {
-    "name": "Tikos Rough Triggerfish",
-    "commonName": "Tikos Rough Triggerfish",
-    "scientificName": "Canthidermis maculata",
-    "description": "Triggerfish with rough skin living near reefs.",
-    "image": "/assets/LUZON/MIMAROPA/tikos_rough_triggerfish.jpg",
-    "location": "Coastal reefs."
-  },
-  {
     "name": "Picturesque Dragonet",
     "commonName": "Picturesque Dragonet",
     "scientificName": "Synchiropus picturatus",
     "description": "Brightly colored reef fish famous for vivid patterns.",
-    "image": "/assets/LUZON/MIMAROPA/picturesque_dragonet.jpg",
+    "image": "/assets/LUZON/MIMAROPA/dragonet.jpg",
     "location": "Coral reefs."
   },
   {
@@ -348,7 +340,7 @@
     "commonName": "Arahan Roughback Sea Catfish",
     "scientificName": "Arius latiscutatus",
     "description": "Sea catfish common in coastal waters and estuaries.",
-    "image": "/assets/LUZON/MIMAROPA/arahan_roughback_sea_catfish.jpg",
+    "image": "/assets/LUZON/MIMAROPA/arahan.png",
     "location": "Brackish coastal waters."
   }
 ]
