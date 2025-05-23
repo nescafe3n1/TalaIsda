@@ -8,28 +8,12 @@
     "location": "Manila Bay, West Philippine Sea (off the coast of Central Luzon)"
   },
   {
-    "name": "Tilapia",
-    "commonName": "Tilapia",
-    "scientificName": "Oreochromis spp.",
-    "description": "A widely farmed freshwater fish known for being a low-cost protein source in local communities.",
-    "image": "/assets/tilapia.jpg",
-    "location": "Paoay Lake, La Union"
-  },
-  {
     "name": "Short-bodied Mackerel",
     "commonName": "Hasa-hasa",
     "scientificName": "Euthynnus affinis",
     "description": "A medium-sized tuna species that's commercially important in the region. Often caught in coastal waters and sold in wet markets. Also known as Skipjack Tuna.",
     "image": "/assets/LUZON/NCR/hasa-hasa.jpg",
     "location": "Lagonoy Gulf, Manila Bay, Bohol, Celebes Sea"
-  },
-  {
-    "name": "Tamban",
-    "commonName": "Sardine",
-    "scientificName": "Sardinella spp.",
-    "description": "Small, oily, schooling fish that are essential to marine food webs and heavily harvested for commercial use.",
-    "image": "/assets/LUZON/central luzon/tamban.jpg",
-    "location": "West Philippine Sea (off the coast of Central Luzon), Manila Bay"
   },
   {
     "name": "Squid",
@@ -48,28 +32,12 @@
     "location": "Leyte, Samar, Iligan Bay, Manila Bay"
   },
   {
-    "name": "Bangus",
-    "commonName": "Milkfish",
-    "scientificName": "Chanos chanos",
-    "description": "The national fish of the Philippines and the most important cultured species in the country. Pampanga and Bulacan are major producers.",
-    "image": "/assets/LUZON/central luzon/bangus.png",
-    "location": "Pampanga, Bulacan"
-  },
-  {
     "name": "Yellowtail Fusilier",
     "commonName": "Dalagang Bukid",
     "scientificName": "Pterocaesio chrysozona",
     "description": "Known for its vibrant colors and delicate flavor, often sold in wet markets in Metro Manila and cooked in sinigang or fried.",
     "image": "/assets/LUZON/NCR/dalagang bukid.jpg",
     "location": "Manila Bay, Southern Luzon, Visayas"
-  },
-  {
-    "name": "Dilis",
-    "commonName": "Anchovy",
-    "scientificName": "Stolephorus spp. and other Engraulidae",
-    "description": "Small, schooling fish found near the coast, often used for fish paste and dried fish products.",
-    "image": "/assets/LUZON/NCR/dilis.jpg",
-    "location": "Coastal waters of Cavite, Batangas, and Quezon, including Manila Bay."
   },
   {
     "name": "Indian Mackerel",

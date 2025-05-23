@@ -8,14 +8,6 @@
     "location": "Pangasinan coastline"
   },
   {
-    "name": "Galunggong",
-    "commonName": "Roundscad",
-    "scientificName": "Decapterus macrosoma",
-    "description": "A staple fish in Filipino diets, known locally as 'Galunggong,' and a significant catch in many parts of the Philippines, including the Ilocos Region.",
-    "image": "/assets/LUZON/ilocos region/galunggong.jpg",
-    "location": "Coastal waters of the Ilocos Region"
-  },
-  {
     "name": "Skipjack Tuna",
     "commonName": "Gulyasan",
     "scientificName": "Katsuwonus pelamis",
@@ -54,14 +46,6 @@
     "description": "Active predatory fish often associated with reefs and coastal areas. Also known as Talakitok.",
     "image": "/assets/LUZON/ilocos region/talakitok.jpg",
     "location": "Coastal waters of the Ilocos Region"
-  },
-  {
-    "name": "Yellowfin Tuna",
-    "commonName": "Tambakol",
-    "scientificName": "Thunnus albacares",
-    "description": "A migratory pelagic tuna species highly valued for its meat. Also known as Bariles (juvenile).",
-    "image": "/assets/LUZON/ilocos region/tambakol.jpg",
-    "location": "Offshore waters accessible from the Ilocos Region"
   },
   {
     "name": "Tilapia",

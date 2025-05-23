@@ -160,14 +160,6 @@
     "location": "Rice fields and small rivers"
   },
   {
-    "name": "Manila Goby",
-    "commonName": "Biya",
-    "scientificName": "Glossogobius celebius",
-    "description": "A native species that plays a role in small-scale inland fisheries; caught using traps or nets and often served fried or grilled.",
-    "image": "/assets/LUZON/CAR/biya.jpg",
-    "location": "Rivers and lowland lakes in Kalinga"
-  },
-  {
     "name": "Asian Swamp Eel",
     "commonName": "Palos",
     "scientificName": "Monopterus albus",
@@ -230,14 +222,6 @@
     "description": "A herbivorous fish used in aquaculture for controlling aquatic vegetation; grows large and is also harvested for meat.",
     "image": "/assets/LUZON/CAR/grasscarp.jpg",
     "location": "Large freshwater impoundments."
-  },
-  {
-    "name": "Tilapia Hornorum",
-    "commonName": "",
-    "scientificName": "Oreochromis hornorum",
-    "description": "A hybrid tilapia known for improved growth and resilience, often raised in fish cages and tanks.",
-    "image": "/assets/LUZON/CAR/tilapia.jpg",
-    "location": "Freshwater cages and tanks."
   },
   {
     "name": "Climbing Goby",

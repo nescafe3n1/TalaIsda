@@ -32,28 +32,12 @@
     "location": "Seagrass beds around Palawan, as well as parts of Mindoro and Romblon."
   },
   {
-    "name": "Roundscad",
-    "commonName": "Galunggong",
-    "scientificName": "Decapterus macrosoma",
-    "description": "A staple fish in Filipino diets, caught in various parts of MIMAROPA.",
-    "image": "/assets/LUZON/MIMAROPA/galunggong.jpg",
-    "location": "Coastal waters throughout MIMAROPA."
-  },
-  {
     "name": "Green Sea Turtle",
     "commonName": "Pawikan",
     "scientificName": "Chelonia mydas",
     "description": "A large sea turtle species that feeds on seagrass and algae. MIMAROPA hosts important nesting sites and foraging grounds for green sea turtles.",
     "image": "/assets/LUZON/MIMAROPA/Green pawikan.jpg",
     "location": "Nesting beaches and coastal waters of Palawan, Mindoro (e.g., Sablayan), and other islands in the region."
-  },
-  {
-    "name": "Grouper",
-    "commonName": "Lapu-Lapu",
-    "scientificName": "Epinephelidae genera",
-    "description": "High-value reef fish prized for their firm, white flesh, abundant in the extensive coral reefs of Palawan and other islands in MIMAROPA.",
-    "image": "/assets/LUZON/MIMAROPA/lapu-lapu.jpg",
-    "location": "Coral reefs throughout Palawan, Mindoro, Marinduque, and Romblon."
   },
   {
     "name": "Irrawaddy Dolphin",

@@ -198,14 +198,6 @@
     "description": "Slender fish with long jaws, often seen near the surface.",
     "image": "/assets/LUZON/CALABARZON/needlefish].jpg",
     "location": "Coastal waters and estuaries."
-  },
-  {
-    "name": "Rabbitfish",
-    "commonName": "Siganid",
-    "scientificName": "Siganus spp.",
-    "description": "Also called rabbitfish, often seen grazing on algae.",
-    "image": "/assets/LUZON/CALABARZON/siganid.jpg",
-    "location": "Seagrass beds and coral reefs."
   }
 ]
 

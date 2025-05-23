@@ -1,21 +1,5 @@
 [
   {
-    "name": "Indian Mackerel",
-    "commonName": "Alumahan",
-    "scientificName": "Rastrelliger kanagurta",
-    "description": "A common, medium-sized mackerel that swims in schools and is important for both local consumption and commercial fisheries.",
-    "image": "/assets/LUZON/central luzon/alumahan.jpg",
-    "location": "Manila Bay, West Philippine Sea (off the coast of Central Luzon)"
-  },
-  {
-    "name": "Bangus",
-    "commonName": "Milkfish",
-    "scientificName": "Chanos chanos",
-    "description": "The national fish of the Philippines and the most important cultured species in the country. Pampanga and Bulacan are major producers.",
-    "image": "/assets/LUZON/central luzon/bangus.png",
-    "location": "Pampanga, Bulacan"
-  },
-  {
     "name": "Butanding",
     "commonName": "Whale Shark",
     "scientificName": "Rhincodon typus",
@@ -120,14 +104,6 @@
   "location": "Inhabits lakes and rivers, including those in Central Luzon."
 },
 {
-  "name": "Speckled Goby",
-  "commonName": "Biya",
-  "scientificName": "Glossogobius giuris",
-  "description": "A goby species commonly found in freshwater and brackish environments.",
-  "image": "/assets/LUZON/Central Luzon/Biya.jpg",
-  "location": "Inhabits rivers and estuaries within Central Luzon."
-},
-{
   "name": "Giant Freshwater Prawn",
   "commonName": "Ulang",
   "scientificName": "Macrobrachium rosenbergii",
@@ -174,14 +150,6 @@
   "description": "Also called Spanish mackerel, it's a sought-after fish for its flavorful meat, often used in 'kilawin'.",
   "image": "/assets/LUZON/Central Luzon/Tanigue.jpg",
   "location": "Inhabits open seas but also caught near the coasts of Central Luzon."
-},
-{
-  "name": "Grouper",
-  "commonName": "Lapu-lapu",
-  "scientificName": "Epinephelus spp.",
-  "description": "A grouper species favored for its tender meat, commonly used in special occasions.",
-  "image": "/assets/LUZON/Central Luzon/LapuLapu.jpg",
-  "location": "Found in rocky and coral reef areas, sometimes sold in Central Luzon markets."
 },
 {
   "name": "Pompano",

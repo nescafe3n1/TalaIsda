@@ -104,14 +104,6 @@
     "location": "Offshore waters accessible from the Ilocos Region"
   },
   {
-    "name": "Tamban",
-    "commonName": "Sardine",
-    "scientificName": "Sardinella spp.",
-    "description": "Small, oily, schooling fish that are essential to marine food webs and heavily harvested for commercial use.",
-    "image": "/assets/LUZON/cagayan valley/tamban.jpg",
-    "location": "West Philippine Sea (off the coast of Central Luzon), Manila Bay"
-  },
-  {
     "name": "Tanguigue",
     "commonName": "Spanish Mackerel",
     "scientificName": "Scomberomorus commerson",
@@ -182,14 +174,6 @@
     "description": "Hardy fish found both in aquaculture and in the wild.",
     "image": "/assets/LUZON/Cagayan Valley/gurami.jpg",
     "location": "Inhabits freshwater bodies in the region."
-  },
-  {
-    "name": "Tank goby",
-    "commonName": "Mori",
-    "scientificName": "Glossogobius giuris",
-    "description": "A goby species commonly found in freshwater and brackish environments.",
-    "image": "/assets/LUZON/Cagayan Valley/mori.jpg",
-    "location": "Inhabits rivers and estuaries within the Cagayan Valley."
   },
   {
     "name": "Trumpet Snail",

@@ -48,14 +48,6 @@
     "location": "Aklan, Antique"
   },
   {
-    "name": "Spanish Mackerel",
-    "commonName": "Tanguigue",
-    "scientificName": "Scomberomorus spp.",
-    "description": "A fast-swimming predator highly sought after for its flavorful meat. Found in the open waters of the Visayan Sea.",
-    "image": "/assets/VISAYAS/Western Visayas/tanguigue.jpg",
-    "location": "Capiz, Aklan"
-  },
-  {
         "name":"Milkfish",
         "commonName":"Bangus",
         "scientificName":"Chanos chanos",
@@ -110,14 +102,6 @@
         "description":"Capable of gliding above water; caught near reef edges.",
     "image": "/assets/VISAYAS/Western Visayas/Exocoetidae.jpg",
         "location":"Antique"
-	},
-        {
-        "name":"Cod",
-        "commonName":"Gindara",
-        "scientificName":"Gadus morhua",
-        "description":"Introduced species found in deeper waters; firm white meat",
-    "image": "/assets/VISAYAS/Western Visayas/Gadus morhua.jpg",
-        "location":"Iloilo"
 	},
     {
         "name":"Pufferfish",
