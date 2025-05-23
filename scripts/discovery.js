@@ -1,29 +1,21 @@
-fetch('/api/submissions')
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById('discovery-container');
-
-    if (data.length === 0) {
-      container.innerHTML = '<p>No discoveries submitted yet.</p>';
-      return;
-    }
-
-    data.forEach(fish => {
-      const div = document.createElement('div');
-      div.classList.add('fish-card');
-      div.innerHTML = `
-        <h3>${fish.LocalName || fish.CommonName}</h3>
-        <p><strong>Scientific Name:</strong> ${fish.ScientificName || 'Unknown'}</p>
-        <p><strong>Region:</strong> ${fish.Region}</p>
-        <p><strong>Location:</strong> ${fish.Location}</p>
-        <p><strong>Description:</strong> ${fish.Description}</p>
-        <p><strong>Submitted by:</strong> ${fish.FirstName} ${fish.LastName}</p>
-      `;
-      container.appendChild(div);
+document.addEventListener('DOMContentLoaded', () => {
+  fetch('/api/fish')
+    .then(res => res.json())
+    .then(fishList => {
+      const container = document.getElementById('discoveryFishCards');
+      fishList.forEach(fish => {
+        container.innerHTML += `
+          <div class="fish-card">
+            <img src="${fish.ImagePath}" alt="${fish.CommonName} (${fish.ScientificName})">
+            <h3>${fish.CommonName}</h3>
+            <h4><i>${fish.ScientificName}</i></h4>
+            <p>${fish.Description}</p>
+            <span class="location">Location: ${fish.Location} (${fish.Name})</span>
+          </div>
+        `;
+      });
+    })
+    .catch(error => {
+      console.error('Error fetching fish:', error);
     });
-  })
-  .catch(err => {
-    document.getElementById('discovery-container').innerHTML =
-      '<p>Error loading discoveries.</p>';
-    console.error(err);
-  });
+});
