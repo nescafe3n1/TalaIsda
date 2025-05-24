@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <h3>${fish.CommonName}</h3>
             <h4><i>${fish.ScientificName}</i></h4>
             <p>${fish.Description}</p>
-            <span class="location">Location: ${fish.Location} (${fish.Name})</span>
+            <span class="location">Location: ${fish.Location} (${fish.RegionName})</span>
           </div>
         `;
       });

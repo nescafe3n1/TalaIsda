@@ -32,7 +32,7 @@ app.get("/api/fish", async (req, res) => {
         fs.Description, 
         fs.ImagePath, 
         fs.Location, 
-        r.Name
+        r.Name AS RegionName
       FROM FishSpecies fs
       LEFT JOIN Region r ON fs.RegionID = r.RegionID
     `);
