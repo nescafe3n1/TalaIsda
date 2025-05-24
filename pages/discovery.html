@@ -60,109 +60,112 @@
   </header>
 
 	<div class="discovery-banner">
-			<div>
-					<h2>Add Your Discovery</h2>
-					<p>Contribute to our growing database of Philippine fish species</p>
-			</div>
+		<div>
+			<h2>Add Your Discovery</h2>
+			<p>Contribute to our growing database of Philippine fish species</p>
+		</div>
 	</div>
 
 	<div class="discovery-content">
-			<h2>Share Your Fish Discovery</h2>
-			<p>Have you encountered a fish species that you don't see in our directory? Help us expand our database by sharing your discovery! Fill out the form below with as much detail as possible. Our team will review your submission and, if verified, add it to the TalaIsda directory with proper attribution to you as the contributor.</p>
+		<h2>Share Your Fish Discovery</h2>
+		<p>Have you encountered a fish species that you don't see in our directory? Help us expand our database by sharing your discovery! Fill out the form below with as much detail as possible. Our team will review your submission and, if verified, add it to the TalaIsda directory with proper attribution to you as the contributor.</p>
 			
-			<div class="discovery-form">
-					<form id="discoveryForm" action="http://localhost:3000/api/submit-discovery" method="POST" enctype="multipart/form-data">
-							<div class="form-row">
-									<div class="form-group">
-											<label for="name">First name</label>
-											<input type="text" id="firstName" name="firstName" required>
-									</div>
-									<div class="form-group">
-											<label for="name">Last name</label>
-											<input type="text" id="lastName" name="lastName" required>
-									</div>
-									<div class="form-group">
-											<label for="email">Email Address</label>
-											<input type="email" id="email" name="email" required>
-									</div>
-							</div>
-							
-							<div class="form-group">
-									<label for="fishName">Fish Name (Local and Scientific if known)</label>
-									<input type="text" id="fishName" name="fishName" required placeholder="Ex: Lapu-Lapu / Plectropomus leopardus">
-							</div>
-							
-							<div class="form-row">
-									<div class="form-group">
-											<label for="location">Location Discovered</label>
-											<input type="text" id="location" name="location" required placeholder="Ex: Anilao, Batangas">
-									</div>
-									<div class="form-group">
-											<label for="region">Region</label>
-											<select id="region" name="region" required>
-													<option value="">Select Region</option>
-													<optgroup label="Luzon">
-															<option value="ilocos">Ilocos Region</option>
-															<option value="cagayan">Cagayan Valley</option>
-															<option value="central-luzon">Central Luzon</option>
-															<option value="calabarzon">CALABARZON</option>
-															<option value="mimaropa">MIMAROPA</option>
-															<option value="bicol">Bicol Region</option>
-															<option value="ncr">NCR</option>
-															<option value="car">CAR</option>
-													</optgroup>
-													<optgroup label="Visayas">
-															<option value="western-visayas">Western Visayas</option>
-															<option value="central-visayas">Central Visayas</option>
-															<option value="eastern-visayas">Eastern Visayas</option>
-													</optgroup>
-													<optgroup label="Mindanao">
-															<option value="zamboanga">Zamboanga Peninsula</option>
-															<option value="northern-mindanao">Northern Mindanao</option>
-															<option value="davao">Davao Region</option>
-															<option value="soccsksargen">SOCCSKSARGEN</option>
-															<option value="caraga">Caraga</option>
-															<option value="barmm">BARMM</option>
-													</optgroup>
-											</select>
-									</div>
-							</div>
-							
-							<div class="form-group">
-									<label for="description">Description</label>
-									<textarea id="description" name="description" required placeholder="Please describe the fish's appearance, size, behavior, habitat, etc."></textarea>
-							</div>
-							
-							<div class="form-group">
-									<label for="photos">Upload Photos (Max 3)</label>
-									<div class="file-upload">
-											<span class="file-upload-btn">Choose Files</span>
-											<input type="file" id="photos" name="photos" accept="image/*" multiple>
-											<span class="file-name">No file chosen</span>
-									</div>
-							</div>
-							
-							<div class="form-group">
-									<label for="additionalInfo">Additional Information (Optional)</label>
-									<textarea id="additionalInfo" name="additionalInfo" placeholder="Any other details you'd like to share about this fish species"></textarea>
-							</div>
-							
-							<button type="submit" class="submit-btn">Submit Discovery</button>
-					</form>
-			</div>
-			
-			<div class="guidelines">
-					<h3>Submission Guidelines</h3>
-					<ul>
-							<li>Please provide clear, high-quality photos that show the fish's distinctive features.</li>
-							<li>Be as specific as possible about the location where you discovered the fish.</li>
-							<li>If you know the scientific name, please include it, but it's not required.</li>
-							<li>Include information about the fish's habitat, behavior, and any other notable characteristics.</li>
-							<li>Our team will review your submission and may contact you for additional information.</li>
-							<li>Verified discoveries will be added to our database with credit to you as the contributor.</li>
-					</ul>
-			</div>
-	</div>
+		<div class="discovery-form">
+				<form id="discoveryForm" action="http://localhost:3000/api/submit-discovery" method="POST" enctype="multipart/form-data">
+						<div class="form-row">
+								<div class="form-group">
+										<label for="name">First name</label>
+										<input type="text" id="firstName" name="firstName" required>
+								</div>
+								<div class="form-group">
+										<label for="name">Last name</label>
+										<input type="text" id="lastName" name="lastName" required>
+								</div>
+								<div class="form-group">
+										<label for="email">Email Address</label>
+										<input type="email" id="email" name="email" required>
+								</div>
+						</div>
+						
+						<div class="form-group">
+								<label for="fishName">Fish Name</label>
+								<input type="text" id="fishName" name="fishName" required placeholder="Ex: Lapu-Lapu">
+
+								<label for="scientificName">Scientific Name</label>
+								<input type="text" id="scientificName" name="scientificName" required placeholder="Ex: Plectropomus leopardus">
+						</div>
+						
+						<div class="form-row">
+								<div class="form-group">
+										<label for="location">Location Discovered</label>
+										<input type="text" id="location" name="location" required placeholder="Ex: Anilao, Batangas">
+								</div>
+								<div class="form-group">
+										<label for="region">Region</label>
+										<select id="region" name="region" required>
+												<option value="">Select Region</option>
+												<optgroup label="Luzon">
+														<option value="1">Ilocos Region</option>
+														<option value="2">Cagayan Valley</option>
+														<option value="3">Central Luzon</option>
+														<option value="4">CALABARZON</option>
+														<option value="5">MIMAROPA</option>
+														<option value="6">Bicol Region</option>
+														<option value="7">NCR</option>
+														<option value="8">CAR</option>
+												</optgroup>
+												<optgroup label="Visayas">
+														<option value="9">Western Visayas</option>
+														<option value="10">Central Visayas</option>
+														<option value="11">Eastern Visayas</option>
+												</optgroup>
+												<optgroup label="Mindanao">
+														<option value="12">Zamboanga Peninsula</option>
+														<option value="13">Northern Mindanao</option>
+														<option value="14">Davao Region</option>
+														<option value="15">SOCCSKSARGEN</option>
+														<option value="16">Caraga</option>
+														<option value="17">BARMM</option>
+												</optgroup>
+										</select>
+								</div>
+						</div>
+						
+						<div class="form-group">
+								<label for="description">Description</label>
+								<textarea id="description" name="description" required placeholder="Please describe the fish's appearance, size, behavior, habitat, etc."></textarea>
+						</div>
+						
+						<div class="form-group">
+								<label for="photos">Upload Photos (Max 3)</label>
+								<div class="file-upload">
+										<span class="file-upload-btn">Choose Files</span>
+										<input type="file" id="photos" name="photos" accept="image/*" multiple>
+										<span class="file-name">No file chosen</span>
+								</div>
+						</div>
+						
+						<div class="form-group">
+								<label for="additionalInfo">Additional Information (Optional)</label>
+								<textarea id="additionalInfo" name="additionalInfo" placeholder="Any other details you'd like to share about this fish species"></textarea>
+						</div>
+						
+						<button type="submit" class="submit-btn">Submit Discovery</button>
+				</form>
+		</div>
+		
+		<div class="guidelines">
+				<h3>Submission Guidelines</h3>
+				<ul>
+						<li>Please provide clear, high-quality photos that show the fish's distinctive features.</li>
+						<li>Be as specific as possible about the location where you discovered the fish.</li>
+						<li>If you know the scientific name, please include it, but it's not required.</li>
+						<li>Include information about the fish's habitat, behavior, and any other notable characteristics.</li>
+						<li>Our team will review your submission and may contact you for additional information.</li>
+						<li>Verified discoveries will be added to our database with credit to you as the contributor.</li>
+				</ul>
+		</div>
+</div>
 
     <footer>
         <div class="footer-content">

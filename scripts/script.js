@@ -178,10 +178,10 @@ function setupFormUpload() {
 function setupDiscoveryForm() {
   const form = document.getElementById('discoveryForm');
   form?.addEventListener('submit', function (e) {
-    e.preventDefault();
-    alert('Thank you for your submission! Our team will review your discovery and get back to you soon.');
-    form.reset();
-    document.querySelector('.file-name').textContent = 'No file chosen';
+    //e.preventDefault();
+    //alert('Thank you for your submission! Our team will review your discovery and get back to you soon.');
+    //form.reset();
+    //document.querySelector('.file-name').textContent = 'No file chosen';
   });
 }
 

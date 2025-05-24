@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <h4><i>${fish.ScientificName}</i></h4>
             <p>${fish.Description}</p>
             <span class="location">Location: ${fish.Location} (${fish.RegionName})</span>
+          <span><strong>Contributed by:</strong> ${fish.FirstName} ${fish.LastName}</span>
           </div>
         `;
       });
