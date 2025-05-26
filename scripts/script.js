@@ -139,7 +139,9 @@ function setupSearch() {
     allFishCards.forEach(card => {
       const name = card.querySelector('h3')?.textContent.toLowerCase() || '';
       const location = card.querySelector('.location')?.textContent.toLowerCase() || '';
-      const matchText = name + ' ' + location;
+      const sciName = card.querySelector('h4 i')?.textContent.toLowerCase() || '';
+
+      const matchText = `${name} ${location} ${sciName}`;
 
       if (matchText.includes(query)) {
         card.style.display = 'block';
@@ -151,6 +153,7 @@ function setupSearch() {
     });
   });
 }
+
 
 // ⬅️ Carousel scrolling
 function scrollFish(button, direction) {

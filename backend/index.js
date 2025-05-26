@@ -3,6 +3,7 @@ import path from "path"; // <- Make sure this is added
 import { fileURLToPath } from "url";
 import fs from "fs";
 import multer from "multer";
+import adminRoutes from "./adminRoutes.js";
 
 import { pool } from "./db-connection.js";
 
@@ -18,10 +19,42 @@ app.use('/styles', express.static(path.join(__dirname, '../styles')));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use("/api/admin", adminRoutes);
 
 app.get("/", (req, res) => {
   res.redirect("/pages/index.html");
 });
+
+// Admin Routes
+app.get('/api/admin/submissions', async (req, res) => {
+  try {
+    const result = await pool.request().query(`
+      SELECT 
+        s.SubmissionID,
+        fs.CommonName,
+        fs.ScientificName,
+        fs.Description,
+        fs.ImagePath,
+        fs.Location,
+        r.Name AS RegionName,
+        c.FirstName,
+        c.LastName,
+        c.Email,
+        s.SubmissionDate,
+        s.Status
+      FROM Submissions s
+      JOIN FishSpecies fs ON s.SpeciesID = fs.SpeciesID
+      JOIN Region r ON fs.RegionID = r.RegionID
+      JOIN Contributors c ON s.ContributorID = c.ContributorID
+      WHERE s.Status = 'Pending';
+    `);
+    res.json(result.recordset);
+  } catch (err) {
+    console.error("Error fetching admin submissions:", err);
+    res.status(500).send("Server error");
+  }
+});
+
 
 // ✅ Unified and Correct /api/fish endpoint
 app.get("/api/fish", async (req, res) => {
