@@ -58,8 +58,13 @@
       const error = document.getElementById("error-message");
 
       if (username === "admin" && password === "admin") {
+<<<<<<< HEAD
         window.location.href = "admin-dashboard.html";
         return false;
+=======
+        window.location.href = "/pages/admindashboard.html"; // redirect to your admin page
+        return false; // prevent form from submitting normally
+>>>>>>> b395db24a258a90139ba2d1243fd7bf9bcf036b4
       } else {
         error.textContent = "Incorrect username or password.";
         return false;

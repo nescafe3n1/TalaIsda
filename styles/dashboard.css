@@ -1,0 +1,114 @@
+body {
+      font-family: 'Poppins', sans-serif;
+      background: #f3f3f3;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      color: #2c3e50;
+      font-weight: 600;
+      margin: 0;
+    }
+    .logout-btn {
+      background-color: #e74c3c;
+      border: none;
+      color: white;
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .logout-btn:hover {
+      background-color: #c0392b;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1200px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+      font-weight: 600;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    .actions button {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      margin-right: 6px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .actions button.delete-btn {
+      background-color: #e74c3c;
+    }
+    .actions button:hover {
+      opacity: 0.85;
+    }
+    img {
+      width: 80px;
+      height: auto;
+      border-radius: 5px;
+    }
+    .container {
+  width: 100%;
+  min-height: 100vh;
+  --color: #E1E1E1;
+  background-color: #F3F3F3;
+  background-image: 
+    linear-gradient(
+      0deg, 
+      transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,
+      transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent
+    ),
+    linear-gradient(
+      90deg, 
+      transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,
+      transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent
+    );
+  background-size: 55px 55px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* ✅ centers children horizontally */
+  padding: 2rem;
+}
+img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}

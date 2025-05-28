@@ -3,9 +3,8 @@ import path from "path"; // <- Make sure this is added
 import { fileURLToPath } from "url";
 import fs from "fs";
 import multer from "multer";
-import adminRoutes from "./adminRoutes.js";
 
-import { pool } from "./db-connection.js";
+import { pool, sql } from "./db-connection.js";
 
 const app = express();
 const PORT = 3000;
@@ -19,42 +18,10 @@ app.use('/styles', express.static(path.join(__dirname, '../styles')));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-app.use("/api/admin", adminRoutes);
 
 app.get("/", (req, res) => {
   res.redirect("/pages/index.html");
 });
-
-// Admin Routes
-app.get('/api/admin/submissions', async (req, res) => {
-  try {
-    const result = await pool.request().query(`
-      SELECT 
-        s.SubmissionID,
-        fs.CommonName,
-        fs.ScientificName,
-        fs.Description,
-        fs.ImagePath,
-        fs.Location,
-        r.Name AS RegionName,
-        c.FirstName,
-        c.LastName,
-        c.Email,
-        s.SubmissionDate,
-        s.Status
-      FROM Submissions s
-      JOIN FishSpecies fs ON s.SpeciesID = fs.SpeciesID
-      JOIN Region r ON fs.RegionID = r.RegionID
-      JOIN Contributors c ON s.ContributorID = c.ContributorID
-      WHERE s.Status = 'Pending';
-    `);
-    res.json(result.recordset);
-  } catch (err) {
-    console.error("Error fetching admin submissions:", err);
-    res.status(500).send("Server error");
-  }
-});
-
 
 // ✅ Unified and Correct /api/fish endpoint
 app.get("/api/fish", async (req, res) => {
@@ -164,6 +131,64 @@ app.post('/api/submit-discovery', upload.array('photos', 3), async (req, res) =>
   } catch (err) {
     console.error("Submission error:", err);
     res.status(500).json({ error: "Something went wrong." });
+  }
+});
+
+app.get('/api/admin/submissions', async (req, res) => {
+  try {
+    const result = await pool.request().query(`
+      SELECT 
+        s.SubmissionID,
+        c.FirstName,
+        c.LastName,
+        c.Email,
+        fs.CommonName AS FishName,
+        fs.ScientificName,
+        fs.Description,
+        fs.Location,
+        fs.ImagePath,
+        fs.AdditionalDetails
+      FROM Submissions s
+      JOIN Contributors c ON s.ContributorID = c.ContributorID
+      JOIN FishSpecies fs ON s.SpeciesID = fs.SpeciesID
+    `);
+    res.json(result.recordset);
+  } catch (err) {
+    console.error('Error fetching submissions:', err);
+    res.status(500).send('Error fetching submissions');
+  }
+});
+
+
+app.delete('/api/admin/submissions/:id', async (req, res) => {
+  const submissionId = req.params.id;
+
+  try {
+    // 1. Get the SpeciesID from the submission
+    const result = await pool.request()
+      .input('id', sql.Int, submissionId)
+      .query(`SELECT SpeciesID FROM Submissions WHERE SubmissionID = @id`);
+
+    if (result.recordset.length === 0) {
+      return res.status(404).send('Submission not found');
+    }
+
+    const speciesId = result.recordset[0].SpeciesID;
+
+    // 2. Delete from Submissions
+    await pool.request()
+      .input('id', sql.Int, submissionId)
+      .query(`DELETE FROM Submissions WHERE SubmissionID = @id`);
+
+    // 3. Delete from FishSpecies
+    await pool.request()
+      .input('sid', sql.Int, speciesId)
+      .query(`DELETE FROM FishSpecies WHERE SpeciesID = @sid`);
+
+    res.status(200).send('Submission and associated fish deleted');
+  } catch (err) {
+    console.error('Error deleting submission and fish:', err);
+    res.status(500).send('Failed to delete');
   }
 });
 
