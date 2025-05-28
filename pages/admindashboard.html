@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Add Your Discovery - TalaIsda</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Delius&family=Graduate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">    
+	<link rel="icon" type="image/x-icon" href="/assets/talaisda.png">
+	<link rel="stylesheet" href="/styles/dashboard.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Manage Users Discoveries</h1>
+      <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Fish Name</th>
+          <th>Scientific Name</th>
+          <th>Location</th>
+          <th>Description</th>
+          <th>Photo</th>
+          <th>Additional Info</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="discoveries-table-body"></tbody>
+    </table>
+
+  </div>
+
+<script>
+  const discoveries = [
+    {
+      firstName: 'Juan',
+      lastName: 'Dela Cruz',
+      email: 'juan@example.com',
+      fishName: 'Tuna',
+      sciName: 'Thunnus',
+      location: 'Ilocos Region',
+      description: 'Large and fast swimming fish.',
+      photo: '/assets/backgrounds/about.jpg',
+      additional: 'Caught near shore.'
+    },
+    {
+      firstName: 'Maria',
+      lastName: 'Clara',
+      email: 'maria@example.com',
+      fishName: 'Bangus',
+      sciName: 'Chanos chanos',
+      location: 'Western Visayas',
+      description: 'Milkfish often farmed in ponds.',
+      photo: 'https://via.placeholder.com/80',
+      additional: ''
+    }
+  ];
+
+  function renderDiscoveries() {
+    const tbody = document.getElementById('discoveries-table-body');
+    tbody.innerHTML = '';
+
+    discoveries.forEach((d, i) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${d.firstName}</td>
+        <td>${d.lastName}</td>
+        <td>${d.email}</td>
+        <td>${d.fishName}</td>
+        <td>${d.sciName}</td>
+        <td>${d.location}</td>
+        <td>${d.description}</td>
+        <td>
+          <a href="${d.photo}" target="_blank">
+            <img src="${d.photo}" alt="Fish Photo" />
+          </a>
+        </td>
+        <td>${d.additional || '—'}</td>
+        <td class="actions">
+          <button onclick="editDiscovery(${i})"><i class="fas fa-edit"></i> Edit</button>
+          <button class="delete-btn" onclick="deleteDiscovery(${i})"><i class="fas fa-trash-alt"></i> Delete</button>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  function editDiscovery(index) {
+    alert('Edit functionality for discovery by ' + discoveries[index].firstName);
+  }
+
+  function deleteDiscovery(index) {
+    if (confirm('Delete this discovery?')) {
+      discoveries.splice(index, 1);
+      renderDiscoveries();
+    }
+  }
+
+  function logout() {
+    window.location.href = 'admin.html';
+  }
+
+  renderDiscoveries();
+</script>
+
+</body>
+</html>
