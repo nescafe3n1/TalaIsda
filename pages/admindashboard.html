@@ -41,77 +41,68 @@
   </div>
 
 <script>
-  const discoveries = [
-    {
-      firstName: 'Juan',
-      lastName: 'Dela Cruz',
-      email: 'juan@example.com',
-      fishName: 'Tuna',
-      sciName: 'Thunnus',
-      location: 'Ilocos Region',
-      description: 'Large and fast swimming fish.',
-      photo: '/assets/backgrounds/about.jpg',
-      additional: 'Caught near shore.'
-    },
-    {
-      firstName: 'Maria',
-      lastName: 'Clara',
-      email: 'maria@example.com',
-      fishName: 'Bangus',
-      sciName: 'Chanos chanos',
-      location: 'Western Visayas',
-      description: 'Milkfish often farmed in ponds.',
-      photo: 'https://via.placeholder.com/80',
-      additional: ''
+  async function fetchSubmissions() {
+    try {
+      const res = await fetch('http://localhost:3000/api/admin/submissions');
+      const data = await res.json();
+      renderDiscoveries(data);
+    } catch (err) {
+      console.error('Error fetching submissions:', err);
     }
-  ];
+  }
 
-  function renderDiscoveries() {
+ async function deleteDiscovery(submissionId) {
+  if (confirm('Are you sure you want to delete this submission?')) {
+    try {
+      const res = await fetch(`http://localhost:3000/api/admin/submissions/${submissionId}`, {
+        method: 'DELETE'
+      });
+
+      if (res.ok) {
+        alert('Submission deleted successfully!');
+        fetchSubmissions(); // Refresh only the table
+      } else {
+        alert('Failed to delete submission.');
+      }
+    } catch (err) {
+      console.error('Error deleting submission:', err);
+    }
+  }
+}
+
+
+
+  function renderDiscoveries(data) {
     const tbody = document.getElementById('discoveries-table-body');
     tbody.innerHTML = '';
 
-    discoveries.forEach((d, i) => {
+    data.forEach(d => {
       const tr = document.createElement('tr');
       tr.innerHTML = `
-        <td>${d.firstName}</td>
-        <td>${d.lastName}</td>
-        <td>${d.email}</td>
-        <td>${d.fishName}</td>
-        <td>${d.sciName}</td>
-        <td>${d.location}</td>
-        <td>${d.description}</td>
+        <td>${d.FirstName}</td>
+        <td>${d.LastName}</td>
+        <td>${d.Email}</td>
+        <td>${d.FishName}</td>
+        <td>${d.ScientificName}</td>
+        <td>${d.Location}</td>
+        <td>${d.Description}</td>
+        <td><a href="${d.ImagePath}" target="_blank"><img src="${d.ImagePath}" width="80"/></a></td>
+        <td>${d.AdditionalInfo || '—'}</td>
         <td>
-          <a href="${d.photo}" target="_blank">
-            <img src="${d.photo}" alt="Fish Photo" />
-          </a>
-        </td>
-        <td>${d.additional || '—'}</td>
-        <td class="actions">
-          <button onclick="editDiscovery(${i})"><i class="fas fa-edit"></i> Edit</button>
-          <button class="delete-btn" onclick="deleteDiscovery(${i})"><i class="fas fa-trash-alt"></i> Delete</button>
+          <button onclick="deleteDiscovery(${d.SubmissionID})" class="delete-btn"><i class="fas fa-trash-alt"></i> Delete</button>
         </td>
       `;
       tbody.appendChild(tr);
     });
   }
 
-  function editDiscovery(index) {
-    alert('Edit functionality for discovery by ' + discoveries[index].firstName);
-  }
-
-  function deleteDiscovery(index) {
-    if (confirm('Delete this discovery?')) {
-      discoveries.splice(index, 1);
-      renderDiscoveries();
-    }
-  }
-
   function logout() {
     window.location.href = 'admin.html';
   }
 
-  renderDiscoveries();
+  fetchSubmissions();
 </script>
+
 
 </body>
 </html>

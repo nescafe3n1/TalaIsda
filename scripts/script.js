@@ -1,8 +1,6 @@
-// =================== GLOBAL VARIABLES ===================
 const btn = document.getElementById("backToTop");
 const searchInput = document.getElementById('searchInput');
 
-// =================== EVENT LISTENERS ===================
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("resize", handleResize);
 window.addEventListener("hashchange", updateActiveNav);
@@ -17,8 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
   setupDiscoveryForm();
 });
 
-
-// =================== FUNCTIONS ===================
 
 // 🔼 Back to Top
 function handleScroll() {
