@@ -23,7 +23,6 @@ app.get("/", (req, res) => {
   res.redirect("/pages/index.html");
 });
 
-// ✅ Unified and Correct /api/fish endpoint
 app.get("/api/fish", async (req, res) => {
   try {
     const result = await pool.request().query(`

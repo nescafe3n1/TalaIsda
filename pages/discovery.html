@@ -155,7 +155,15 @@
 						<button type="submit" class="submit-btn">Submit Discovery</button>
 				</form>
 		</div>
-		
+		<div id="successModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>🎉 Submission Successful!</h2>
+    <p>Thank you for contributing! Your fish discovery has been submitted and is awaiting review.</p>
+    <button id="modalOkBtn">OK</button>
+  </div>
+</div>
+
 		<div class="guidelines">
 				<h3>Submission Guidelines</h3>
 				<ul>
@@ -169,46 +177,84 @@
 		</div>
 </div>
 </div>
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="/assets/logo-removebg-preview.png" alt="TalaIsda Logo" class="logo">
-            </div>
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="/pages/index.html">Home</a></li>
-                    <li><a href="/pages/luzon.html">Luzon</a></li>
-                    <li><a href="/pages/visayas.html">Visayas</a></li>
-                    <li><a href="/pages/mindanao.html">Mindanao</a></li>
-                    <li><a href="/pages/newdiscovery.html">New Discoveries</a></li>
-                    <li><a href="/pages/about.html">About</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h3>Contact Us</h3>
-                <p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
-                <p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> TalaIsda. All Rights Reserved</p>
-        </div>
-    </footer>
+	<footer>
+		<div class="footer-content">
+			<div class="footer-logo">
+				<img src="/assets/logo-removebg-preview.png" alt="TalaIsda Logo" class="logo">
+			</div>
+			<div class="footer-links">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="/pages/index.html">Home</a></li>
+					<li><a href="/pages/luzon.html">Luzon</a></li>
+					<li><a href="/pages/visayas.html">Visayas</a></li>
+					<li><a href="/pages/mindanao.html">Mindanao</a></li>
+					<li><a href="/pages/newdiscovery.html">New Discoveries</a></li>
+					<li><a href="/pages/about.html">About</a></li>
+				</ul>
+			</div>
+			<div class="footer-contact">
+				<h3>Contact Us</h3>
+				<p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
+				<p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; <script>document.write(new Date().getFullYear())</script> TalaIsda. All Rights Reserved</p>
+		</div>
+	</footer>
 
 	<script src="/scripts/script.js"></script>
 	<script>
+		document.getElementById('discoveryForm')?.addEventListener('submit', async function (e) {
+			e.preventDefault();
+
+			const form = e.target;
+			const formData = new FormData(form);
+
+			try {
+				const res = await fetch('/api/submit-discovery', {
+					method: 'POST',
+					body: formData
+				});
+
+				const data = await res.json();
+
+				if (res.ok) {
+					form.reset();
+					document.querySelector('.file-name').textContent = 'No file chosen';
+					showSuccessModal();
+				} else {
+					alert('❌ Submission failed: ' + data.error);
+				}
+			} catch (err) {
+				console.error('Error:', err);
+				alert('❌ An error occurred while submitting.');
+			}
+		});
+
+		function showSuccessModal() {
+			const modal = document.getElementById('successModal');
+			modal.style.display = 'flex';
+
+			document.getElementById('modalOkBtn').onclick = () => modal.style.display = 'none';
+			document.querySelector('.close-btn').onclick = () => modal.style.display = 'none';
+		}
+
+		
       window.addEventListener("scroll", function () {
         const header = document.querySelector("header");
         header.classList.toggle("shrink", window.scrollY > 50);
       });
 
 			AOS.init();
+
+			
 		</script>
 </body>
 </html>

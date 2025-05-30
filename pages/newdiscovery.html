@@ -95,7 +95,8 @@
               <input type="text" placeholder="Search discoveries...">
           </div>
       </div>
-      <div class="discovery-grid" id="discoveryFishCards">
+      <div class="discovery-grid" id="discoveryFishCards" data-region="${d.RegionName.toLowerCase()}"
+     data-date="${new Date(d.SubmissionDate).toISOString()}">
   <!-- Fish cards will be inserted here -->
       </div>
 
@@ -139,6 +140,7 @@
     </footer>
     <script src="/scripts/script.js"></script>
     <script>
+      
       window.addEventListener("scroll", function () {
         const header = document.querySelector("header");
         header.classList.toggle("shrink", window.scrollY > 50);

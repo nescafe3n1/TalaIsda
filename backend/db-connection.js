@@ -1,4 +1,3 @@
-// db-connection.js
 import sql from "mssql/msnodesqlv8.js";
 
 const config = {
