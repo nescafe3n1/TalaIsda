@@ -6,7 +6,7 @@
     <title>TalaIsda</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Graduate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Graduate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet"> 	
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/assets/talaisda.png">
     <link rel="stylesheet" href="/styles/styles.css">
@@ -57,16 +57,40 @@
         <li><a href="/pages/newdiscovery.html">New Discoveries</a></li>
         <li><a href="/pages/about.html">About</a></li>
       </ul>
+      <label class="switch">
+    <input type="checkbox" id="darkModeToggle" class="input">
+    <span class="slider"></span>
+    <span class="sun">
+        <svg viewBox="0 0 24 24" fill="#E8E8E8">
+            <g stroke-linecap="round" stroke-width="2" stroke="#e8e8e8">
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </g>
+            <circle cx="12" cy="12" r="5" fill="#e8e8e8"></circle>
+        </svg>
+    </span>
+    <span class="moon">
+        <svg viewBox="0 0 24 24" fill="#73C0FC">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </span>
+</label>
     </nav>
   </header>
 
-	<section class="hero">
-		<video autoplay muted loop playsinline class="bg-video">
-		<source src="/assets/video/bgvid.mp4" type="video/mp4" />
-		Your browser does not support the video tag.
-	</video>
+  <section class="hero">
+    <video autoplay muted loop playsinline class="bg-video">
+    <source src="/assets/video/bgvid.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 
-	<div class="overlay"></div>
+  <div class="overlay"></div>
 
 	<div class="hero-content">
 		<h2>Discover the Rich Aquatic Biodiversity of the Philippines</h2>
@@ -140,24 +164,24 @@
 		</div>
 	</section>
 </div>
-	<div class="container">
-	<section class="contribute-section">
-		<div class="contribute-content">
-			<h2>Contribute to Our Database</h2>
-			<p>Have you discovered a fish species not yet in our directory? Share your findings with the TalaIsda community!</p>
-			<a href="/pages/discovery.html" class="btn">Add Your Discovery</a>
-		</div>
-	</section>
-	</div>
+  <div class="container">
+  <section class="contribute-section">
+    <div class="contribute-content">
+      <h2>Contribute to Our Database</h2>
+      <p>Have you discovered a fish species not yet in our directory? Share your findings with the TalaIsda community!</p>
+      <a href="/pages/discovery.html" class="btn">Add Your Discovery</a>
+    </div>
+  </section>
+  </div>
 
-	<footer>
-		<div class="footer-content">
-				<div class="footer-logo">
-					<a href="/pages/admin.html">
-						<img src="/assets/logo-removebg-preview.png" alt="TalaIsda Logo" class="logo">
-					</a>
-				</div>
-				<div class="footer-links">
+  <footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+          <a href="/pages/admin.html">
+            <img src="/assets/logo-removebg-preview.png" alt="TalaIsda Logo" class="logo">
+          </a>
+        </div>
+        <div class="footer-links">
           <h3>Quick Links</h3>
           <ul>
             <li><a href="/pages/index.html">Home</a></li>
@@ -167,8 +191,8 @@
             <li><a href="/pages/newdiscovery.html">New Discoveries</a></li>
             <li><a href="/pages/about.html">About</a></li>
           </ul>
-				</div>
-				<div class="footer-contact">
+        </div>
+        <div class="footer-contact">
           <h3>Contact Us</h3>
           <p><i class="fas fa-envelope"></i> info@talaisda.ph</p>
           <p><i class="fas fa-phone"></i> +63 2 1234 5678</p>
@@ -177,21 +201,21 @@
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
           </div>
-				</div>
-		</div>
-		<div class="footer-bottom">
-				<p>&copy; <script>document.write(new Date().getFullYear())</script> TalaIsda. All Rights Reserved</p>
-		</div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> TalaIsda. All Rights Reserved</p>
+    </div>
   </footer>
-		<script src="/scripts/script.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-		<script>
+    <script src="/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
       window.addEventListener("scroll", function () {
         const header = document.querySelector("header");
         header.classList.toggle("shrink", window.scrollY > 50);
       });
 
-			AOS.init();
-		</script>
+      AOS.init();
+    </script>
   </body>
 </html>

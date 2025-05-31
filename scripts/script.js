@@ -1,5 +1,6 @@
 const btn = document.getElementById("backToTop");
 const searchInput = document.getElementById('searchInput');
+const darkModeToggle = document.getElementById('darkModeToggle'); // Get the new button
 
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("resize", handleResize);
@@ -13,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
   setupSearch();
   setupFormUpload();
   setupDiscoveryForm();
+  setupDarkModeToggle(); // Call the new dark mode setup
+  applyDarkModePreference(); // Apply preference on load
 });
 
 
@@ -63,7 +66,8 @@ function setupDropdowns() {
 function setupClickOutsideNav() {
   document.addEventListener('click', function (e) {
     const navMenu = document.querySelector('.nav-menu');
-    if (!e.target.closest('nav') && navMenu?.classList.contains('active')) {
+    // Check if the click is outside the nav and not the menu toggle itself
+    if (!e.target.closest('nav') && !e.target.closest('.menu-toggle') && navMenu?.classList.contains('active')) {
       navMenu.classList.remove('active');
     }
   });
@@ -100,7 +104,7 @@ function updateActiveNav() {
 
       const isRegionLink = !!link.hash;
       const dropdown = link.closest('.dropdown');
-      if (dropdown && !isRegionLink) {
+      if (dropdown) { // Always add active to dropdown if any child link is active
         const dropbtn = dropdown.querySelector('.dropbtn');
         dropbtn?.classList.add('active');
       }
@@ -111,6 +115,7 @@ function updateActiveNav() {
   if (isAtRoot) {
     const homeLink = document.querySelector('.nav-menu a[href*="index.html"]');
     homeLink?.classList.add('active');
+    // Ensure dropdown button is not active if home link is active
     document.querySelectorAll('.dropbtn').forEach(btn => btn.classList.remove('active'));
   }
 }
@@ -184,6 +189,42 @@ function setupDiscoveryForm() {
   });
 }
 
+// 🌙 Dark Mode Toggle
+function setupDarkModeToggle() {
+  if (darkModeToggle) {
+    darkModeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      const isDarkMode = document.body.classList.contains('dark-mode');
+      localStorage.setItem('darkMode', isDarkMode); // Save preference
+      updateDarkModeIcon(isDarkMode); // Update icon
+    });
+  }
+}
+
+// Apply dark mode preference on page load
+function applyDarkModePreference() {
+  const isDarkMode = localStorage.getItem('darkMode') === 'true';
+  if (isDarkMode) {
+    document.body.classList.add('dark-mode');
+  }
+  updateDarkModeIcon(isDarkMode); // Set initial icon state
+}
+
+// Update the dark mode toggle icon
+function updateDarkModeIcon(isDarkMode) {
+  if (darkModeToggle) {
+    const icon = darkModeToggle.querySelector('i');
+    if (icon) {
+      if (isDarkMode) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    }
+  }
+}
 
 // Water Cursor Effect typshi
 document.addEventListener("mousemove", (e) => {

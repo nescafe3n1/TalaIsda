@@ -6,7 +6,8 @@
   font-family: Poppins, Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   scroll-behavior: smooth;
 }
@@ -15,6 +16,7 @@ body {
   background-color: #f5f5f5;
   color: #333;
   line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth dark mode change */
 }
 
 a {
@@ -46,39 +48,138 @@ img {
   background-color: #023e8a;
 }
 
+/* From Uiverse.io by andrew-demchenk0 */
+.switch {
+    font-size: 17px;
+    position: relative; /* Keep this for positioning slider, sun, moon */
+    display: inline-block; /* Allows it to sit within a flex layout like header */
+    width: 64px;
+    height: 34px;
+
+    /* To move it to the right in your header's flexbox: */
+    margin-left: auto; /* Pushes it to the far right */
+    margin-right: 0; /* Changed to 0 for flush right positioning */
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #73C0FC; /* Light mode background color (blue sky) */
+    transition: .4s;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    left: 2px;
+    bottom: 2px;
+    z-index: 2; /* Ensures the slider knob is above the SVG icons */
+    background-color: #e8e8e8; /* Knob color (light gray) */
+    transition: .4s;
+}
+
+.sun svg {
+    position: absolute;
+    top: 6px;
+    left: 36px; /* Position for the sun icon when slider is left (light mode) */
+    z-index: 1; /* Below the slider knob */
+    width: 24px;
+    height: 24px;
+    fill: #E8E8E8; /* Set fill color for sun SVG if not defined within SVG */
+}
+
+.moon svg {
+    fill: #73C0FC; /* Moon color (blue, matches light mode background) */
+    position: absolute;
+    top: 5px;
+    left: 5px; /* Position for the moon icon when slider is left (light mode) */
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+}
+
+/* Animations (apply on switch, not hover as per original design, which makes more sense for dark mode toggle) */
+/* The original had .switch:hover, I'm removing :hover for typical dark mode toggle behavior */
+.sun svg {
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(360deg); }
+}
+
+.moon svg {
+    animation: tilt 5s linear infinite;
+}
+
+@keyframes tilt {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* State when input is checked (dark mode) */
+.input:checked + .slider {
+    background-color: #183153; /* Dark mode background color (dark blue) */
+}
+
+.input:focus + .slider {
+    box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .slider:before {
+    transform: translateX(30px); /* Move slider knob to the right */
+}
+
+
 /* Header Styles */
 header {
-position: sticky;
-top: 0;
-z-index: 1000;
-background-color: #fff;
-padding: 20px 5%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-transition: all 0.3s ease; /* smooth resize */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  padding: 20px 5% 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease; /* smooth resize */
 }
 
 header.shrink {
-padding: 8px 5%;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 8px 5%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-width: 100px;
-height: 50px;
-transition: all 0.3s ease;
+  width: 100px;
+  height: 50px;
+  transition: all 0.3s ease;
 }
 
 header.shrink .logo {
-width: 80px;
-height: 40px;
+  width: 80px;
+  height: 40px;
 }
 
 header.shrink .nav-menu a {
-font-size: 16px;
+  font-size: 16px;
 }
-
 
 nav {
   display: flex;
@@ -88,6 +189,9 @@ nav {
 .nav-menu {
   display: flex;
   align-items: center;
+  /* Reduced margin-left to pull nav links closer to the switch if needed,
+     as the switch now has margin-right: 0. Adjust this as per your desired spacing. */
+  margin-right: 10px; /* Example adjustment */
 }
 
 .nav-menu li {
@@ -104,7 +208,8 @@ nav {
   transition: all 0.6s ease;
 }
 
-.nav-menu a:hover, .nav-menu a.active {
+.nav-menu a:hover,
+.nav-menu a.active {
   color: #0077b6;
 }
 
@@ -164,11 +269,14 @@ nav {
 
 .dropbtn i {
   margin-left: 5px;
-  font-size: 0.8rem; 
+  font-size: 0.8rem;
 }
 
 /* Hero and Section Headings */
-.hero, .regions-section, .featured-section, .contribute-section {
+.hero,
+.regions-section,
+.featured-section,
+.contribute-section {
   text-align: center;
   padding: 60px 5%;
 }
@@ -211,7 +319,6 @@ nav {
   max-width: 800px;
 }
 
-
 .hero-content {
   max-width: 800px;
 }
@@ -227,7 +334,8 @@ nav {
 }
 
 /* Featured Fish Section */
-.featured-section h2, .regions-section h2 {
+.featured-section h2,
+.regions-section h2 {
   font-size: 2rem;
   color: #0077b6;
   margin-bottom: 40px;
@@ -244,7 +352,6 @@ nav {
   margin-bottom: 40px;
 }
 
-
 .fish-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -256,7 +363,7 @@ nav {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s, box-shadow 0.3s; /* Add transitions */
 }
 
 .fish-card:hover {
@@ -269,7 +376,10 @@ nav {
   object-fit: cover;
 }
 
-.fish-card h3, .fish-card h4, .fish-card p, .fish-card .location {
+.fish-card h3,
+.fish-card h4,
+.fish-card p,
+.fish-card .location {
   padding: 0 15px;
 }
 
@@ -283,11 +393,11 @@ nav {
   color: #666;
   font-style: italic;
   margin-bottom: 10px;
-  white-space: normal;     
-  word-break: break-word;  
-  overflow: hidden;        
+  white-space: normal;
+  word-break: break-word;
+  overflow: hidden;
   text-overflow: ellipsis;
-  display: block; 
+  display: block;
 }
 
 .view-more {
@@ -308,7 +418,7 @@ nav {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; /* Add transitions */
   cursor: pointer;
 }
 
@@ -321,7 +431,8 @@ nav {
   object-fit: cover;
 }
 
-.region-card h3, .region-card p {
+.region-card h3,
+.region-card p {
   padding: 0 15px;
   margin: 10px 0;
   color: #0077b6;
@@ -329,12 +440,13 @@ nav {
 
 /* Contribute Section */
 .contribute-section {
-  color: white;
+  color: white; /* Text color in light mode, will be overridden in dark mode for a blue button on dark background */
 }
 
 /* For discovery page */
 .discovery-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/submitdiscovery.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('/assets/submitdiscovery.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -371,6 +483,7 @@ nav {
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transitions */
 }
 
 .form-group {
@@ -383,14 +496,17 @@ nav {
   font-weight: 500;
 }
 
-.form-group input, 
-.form-group select, 
+.form-group input,
+.form-group select,
 .form-group textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 1rem;
+  background-color: #fff; /* Add background for inputs */
+  color: #333; /* Add color for inputs */
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Add transitions */
 }
 
 .form-group textarea {
@@ -413,7 +529,7 @@ nav {
   margin-top: 10px;
 }
 
-.file-upload input[type="file"] {
+.file-upload input[type='file'] {
   position: absolute;
   font-size: 100px;
   opacity: 0;
@@ -429,7 +545,7 @@ nav {
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, color 0.3s; /* Add transitions */
 }
 
 .file-upload-btn:hover {
@@ -461,6 +577,7 @@ nav {
   background-color: #e6f2f5;
   padding: 30px;
   border-radius: 8px;
+  transition: background-color 0.3s; /* Add transition */
 }
 
 .guidelines h3 {
@@ -513,6 +630,7 @@ nav {
 .region-section {
   padding: 30px 0;
   border-bottom: 1px solid #ddd;
+  transition: border-color 0.3s; /* Add transition */
 }
 
 .region-section:last-child {
@@ -543,12 +661,16 @@ nav {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
+  background-color: #fff; /* Add background for search input */
+  color: #333; /* Add color for search input */
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Add transitions */
 }
 
 /* About Section */
 
 .about-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/backgrounds/about.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/assets/backgrounds/about.jpg');
   background-repeat: cover;
   background-position: center;
   height: 100vh;
@@ -591,15 +713,18 @@ nav {
   margin-top: 30px;
 }
 
-.mission, .vision {
+.mission,
+.vision {
   flex: 1;
   background-color: white;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transitions */
 }
 
-.mission h3, .vision h3 {
+.mission h3,
+.vision h3 {
   color: #0077b6;
   margin-bottom: 15px;
   text-align: center;
@@ -622,6 +747,7 @@ nav {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transitions */
 }
 
 .team-member img {
@@ -664,6 +790,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transitions */
 }
 
 .partner img {
@@ -676,6 +803,7 @@ footer {
   background: #023e8a;
   color: white;
   padding: 50px 5% 20px;
+  transition: background-color 0.3s, color 0.3s; /* Add transitions */
 }
 
 .footer-content {
@@ -685,7 +813,9 @@ footer {
   gap: 30px;
 }
 
-.footer-logo, .footer-links, .footer-contact {
+.footer-logo,
+.footer-links,
+.footer-contact {
   flex: 1 1 300px;
 }
 
@@ -694,14 +824,15 @@ footer {
   height: auto;
 }
 
-
-.footer-links h3, .footer-contact h3 {
+.footer-links h3,
+.footer-contact h3 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
 
-.footer-links h3::after, .footer-contact h3::after {
+.footer-links h3::after,
+.footer-contact h3::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -715,7 +846,8 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-links a:hover, .social-icons a:hover {
+.footer-links a:hover,
+.social-icons a:hover {
   color: #90e0ef;
 }
 
@@ -731,81 +863,81 @@ footer {
 .footer-bottom {
   text-align: center;
   padding-top: 20px;
-  border-top: 1px solid rgba(255,255,255,0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* Responsive */
 @media (max-width: 992px) {
   .dropdown-content {
-      min-width: 500px;
-      right: -100px;
+    min-width: 500px;
+    right: -100px;
   }
 }
 
 @media (max-width: 768px) {
   .menu-toggle {
-      display: block;
+    display: block;
   }
-  
+
   .nav-menu {
-      position: fixed;
-      top: 80px;
-      left: -100%;
-      background: white;
-      width: 100%;
-      height: calc(100vh - 80px);
-      flex-direction: column;
-      padding: 20px;
-      transition: 0.3s;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: white;
+    width: 100%;
+    height: calc(100vh - 80px);
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.3s;
   }
-  
+
   .nav-menu.active {
-      left: 0;
+    left: 0;
   }
-  
+
   .nav-menu li {
-      margin: 15px 0;
+    margin: 15px 0;
   }
-  
+
   .dropdown-content {
-      position: static;
-      min-width: 100%;
-      box-shadow: none;
-      flex-direction: column;
-      opacity: 1;
-      visibility: visible;
-      display: none;
+    position: static;
+    min-width: 100%;
+    box-shadow: none;
+    flex-direction: column;
+    opacity: 1;
+    visibility: visible;
+    display: none;
   }
-  
+
   .dropdown.active .dropdown-content {
-      display: flex;
+    display: flex;
   }
-  
+
   header {
-      padding: 10px 20px;
+    padding: 10px 20px;
   }
 
   .form-row {
-      flex-direction: column;
-      gap: 0;
+    flex-direction: column;
+    gap: 0;
   }
 
   .mission-vision {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 
 @media (max-width: 576px) {
   .hero {
-      height: 400px;
+    height: 400px;
   }
-  
+
   .hero h2 {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
-  
+
   .hero p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }
 
@@ -873,7 +1005,8 @@ footer {
 }
 
 .discoveries-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/backgrounds/discoveryimage.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/backgrounds/discoveryimage.jpg');
   background-size: cover;
   background-position: center;
   color: white;
@@ -892,7 +1025,6 @@ footer {
   letter-spacing: 1px;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
   font-family: poppins, sans-serif;
-  
 }
 
 .discoveries-content {
@@ -923,8 +1055,8 @@ footer {
   background-color: #f8f9fa;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s, box-shadow 0.3s; /* Add transitions */
 }
 
 .discovery-card:hover {
@@ -1022,6 +1154,7 @@ footer {
   padding: 15px;
   background-color: #f0f8ff;
   border-radius: 8px;
+  transition: background-color 0.3s; /* Add transition */
 }
 
 .filter-group {
@@ -1040,6 +1173,8 @@ footer {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: white;
+  color: #333;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Add transitions */
 }
 
 .search-box {
@@ -1052,114 +1187,94 @@ footer {
   padding: 8px 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
-}
-
-@media (max-width: 768px) {
-  .discovery-grid {
-      grid-template-columns: 1fr;
-  }
-  
-  .discovery-filters {
-      flex-direction: column;
-  }
-  
-  .filter-group {
-      width: 100%;
-  }
-}
-
-/* From Uiverse.io by kennyotsu-monochromia */ 
-.container {
-width: 100%;
-height: 100%;
---color: #E1E1E1;
-background-color: #F3F3F3;
-background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
-    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
-background-size: 55px 55px;
+  background-color: white;
+  color: #333;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Add transitions */
 }
 
 @media (max-width: 992px) {
   .dropdown-content {
-      min-width: 500px;
-      right: -150px;
+    min-width: 500px;
+    right: -150px;
   }
 }
 
 @media (max-width: 768px) {
   header {
-      padding: 15px 20px;
+    padding: 15px 10px 15px;
   }
-  
+
   .menu-toggle {
-      display: block;
+    display: block;
   }
-  
+
   .nav-menu {
-      position: fixed;
-      top: 80px;
-      left: -100%;
-      background-color: white;
-      width: 100%;
-      height: calc(100vh - 80px);
-      flex-direction: column;
-      transition: left 0.3s;
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      overflow-y: auto;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 80px);
+    flex-direction: column;
+    transition: left 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
   }
-  
+
   .nav-menu.active {
-      left: 0;
+    left: 0;
   }
-  
+
   .nav-menu li {
-      margin: 15px 0;
+    margin: 15px 0;
   }
-  
+
   .dropdown-content {
-      position: static;
-      min-width: 100%;
-      box-shadow: none;
-      flex-direction: column;
-      opacity: 1;
-      visibility: visible;
-      display: none;
+    position: static;
+    min-width: 100%;
+    box-shadow: none;
+    flex-direction: column;
+    opacity: 1;
+    visibility: visible;
+    display: none;
   }
-  
+
   .dropdown.active .dropdown-content {
-      display: block;
+    display: block;
   }
-  
+
   .dropdown-group {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
-  
+
   .hero h2 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
-  
+
   .footer-content > div {
-      flex-basis: 100%;
-      margin-bottom: 30px;
+    flex-basis: 100%;
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 576px) {
   .hero {
-      height: 400px;
+    height: 400px;
   }
-  
+
   .hero h2 {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
-  
+
   .hero p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
-  
-  .featured-section h2, .regions-section h2, .contribute-section h2 {
-      font-size: 1.8rem;
+
+  .featured-section h2,
+  .regions-section h2,
+  .contribute-section h2 {
+    font-size: 1.8rem;
   }
 }
 
@@ -1231,4 +1346,194 @@ background-size: 55px 55px;
   color: white;
   border-radius: 6px;
   cursor: pointer;
+}
+/* --- Dark Mode Styles --- */
+body.dark-mode {
+  background-color: #011f4b; /* Dark background */
+  color: #e0e0e0; /* Light text for dark mode */
+}
+
+/* Keep the header white in dark mode */
+body.dark-mode header {
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow as in light mode */
+}
+
+body.dark-mode .dark-mode-toggle {
+  color: #333; /* Keep icon color for light background */
+}
+
+/* Keep nav menu links dark for readability on white background */
+body.dark-mode .nav-menu a {
+  color: #333;
+}
+
+body.dark-mode .nav-menu a:hover,
+body.dark-mode .nav-menu a.active {
+  color: #0077b6; /* Original hover color */
+}
+
+/* Ensure dropdown menu is also white with dark text */
+body.dark-mode .dropdown-content {
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .dropdown-group h3 {
+  color: #0077b6; /* Keep original blue heading */
+  border-bottom-color: #0077b6;
+}
+
+body.dark-mode .dropdown-content a {
+  color: #333;
+}
+
+body.dark-mode .dropdown-content a:hover {
+  color: #0077b6;
+}
+
+body.dark-mode .featured-section h2,
+body.dark-mode .regions-section h2,
+body.dark-mode .contribute-section h2,
+body.dark-mode .fish-card h3,
+body.dark-mode .region-card h3,
+body.dark-mode .region-card p,
+body.dark-mode .discovery-content h2,
+body.dark-mode .discovery-info h3,
+body.dark-mode .guidelines h3,
+body.dark-mode .about-section h2,
+body.dark-mode .mission h3,
+body.dark-mode .vision h3,
+body.dark-mode .team-member h3,
+body.dark-mode .footer-links h3,
+body.dark-mode .footer-contact h3,
+body.dark-mode .discoveries-content h2,
+body.dark-mode .filter-group label {
+  color: #90e0ef; /* Ensure headings are bright in dark mode */
+}
+
+body.dark-mode .fish-card,
+body.dark-mode .region-card,
+body.dark-mode .discovery-form,
+body.dark-mode .mission,
+body.dark-mode .vision,
+body.dark-mode .team-member,
+body.dark-mode .partner,
+body.dark-mode .discovery-card {
+  background-color: #022a57; /* Slightly lighter dark background for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+}
+
+body.dark-mode .fish-card .location,
+body.dark-mode .team-member p,
+body.dark-mode .discovery-info p,
+body.dark-mode .discovery-meta,
+body.dark-mode .discovery-user {
+  color: #b0b0b0; /* Lighter grey for secondary text */
+}
+
+body.dark-mode .contribute-section p {
+  color: #e0e0e0; /* Ensure this text is light */
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group select,
+body.dark-mode .form-group textarea,
+body.dark-mode #searchInput,
+body.dark-mode .filter-group select,
+body.dark-mode .search-box input {
+  background-color: #033c73; /* Darker background for form inputs */
+  border-color: #005691; /* Darker border for form inputs */
+  color: #e0e0e0;
+}
+
+body.dark-mode .file-upload-btn {
+  background-color: #005691;
+  color: #e0e0e0;
+}
+
+body.dark-mode .file-upload-btn:hover {
+  background-color: #0077b6;
+}
+
+body.dark-mode .guidelines {
+  background-color: #022a57;
+}
+
+body.dark-mode .region-section {
+  border-bottom-color: #022a57; /* Darker border for sections */
+}
+
+body.dark-mode footer {
+  background: #000a1a; /* Even darker footer */
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .footer-links h3::after,
+body.dark-mode .footer-contact h3::after {
+  background: #90e0ef; /* Brighter blue for footer underlines */
+}
+
+body.dark-mode .footer-links a:hover,
+body.dark-mode .social-icons a:hover {
+  color: #00bcd4; /* Accent color for hover */
+}
+
+/* Uiverse.io container grid pattern */
+.container {
+  width: 100%;
+  min-height: 100px; /* Give it a default minimum height */
+  --color: #E1E1E1; /* Light gray for grid lines in light mode */
+  background-color: #F3F3F3; /* Light background behind the grid */
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
+  /* Add padding for content inside if needed */
+  padding-bottom: 20px; /* Example padding */
+}
+
+/* Dark Mode adaptation for the .container grid */
+body.dark-mode .container {
+  --color: #0d2d57; /* Darker blue for grid lines in dark mode */
+  background-color: #011f4b; /* Dark background matching the body */
+}
+
+
+/* Mobile nav menu in dark mode */
+@media (max-width: 768px) {
+  body.dark-mode .nav-menu {
+    background-color: #fff; /* Keep mobile menu white */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Keep light shadow */
+  }
+
+  body.dark-mode .nav-menu a {
+    color: #333; /* Keep mobile menu links dark */
+  }
+
+  body.dark-mode .dropdown-content {
+    background-color: #fff; /* Ensure dropdown in mobile menu is white */
+  }
+
 }

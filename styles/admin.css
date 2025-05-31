@@ -1,162 +1,300 @@
+/* /styles/admin.css */
+
+/* Global base styles */
 body {
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height for flexibility */
+    margin: 0;
+    background-color: #f5f5f5; /* Light mode background */
+    color: #333; /* Light mode text color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for dark mode */
 }
 
+/* Uiverse.io grid background container */
 .container {
-  width: 100%;
-  height: 100vh;
-  --color: #E1E1E1;
-  background-color: #F3F3F3;
-  background-image: 
-    linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
-  background-size: 55px 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 100vh; /* Keep 100vh to cover full viewport height */
+    --color: #E1E1E1; /* Light gray for grid lines in light mode */
+    background-color: #F3F3F3; /* Light background behind the grid */
+    background-image:
+        linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 55px 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, --color 0.3s ease; /* Transition grid color */
 }
 
+/* Panel containing the login form */
 .panel {
-  background: white;
-  padding: 2.5rem 3rem; /* Slightly more horizontal space */
-  border-radius: 12px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
-  width: 100%;
+    background: white; /* Light mode panel background */
+    padding: 2.5rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Light mode shadow */
+    max-width: 400px;
+    width: 100%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for dark mode */
 }
 
-
+/* Header within panel */
 .hero-content h2 {
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-  color: #2c3e50;
-  text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #2c3e50; /* Light mode heading color */
+    text-align: center;
+    transition: color 0.3s ease;
 }
 
+/* Paragraph text within panel */
 .hero-content p {
-  color: #555;
-  margin-bottom: 1.5rem;
-  text-align: center;
+    color: #555; /* Light mode paragraph color */
+    margin-bottom: 1.5rem;
+    text-align: center;
+    transition: color 0.3s ease;
 }
 
+/* Form group layout */
 .form-group {
-  margin-bottom: 1.25rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+    margin-bottom: 1.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-
+/* Label styles */
 label {
-  display: block;
-  margin-bottom: 0.3rem;
-  color: #333;
-  font-weight: 500;
+    display: block;
+    margin-bottom: 0.3rem;
+    color: #333; /* Light mode label color */
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
+/* Input field styles */
 input[type='text'],
 input[type='password'] {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.6rem 0.8rem;
-  border: 1.5px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6rem 0.8rem;
+    border: 1.5px solid #ccc; /* Light mode border color */
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: white; /* Light mode input background */
+    color: #333; /* Light mode input text color */
+    transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 input[type='text']:focus,
 input[type='password']:focus {
-  border-color: #007bff;
-  outline: none;
+    border-color: #007bff; /* Focus border color */
+    outline: none;
 }
 
+/* Submit button style */
 .submit-btn {
-  background-color: #007bff;
-  color: white;
-  padding: 0.7rem 1.2rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 6px;
-  width: 100%;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-weight: 600;
+    background-color: #007bff; /* Light mode button background */
+    color: white;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
 }
 
 .submit-btn:hover {
-  background-color: #0056b3;
+    background-color: #0056b3; /* Light mode button hover */
 }
 
+/* Error message style */
 #error-message {
-  color: #d93025;
-  margin-top: 1rem;
-  font-weight: 600;
-  min-height: 1.2em;
+    color: #d93025; /* Light mode error color */
+    margin-top: 1rem;
+    font-weight: 600;
+    min-height: 1.2em;
+    text-align: center; /* Center error message */
 }
 
+/* Back button style */
 .back-btn {
-  background-color: transparent;
-  border: none;
-  color: #007bff;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-bottom: 1rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0;
-  font-weight: 600;
+    background-color: transparent;
+    border: none;
+    color: #007bff; /* Light mode back button color */
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem; /* Adjust margin to be below form */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 .back-btn:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Uiverse animated loader inside panel */
 .loader.small {
-  position: relative;
-  height: 40px;
-  margin-bottom: 1.2rem;
-  text-align: center;
-  overflow: hidden;
+    position: relative;
+    height: 40px;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    overflow: hidden;
 }
 
 .loader.small span {
-  position: absolute;
-  color: #007bff;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
-  left: 50%;
-  top: 50%;
-  letter-spacing: 3px;
-  padding-left: 0;
+    position: absolute;
+    color: #007bff; /* Light mode loader text color */
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    left: 50%;
+    top: 50%;
+    letter-spacing: 3px;
+    padding-left: 0; /* Ensures consistent alignment */
 }
 
 .loader.small span:nth-child(1) {
-  color: transparent;
-  -webkit-text-stroke: 0.5px #007bff;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #007bff;
 }
 
 .loader.small span:nth-child(2) {
-  color: #007bff;
-  -webkit-text-stroke: 1px #0056b3;
-  animation: uiverse723 3s ease-in-out infinite;
+    color: #007bff;
+    -webkit-text-stroke: 1px #0056b3;
+    animation: uiverse723 3s ease-in-out infinite;
 }
 
 @keyframes uiverse723 {
-  0%, 100% {
-    clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 
-     54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-  }
+    0%, 100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%,
+            54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
 
-  50% {
-    clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 
-     51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-  }
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%,
+            51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
+
+/* Dark Mode Toggle Button specific styles */
+.dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #333; /* Light mode icon color */
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+    transition: color 0.3s ease;
+}
+
+/* Ripple effect (common style, place it where global styles are accessible) */
+.ripple {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(0, 191, 255, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: ripple-effect 0.6s ease-out forwards;
+    z-index: 9999;
+}
+
+@keyframes ripple-effect {
+    0% {
+        transform: translate(-50%, -50%) scale(0.2);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(2.5);
+        opacity: 0;
+    }
+}
+
+/* --- Dark Mode Styles for Admin Page --- */
+body.dark-mode {
+    background-color: #011f4b; /* Dark background */
+    color: #e0e0e0; /* Light text for dark mode */
+}
+
+body.dark-mode .dark-mode-toggle {
+    color: #90e0ef; /* Brighter blue for moon icon in dark mode */
+}
+
+body.dark-mode .container {
+    --color: #0d2d57; /* Darker grid lines for dark mode */
+    background-color: #011f4b; /* Dark background matching the body */
+}
+
+body.dark-mode .panel {
+    background-color: #022a57; /* Darker panel background */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Stronger dark shadow */
+}
+
+body.dark-mode .hero-content h2 {
+    color: #e0e0e0; /* Light heading text */
+}
+
+body.dark-mode .hero-content p {
+    color: #b0b0b0; /* Lighter gray paragraph text */
+}
+
+body.dark-mode label {
+    color: #e0e0e0; /* Light label text */
+}
+
+body.dark-mode input[type='text'],
+body.dark-mode input[type='password'] {
+    background-color: #033c73; /* Darker input background */
+    border-color: #005691; /* Darker input border */
+    color: #e0e0e0; /* Light input text */
+}
+
+body.dark-mode input[type='text']:focus,
+body.dark-mode input[type='password']:focus {
+    border-color: #0077b6; /* Adjust focus border for dark mode */
+}
+
+body.dark-mode .submit-btn {
+    background-color: #005691; /* Slightly darker blue for dark mode button */
+}
+
+body.dark-mode .submit-btn:hover {
+    background-color: #0077b6; /* Original hover color */
+}
+
+body.dark-mode #error-message {
+    color: #ff6b6b; /* Lighter red for error message */
+}
+
+body.dark-mode .back-btn {
+    color: #90e0ef; /* Brighter blue for back button */
+}
+
+body.dark-mode .back-btn:hover {
+    color: #00bcd4; /* Accent color for hover */
+}
+
+body.dark-mode .loader.small span {
+    color: #90e0ef; /* Brighter blue for the animated text */
+}
+
+body.dark-mode .loader.small span:nth-child(1) {
+    -webkit-text-stroke-color: #90e0ef; /* Brighter stroke for text animation */
+}
+
+body.dark-mode .loader.small span:nth-child(2) {
+    color: #90e0ef; /* Brighter color for text animation */
+    -webkit-text-stroke-color: #00bcd4; /* Accent stroke color */
 }
