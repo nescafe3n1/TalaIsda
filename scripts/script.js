@@ -195,5 +195,5 @@ document.addEventListener("mousemove", (e) => {
 
   setTimeout(() => {
     ripple.remove();
-  }, 1000); //animation
+  }, 1000); 
 });

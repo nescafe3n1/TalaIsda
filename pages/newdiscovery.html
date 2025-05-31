@@ -72,31 +72,7 @@
       <h2>Community Fish Discoveries</h2>
       <p>Welcome to our community-driven fish discovery page! Here you'll find unique fish species discovered and documented by TalaIsda users from across the Philippines. These discoveries help expand our knowledge of the country's rich marine biodiversity.</p>
           
-      <div class="discovery-filters">
-          <div class="filter-group">
-              <label for="region-filter">Region:</label>
-              <select id="region-filter">
-                  <option value="all">All Regions</option>
-                  <option value="luzon">Luzon</option>
-                  <option value="visayas">Visayas</option>
-                  <option value="mindanao">Mindanao</option>
-              </select>
-          </div>
-          
-          <div class="filter-group">
-              <label for="date-filter">Date:</label>
-              <select id="date-filter">
-                  <option value="newest">Newest First</option>
-                  <option value="oldest">Oldest First</option>
-              </select>
-          </div>
-          
-          <div class="search-box">
-              <input type="text" placeholder="Search discoveries...">
-          </div>
-      </div>
-      <div class="discovery-grid" id="discoveryFishCards" data-region="${d.RegionName.toLowerCase()}"
-     data-date="${new Date(d.SubmissionDate).toISOString()}">
+      <div class="discovery-grid" id="discoveryFishCards" >
   <!-- Fish cards will be inserted here -->
       </div>
 
