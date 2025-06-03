@@ -16,7 +16,6 @@
 <body>
   <div class="container">
     <div class="panel" data-aos="fade-up">
-      <!-- Uiverse-style animated text inside the panel -->
       <div class="loader small">
         <span>TalaIsda</span>
         <span>TalaIsda</span>
@@ -59,8 +58,8 @@
       const error = document.getElementById("error-message");
 
       if (username === "admin" && password === "admin") {
-        window.location.href = "/pages/admindashboard.html"; // redirect to your admin page
-        return false; // prevent form from submitting normally
+        window.location.href = "/pages/admindashboard.html"; 
+        return false; 
       } else {
         error.textContent = "Incorrect username or password.";
         return false;

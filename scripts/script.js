@@ -188,38 +188,34 @@ function setupDiscoveryForm() {
     });
 }
 
-// 🌙 Dark Mode Initialization and Toggle Logic (Consolidated)
+
 function initializeDarkMode() {
     const body = document.body;
 
-    // Function to apply the theme (adds/removes class, sets checkbox state, saves to localStorage)
     const applyTheme = (theme) => {
         if (theme === 'dark-mode') {
             body.classList.add('dark-mode');
-            if (darkModeToggle) { // Ensure the toggle element exists on this page
-                darkModeToggle.checked = true; // Set the switch to 'on' position
+            if (darkModeToggle) { 
+                darkModeToggle.checked = true; 
             }
         } else {
             body.classList.remove('dark-mode');
-            if (darkModeToggle) { // Ensure the toggle element exists on this page
-                darkModeToggle.checked = false; // Set the switch to 'off' position
+            if (darkModeToggle) { 
+                darkModeToggle.checked = false; 
             }
         }
-        localStorage.setItem('theme', theme); // Always save the current theme
+        localStorage.setItem('theme', theme); 
     };
 
-    // Apply dark mode preference on page load
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         applyTheme(savedTheme);
     } else {
-        // Default to light mode if no preference found and save it
         applyTheme('light-mode');
     }
 
-    // Add event listener to the switch if it exists
     if (darkModeToggle) {
-        darkModeToggle.addEventListener('change', () => { // Use 'change' event for checkboxes
+        darkModeToggle.addEventListener('change', () => { 
             if (darkModeToggle.checked) {
                 applyTheme('dark-mode');
             } else {

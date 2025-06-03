@@ -28,30 +28,30 @@ body {
     background: white; 
     padding: 2.5rem 3rem;
     border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Light mode shadow */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); 
     max-width: 400px;
     width: 100%;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for dark mode */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Header within panel */
+
 .hero-content h2 {
     margin-bottom: 0.5rem;
     font-weight: 600;
-    color: #2c3e50; /* Light mode heading color */
+    color: #2c3e50;
     text-align: center;
     transition: color 0.3s ease;
 }
 
-/* Paragraph text within panel */
+
 .hero-content p {
-    color: #555; /* Light mode paragraph color */
+    color: #555; 
     margin-bottom: 1.5rem;
     text-align: center;
     transition: color 0.3s ease;
 }
 
-/* Form group layout */
+
 .form-group {
     margin-bottom: 1.25rem;
     width: 100%;
@@ -59,38 +59,38 @@ body {
     flex-direction: column;
 }
 
-/* Label styles */
+
 label {
     display: block;
     margin-bottom: 0.3rem;
-    color: #333; /* Light mode label color */
+    color: #333; 
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
-/* Input field styles */
+
 input[type='text'],
 input[type='password'] {
     width: 100%;
     box-sizing: border-box;
     padding: 0.6rem 0.8rem;
-    border: 1.5px solid #ccc; /* Light mode border color */
+    border: 1.5px solid #ccc;
     border-radius: 6px;
     font-size: 1rem;
-    background-color: white; /* Light mode input background */
-    color: #333; /* Light mode input text color */
+    background-color: white; 
+    color: #333;
     transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 input[type='text']:focus,
 input[type='password']:focus {
-    border-color: #007bff; /* Focus border color */
+    border-color: #007bff; 
     outline: none;
 }
 
-/* Submit button style */
+
 .submit-btn {
-    background-color: #007bff; /* Light mode button background */
+    background-color: #007bff; 
     color: white;
     padding: 0.7rem 1.2rem;
     font-size: 1rem;
@@ -103,26 +103,26 @@ input[type='password']:focus {
 }
 
 .submit-btn:hover {
-    background-color: #0056b3; /* Light mode button hover */
+    background-color: #0056b3; 
 }
 
-/* Error message style */
+
 #error-message {
-    color: #d93025; /* Light mode error color */
+    color: #d93025; 
     margin-top: 1rem;
     font-weight: 600;
     min-height: 1.2em;
-    text-align: center; /* Center error message */
+    text-align: center; 
 }
 
-/* Back button style */
+
 .back-btn {
     background-color: transparent;
     border: none;
-    color: #007bff; /* Light mode back button color */
+    color: #007bff; 
     font-size: 1rem;
     cursor: pointer;
-    margin-top: 1rem; /* Adjust margin to be below form */
+    margin-top: 1rem;
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
@@ -135,7 +135,7 @@ input[type='password']:focus {
     text-decoration: underline;
 }
 
-/* Uiverse animated loader inside panel */
+
 .loader.small {
     position: relative;
     height: 40px;
@@ -146,13 +146,13 @@ input[type='password']:focus {
 
 .loader.small span {
     position: absolute;
-    color: #007bff; /* Light mode loader text color */
+    color: #007bff; 
     transform: translate(-50%, -50%);
     font-size: 40px;
     left: 50%;
     top: 50%;
     letter-spacing: 3px;
-    padding-left: 0; /* Ensures consistent alignment */
+    padding-left: 0; 
 }
 
 .loader.small span:nth-child(1) {
@@ -178,21 +178,21 @@ input[type='password']:focus {
     }
 }
 
-/* Dark Mode Toggle Button specific styles */
+
 .dark-mode-toggle {
     position: absolute;
     top: 20px;
     right: 20px;
     background: none;
     border: none;
-    color: #333; /* Light mode icon color */
+    color: #333;
     font-size: 1.5rem;
     cursor: pointer;
     z-index: 1000;
     transition: color 0.3s ease;
 }
 
-/* Ripple effect (common style, place it where global styles are accessible) */
+
 .ripple {
     position: fixed;
     width: 20px;
@@ -216,79 +216,79 @@ input[type='password']:focus {
     }
 }
 
-/* --- Dark Mode Styles for Admin Page --- */
 body.dark-mode {
-    background-color: #011f4b; /* Dark background */
-    color: #e0e0e0; /* Light text for dark mode */
+    background-color: #011f4b;
+    color: #e0e0e0; 
 }
 
 body.dark-mode .dark-mode-toggle {
-    color: #90e0ef; /* Brighter blue for moon icon in dark mode */
+    color: #90e0ef; 
 }
 
 body.dark-mode .container {
-    --color: #0d2d57; /* Darker grid lines for dark mode */
-    background-color: #011f4b; /* Dark background matching the body */
+    --color: #0d2d57; 
+    background-color: #011f4b;
 }
 
 body.dark-mode .panel {
-    background-color: #022a57; /* Darker panel background */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Stronger dark shadow */
+    background-color: #022a57; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); 
 }
 
 body.dark-mode .hero-content h2 {
-    color: #e0e0e0; /* Light heading text */
+    color: #e0e0e0; 
 }
 
 body.dark-mode .hero-content p {
-    color: #b0b0b0; /* Lighter gray paragraph text */
+    color: #b0b0b0; 
 }
 
 body.dark-mode label {
-    color: #e0e0e0; /* Light label text */
+    color: #e0e0e0; 
 }
 
 body.dark-mode input[type='text'],
 body.dark-mode input[type='password'] {
-    background-color: #033c73; /* Darker input background */
-    border-color: #005691; /* Darker input border */
-    color: #e0e0e0; /* Light input text */
+    background-color: #033c73; 
+    border-color: #005691; 
+    color: #e0e0e0; 
 }
 
 body.dark-mode input[type='text']:focus,
 body.dark-mode input[type='password']:focus {
-    border-color: #0077b6; /* Adjust focus border for dark mode */
+    border-color: #0077b6; 
 }
 
 body.dark-mode .submit-btn {
-    background-color: #005691; /* Slightly darker blue for dark mode button */
+    background-color: #005691; 
 }
 
 body.dark-mode .submit-btn:hover {
-    background-color: #0077b6; /* Original hover color */
+    background-color: #0077b6; 
 }
 
 body.dark-mode #error-message {
-    color: #ff6b6b; /* Lighter red for error message */
+    color: #ff6b6b; 
 }
 
 body.dark-mode .back-btn {
-    color: #90e0ef; /* Brighter blue for back button */
+    color: #90e0ef; 
 }
 
 body.dark-mode .back-btn:hover {
-    color: #00bcd4; /* Accent color for hover */
+    color: #00bcd4; 
 }
 
 body.dark-mode .loader.small span {
-    color: #90e0ef; /* Brighter blue for the animated text */
+    color: #90e0ef; 
 }
 
 body.dark-mode .loader.small span:nth-child(1) {
-    -webkit-text-stroke-color: #90e0ef; /* Brighter stroke for text animation */
+    -webkit-text-stroke-color: #90e0ef; 
 }
 
 body.dark-mode .loader.small span:nth-child(2) {
-    color: #90e0ef; /* Brighter color for text animation */
-    -webkit-text-stroke-color: #00bcd4; /* Accent stroke color */
+    color: #90e0ef; 
+    -webkit-text-stroke-color: #00bcd4; 
+}
 }
