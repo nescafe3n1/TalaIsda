@@ -1,6 +1,6 @@
 const btn = document.getElementById("backToTop");
 const searchInput = document.getElementById('searchInput');
-const darkModeToggle = document.getElementById('darkModeToggle'); // This is the <input type="checkbox"> now
+const darkModeToggle = document.getElementById('darkModeToggle'); 
 
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("resize", handleResize);
@@ -10,15 +10,14 @@ document.addEventListener('DOMContentLoaded', function () {
     setupMobileMenu();
     setupDropdowns();
     setupClickOutsideNav();
-    updateActiveNav(); // run on page load
+    updateActiveNav(); 
     setupSearch();
     setupFormUpload();
     setupDiscoveryForm();
-    initializeDarkMode(); // Call the new consolidated dark mode setup
+    initializeDarkMode(); 
 });
 
 
-// 🔼 Back to Top
 function handleScroll() {
     if (btn) {
         btn.classList.toggle("show", window.scrollY > 300);
@@ -30,7 +29,6 @@ btn?.addEventListener("click", () => {
 });
 
 
-// 📱 Mobile menu toggle
 function setupMobileMenu() {
     const menuToggle = document.querySelector('.menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
@@ -40,7 +38,6 @@ function setupMobileMenu() {
     });
 }
 
-// 🔽 Handle dropdowns
 function setupDropdowns() {
     const dropdowns = document.querySelectorAll('.dropdown');
     dropdowns.forEach(dropdown => {
@@ -61,18 +58,15 @@ function setupDropdowns() {
     });
 }
 
-// 📉 Close mobile nav when clicking outside
 function setupClickOutsideNav() {
     document.addEventListener('click', function (e) {
         const navMenu = document.querySelector('.nav-menu');
-        // Check if the click is outside the nav and not the menu toggle itself
         if (!e.target.closest('nav') && !e.target.closest('.menu-toggle') && navMenu?.classList.contains('active')) {
             navMenu.classList.remove('active');
         }
     });
 }
 
-// 📏 Close nav on resize
 function handleResize() {
     const navMenu = document.querySelector('.nav-menu');
     const dropdowns = document.querySelectorAll('.dropdown');
@@ -83,7 +77,6 @@ function handleResize() {
     }
 }
 
-// ⭐ Navbar active link handling
 function updateActiveNav() {
     const currentPath = window.location.pathname;
     const currentHash = window.location.hash;
@@ -103,7 +96,7 @@ function updateActiveNav() {
 
             const isRegionLink = !!link.hash;
             const dropdown = link.closest('.dropdown');
-            if (dropdown) { // Always add active to dropdown if any child link is active
+            if (dropdown) { 
                 const dropbtn = dropdown.querySelector('.dropbtn');
                 dropbtn?.classList.add('active');
             }
@@ -114,12 +107,10 @@ function updateActiveNav() {
     if (isAtRoot) {
         const homeLink = document.querySelector('.nav-menu a[href*="index.html"]');
         homeLink?.classList.add('active');
-        // Ensure dropdown button is not active if home link is active
         document.querySelectorAll('.dropbtn').forEach(btn => btn.classList.remove('active'));
     }
 }
 
-// 🔍 Search filter for fish cards
 function setupSearch() {
     if (!searchInput) return;
 
@@ -154,8 +145,6 @@ function setupSearch() {
     });
 }
 
-
-// ⬅️ Carousel scrolling
 function scrollFish(button, direction) {
     const container = button.closest('.carousel-container');
     const track = container.querySelector('.carousel-track');
@@ -164,7 +153,6 @@ function scrollFish(button, direction) {
     track.scrollLeft += direction * cardWidth * 4;
 }
 
-// 📁 Show selected file name
 function setupFormUpload() {
     const photoInput = document.getElementById('photos');
     photoInput?.addEventListener('change', function (e) {
@@ -177,7 +165,6 @@ function setupFormUpload() {
     });
 }
 
-// ✅ Handle form submission
 function setupDiscoveryForm() {
     const form = document.getElementById('discoveryForm');
     form?.addEventListener('submit', function (e) {
@@ -226,7 +213,6 @@ function initializeDarkMode() {
 }
 
 
-// Water Cursor Effect typshi
 document.addEventListener("mousemove", (e) => {
     const ripple = document.createElement("div");
     ripple.className = "ripple";
