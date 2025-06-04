@@ -174,12 +174,10 @@ app.delete('/api/admin/submissions/:id', async (req, res) => {
 
     const speciesId = result.recordset[0].SpeciesID;
 
-    // 2. Delete from Submissions
     await pool.request()
       .input('id', sql.Int, submissionId)
       .query(`DELETE FROM Submissions WHERE SubmissionID = @id`);
 
-    // 3. Delete from FishSpecies
     await pool.request()
       .input('sid', sql.Int, speciesId)
       .query(`DELETE FROM FishSpecies WHERE SpeciesID = @sid`);
