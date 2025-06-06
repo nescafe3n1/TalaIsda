@@ -848,80 +848,6 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 992px) {
-  .dropdown-content {
-    min-width: 500px;
-    right: -100px;
-  }
-}
-
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-menu {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background: white;
-    width: 100%;
-    height: calc(100vh - 80px);
-    flex-direction: column;
-    padding: 20px;
-    transition: 0.3s;
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
-
-  .nav-menu li {
-    margin: 15px 0;
-  }
-
-  .dropdown-content {
-    position: static;
-    min-width: 100%;
-    box-shadow: none;
-    flex-direction: column;
-    opacity: 1;
-    visibility: visible;
-    display: none;
-  }
-
-  .dropdown.active .dropdown-content {
-    display: flex;
-  }
-
-  header {
-    padding: 10px 20px;
-  }
-
-  .form-row {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .mission-vision {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 576px) {
-  .hero {
-    height: 400px;
-  }
-
-  .hero h2 {
-    font-size: 1.8rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-}
-
 .carousel-container {
   position: relative;
   display: flex;
@@ -1173,120 +1099,6 @@ footer {
   color: #333;
   transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
 }
-@media (max-width: 1024px) {
-  .fish-card {
-    flex: 0 0 calc(50% - 20px); 
-  }
-
-  .carousel-btn {
-    display: none; 
-  }
-
-  .carousel-track {
-    overflow-x: auto; 
-  }
-}
-
-@media (max-width: 768px) {
-  .carousel-track {
-    overflow-x: auto; 
-  }
-
-  .fish-card {
-    flex: 0 0 100%; 
-    scroll-snap-align: start;
-  }
-
-  .carousel-btn {
-    display: none; 
-  }
-}
-
-@media (max-width: 992px) {
-  .dropdown-content {
-    min-width: 500px;
-    right: -150px;
-  }
-}
-
-@media (max-width: 768px) {
-  header {
-    padding: 15px 10px 15px;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-menu {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background-color: white;
-    width: 100%;
-    height: calc(100vh - 80px);
-    flex-direction: column;
-    transition: left 0.3s;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    overflow-y: auto;
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
-
-  .nav-menu li {
-    margin: 15px 0;
-  }
-
-  .dropdown-content {
-    position: static;
-    min-width: 100%;
-    box-shadow: none;
-    flex-direction: column;
-    opacity: 1;
-    visibility: visible;
-    display: none;
-  }
-
-  .dropdown.active .dropdown-content {
-    display: block;
-  }
-
-  .dropdown-group {
-    margin-bottom: 20px;
-  }
-
-  .hero h2 {
-    font-size: 2rem;
-  }
-
-  .footer-content > div {
-    flex-basis: 100%;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 576px) {
-  .hero {
-    height: 400px;
-  }
-
-  .hero h2 {
-    font-size: 1.8rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  .featured-section h2,
-  .regions-section h2,
-  .contribute-section h2 {
-    font-size: 1.8rem;
-  }
-}
 
 .ripple {
   position: fixed;
@@ -1524,8 +1336,107 @@ body.dark-mode .container {
   background-color: #011f4b; 
 }
 
+@media (max-width: 1200px ) {
+  .fish-card {
+    flex: 0 0 calc(33% - 20px); 
+  }
+  
+  .carousel-btn {
+    display: none; 
+  }
+
+  .carousel-track {
+    overflow-x: auto; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .fish-card {
+    flex: 0 0 calc(50% - 20px); 
+  }
+
+  .carousel-btn {
+    display: none; 
+  }
+
+  .carousel-track {
+    overflow-x: auto; 
+  }
+}
+
+@media (max-width: 992px) {
+  .dropdown-content {
+    min-width: 500px;
+    right: -150px;
+  }
+}
 
 @media (max-width: 768px) {
+  header {
+    padding: 15px 10px 15px;
+  }
+  
+  .menu-toggle {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: white;
+    width: 100%;
+    height: calc(100vh - 80px);
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-menu li {
+    margin: 15px 0;
+  }
+
+  .dropdown-content {
+    position: static;
+    min-width: 100%;
+    box-shadow: none;
+    flex-direction: column;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+  }
+
+  .dropdown.active .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-group {
+    margin-bottom: 20px;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .footer-content > div {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .mission-vision {
+    flex-direction: column;
+  }
+
   body.dark-mode .nav-menu {
     background-color: #fff; 
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
@@ -1539,4 +1450,94 @@ body.dark-mode .container {
     background-color: #fff; 
   }
 
+   .carousel-track {
+    overflow-x: auto; 
+  }
+
+  .fish-card {
+    flex: 0 0 100%; 
+    scroll-snap-align: start;
+  }
+
+  .carousel-btn {
+    display: none; 
+  }
+
+  .switch {
+    display: none;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footer-logo img {
+    width: 180px;
+  }
+
+  .footer-links,
+  .footer-contact {
+    flex: 1 1 100%;
+  }
+
+  .social-icons {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .social-icons a {
+    margin: 0 8px;
+    font-size: 1.4rem;
+  }
+
+  .footer-bottom {
+    font-size: 0.9rem;
+    padding-top: 15px;
+  }
+  
+  .footer-links h3,
+.footer-contact h3 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footer-links h3::after,
+.footer-contact h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background: #0077b6;
+}
+
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: 400px;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .featured-section h2,
+  .regions-section h2,
+  .contribute-section h2 {
+    font-size: 1.8rem;
+  }
 }
