@@ -102,7 +102,7 @@ app.post('/api/submit-discovery', upload.array('photos', 3), async (req, res) =>
     // Insert into FishSpecies table
     const fishResult = await sqlRequest
       .input('CommonName', fishName)
-      .input('ScientificName', scientificName) // You may parse this from fishName if needed
+      .input('ScientificName', scientificName)
       .input('Description', description)
       .input('ImagePath', imagePaths)
       .input('Location', location)

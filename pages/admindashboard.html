@@ -30,7 +30,6 @@
           <th>Location</th>
           <th>Description</th>
           <th>Photo</th>
-          <th>Additional Info</th>
           <th>Actions</th>
         </tr>
       </thead>
@@ -109,7 +108,6 @@
         <td>${d.Location}</td>
         <td>${d.Description}</td>
         <td><a href="${d.ImagePath}" target="_blank"><img src="${d.ImagePath}" width="80"/></a></td>
-        <td>${d.AdditionalInfo || '—'}</td>
         <td>
           <button class="bin-button" onclick="deleteDiscovery(${d.SubmissionID})">
           <svg class="bin-top" viewBox="0 0 39 7" fill="none" xmlns="http://www.w3.org/2000/svg">
