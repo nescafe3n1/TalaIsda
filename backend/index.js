@@ -87,7 +87,6 @@ app.post('/api/submit-discovery', upload.array('photos', 3), async (req, res) =>
 
     const sqlRequest = pool.request();
 
-    // Insert into Contributors table
     const contributorResult = await sqlRequest
       .input('FirstName', firstName)
       .input('LastName', lastName)
@@ -163,7 +162,6 @@ app.delete('/api/admin/submissions/:id', async (req, res) => {
   const submissionId = req.params.id;
 
   try {
-    // 1. Get the SpeciesID from the submission
     const result = await pool.request()
       .input('id', sql.Int, submissionId)
       .query(`SELECT SpeciesID FROM Submissions WHERE SubmissionID = @id`);
