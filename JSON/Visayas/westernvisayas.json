@@ -1,0 +1,251 @@
+[
+  {
+    "name": "Mullet",
+    "commonName": "Banak",
+    "scientificName": "Mugilidae",
+    "description": "This mild-flavored fish thrives in river mouths and brackish waters in Western Visayas, especially in Iloilo River.",
+    "image": "/assets/VISAYAS/Western Visayas/banak.jpg",
+    "location": "Iloilo"
+  },
+  {
+    "name": "Rabbitfish",
+    "commonName": "Danggit",
+    "scientificName": "Siganus spp.",
+    "description": "A popular breakfast fish, often dried and served with vinegar. Common in the shallow waters around Guimaras and Negros Occidental.",
+    "image": "/assets/VISAYAS/Western Visayas/danggit.jpg",
+    "location": "Guimaras, Negros Occidental"
+  },
+  {
+    "name": "Cod",
+    "commonName": "Gindara",
+    "scientificName": "Gadus morhua",
+    "description": "Not traditionally native but now locally caught and served in select areas of Bohol and southern Panay, such as Iloilo.",
+    "image": "/assets/VISAYAS/Western Visayas/gindara.jpg",
+    "location": "Iloilo"
+  },
+  {
+    "name": "Grouper",
+    "commonName": "Lapu-Lapu",
+    "scientificName": "Epinephelidae",
+    "description": "A prized reef fish found in marine protected areas and coral reefs, especially off the coasts of Iloilo and Negros.",
+    "image": "/assets/VISAYAS/Western Visayas/lapu-lapu.jpg",
+    "location": "Iloilo, Negros Occidental"
+  },
+  {
+    "name": "Red Snapper",
+    "commonName": "Maya-Maya",
+    "scientificName": "Lutjanus campechanus",
+    "description": "A high-value fish known for its white flesh. Found in deep waters and reef systems off Antique and Capiz.",
+    "image": "/assets/VISAYAS/Western Visayas/maya-maya.jpg",
+    "location": "Antique, Capiz"
+  },
+  {
+    "name": "Sardine",
+    "commonName": "Tamban",
+    "scientificName": "Sardina pilchardus",
+    "description": "Caught seasonally in large numbers along the coasts of Aklan and Antique. Frequently used in canning and drying.",
+    "image": "/assets/VISAYAS/Western Visayas/tamban.jpg",
+    "location": "Aklan, Antique"
+  },
+  {
+        "name":"Milkfish",
+        "commonName":"Bangus",
+        "scientificName":"Chanos chanos",
+        "description":"The most important cultured fish in the country; raised in brackish ponds.",
+    "image": "/assets/VISAYAS/Western Visayas/Chanos chanos.jpg",
+        "location":"Iloilo, Capiz"
+	},
+        {
+        "name":"Grouper",
+        "commonName":"Lapu-lapu",
+        "scientificName":"Epinephelus spp.",
+        "description":"Large reef predators popular in markets and restaurants.",
+    "image": "/assets/VISAYAS/Western Visayas/Epinephelus spp..jpg",
+        "location":"Iloilo, Negros Occidental"
+	},
+        {
+        "name":"Mackerel Tuna",
+        "commonName":"Tulingan",
+        "scientificName":"Euthynnus affinis",
+        "description":"Fast pelagic fish known for firm, flavorful meat.",
+    "image": "/assets/VISAYAS/Western Visayas/Euthynnus affinis.jpg",
+        "location":"Iloilo, Negros Occidental"
+	},
+        {
+        "name":"Indian Mackerel",
+        "commonName":"Alumahan",
+        "scientificName":"Rastrelliger kanagurta",
+        "description":"Fast pelagic fish known for firm, flavorful meat.",
+    "image": "/assets/VISAYAS/Western Visayas/Rastrelliger kanagurta.jpg",
+        "location":"Iloilo, Negros Occidental"
+	},
+        {
+        "name":"Spanish Mackerel",
+        "commonName":"Tanguigue",
+        "scientificName":"Scomberomorus spp.",
+        "description":"Fast-swimming game fish sought for its rich meat.",
+    "image": "/assets/VISAYAS/Western Visayas/Scomberomorus spp.jpg",
+        "location":"Capiz, Aklan"
+	},
+        {
+        "name":"Trevally",
+        "commonName":"Talakitok",
+        "scientificName":"Caranx ignobilis",
+        "description":"Strong game fish found in both reefs and open waters.",
+    "image": "/assets/VISAYAS/Western Visayas/Caranx ignobilis.jpg",
+        "location":"Iloilo, Antique"
+	},
+        {
+        "name":"Flying Fish",
+        "commonName":"Barongoy",
+        "scientificName":"Exocoetidae",
+        "description":"Capable of gliding above water; caught near reef edges.",
+    "image": "/assets/VISAYAS/Western Visayas/Exocoetidae.jpg",
+        "location":"Antique"
+	},
+    {
+        "name":"Pufferfish",
+        "commonName":"Butete",
+        "scientificName":"Tetraodontidae",
+        "description":"Inflates when threatened; some species are toxic.",
+    "image": "/assets/VISAYAS/Western Visayas/Tetraodontidae.jpeg",
+        "location":"Antique"
+	},
+        {
+        "name":"Seahorse",
+        "commonName":"Kabayo-dagat",
+        "scientificName":"Hippocampus kuda",
+        "description":"Camouflaged fish that swims upright; lives among seagrasses.",
+    "image": "/assets/VISAYAS/Western Visayas/Hippocampus kuda.jpg",
+        "location":"Guimaras"
+	},
+        {
+        "name":"Blue-Spotted Stingray",
+        "commonName":"Pagi",
+        "scientificName":"Neotrygon kuhlii",
+        "description":"Small stingray with blue spots; hides on sandy seafloor.",
+    "image": "/assets/VISAYAS/Western Visayas/Neotrygon kuhlii.jpg",
+        "location":"Antique"
+	},
+        {
+        "name":"Blue Crab",
+        "commonName":"Alimasag",
+        "scientificName":"Portunus pelagicus",
+        "description":"Swimming crab with blue-tinted claws; valued for its meat.",
+    "image": "/assets/VISAYAS/Western Visayas/Portunus pelagicus.jpg",
+        "location":"Capiz"
+	},
+        {
+        "name":"Mud Crab",
+        "commonName":"Alimango",
+        "scientificName":"Scylla serrata",
+        "description":"Brackish-water crab with large claws; farmed and wild-caught.",
+    "image": "/assets/VISAYAS/Western Visayas/Scylla serrata.jpg",
+        "location":"Iloilo"
+	},
+        {
+        "name":"Long-Spined Urchin",
+        "commonName":"tuyom",
+        "scientificName":"Diadema setosum",
+        "description":"Black sea urchin with venomous spines; grazes on algae.",
+    "image": "/assets/VISAYAS/Western Visayas/Diadema setosum.jpg",
+        "location":"Aklan"
+	},
+        {
+        "name":"Sea Cucumber",
+        "commonName":"Balatan",
+        "scientificName":"Holothuria spp.",
+        "description":"Soft-bodied echinoderm used in soups and exported dried.",
+    "image": "/assets/VISAYAS/Western Visayas/Holothuria spp..jpg",
+        "location":"Antique"
+	},
+        {
+        "name":"Sea Grape",
+        "commonName":"Lato",
+        "scientificName":"Caulerpa lentillifera",
+        "description":"Edible green seaweed eaten fresh in salads.",
+    "image": "/assets/VISAYAS/Western Visayas/Caulerpa lentillifera.jpg",
+        "location":"Iloilo"
+	},
+        {
+        "name":"Tiger Prawn",
+        "commonName":"Sugpo",
+        "scientificName":"Penaeus monodon",
+        "description":"Large farmed prawn, especially in mangrove estuaries.",
+    "image": "/assets/VISAYAS/Western Visayas/Penaeus monodon.jpg",
+        "location":"Negros Occidental"
+	},
+        {
+        "name":"Octopus",
+        "commonName":"Pugita",
+        "scientificName":"Octopus cyanea",
+        "description":"Highly intelligent mollusk; uses camouflage and jet propulsion.",
+    "image": "/assets/VISAYAS/Western Visayas/Octopus cyanea.jpg",
+        "location":"Capiz"
+	},
+        {
+        "name":"Moray Eel",
+        "commonName":"Igat",
+        "scientificName":"Gymnothorax spp.",
+        "description":"Long, sharp-toothed eel often found hiding in reef crevices.",
+    "image": "/assets/VISAYAS/Western Visayas/Gymnothorax spp..jpg",
+        "location":"Antique"
+	},
+        {
+        "name":"Squid",
+        "commonName":"Pusit",
+        "scientificName":"Loligo spp.",
+        "description":"Cephalopod with tentacles and ink defense; grilled or dried.",
+    "image": "/assets/VISAYAS/Western Visayas/Loligo spp.jpg",
+        "location":"Iloilo"
+	},
+        {
+        "name":"Scad",
+        "commonName":"Galunggong",
+        "scientificName":"Decapterus spp.",
+        "description":"Staple food fish; sold fresh or smoked.",
+    "image": "/assets/VISAYAS/Western Visayas/Decapterus spp..jpg",
+        "location":"Antique"
+	},
+        {
+        "name":"Anchovy",
+        "commonName":"Dilis",
+        "scientificName":"Stolephorus spp.",
+        "description":"Tiny fish used in dried snacks or fermented paste",
+    "image": "/assets/VISAYAS/Western Visayas/Stolephorus spp..jpg",
+        "location":"Capiz"
+	},
+        {
+        "name":"Parrotfish",
+        "commonName":"Molmol",
+        "scientificName":"Scarus spp.",
+        "description":"Coral-eating fish with beak-like teeth; often brightly colored.",
+    "image": "/assets/VISAYAS/Western Visayas/Scarus spp.jpg",
+        "location":"Guimaras"
+	},
+        {
+        "name":"Batfish",
+        "commonName":"Dahong-Gabi",
+        "scientificName":"Platax orbicularis",
+        "description":"Disc-shaped reef fish; swims near coral drop-offs.",
+    "image": "/assets/VISAYAS/Western Visayas/Platax orbicularis.jpg",
+        "location":"Iloilo"
+	},
+        {
+        "name":"Sailfin Snapper",
+        "commonName":"Matumbok",
+        "scientificName":"Symphorichthys spilurus",
+        "description":"Deep-bodied reef fish with a distinctive dorsal fin.",
+    "image": "/assets/VISAYAS/Western Visayas/Symphorichthys spilurus.jpg",
+        "location":"Antique"
+	},
+        {
+        "name":"Triton Trumpet",
+        "commonName":"Tambuyuk",
+        "scientificName":"Charonia tritonis",
+        "description":"Large predatory snail that feeds on crown-of-thorns starfish.",
+    "image": "/assets/VISAYAS/Western Visayas/Charonia tritonis.jpg",
+        "location":"Antique"
+	}
+]      
+        

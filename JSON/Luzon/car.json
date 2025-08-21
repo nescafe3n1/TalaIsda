@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Native Goby",
+    "commonName": "Bungto",
+    "scientificName": "Glossogobius spp.",
+    "description": "Small native gobies that inhabit mountain streams and rivers. They are part of the local food tradition in remote Cordilleran towns.",
+    "image": "/assets/LUZON/CAR/bungo.jpg",
+    "location": "Abra, Ifugao, Benguet"
+  },
+  {
+    "name": "Common Carp",
+    "commonName": "Carpa",
+    "scientificName": "Cyprinus carpio",
+    "description": "Introduced to the Philippines, this freshwater fish is now common in the rivers and lakes of the Cordillera region. Also known as Tëmaginting (Silver Carp).",
+    "image": "/assets/LUZON/CAR/carpa.jpg",
+    "location": "Chico River, Mountain Province, Maguindanao"
+  },
+  {
+    "name": "Mudfish",
+    "commonName": "Dalag",
+    "scientificName": "Chana striata",
+    "description": "A resilient freshwater species found in rice fields and swamps. Valued for its ability to survive in low-oxygen environments.",
+    "image": "/assets/LUZON/CAR/dalag.jpg",
+    "location": "Abra River, Kalinga"
+  }, 
+  {
+    "name": "Freshwater Shrimp",
+    "commonName": "Palilang",
+    "scientificName": "Macrobrachium spp.",
+    "description": "These river prawns are common in clean, flowing waters. They are often caught by hand or with bamboo traps.",
+    "image": "/assets/LUZON/CAR/hipon.jpg",
+    "location": "Abra, Apayao, Mountain Province"
+  }, 
+  {
+    "name": "Eel",
+    "commonName": "Igat",
+    "scientificName": "Anguilla spp.",
+    "description": "Freshwater eels that migrate between rivers and the sea. Considered a delicacy in some upland Cordillera towns.",
+    "image": "/assets/LUZON/CAR/igat.jpg",
+    "location": "Kalinga, Abra River tributaries"
+  }, 
+  {
+    "name": "Sea Catfish",
+    "commonName": "Kanduli",
+    "scientificName": "Arius manillensis",
+    "description": "A native catfish species that thrives in river systems of the Cordillera. Often cooked in local sour stews.",
+    "image": "/assets/LUZON/CAR/kanduli.jpg",
+    "location": "Chico River, Apayao"
+  }, 
+  {
+    "name": "Freshwater Snail",
+    "commonName": "Kuhol",
+    "scientificName": "Pomacea canaliculata",
+    "description": "While often considered a pest in rice fields, kuhol is also harvested as a food source in the region and cooked in coconut milk.",
+    "image": "/assets/LUZON/CAR/kuhol.jpg",
+    "location": "Rice fields and waterways in Kalinga and Ifugao"
+  }, 
+  {
+    "name": "Climbing Perch",
+    "commonName": "Martiniko",
+    "scientificName": "Anabas testudineus",
+    "description": "A hardy freshwater fish that can breathe air and survive out of water temporarily. Often caught in paddies and creeks.",
+    "image": "/assets/LUZON/CAR/martiniko.jpg",
+    "location": "Mountain Province, Ifugao"
+  },
+  {
+    "name": "Black Pacu",
+    "commonName": "Tambaki",
+    "scientificName": "Colossoma macropomum",
+    "description": "A South American species introduced to Philippine aquaculture. Known for its fast growth and adaptability to upland fishponds.",
+    "image": "/assets/LUZON/CAR/tambaki.jpg",
+    "location": "Aquaculture sites in Benguet and Ifugao"
+  },
+  {
+    "name": "Tilapia",
+    "commonName": "Tilapia",
+    "scientificName": "Oreochromis niloticus",
+    "description": "Tilapia is a freshwater fish commonly raised in ponds. It has a mild taste, firm flesh, and is a staple in Filipino households due to its affordability and versatility.",
+    "image": "/assets/LUZON/CAR/tilapia.jpg",
+    "location": "Ambuklao Dam, Baguio City"
+  },
+  {
+    "name": "Silver Carp",
+    "commonName": "Silver Carp",
+    "scientificName": "Hypophthalmichthys molitrix",
+    "description": "One of the most widely farmed freshwater fish in the Philippines due to its rapid growth, resistance to harsh conditions, and ability to reproduce easily.",
+    "image": "/assets/LUZON/CAR/silvercarp.jpg",
+    "location": "Dams and lakes in the highlands."
+  },
+  {
+    "name": "Bighead Carp",
+    "commonName": "Bighead Carp",
+    "scientificName": "Hypophthalmichthys nobilis",
+    "description": "A large freshwater fish prized for its meat and size; often raised alongside other carps in aquaculture systems.",
+    "image": "/assets/LUZON/CAR/bighead.jpg",
+    "location": "Aquaculture facilities and reservoirs."
+  },
+  {
+    "name": "Mudfish",
+    "commonName": "Dalag",
+    "scientificName": "Channa striata",
+    "description": "A hardy native fish that thrives in shallow, muddy waters; a common food source in rural areas and valued for its flavor and nutritional benefits.",
+    "image": "/assets/LUZON/CAR/dalag.jpg",
+    "location": "Rice paddies and swamps."
+  },
+  {
+    "name": "Catfish",
+    "commonName": "Hito",
+    "scientificName": "Clarias batrachus",
+    "description": "Known for its ability to survive in poor water conditions; popular in backyard fish farming due to its low maintenance and fast growth.",
+    "image": "/assets/LUZON/CAR/hito1.jpg",
+    "location": "Ponds and slow-moving rivers."
+  },
+  {
+    "name": "Rainbow Trout",
+    "commonName": "Rainbow Trout",
+    "scientificName": "Oncorhynchus mykiss",
+    "description": "A cold-water species introduced to the highlands of Benguet; valued both for its meat and as a sport fish for recreational fishing. ",
+    "image": "/assets/LUZON/CAR/rainbowtrout.jpg",
+    "location": "Mountain streams and hatcheries in Benguet."
+  },
+  {
+    "name": "Freshwater Eel",
+    "commonName": "Igat",
+    "scientificName": "Anguilla spp.",
+    "description": "Long-bodied fish that migrate between freshwater and saltwater; harvested locally and often smoked or grilled for consumption.",
+    "image": "/assets/LUZON/CAR/igat.jpg",
+    "location": "Mountain rivers and tributaries."
+  },
+  {
+    "name": "Freshwater Goby",
+    "commonName": "Biyang Puti",
+    "scientificName": "Glossogobius giuris",
+    "description": "A small native goby that lives in both clear and murky waters; often caught by hand or with nets in rural areas.",
+    "image": "/assets/LUZON/CAR/goby.jpg",
+    "location": "Mountain streams and creeks"
+  },
+  {
+    "name": "Mozambique Tilapia",
+    "commonName": "Black Tilapia",
+    "scientificName": "Oreochromis mossambicus",
+    "description": "An earlier tilapia species introduced for aquaculture; hardy and tolerant of poor water conditions, though less preferred than Nile tilapia.",
+    "image": "/assets/LUZON/CAR/mozambique.jpg",
+    "location": "Lakes and fish cages"
+  },
+  {
+    "name": "Snakehead",
+    "commonName": "Dalag-Bakoko",
+    "scientificName": "Channa lucius",
+    "description": "A carnivorous freshwater predator similar to the mudfish, known for being aggressive and thriving in quiet, shallow waters.",
+    "image": "/assets/LUZON/CAR/snakehead.jpg",
+    "location": "Freshwater habitats in Abra and Apayao"
+  },
+  {
+    "name": "Philippine Freshwater Climbing Perch",
+    "commonName": "Martiniko",
+    "scientificName": "Anabas testudineus",
+    "description": "A tough little fish that can breathe air and move short distances on land; often seen in rice paddies and shallow creeks.",
+    "image": "/assets/LUZON/CAR/martiniko.jpg",
+    "location": "Rice fields and small rivers"
+  },
+  {
+    "name": "Asian Swamp Eel",
+    "commonName": "Palos",
+    "scientificName": "Monopterus albus",
+    "description": "Slender eel-like fish commonly found in muddy rice fields and wetlands; can survive in low-oxygen environments and is a popular delicacy.",
+    "image": "/assets/LUZON/CAR/asianswamp.jpg",
+    "location": "Swamps and irrigation canals"
+  },
+  {
+    "name": "Giant Gourami",
+    "commonName": "Gurami",
+    "scientificName": "Osphronemus goramy",
+    "description": "A large, slow-moving fish raised in ponds and private lakes; appreciated for its firm white meat and peaceful nature.",
+    "image": "/assets/LUZON/CAR/gourami.jpg",
+    "location": "Fishponds and private lakes"
+  },
+  {
+    "name": "White Goby",
+    "commonName": "Biyang Puti",
+    "scientificName": "Glossogobius giuris",
+    "description": "Similar to other gobies, it is commonly used in local dishes like soups or stews; found in rivers and lakes.",
+    "image": "/assets/LUZON/CAR/whitegoby.jpg",
+    "location": "Clear rivers and lakes"
+  },
+  {
+    "name": "Silver Perch",
+    "commonName": "Ayungin",
+    "scientificName": "Leiopotherapon plumbeus",
+    "description": "A small, silver-colored native fish with soft meat; once abundant but now declining due to overfishing and pollution.",
+    "image": "/assets/LUZON/CAR/ayungin.jpg",
+    "location": "Lakes and rivers in Ifugao"
+  },
+  {
+    "name": "Red Nile Tilapia",
+    "commonName": "Pulang Tilapia",
+    "scientificName": "Oreochromis niloticus",
+    "description": "A red-colored variety of Nile tilapia bred for aquaculture; popular for its mild taste and attractive appearance.",
+    "image": "/assets/LUZON/CAR/rednile.jpeg",
+    "location": "Aquaculture ponds"
+  },
+  {
+    "name": "Common Snakehead",
+    "commonName": "Dalag",
+    "scientificName": "Channa striata",
+    "description": "A predatory freshwater fish valued for its role in local diets and traditional medicine; easily adapts to various water bodies.",
+    "image": "/assets/LUZON/CAR/snakehead.jpg",
+    "location": "Slow-moving rives and ditches"
+  },
+  {
+    "name": "Java Barb",
+    "commonName": "Tawes",
+    "scientificName": "Barbonymus gonionotus",
+    "description": "An introduced fish used in community fish ponds; helps maintain ecological balance and is a source of protein for many communities.",
+    "image": "/assets/LUZON/CAR/javabarb.JPG",
+    "location": "Community ponds and reservoirs."
+  },
+  {
+    "name": "Grass Carp",
+    "commonName": "White Amur",
+    "scientificName": "Ctenopharyngodon idella",
+    "description": "A herbivorous fish used in aquaculture for controlling aquatic vegetation; grows large and is also harvested for meat.",
+    "image": "/assets/LUZON/CAR/grasscarp.jpg",
+    "location": "Large freshwater impoundments."
+  },
+  {
+    "name": "Climbing Goby",
+    "commonName": "Irog",
+    "scientificName": "Sicyopterus spp.",
+    "description": "A small fish known for its remarkable ability to climb waterfalls and rocks; usually found in fast-flowing mountain streams.",
+    "image": "/assets/LUZON/CAR/climbinggoby.jpg",
+    "location": "Clear mountain streams."
+  }, 
+  {
+    "name": "Pait",
+    "commonName": "Rasbora",
+    "scientificName": "Rasbora spp.",
+    "description": "Tiny freshwater fish commonly found in rivers and creeks; sometimes used as bait or consumed dried or fried.",
+    "image": "/assets/LUZON/CAR/pait.jpg",
+    "location": "Rivers and streams."
+  },  
+  {
+    "name": "Glass Perchlet",
+    "commonName": "",
+    "scientificName": "Ambassis nalua",
+    "description": "A small, semi-transparent fish sometimes found near river mouths or brackish waters; rarely used for food but interesting for display.",
+    "image": "/assets/LUZON/CAR/perchlet.jpg",
+    "location": "River mouths and brackish zones in lower elevation areas."
+  },  
+  {
+    "name": "Swordtail",
+    "commonName": "",
+    "scientificName": "Xiphophorus hellerii",
+    "description": "An ornamental freshwater fish with a long tail extension; sometimes escapes into the wild and adapts to small streams.",
+    "image": "/assets/LUZON/CAR/swordtail.jpg",
+    "location": "Aquaculture and ornamental ponds."
+  },  
+  {
+    "name": "Mosquitofish",
+    "commonName": "Lamok-lamok",
+    "scientificName": "Gambusia affinis",
+    "description": "A tiny fish used in mosquito control because it eats larvae; commonly introduced in ditches and rice fields.",
+    "image": "/assets/LUZON/CAR/mosquitofish.jpg",
+    "location": "Shallow irrigation canals."
+  }, 
+  {
+    "name": "Guppy",
+    "commonName": "",
+    "scientificName": "Poecilia reticulata",
+    "description": "A colorful aquarium fish that also survives in the wild; helps control mosquito populations and is easy to breed.",
+    "image": "/assets/LUZON/CAR/guppyr.jpg",
+    "location": "Small streams and ornamental ponds."
+  },   
+  {
+    "name": "Zebra Danio",
+    "commonName": "",
+    "scientificName": "Danio rerio",
+    "description": "A striped aquarium favorite also used in research; survives in cool water and is found in community tanks and highland aquariums.",
+    "image": "/assets/LUZON/CAR/diano.jpg",
+    "location": "Highland aquariums and community fish tanks."
+  },
+  {
+    "name": "Paradise Fish",
+    "commonName": "",
+    "scientificName": "Macropodus opercularis",
+    "description": "A brightly colored, air-breathing fish that thrives in rice paddies and cool pools; known for its beauty and toughness.",
+    "image": "/assets/LUZON/CAR/paradisefish.jpg",
+    "location": "Cool freshwater pools and tanks."
+  }     
+]

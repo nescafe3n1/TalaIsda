@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Add Your Discovery - TalaIsda</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Delius&family=Graduate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">    
+	<link rel="icon" type="image/x-icon" href="/assets/talaisda.png">
+	<link rel="stylesheet" href="/styles/dashboard.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Manage Users Discoveries</h1>
+      <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Fish Name</th>
+          <th>Scientific Name</th>
+          <th>Location</th>
+          <th>Description</th>
+          <th>Photo</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="discoveries-table-body"></tbody>
+    </table>
+
+  </div>
+<script src="/scripts/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+  async function fetchSubmissions() {
+    try {
+      const res = await fetch('http://localhost:3000/api/admin/submissions');
+      const data = await res.json();
+      renderDiscoveries(data);
+    } catch (err) {
+      console.error('Error fetching submissions:', err);
+    }
+  }
+
+ async function deleteDiscovery(submissionId) {
+  const result = await Swal.fire({
+    title: 'Are you sure?',
+    text: "This submission will be permanently deleted!",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#d33',
+    cancelButtonColor: '#3085d6',
+    confirmButtonText: 'Yes, delete it!'
+  });
+
+  if (result.isConfirmed) {
+    try {
+      const res = await fetch(`http://localhost:3000/api/admin/submissions/${submissionId}`, {
+        method: 'DELETE'
+      });
+
+      if (res.ok) {
+        await Swal.fire(
+          'Deleted!',
+          'The submission has been deleted.',
+          'success'
+        );
+        fetchSubmissions();
+      } else {
+        Swal.fire(
+          'Failed',
+          'Failed to delete submission.',
+          'error'
+        );
+      }
+    } catch (err) {
+      console.error('Error deleting submission:', err);
+      Swal.fire(
+        'Error',
+        'An error occurred while deleting the submission.',
+        'error'
+      );
+    }
+  }
+}
+
+  function renderDiscoveries(data) {
+    const tbody = document.getElementById('discoveries-table-body');
+    tbody.innerHTML = '';
+
+    data.forEach(d => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${d.FirstName}</td>
+        <td>${d.LastName}</td>
+        <td>${d.Email}</td>
+        <td>${d.FishName}</td>
+        <td>${d.ScientificName}</td>
+        <td>${d.Location}</td>
+        <td>${d.Description}</td>
+        <td><a href="${d.ImagePath}" target="_blank"><img src="${d.ImagePath}" width="80"/></a></td>
+        <td>
+          <button class="bin-button" onclick="deleteDiscovery(${d.SubmissionID})">
+          <svg class="bin-top" viewBox="0 0 39 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="5" x2="39" y2="5" stroke="white" stroke-width="4"></line>
+            <line x1="12" y1="1.5" x2="26.0357" y2="1.5" stroke="white" stroke-width="3"></line>
+          </svg>
+          <svg class="bin-bottom" viewBox="0 0 33 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="path-1-inside-1_8_19" fill="white">
+              <path d="M0 0H33V35C33 37.2091 31.2091 39 29 39H4C1.79086 39 0 37.2091 0 35V0Z"/>
+            </mask>
+            <path d="M0 0H33H0ZM37 35C37 39.4183 33.4183 43 29 43H4C-0.418278 43 -4 39.4183 -4 35H4H29H37ZM4 43C-0.418278 43 -4 39.4183 -4 35V0H4V35V43ZM37 0V35C37 39.4183 33.4183 43 29 43V35V0H37Z" fill="white" mask="url(#path-1-inside-1_8_19)"/>
+            <path d="M12 6L12 29" stroke="white" stroke-width="4"></path>
+            <path d="M21 6V29" stroke="white" stroke-width="4"></path>
+          </svg>
+        </button>
+      </td>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  function logout() {
+    window.location.href = 'admin.html';
+  }
+
+  fetchSubmissions();
+</script>
+
+
+</body>
+</html>

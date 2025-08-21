@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Butanding",
+    "commonName": "Whale Shark",
+    "scientificName": "Rhincodon typus",
+    "description": "The world's largest fish, known for its gentle nature and filter-feeding habits. Occasionally sighted in offshore waters during migration.",
+    "image": "/assets/LUZON/central luzon/butanding.jpg",
+    "location": "Offshore waters of Central Luzon (West Philippine Sea)"
+  },
+  {
+    "name": "Dilis",
+    "commonName": "Anchovy",
+    "scientificName": "Stolephorus spp. and other Engraulidae",
+    "description": "Small, schooling fish found near the coast, often used for fish paste and other local dishes. Also known as Bolinao or Tiki-Tiki.",
+    "image": "/assets/LUZON/central luzon/dilis.jpg",
+    "location": "Manila Bay, coastal waters of Central Luzon"
+  },
+  {
+    "name": "Lapu-Lapu",
+    "commonName": "Grouper",
+    "scientificName": "Epinephelus spp. and other Epinephelidae",
+    "description": "A group of high-value reef fish prized for their firm, white flesh. Found in coral reefs and rocky areas along the coast.",
+    "image": "/assets/LUZON/central luzon/lapu-lapu.jpg",
+    "location": "Coastal areas and reefs of Central Luzon (e.g., Zambales, Bataan)"
+  },
+  {
+    "name": "Maya-Maya",
+    "commonName": "Snapper",
+    "scientificName": "Lutjanus spp.",
+    "description": "Commercially important reef fish with firm, flavorful flesh. Known locally as Maya-Maya and found in reefs off the coast.",
+    "image": "/assets/LUZON/central luzon/maya-maya.jpg",
+    "location": "Coastal areas and reefs of Central Luzon (e.g., Zambales, Bataan)"
+  },
+  {
+    "name": "Pawikan",
+    "commonName": "Sea Turtle",
+    "scientificName": "Chelonia mydas, Eretmochelys imbricata",
+    "description": "These endangered sea turtles nest on beaches and forage in coastal waters. They play a vital role in maintaining marine ecosystem balance.",
+    "image": "/assets/LUZON/central luzon/pawikan.jpg",
+    "location": "Coastal waters and nesting beaches of Central Luzon (e.g., Zambales, Bataan)"
+  },
+  {
+    "name": "Tamban",
+    "commonName": "Sardine",
+    "scientificName": "Sardinella spp.",
+    "description": "Small, oily, schooling fish that are essential to marine food webs and heavily harvested for commercial use.",
+    "image": "/assets/LUZON/central luzon/tamban.jpg",
+    "location": "West Philippine Sea (off the coast of Central Luzon), Manila Bay"
+  },
+  {
+  "name": "Milkfish",
+  "commonName": "Bangus",
+  "scientificName": "Chanos chanos",
+  "description": "Known as the national fish of the Philippines, bangus is a milkfish species prized for its mild flavor and is extensively farmed in brackish water ponds.",
+  "image": "/assets/LUZON/central luzon/Bangus.png",
+  "location": "Widely cultivated in aquaculture farms across Central Luzon, especially in Pampanga and Bulacan."
+},
+{
+  "name": "Tilapia",
+  "commonName": "Tilapia",
+  "scientificName": "Oreochromis niloticus",
+  "description": "An introduced species that has become a staple in freshwater aquaculture due to its rapid growth and adaptability.",
+  "image": "/assets/LUZON/Central Luzon/Tilapia.jpg",
+  "location": "Extensively farmed in freshwater ponds and rivers throughout Central Luzon."
+},
+{
+  "name": "Mudfish",
+  "commonName": "Dalag",
+  "scientificName": "Channa striata",
+  "description": "Also known as mudfish, it's valued for its firm meat and is often grilled.",
+  "image": "/assets/LUZON/Central Luzon/Dalag.jpg",
+  "location": "Found in rice fields, swamps, and rivers around Central Luzon."
+},
+{
+  "name": "Catfish",
+  "commonName": "Hito",
+  "scientificName": "Clarias spp.",
+  "description": "Catfish known for its resilience and is a common ingredient in 'adobo' dishes.",
+  "image": "/assets/LUZON/Central Luzon/Hito.jpg",
+  "location": "Cultivated in fish farms and found in freshwater bodies in the region."
+},
+{
+  "name": "Common Carp",
+  "commonName": "Karpa",
+  "scientificName": "Cyprinus carpio",
+  "description": "Common carp introduced for aquaculture purposes, known for its adaptability.",
+  "image": "/assets/LUZON/Central Luzon/Karpa.jpg",
+  "location": "Farmed in ponds and found in rivers throughout Central Luzon."
+},
+{
+  "name": "Snakeskin Gourami",
+  "commonName": "Gurami",
+  "scientificName": "Trichopodus pectoralis",
+  "description": "Known as the snakeskin gourami, it's a hardy fish often found in aquaculture and wild habitats.",
+  "image": "/assets/LUZON/Central Luzon/Gurami.jpg",
+  "location": "Inhabits freshwater bodies in the region."
+},
+{
+  "name": "Silver Perch",
+  "commonName": "Ayungin",
+  "scientificName": "Leiopotherapon plumbeus",
+  "description": "Endemic to the Philippines, this silver perch is prized for its delicate flavor and is considered one of the most delicious native freshwater fish.",
+  "image": "/assets/LUZON/Central Luzon/Ayungin.jpg",
+  "location": "Inhabits lakes and rivers, including those in Central Luzon."
+},
+{
+  "name": "Giant Freshwater Prawn",
+  "commonName": "Ulang",
+  "scientificName": "Macrobrachium rosenbergii",
+  "description": "Giant freshwater prawns known for their large size and sweet meat.",
+  "image": "/assets/LUZON/Central Luzon/Ulang.jpg",
+  "location": "Cultivated and caught in freshwater bodies across Central Luzon."
+},
+{
+  "name": "Bighead Carp",
+  "commonName": "Imelda Fish",
+  "scientificName": "Hypophthalmichthys nobilis",
+  "description": "Also known as bighead carp, it's a fast-growing species introduced for aquaculture.",
+  "image": "/assets/LUZON/Central Luzon/ImeldaFish.jpg",
+  "location": "Found in Nabao Lake, Nueva Ecija."
+},
+{
+  "name": "Indian Mackerel",
+  "commonName": "Alumahan",
+  "scientificName": "Rastrelliger kanagurta",
+  "description": "A popular mackerel species in the Philippines, known for its oily flesh and commonly used in various local dishes.",
+  "image": "/assets/LUZON/Central Luzon/Alumahan.jpg",
+  "location": "Widely found in coastal waters, including those near Central Luzon."
+},
+{
+  "name": "Round Scad",
+  "commonName": "Galunggong",
+  "scientificName": "Decapterus spp.",
+  "description": "A staple in Filipino households, this round scad is favored for its affordability and versatility in cooking.",
+  "image": "/assets/LUZON/Central Luzon/Galunggong1.jpg",
+  "location": "Abundant in the coastal waters off Central Luzon."
+},
+{
+  "name": "Frigate Tuna",
+  "commonName": "Tulingan",
+  "scientificName": "Auxis thazard",
+  "description": "A small tuna species appreciated for its rich flavor, often prepared as 'paksiw' or 'ginataan' in Filipino cuisine.",
+  "image": "/assets/LUZON/Central Luzon/Tulingan.jpg",
+  "location": "Caught in offshore waters near Central Luzon."
+},
+{
+  "name": "Spanish Mackerel",
+  "commonName": "Tanigue",
+  "scientificName": "Scomberomorus commerson",
+  "description": "Also called Spanish mackerel, it's a sought-after fish for its flavorful meat, often used in 'kilawin'.",
+  "image": "/assets/LUZON/Central Luzon/Tanigue.jpg",
+  "location": "Inhabits open seas but also caught near the coasts of Central Luzon."
+},
+{
+  "name": "Pompano",
+  "commonName": "Pampano",
+  "scientificName": "Trachinotus spp.",
+  "description": "Prized for its buttery texture, it's often grilled or baked whole.",
+  "image": "/assets/LUZON/Central Luzon/Pampano.jpeg",
+  "location": "Inhabits coastal and estuarine waters near Central Luzon."
+},
+{
+  "name": "Yellowfin Tuna",
+  "commonName": "Bariles",
+  "scientificName": "Thunnus albacares",
+  "description": "Yellowfin tuna known for its rich taste, often used in sashimi and grilled dishes.",
+  "image": "/assets/LUZON/Central Luzon/Bariles.jpg",
+  "location": "Caught in open seas, sometimes landed in ports serving Central Luzon."
+},
+{
+  "name": "Squid",
+  "commonName": "Pusit",
+  "scientificName": "Loligo spp.",
+  "description": "Squid commonly used in various Filipino dishes.",
+  "image": "/assets/LUZON/Central Luzon/Pusit.jpg",
+  "location": "Caught in coastal waters, including areas near Central Luzon."
+},
+{
+  "name": "Shrimp",
+  "commonName": "Hipon",
+  "scientificName": "Penaeus spp.",
+  "description": "Shrimp species that are staples in many local recipes.",
+  "image": "/assets/LUZON/Central Luzon/Hipon.jpg",
+  "location": "Farmed and wild-caught in and around Central Luzon."
+},
+{
+  "name": "Mud Crab",
+  "commonName": "Alimango",
+  "scientificName": "Scylla spp.",
+  "description": "Mud crabs known for their sweet meat, often steamed or cooked in coconut milk.",
+  "image": "/assets/LUZON/Central Luzon/Alimango.jpg",
+  "location": "Found in mangroves and estuaries near Central Luzon."
+},
+{
+  "name": "Blue Swimming Crab",
+  "commonName": "Alimasag",
+  "scientificName": "Portunus pelagicus",
+  "description": "Blue swimmer crabs popular for their tender meat.",
+  "image": "/assets/LUZON/Central Luzon/Alimisag.jpg",
+  "location": "Caught in coastal areas, including those near Central Luzon."
+},
+{
+  "name": "Manila Sea Catfish",
+  "commonName": "Manila Sea Catfish",
+  "scientificName": "Arius manillensis",
+  "description": "An endemic marine fish found off the coast of Luzon Island, preferring brackish, marine, and freshwater waters.",
+  "image": "/assets/LUZON/Central Luzon/ManilaSeaCatfish.jpg",
+  "location": "Inhabits areas from Manila to Bataan, including the coastal regions of Central Luzon."
+},
+{
+  "name": "Speckled Goby",
+  "commonName": "Biya",
+  "scientificName": "Redigobius bikolanus",
+  "description": "A small goby species native to the Philippines, often found in freshwater and brackish environments.",
+  "image": "/assets/LUZON/Central Luzon/biya.jpg",
+  "location": "Common in rivers and estuaries throughout Central Luzon."
+},
+{
+  "name": "White Sardine",
+  "commonName": "White Sardine",
+  "scientificName": "Escualosa thoracata",
+  "description": "A small pelagic fish known for its silvery appearance, commonly used in dried fish products.",
+  "image": "/assets/LUZON/Central Luzon/WhiteSardine.jpg",
+  "location": "Caught in coastal waters, including those near Central Luzon."
+},
+{
+  "name": "Bloch's Gizzard Shad",
+  "commonName": "Bloch's Gizzard Shad",
+  "scientificName": "Nematalosa nasus",
+  "description": "A species of shad found in coastal and estuarine waters, often forming large schools.",
+  "image": "/assets/LUZON/Central Luzon/bloch.jpg",
+  "location": "Inhabits brackish waters near river mouths in Central Luzon."
+},
+{
+  "name": "Longspine Ponyfish",
+  "commonName": "Sapsap",
+  "scientificName": "Leiognathus longispinis",
+  "description": "A small, silvery fish known for its bioluminescence, commonly found in coastal waters.",
+  "image": "/assets/LUZON/Central Luzon/sapsaplongspine.jpg",
+  "location": "Caught in the shallow coastal areas of Central Luzon."
+},
+{
+  "name": "Philippine Luminous Roughy",
+  "commonName": "Philippine Luminous Roughy",
+  "scientificName": "Aulotrachichthys latus",
+  "description": "A deep-sea fish known for its luminescent properties, part of the slimehead family.",
+  "image": "/assets/LUZON/Central Luzon/roughskin.jpg",
+  "location": "Found in deeper offshore waters near Central Luzon."
+},
+{
+  "name": "Freshwater Sardine",
+  "commonName": "Tawilis",
+  "scientificName": "Sardinella tawilis",
+  "description": "The world's only freshwater sardine, endemic to Taal Lake, but its presence in Central Luzon is due to translocation efforts.",
+  "image": "/assets/LUZON/Central Luzon/Tawilis.jpg",
+  "location": "Introduced in some freshwater bodies within Central Luzon."
+},
+{
+  "name": "Freshwater Trevally",
+  "commonName": "Maliputo",
+  "scientificName": "Caranx ignobilis",
+  "description": "A freshwater-adapted trevally species, originally from Taal Lake, known for its firm and flavorful meat.",
+  "image": "/assets/LUZON/Central Luzon/Maliputo.jpg",
+  "location": "Occasionally found in freshwater systems of Central Luzon due to aquaculture."
+},
+{
+  "name": "Rough Triggerfish",
+  "commonName": "Tikos Rough Triggerfish",
+  "scientificName": "Canthidermis maculata",
+  "description": "A species of triggerfish known for its rough skin and unique appearance.",
+  "image": "/assets/LUZON/Central Luzon/tikos.jpg",
+  "location": "Inhabits coastal waters, including those near Central Luzon."
+},
+{
+  "name": "Picturesque Dragonet",
+  "commonName": "Picturesque Dragonet",
+  "scientificName": "Synchiropus picturatus",
+  "description": "A brightly colored fish of the dragonet family, known for its vibrant patterns",
+  "image": "/assets/LUZON/Central Luzon/dragonet.jpg",
+  "location": "Found in coral reef areas, sometimes near the coastal regions of Central Luzon."
+}
+
+]
